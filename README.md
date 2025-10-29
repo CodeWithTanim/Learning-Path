@@ -31,6 +31,9 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 │   │   ├── 📖 day_3.md
 │   │   └── 🐍 module_import.py
 │   ├── 📁 4. Our First Python Program/
+│   │   ├── 📖 day_4.md
+│   │   ├── 🐍 first_program.py
+│   │   └── 🐍 quiz_solve.py
 ├── ⚙️ .gitattributes
 ├── 📜 LICENSE
 ├── 🖼️ programmer.gif
