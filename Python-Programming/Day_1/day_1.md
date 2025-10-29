@@ -30,11 +30,11 @@ Programming is a way to tell the computer what it have to do. Computer does not 
 - in Installation time Check Path Variables
 - Run Python in CMD
     - Windows:
-    `
+    ```
     python
-    `
+    ```
     - MacOS: 
-    `
+    ```
     python3
-    `
+    ```
 - Check Versions of Python on CMD
