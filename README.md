@@ -36,35 +36,40 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 │   │   └── 🐍 quiz_solve.py
 │   ├── 📁 5. Comments, Escape Sequences & Print Statement/
 │   │   ├── 📖 day_5.md
-│   │   ├── 🐍 main.py
+│   │   └── 🐍 main.py
 │   ├── 📁 6. Variables and Data Types/
 │   │   ├── 📖 day_6.md
-│   │   ├── 🐍 main.py
+│   │   └── 🐍 main.py
 │   ├── 📁 7. Operator & Exercise/
 │   │   ├── 📖 day_7.md
-│   │   ├── 🐍 main.py
+│   │   └── 🐍 main.py
 │   ├── 📁 8. Exercise - Calculator/
 │   │   ├── 📖 day_8.md
-│   │   ├── 🐍 calcualtor.py
+│   │   └── 🐍 calcualtor.py
 │   ├── 📁 9. Typecasting in Python/
 │   │   ├── 📖 day_9.md
-│   │   ├── 🐍 TypeCasting.py
+│   │   └── 🐍 TypeCasting.py
 │   ├── 📁 10. Taking User Input in Python/
 │   │   ├── 📖 day_10.md
-│   │   ├── 🐍 UserInput.py
+│   │   └── 🐍 UserInput.py
 │   ├── 📁 11. Strings in Python/
 │   │   ├── 📖 day_11.md
-│   │   ├── 🐍 Strings.py
+│   │   └── 🐍 Strings.py
 │   ├── 📁 12. Strings Slicing and Operations on Strings in Python/
 │   │   ├── 📖 day_12.md
-│   │   ├── 🐍 main.py
+│   │   └─── 🐍 main.py
 │   ├── 📁 13. String Methods in Python/
 │   │   ├── 📖 day_13.md
-│   │   ├── 🐍 String_Method.py
+│   │   └── 🐍 String_Method.py
 ├── 📁 PHP-Programming/
 │   ├── 📁 1. Introduction-to-Programming-and-Python/
-│   │   ├── 📖 day_1.md
-│   │   └── 🐍 main.py
+│   │   ├── 📖 full-notes.md
+│   │   ├── 🐘 01_basics.php
+│   │   ├── 🐘 02_MoreBasics.php
+│   │   ├── 🐘 03_strings.php
+│   │   ├── 🐘 index.php
+│   │   ├── 🎨 style.css
+│   │   └── 🖼️ bg.jpg
 ├── ⚙️ .gitattributes
 ├── 📜 LICENSE
 ├── 🖼️ programmer.gif
