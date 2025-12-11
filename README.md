@@ -100,7 +100,10 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 ## 🛠️ Technologies & Tools
 
 ### 💻 Programming Languages
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge\&logo=python\&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge\&logo=php\&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge\&logo=mysql\&logoColor=white)
 
 
 
@@ -144,15 +147,7 @@ I document my learning journey with detailed notes and tutorials. Check out my [
 
 </div>
 
-## 📊 GitHub Stats
 
-<div align="center">
-
-![CodeWithTanim's GitHub Stats](https://github-readme-stats.vercel.app/api?username=CodeWithTanim&show_icons=true&theme=radical)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=CodeWithTanim&layout=compact&theme=radical)
-
-</div>
 
 ## 🎯 Motivation
 
