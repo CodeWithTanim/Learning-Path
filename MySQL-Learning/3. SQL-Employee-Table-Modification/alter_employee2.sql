@@ -1,0 +1,18 @@
+-- 1. Create the EMPLOYEE table
+
+CREATE TABLE EMPLOYEE_1 (Emp_no INT PRIMARY KEY, E_name VARCHAR(50), E_address VARCHAR(255), E_ph_no VARCHAR(15), Dept_no INT, Dept_name VARCHAR(50), Job_id CHAR(10), Salary DECIMAL(10,2));
+
+
+-- 2. Add a new column HIREDATE
+
+ALTER TABLE EMPLOYEE_1 ADD COLUMN HIREDATE DATE;
+
+-- 3. Change the datatype of JOB_ID from CHAR to VARCHAR
+
+ALTER TABLE EMPLOYEE_1 MODIFY COLUMN Job_id VARCHAR(20);
+
+-- 4. Rename column Emp_no to E_no
+
+ALTER TABLE EMPLOYEE_1 CHANGE COLUMN Emp_no E_no INT;
+
+DESCRIBE EMPLOYEE_1;

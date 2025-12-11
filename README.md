@@ -62,14 +62,38 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 │   │   ├── 📖 day_13.md
 │   │   └── 🐍 String_Method.py
 ├── 📁 PHP-Programming/
-│   ├── 📁 1. Introduction-to-Programming-and-Python/
-│   │   ├── 📖 full-notes.md
-│   │   ├── 🐘 01_basics.php
-│   │   ├── 🐘 02_MoreBasics.php
-│   │   ├── 🐘 03_strings.php
-│   │   ├── 🐘 index.php
-│   │   ├── 🎨 style.css
-│   │   └── 🖼️ bg.jpg
+│   ├── 📖 full-notes.md
+│   ├── 🐘 01_basics.php
+│   ├── 🐘 02_MoreBasics.php
+│   ├── 🐘 03_strings.php
+│   ├── 🐘 index.php
+│   ├── 🎨 style.css
+│   └── 🖼️ bg.jpg
+├── 📁 MySQL-Learning/
+│   ├── 📁 1. SQL-Student-Database/
+│   │   ├── 📖 README.md
+│   │   └── 💾 student_database.sql
+│   │   └── 💾 student_database2.sql
+│   ├── 📁 2. SQL-Employee-Database/
+│   │   ├── 📖 README.md
+│   │   └── 💾 employee.sql
+│   │   └── 💾 employee2.sql
+│   ├── 📁 3. SQL-Employee-Table-Modification/
+│   │   ├── 📖 README.md
+│   │   └── 💾 alter_employee.sql
+│   │   └── 💾 alter_employee2.sql
+│   ├── 📁 4. SQL-Student-Marks/
+│   │   ├── 📖 README.md
+│   │   └── 💾 student_marks.sql
+│   │   └── 💾 student_marks2.sql
+│   ├── 📁 5. SQL-Student-Marks-Analysis/
+│   │   ├── 📖 README.md
+│   │   └── 💾 student_marks_analysis.sql
+│   │   └── 💾 student_marks_analysis2.sql
+
+
+
+
 ├── ⚙️ .gitattributes
 ├── 📜 LICENSE
 ├── 🖼️ programmer.gif
