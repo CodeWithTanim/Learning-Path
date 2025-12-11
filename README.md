@@ -90,10 +90,6 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 │   │   ├── 📖 README.md
 │   │   └── 💾 student_marks_analysis.sql
 │   │   └── 💾 student_marks_analysis2.sql
-
-
-
-
 ├── ⚙️ .gitattributes
 ├── 📜 LICENSE
 ├── 🖼️ programmer.gif
