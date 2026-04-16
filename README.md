@@ -95,6 +95,11 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 │   │   ├── 📖 notes_Tutorail1.md
 │   │   ├── 🌐 index.html
 │   │   └── 🎥 video1.mp4
+│   ├── 📁 2. My-First-HTML-Website/
+│   │   ├── 🌐 index.html
+│   │   ├── 🎨 style.css
+│   │   ├── 📜 script.js
+│   │   └── 📖 notes_Tutorail2.md
 ├── ⚙️ .gitattributes
 ├── 📜 LICENSE
 ├── 🖼️ programmer.gif
@@ -124,9 +129,9 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 ## 🌟 Featured Projects
 
 ### 🔥 Latest Project
-**Project Name**: Coming Soon!  
-**Tech Stack**: N/A  
-**Status**: 🚧 In Development
+**Project Name**: My First HTML Website
+**Tech Stack**: HTML5, CSS3, JavaScript
+**Status**: ✅ Completed (Tutorial 2)
 
 <!-- ### 🎨 Mini Projects Collection
 - [ ] Todo List App

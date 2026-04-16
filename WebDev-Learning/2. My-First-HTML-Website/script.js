@@ -1,0 +1,1 @@
+alert("This is first website of my web development journey.")
