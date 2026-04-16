@@ -8,8 +8,8 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 
 ### 🎯 Current Focus
 ```bash
-🎯 Currently mastering: N/A
-📊 Progress: N/A
+🎯 Currently Mastering: Web Development
+📊 Progress: 📈 Ongoing
 ```
 
 ## 📂 Repository Structure
@@ -90,6 +90,11 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 │   │   ├── 📖 README.md
 │   │   └── 💾 student_marks_analysis.sql
 │   │   └── 💾 student_marks_analysis2.sql
+├── 📁 WebDev-Learning/
+│   ├── 📁 1. Installing-VS-Code-and-How-Websites-Work/
+│   │   ├── 📖 notes_Tutorail1.md
+│   │   ├── 🌐 index.html
+│   │   └── 🎥 video1.mp4
 ├── ⚙️ .gitattributes
 ├── 📜 LICENSE
 ├── 🖼️ programmer.gif
@@ -101,9 +106,12 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 
 ### 💻 Programming Languages
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge\&logo=python\&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge\&logo=php\&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge\&logo=mysql\&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
 
 
@@ -130,7 +138,7 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 
 
 ### 📝 Blog & Notes
-I document my learning journey with detailed notes and tutorials. Check out my [Portfolio](https://codewithtanim.github.io) for more information!
+I document my learning journey with detailed notes and tutorials. Check out my [Portfolio](https://codewithtanim.is-a-dev.com/) for more information!
 
 ## 🤝 Let's Connect & Collaborate
 
