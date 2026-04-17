@@ -105,6 +105,12 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 │   │   ├── 🎨 style.css
 │   │   ├── 📜 script.js
 │   │   └── 📖 notes_Tutorial3.md
+│   ├── 📁 4. Heading-Paragraphs-and-Links/
+│   │   ├── 🌐 index.html
+│   │   ├── 🎨 style.css
+│   │   ├── 📜 script.js
+│   │   ├── 🌐 bookmarkManager.html
+│   │   └── 📖 notes_Tutorial4.md
 ├── ⚙️ .gitattributes
 ├── 📜 LICENSE
 ├── 🖼️ programmer.gif
@@ -134,9 +140,9 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 ## 🌟 Featured Projects
 
 ### 🔥 Latest Project
-**Project Name**: Basic HTML Structure
-**Tech Stack**: HTML5, SEO Metadata
-**Status**: ✅ Completed (Tutorial 3)
+**Project Name**: Bookmark Manager
+**Tech Stack**: HTML5, Anchor Tags
+**Status**: ✅ Completed (Tutorial 4)
 
 <!-- ### 🎨 Mini Projects Collection
 - [ ] Todo List App
