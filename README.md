@@ -111,6 +111,11 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 │   │   ├── 📜 script.js
 │   │   ├── 🌐 bookmarkManager.html
 │   │   └── 📖 notes_Tutorial4.md
+│   ├── 📁 5. Image-List-and-Tables in HTML/
+│   │   ├── 🌐 index.html
+│   │   ├── 🎨 style.css
+│   │   ├── 🖼️ image.png
+│   │   └── 📖 notes_Tutorial5.md
 ├── ⚙️ .gitattributes
 ├── 📜 LICENSE
 ├── 🖼️ programmer.gif
@@ -140,9 +145,9 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 ## 🌟 Featured Projects
 
 ### 🔥 Latest Project
-**Project Name**: Bookmark Manager
-**Tech Stack**: HTML5, Anchor Tags
-**Status**: ✅ Completed (Tutorial 4)
+**Project Name**: Images, Lists, and Tables
+**Tech Stack**: HTML Tags & Tables
+**Status**: ✅ Completed (Tutorial 5)
 
 <!-- ### 🎨 Mini Projects Collection
 - [ ] Todo List App
