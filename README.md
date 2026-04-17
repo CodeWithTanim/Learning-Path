@@ -100,6 +100,11 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 │   │   ├── 🎨 style.css
 │   │   ├── 📜 script.js
 │   │   └── 📖 notes_Tutorail2.md
+│   ├── 📁 3. Basic-Structure-of-an-HTML-Website/
+│   │   ├── 🌐 index.html
+│   │   ├── 🎨 style.css
+│   │   ├── 📜 script.js
+│   │   └── 📖 notes_Tutorial3.md
 ├── ⚙️ .gitattributes
 ├── 📜 LICENSE
 ├── 🖼️ programmer.gif
@@ -129,9 +134,9 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 ## 🌟 Featured Projects
 
 ### 🔥 Latest Project
-**Project Name**: My First HTML Website
-**Tech Stack**: HTML5, CSS3, JavaScript
-**Status**: ✅ Completed (Tutorial 2)
+**Project Name**: Basic HTML Structure
+**Tech Stack**: HTML5, SEO Metadata
+**Status**: ✅ Completed (Tutorial 3)
 
 <!-- ### 🎨 Mini Projects Collection
 - [ ] Todo List App
