@@ -116,6 +116,9 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 │   │   ├── 🎨 style.css
 │   │   ├── 🖼️ image.png
 │   │   └── 📖 notes_Tutorial5.md
+│   ├── 📁 6. SEO-and-Core-Web-Vitals-in-HTML/
+│   │   ├── 🌐 index.html
+│   │   └── 📖 notes_Tutorial6.md
 ├── ⚙️ .gitattributes
 ├── 📜 LICENSE
 ├── 🖼️ programmer.gif
@@ -145,9 +148,9 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 ## 🌟 Featured Projects
 
 ### 🔥 Latest Project
-**Project Name**: Images, Lists, and Tables
-**Tech Stack**: HTML Tags & Tables
-**Status**: ✅ Completed (Tutorial 5)
+**Project Name**: SEO & Core Web Vitals
+**Tech Stack**: HTML5, Meta Tags, Lighthouse
+**Status**: ✅ Completed (Tutorial 6)
 
 <!-- ### 🎨 Mini Projects Collection
 - [ ] Todo List App
