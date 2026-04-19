@@ -128,6 +128,10 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 │   │   ├── 🎨 style.css
 │   │   ├── 📄 Comprehensive List.txt
 │   │   └── 📖 notes_Tutorial8.md
+│   ├── 📁 9. ID-and-Classes-in-HTML/
+│   │   ├── 🌐 index.html
+│   │   ├── 🎨 style.css
+│   │   └── 📖 notes_Tutorial9.md
 ├── ⚙️ .gitattributes
 ├── 📜 LICENSE
 ├── 🖼️ programmer.gif
@@ -157,9 +161,9 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 ## 🌟 Featured Projects
 
 ### 🔥 Latest Project
-**Project Name**: Inline & Block Elements
-**Tech Stack**: HTML Display, Layout Basics
-**Status**: ✅ Completed (Tutorial 8)
+**Project Name**: ID & Classes
+**Tech Stack**: HTML Attributes, CSS Selectors
+**Status**: ✅ Completed (Tutorial 9)
 
 <!-- ### 🎨 Mini Projects Collection
 - [ ] Todo List App
