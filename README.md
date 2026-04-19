@@ -122,6 +122,12 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 │   ├── 📁 7. Forms-and-Input-tags-in-HTML/
 │   │   ├── 🌐 index.html
 │   │   └── 📖 notes_Tutorial7.md
+│   ├── 📁 8. Inline-and-Block-Elements-in-HTML/
+│   │   ├── 🌐 index.html
+│   │   ├── 🌐 quiz.html
+│   │   ├── 🎨 style.css
+│   │   ├── 📄 Comprehensive List.txt
+│   │   └── 📖 notes_Tutorial8.md
 ├── ⚙️ .gitattributes
 ├── 📜 LICENSE
 ├── 🖼️ programmer.gif
@@ -151,9 +157,9 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 ## 🌟 Featured Projects
 
 ### 🔥 Latest Project
-**Project Name**: Forms & Input Tags
-**Tech Stack**: HTML5 Forms, Validation
-**Status**: ✅ Completed (Tutorial 7)
+**Project Name**: Inline & Block Elements
+**Tech Stack**: HTML Display, Layout Basics
+**Status**: ✅ Completed (Tutorial 8)
 
 <!-- ### 🎨 Mini Projects Collection
 - [ ] Todo List App
