@@ -132,6 +132,12 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 │   │   ├── 🌐 index.html
 │   │   ├── 🎨 style.css
 │   │   └── 📖 notes_Tutorial9.md
+│   ├── 📁 10. Video-Audio-and-Media-in-HTML/
+│   │   ├── 🌐 index.html
+│   │   ├── 🎥 video.mp4
+│   │   ├── 🎵 audio.mp3
+│   │   ├── 🖼️ image.jpg
+│   │   └── 📖 notes_Tutorial10.md
 ├── ⚙️ .gitattributes
 ├── 📜 LICENSE
 ├── 🖼️ programmer.gif
@@ -161,9 +167,9 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 ## 🌟 Featured Projects
 
 ### 🔥 Latest Project
-**Project Name**: ID & Classes
-**Tech Stack**: HTML Attributes, CSS Selectors
-**Status**: ✅ Completed (Tutorial 9)
+**Project Name**: Video, Audio and Media
+**Tech Stack**: HTML5 Media, SVG, iFrames
+**Status**: ✅ Completed (Tutorial 10)
 
 <!-- ### 🎨 Mini Projects Collection
 - [ ] Todo List App
