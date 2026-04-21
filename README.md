@@ -1,6 +1,8 @@
 # 🚀 My Learning Journey
 
-![Banner](https://github.com/CodeWithTanim/Learning-Path/blob/main/programmer.gif)
+<div align="center">
+  <img src="https://github.com/CodeWithTanim/Learning-Path/blob/main/programmer.gif" alt="Banner" width="500">
+</div>
 
 Welcome to my comprehensive learning repository! This is where I document my entire programming journey from absolute beginner to advanced developer. Every concept, project, and milestone will be tracked here.
 
@@ -181,7 +183,7 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 
 
 ### 📝 Blog & Notes
-I document my learning journey with detailed notes and tutorials. Check out my [Portfolio](https://codewithtanim.is-a-dev.com/) for more information!
+I document my learning journey with detailed notes and tutorials. Check out my [Portfolio](https://codewithtanim.is-a.dev//) for more information!
 
 ## 🤝 Let's Connect & Collaborate
 
