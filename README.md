@@ -10,8 +10,8 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 
 ### 🎯 Current Focus
 ```bash
-🎯 Currently Mastering: Web Development
-📊 Progress: 📈 Ongoing
+🎯 Currently Mastering: Python for AI & ML
+📊 Progress: 📈 Ongoing (Chapter 3)
 ```
 
 ## 📂 Repository Structure
@@ -63,6 +63,16 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 │   ├── 📁 13. String Methods in Python/
 │   │   ├── 📖 day_13.md
 │   │   └── 🐍 String_Method.py
+├── 📁 Complete_Python_For_Ai_ML/
+│   ├── 📁 Chapter_1 - Installation/
+│   │   └── 📖 Notes.md
+│   ├── 📁 Chapter_2 - Comments & Variables/
+│   │   ├── 📖 Notes.md
+│   │   ├── 🐍 Comments.py
+│   │   └── 🐍 Variables.py
+│   ├── 📁 Chapter_3 - Data Types/
+│   │   ├── 📖 Notes.md
+│   │   └── 🐍 main.py
 ├── 📁 PHP-Programming/
 │   ├── 📖 full-notes.md
 │   ├── 🐘 01_basics.php
@@ -169,9 +179,9 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 ## 🌟 Featured Projects
 
 ### 🔥 Latest Project
-**Project Name**: Video, Audio and Media
-**Tech Stack**: HTML5 Media, SVG, iFrames
-**Status**: ✅ Completed (Tutorial 10)
+**Project Name**: Complete Python for AI & ML
+**Tech Stack**: Python, AI/ML Foundation
+**Status**: 📈 Ongoing (Chapter 3)
 
 <!-- ### 🎨 Mini Projects Collection
 - [ ] Todo List App
