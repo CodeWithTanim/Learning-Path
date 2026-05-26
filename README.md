@@ -11,7 +11,7 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 ### 🎯 Current Focus
 ```bash
 🎯 Currently Mastering: Python for AI & ML
-📊 Progress: 📈 Ongoing (Chapter 5)
+📊 Progress: 📈 Ongoing (Chapter 6)
 ```
 
 ## 📂 Repository Structure
@@ -77,6 +77,9 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 │   │   ├── 📖 Notes.md
 │   │   └── 🐍 main.py
 │   ├── 📁 Chapter_5 - Input, Output & Operators/
+│   │   ├── 📖 Notes.md
+│   │   └── 🐍 main.py
+│   ├── 📁 Chapter_6 - Conditional Statements/
 │   │   ├── 📖 Notes.md
 │   │   └── 🐍 main.py
 ├── 📁 PHP-Programming/
@@ -187,7 +190,7 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 ### 🔥 Latest Project
 **Project Name**: Complete Python for AI & ML
 **Tech Stack**: Python, AI/ML Foundation
-**Status**: 📈 Ongoing (Chapter 5)
+**Status**: 📈 Ongoing (Chapter 6)
 
 <!-- ### 🎨 Mini Projects Collection
 - [ ] Todo List App
