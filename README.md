@@ -11,7 +11,7 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 ### 🎯 Current Focus
 ```bash
 🎯 Currently Mastering: Python for AI & ML
-📊 Progress: 📈 Ongoing (Chapter 4)
+📊 Progress: 📈 Ongoing (Chapter 5)
 ```
 
 ## 📂 Repository Structure
@@ -74,6 +74,9 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 │   │   ├── 📖 Notes.md
 │   │   └── 🐍 main.py
 │   ├── 📁 Chapter_4 - Strings & Type Conversion/
+│   │   ├── 📖 Notes.md
+│   │   └── 🐍 main.py
+│   ├── 📁 Chapter_5 - Input, Output & Operators/
 │   │   ├── 📖 Notes.md
 │   │   └── 🐍 main.py
 ├── 📁 PHP-Programming/
@@ -184,7 +187,7 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 ### 🔥 Latest Project
 **Project Name**: Complete Python for AI & ML
 **Tech Stack**: Python, AI/ML Foundation
-**Status**: 📈 Ongoing (Chapter 4)
+**Status**: 📈 Ongoing (Chapter 5)
 
 <!-- ### 🎨 Mini Projects Collection
 - [ ] Todo List App
