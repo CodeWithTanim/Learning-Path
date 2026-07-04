@@ -10,24 +10,165 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 
 ### 🎯 Current Focus
 ```bash
-🎯 Currently Mastering: Python for AI & ML
-📊 Progress: 📈 Completed (Chapter 7)
+🎯 Currently Mastering: AI-Driven Full Stack Web Engineering
+📊 Progress: 📈 Ongoing (Milestone 1, Module 2)
 ```
 
 ## 📂 Repository Structure
 
 ```
 📦 learning-path/
+├── 📁 AI-Driven Full Stack Web Engineering/
+│   ├── 📁 Milestone 1 Module 1 (M1.1)/
+│   │   ├── 📁 Image/
+│   │   │   ├── 🖼️ 1.png
+│   │   │   └── 🖼️ 2.png
+│   │   ├── 📁 media/
+│   │   │   ├── 🎵 audio.mp3
+│   │   │   └── 🎥 video.mp4
+│   │   ├── 📁 resturant/
+│   │   │   └── 📁 image/
+│   │   │       ├── 🖼️ 1.jpg
+│   │   │       ├── 🖼️ 11.jpg
+│   │   │       ├── 🖼️ 12.jpg
+│   │   │       ├── 🖼️ 13.jpg
+│   │   │       ├── 🖼️ 2.jpg
+│   │   │       ├── 🖼️ 3.jpg
+│   │   │       └── 🖼️ 4.jpg
+│   │   ├── 🌐 chatgpt_coding_challange.html
+│   │   ├── 🌐 event.html
+│   │   ├── 🌐 first.html
+│   │   ├── 🌐 form.html
+│   │   ├── 🌐 full.html
+│   │   ├── 🌐 resturant.html
+│   │   ├── 🌐 second.html
+│   │   ├── 🌐 struct.html
+│   │   ├── 🌐 structure.html
+│   │   ├── 🌐 third.html
+│   │   └── 🌐 video.html
+│   ├── 📁 Milestone 1 Module 2 (M1.2)/
+│   │   ├── 📄 command.txt
+│   │   └── 🌐 index.html
+│   └── 📖 README.md
+├── 📁 Complete_Python_For_Ai_ML/
+│   ├── 📁 Chapter_1_Installation/
+│   │   └── 📖 Notes.md
+│   ├── 📁 Chapter_2_Comments_and_Variables/
+│   │   ├── 🐍 Comments.py
+│   │   ├── 📖 Notes.md
+│   │   └── 🐍 Variables.py
+│   ├── 📁 Chapter_3_Data_Types/
+│   │   ├── 🐍 main.py
+│   │   └── 📖 Notes.md
+│   ├── 📁 Chapter_4_String_and_Type_Conversion/
+│   │   ├── 🐍 main.py
+│   │   └── 📖 Notes.md
+│   ├── 📁 Chapter_5_Input_Output_and_Operators/
+│   │   ├── 🐍 main.py
+│   │   ├── 📖 Notes.md
+│   │   └── 🐍 tempCodeRunnerFile.py
+│   ├── 📁 Chapter_6_Conditional_Statement/
+│   │   ├── 🐍 main.py
+│   │   └── 📖 Notes.md
+│   ├── 📁 Chapter_7_Loops/
+│   │   └── 📖 Notes.md
+│   ├── 🌐 final_book.html
+│   └── 📄 part_1_full_course_transcript.txt
+├── 📁 MySQL-Learning/
+│   ├── 📁 1. SQL-Student-Database/
+│   │   ├── 📖 README.md
+│   │   ├── 💾 student_database.sql
+│   │   └── 💾 student_database2.sql
+│   ├── 📁 2. SQL-Employee-Database/
+│   │   ├── 💾 employee.sql
+│   │   ├── 💾 employee2.sql
+│   │   └── 📖 README.md
+│   ├── 📁 3. SQL-Employee-Table-Modification/
+│   │   ├── 💾 alter_employee.sql
+│   │   ├── 💾 alter_employee2.sql
+│   │   └── 📖 README.md
+│   ├── 📁 4. SQL-Student-Marks/
+│   │   ├── 📖 README.md
+│   │   ├── 💾 student_marks.sql
+│   │   └── 💾 student_marks2.sql
+│   ├── 📁 5. SQL-Student-Marks-Analysis/
+│   │   ├── 📖 README.md
+│   │   ├── 💾 student_marks_analysis.sql
+│   │   └── 💾 student_marks_analysis2.sql
+│   └── 📖 README.md
+├── 📁 PHP-Programming/
+│   ├── 🐘 01_basics.php
+│   ├── 🐘 02_MoreBasics.php
+│   ├── 🐘 03_strings.php
+│   ├── 🖼️ bg.jpg
+│   ├── 📖 full-notes.md
+│   ├── 🐘 index.php
+│   └── 🎨 style.css
 ├── 📁 Python-Programming/
 │   ├── 📁 1. Introduction-to-Programming-and-Python/
 │   │   ├── 📖 day_1.md
 │   │   └── 🐍 main.py
+│   ├── 📁 10. Taking User Input in Python/
+│   │   ├── 📖 day_10.md
+│   │   └── 🐍 UserInput.py
+│   ├── 📁 11. Strings in Python/
+│   │   ├── 📖 day_11.md
+│   │   └── 🐍 Strings.py
+│   ├── 📁 12. Strings Slicing and Operations on Strings in Python/
+│   │   ├── 📖 day_12.md
+│   │   └── 🐍 main.py
+│   ├── 📁 13. String Methods in Python/
+│   │   ├── 📖 day_13.md
+│   │   └── 🐍 String_Method.py
 │   ├── 📁 2. Amazing-Python-Program/
-│   │   ├── 📁 1. Jarvis Virtual Assistant
-│   │   ├── 📁 2. Love Calculator
-│   │   ├── 📁 3. Face Recognition
-│   │   ├── 📁 4. Flappy Bird Game
-│   │   ├── 📁 5. Snake Game
+│   │   ├── 📁 1. Jarvis Virtual Assistant/
+│   │   │   └── 🐍 1. jarvis.py
+│   │   ├── 📁 2. Love Calculator/
+│   │   │   └── 🐍 2. love calculator.py
+│   │   ├── 📁 3. Face Recognition/
+│   │   │   ├── 🖼️ 1.jpg
+│   │   │   ├── 🖼️ 1.png
+│   │   │   ├── 🐍 3. face recognition.py
+│   │   │   └── 📄 haarcascade_frontalface_default.xml
+│   │   ├── 📁 4. Flappy Bird Game/
+│   │   │   ├── 📁 gallery/
+│   │   │   │   ├── 📁 audio/
+│   │   │   │   │   ├── 📄 die.wav
+│   │   │   │   │   ├── 📄 hit.wav
+│   │   │   │   │   ├── 📄 point.wav
+│   │   │   │   │   ├── 📄 swoosh.wav
+│   │   │   │   │   └── 📄 wing.wav
+│   │   │   │   └── 📁 sprites/
+│   │   │   │       ├── 🖼️ 0.png
+│   │   │   │       ├── 🖼️ 1.png
+│   │   │   │       ├── 🖼️ 2.png
+│   │   │   │       ├── 🖼️ 3.png
+│   │   │   │       ├── 🖼️ 4.png
+│   │   │   │       ├── 🖼️ 5.png
+│   │   │   │       ├── 🖼️ 6.png
+│   │   │   │       ├── 🖼️ 7.png
+│   │   │   │       ├── 🖼️ 8.png
+│   │   │   │       ├── 🖼️ 9.png
+│   │   │   │       ├── 🖼️ background.png
+│   │   │   │       ├── 🖼️ base.png
+│   │   │   │       ├── 🖼️ bird.png
+│   │   │   │       ├── 🖼️ gameover.png
+│   │   │   │       ├── 🖼️ message.png
+│   │   │   │       └── 🖼️ pipe.png
+│   │   │   └── 🐍 4. flappy bird.py
+│   │   ├── 📁 5. Snake Game/
+│   │   │   ├── 📁 Music/
+│   │   │   │   ├── 🎵 bgm.mp3
+│   │   │   │   ├── 🎵 bgm1.mp3
+│   │   │   │   ├── 🎵 bgm2.mp3
+│   │   │   │   └── 🎵 wc.mp3
+│   │   │   ├── 📁 Screen/
+│   │   │   │   ├── 🖼️ bg2.jpg
+│   │   │   │   ├── 🖼️ Intro1.png
+│   │   │   │   └── 🖼️ outro.png
+│   │   │   ├── 📄 highscore.txt
+│   │   │   ├── 📄 requirements.txt
+│   │   │   └── 🐍 Snake.py
 │   │   └── 📖 day_2.md
 │   ├── 📁 3. Modules-and-Pip/
 │   │   ├── 📖 day_3.md
@@ -46,100 +187,43 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 │   │   ├── 📖 day_7.md
 │   │   └── 🐍 main.py
 │   ├── 📁 8. Exercise - Calculator/
-│   │   ├── 📖 day_8.md
-│   │   └── 🐍 calcualtor.py
-│   ├── 📁 9. Typecasting in Python/
-│   │   ├── 📖 day_9.md
-│   │   └── 🐍 TypeCasting.py
-│   ├── 📁 10. Taking User Input in Python/
-│   │   ├── 📖 day_10.md
-│   │   └── 🐍 UserInput.py
-│   ├── 📁 11. Strings in Python/
-│   │   ├── 📖 day_11.md
-│   │   └── 🐍 Strings.py
-│   ├── 📁 12. Strings Slicing and Operations on Strings in Python/
-│   │   ├── 📖 day_12.md
-│   │   └─── 🐍 main.py
-│   ├── 📁 13. String Methods in Python/
-│   │   ├── 📖 day_13.md
-│   │   └── 🐍 String_Method.py
-├── 📁 Complete_Python_For_Ai_ML/
-│   ├── 📁 Chapter_1 - Installation/
-│   │   └── 📖 Notes.md
-│   ├── 📁 Chapter_2 - Comments & Variables/
-│   │   ├── 📖 Notes.md
-│   │   ├── 🐍 Comments.py
-│   │   └── 🐍 Variables.py
-│   ├── 📁 Chapter_3 - Data Types/
-│   │   ├── 📖 Notes.md
-│   │   └── 🐍 main.py
-│   ├── 📁 Chapter_4 - Strings & Type Conversion/
-│   │   ├── 📖 Notes.md
-│   │   └── 🐍 main.py
-│   ├── 📁 Chapter_5 - Input, Output & Operators/
-│   │   ├── 📖 Notes.md
-│   │   └── 🐍 main.py
-│   ├── 📁 Chapter_6 - Conditional Statements/
-│   │   ├── 📖 Notes.md
-│   │   └── 🐍 main.py
-│   ├── 📁 Chapter_7 - Loops/
-│   │   ├── 📖 Notes.md
-│   │   └── 🐍 main.py
-├── 📁 PHP-Programming/
-│   ├── 📖 full-notes.md
-│   ├── 🐘 01_basics.php
-│   ├── 🐘 02_MoreBasics.php
-│   ├── 🐘 03_strings.php
-│   ├── 🐘 index.php
-│   ├── 🎨 style.css
-│   └── 🖼️ bg.jpg
-├── 📁 MySQL-Learning/
-│   ├── 📁 1. SQL-Student-Database/
-│   │   ├── 📖 README.md
-│   │   └── 💾 student_database.sql
-│   │   └── 💾 student_database2.sql
-│   ├── 📁 2. SQL-Employee-Database/
-│   │   ├── 📖 README.md
-│   │   └── 💾 employee.sql
-│   │   └── 💾 employee2.sql
-│   ├── 📁 3. SQL-Employee-Table-Modification/
-│   │   ├── 📖 README.md
-│   │   └── 💾 alter_employee.sql
-│   │   └── 💾 alter_employee2.sql
-│   ├── 📁 4. SQL-Student-Marks/
-│   │   ├── 📖 README.md
-│   │   └── 💾 student_marks.sql
-│   │   └── 💾 student_marks2.sql
-│   ├── 📁 5. SQL-Student-Marks-Analysis/
-│   │   ├── 📖 README.md
-│   │   └── 💾 student_marks_analysis.sql
-│   │   └── 💾 student_marks_analysis2.sql
+│   │   ├── 🐍 calculator.py
+│   │   └── 📖 day_8.md
+│   └── 📁 9. Typecasting in Python/
+│       ├── 📖 day_9.md
+│       └── 🐍 TypeCasting.py
 ├── 📁 WebDev-Learning/
 │   ├── 📁 1. Installing-VS-Code-and-How-Websites-Work/
-│   │   ├── 📖 notes_Tutorail1.md
 │   │   ├── 🌐 index.html
+│   │   ├── 📖 notes_Tutorail1.md
 │   │   └── 🎥 video1.mp4
+│   ├── 📁 10. Video-Audio-and-Media-in-HTML/
+│   │   ├── 🎵 audio.mp3
+│   │   ├── 🖼️ image.jpg
+│   │   ├── 🌐 index.html
+│   │   ├── 📖 notes_Tutorial10.md
+│   │   └── 🎥 video.mp4
 │   ├── 📁 2. My-First-HTML-Website/
 │   │   ├── 🌐 index.html
-│   │   ├── 🎨 style.css
-│   │   ├── 📜 script.js
-│   │   └── 📖 notes_Tutorail2.md
+│   │   ├── 📖 notes_Tutorail2.md
+│   │   ├── 📄 script.js
+│   │   └── 🎨 style.css
 │   ├── 📁 3. Basic-Structure-of-an-HTML-Website/
 │   │   ├── 🌐 index.html
-│   │   ├── 🎨 style.css
-│   │   ├── 📜 script.js
-│   │   └── 📖 notes_Tutorial3.md
+│   │   ├── 📖 notes_Tutorial3.md
+│   │   ├── 📄 script.js
+│   │   └── 🎨 style.css
 │   ├── 📁 4. Heading-Paragraphs-and-Links/
-│   │   ├── 🌐 index.html
-│   │   ├── 🎨 style.css
-│   │   ├── 📜 script.js
 │   │   ├── 🌐 bookmarkManager.html
-│   │   └── 📖 notes_Tutorial4.md
-│   ├── 📁 5. Image-List-and-Tables in HTML/
 │   │   ├── 🌐 index.html
-│   │   ├── 🎨 style.css
+│   │   ├── 📖 notes_Tutorial4.md
+│   │   ├── 📄 script.js
+│   │   └── 🎨 style.css
+│   ├── 📁 5. Image-List-and-Tables in HTML/
 │   │   ├── 🖼️ image.png
-│   │   └── 📖 notes_Tutorial5.md
+│   │   ├── 🌐 index.html
+│   │   ├── 📖 notes_Tutorial5.md
+│   │   └── 🎨 style.css
 │   ├── 📁 6. SEO-and-Core-Web-Vitals-in-HTML/
 │   │   ├── 🌐 index.html
 │   │   └── 📖 notes_Tutorial6.md
@@ -147,26 +231,19 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 │   │   ├── 🌐 index.html
 │   │   └── 📖 notes_Tutorial7.md
 │   ├── 📁 8. Inline-and-Block-Elements-in-HTML/
-│   │   ├── 🌐 index.html
-│   │   ├── 🌐 quiz.html
-│   │   ├── 🎨 style.css
 │   │   ├── 📄 Comprehensive List.txt
-│   │   └── 📖 notes_Tutorial8.md
-│   ├── 📁 9. ID-and-Classes-in-HTML/
 │   │   ├── 🌐 index.html
-│   │   ├── 🎨 style.css
-│   │   └── 📖 notes_Tutorial9.md
-│   ├── 📁 10. Video-Audio-and-Media-in-HTML/
-│   │   ├── 🌐 index.html
-│   │   ├── 🎥 video.mp4
-│   │   ├── 🎵 audio.mp3
-│   │   ├── 🖼️ image.jpg
-│   │   └── 📖 notes_Tutorial10.md
+│   │   ├── 📖 notes_Tutorial8.md
+│   │   ├── 🌐 quiz.html
+│   │   └── 🎨 style.css
+│   └── 📁 9. ID-and-Classes-in-HTML/
+│       ├── 🌐 index.html
+│       ├── 📖 notes_Tutorial9.md
+│       └── 🎨 style.css
 ├── ⚙️ .gitattributes
 ├── 📜 LICENSE
 ├── 🖼️ programmer.gif
-├── 📖 README.md
-└── 🙈 .gitignore
+└── 📖 README.md
 ```
 
 ## 🛠️ Technologies & Tools
@@ -191,9 +268,9 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 ## 🌟 Featured Projects
 
 ### 🔥 Latest Project
-**Project Name**: Complete Python for AI & ML
-**Tech Stack**: Python, AI/ML Foundation
-**Status**: 📈 Ongoing (Chapter 7)
+**Project Name**: AI-Driven Full Stack Web Engineering
+**Tech Stack**: HTML5, CSS3, JavaScript, Git & GitHub
+**Status**: 📈 Ongoing (Milestone 1, Module 2)
 
 <!-- ### 🎨 Mini Projects Collection
 - [ ] Todo List App
