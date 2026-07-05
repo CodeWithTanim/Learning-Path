@@ -11,7 +11,7 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 ### 🎯 Current Focus
 ```bash
 🎯 Currently Mastering: AI-Driven Full Stack Web Engineering
-📊 Progress: 📈 Ongoing (Milestone 1, Module 2)
+📊 Progress: 📈 Ongoing (Milestone 1, Module 3)
 ```
 
 ## 📂 Repository Structure
@@ -49,6 +49,26 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 │   ├── 📁 Milestone 1 Module 2 (M1.2)/
 │   │   ├── 📄 command.txt
 │   │   └── 🌐 index.html
+│   ├── 📁 Milestone 1 Module 3 (M1.3)/
+│   │   ├── 📁 CSS-Learning/
+│   │   │   ├── 🌐 index.html
+│   │   │   └── 🎨 style.css
+│   │   ├── 📁 images/
+│   │   │   └── 🖼️ flowers.jpg
+│   │   ├── 📁 style/
+│   │   │   ├── 🎨 display.css
+│   │   │   ├── 🖼️ formula1.jpg
+│   │   │   └── 🎨 shadow.css
+│   │   ├── 📁 who-gets-this-style/
+│   │   │   ├── 🌐 index.html
+│   │   │   └── 🎨 style.css
+│   │   ├── 🌐 adv-selector.html
+│   │   ├── 🌐 bg.html
+│   │   ├── 🌐 blog.html
+│   │   ├── 🌐 css.html
+│   │   ├── 🌐 display.html
+│   │   ├── 🌐 html.html
+│   │   └── 🌐 shadow.html
 │   └── 📖 README.md
 ├── 📁 Complete_Python_For_Ai_ML/
 │   ├── 📁 Chapter_1_Installation/
@@ -270,7 +290,7 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 ### 🔥 Latest Project
 **Project Name**: AI-Driven Full Stack Web Engineering
 **Tech Stack**: HTML5, CSS3, JavaScript, Git & GitHub
-**Status**: 📈 Ongoing (Milestone 1, Module 2)
+**Status**: 📈 Ongoing (Milestone 1, Module 3)
 
 <!-- ### 🎨 Mini Projects Collection
 - [ ] Todo List App
