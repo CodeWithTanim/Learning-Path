@@ -4,7 +4,7 @@ Welcome to the **AI-Driven Full Stack Web Engineering** module of my learning jo
 
 ## 📚 Milestones & Modules Overview
 
-### 🔹 Milestone 1, Module 1 (M1.1): My First PH Website (`M1.1-my-first-ph-website`)
+### 🔹 Milestone 1, Module 1: HTML Basics (`M1.1-my-first-ph-website`)
 Focuses on the fundamentals of HTML, structure, semantic tags, forms, tables, media elements, and building a basic restaurant landing page layout.
 
 ### 🔹 Milestone 1, Module 2 (M1.2): My First GitHub (`M1.2-my-first-github`)
