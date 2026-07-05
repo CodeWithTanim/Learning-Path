@@ -10,7 +10,7 @@ Focuses on the fundamentals of HTML, structure, semantic tags, forms, tables, me
 ### 🔹 Milestone 1, Module 2: Git & GitHub (`M1.2-my-first-github`)
 Covers the basics of Git, initializing repositories, staging changes, committing, and pushing code to GitHub.
 
-### 🔹 Milestone 1, Module 3 (M1.3): Explore CSS Basic (`M1.3-Explore-CSS-Basic`)
+### 🔹 Milestone 1, Module 3: Explore CSS Basic (`M1.3-Explore-CSS-Basic`)
 Covers the basics of CSS, styling, selectors, displays, backgrounds, shadows, and applying basic styles to HTML pages.
 
 ---
