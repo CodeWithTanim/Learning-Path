@@ -11,7 +11,7 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 ### 🎯 Current Focus
 ```bash
 🎯 Currently Mastering: AI-Driven Full Stack Web Engineering
-📊 Progress: 📈 Ongoing (Milestone 1, Module 3)
+📊 Progress: 📈 Ongoing (Milestone 1, Module 4)
 ```
 
 ## 📂 Repository Structure
@@ -19,7 +19,7 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 ```
 📦 learning-path/
 ├── 📁 AI-Driven Full Stack Web Engineering/
-│   ├── 📁 Milestone 1 Module 1 (M1.1)/
+│   ├── 📁 Milestone 1 Module 1 - HTML Basics/
 │   │   ├── 📁 Image/
 │   │   │   ├── 🖼️ 1.png
 │   │   │   └── 🖼️ 2.png
@@ -46,10 +46,10 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 │   │   ├── 🌐 structure.html
 │   │   ├── 🌐 third.html
 │   │   └── 🌐 video.html
-│   ├── 📁 Milestone 1 Module 2 (M1.2)/
+│   ├── 📁 Milestone 1 Module 2 - Git & GitHub/
 │   │   ├── 📄 command.txt
 │   │   └── 🌐 index.html
-│   ├── 📁 Milestone 1 Module 3 (M1.3)/
+│   ├── 📁 Milestone 1 Module 3 - Explore CSS Basics/
 │   │   ├── 📁 CSS-Learning/
 │   │   │   ├── 🌐 index.html
 │   │   │   └── 🎨 style.css
@@ -69,6 +69,25 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 │   │   ├── 🌐 display.html
 │   │   ├── 🌐 html.html
 │   │   └── 🌐 shadow.html
+│   ├── 📁 Milestone 1 Module 4 - CSS Layouts and Advance Styling/
+│   │   ├── 📁 images/
+│   │   │   ├── 📄 boy.svg
+│   │   │   ├── 🖼️ camp.jpg
+│   │   │   ├── 🖼️ flowers.jpg
+│   │   │   ├── 📄 ring.svg
+│   │   │   └── 📄 water.svg
+│   │   ├── 📁 styles/
+│   │   │   ├── 🎨 banner.css
+│   │   │   └── 🎨 nav.css
+│   │   ├── 🌐 about-us.html
+│   │   ├── 🌐 banner.html
+│   │   ├── 🌐 calender.html
+│   │   ├── 🌐 contact-us.html
+│   │   ├── 🌐 flex.html
+│   │   ├── 🌐 grid.html
+│   │   ├── 🌐 nav.html
+│   │   ├── 🌐 position.html
+│   │   └── 🌐 table.html
 │   └── 📖 README.md
 ├── 📁 Complete_Python_For_Ai_ML/
 │   ├── 📁 Chapter_1_Installation/
@@ -290,7 +309,7 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 ### 🔥 Latest Project
 **Project Name**: AI-Driven Full Stack Web Engineering
 **Tech Stack**: HTML5, CSS3, JavaScript, Git & GitHub
-**Status**: 📈 Ongoing (Milestone 1, Module 3)
+**Status**: 📈 Ongoing (Milestone 1, Module 4)
 
 <!-- ### 🎨 Mini Projects Collection
 - [ ] Todo List App

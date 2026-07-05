@@ -4,14 +4,17 @@ Welcome to the **AI-Driven Full Stack Web Engineering** module of my learning jo
 
 ## 📚 Milestones & Modules Overview
 
-### 🔹 Milestone 1, Module 1: HTML Basics (`M1.1-my-first-ph-website`)
+### 🔹 Milestone 1, Module 1: HTML Basics (`Milestone 1 Module 1 - HTML Basics`)
 Focuses on the fundamentals of HTML, structure, semantic tags, forms, tables, media elements, and building a basic restaurant landing page layout.
 
-### 🔹 Milestone 1, Module 2: Git & GitHub (`M1.2-my-first-github`)
+### 🔹 Milestone 1, Module 2: Git & GitHub (`Milestone 1 Module 2 - Git & GitHub`)
 Covers the basics of Git, initializing repositories, staging changes, committing, and pushing code to GitHub.
 
-### 🔹 Milestone 1, Module 3: Explore CSS Basic (`M1.3-Explore-CSS-Basic`)
+### 🔹 Milestone 1, Module 3: Explore CSS Basics (`Milestone 1 Module 3 - Explore CSS Basics`)
 Covers the basics of CSS, styling, selectors, displays, backgrounds, shadows, and applying basic styles to HTML pages.
+
+### 🔹 Milestone 1, Module 4: CSS Layouts and Advance Styling (`Milestone 1 Module 4 - CSS Layouts and Advance Styling`)
+Covers intermediate and advanced CSS layout techniques like Flexbox, Grid, positioning, tables, forms, navigation bar design, and custom page designs.
 
 ---
 
@@ -19,7 +22,7 @@ Covers the basics of CSS, styling, selectors, displays, backgrounds, shadows, an
 
 ```
 📦 AI-Driven Full Stack Web Engineering/
-├── 📁 Milestone 1 Module 1 (M1.1)/
+├── 📁 Milestone 1 Module 1 - HTML Basics/
 │   ├── 📁 Image/
 │   │   ├── 🖼️ 1.png
 │   │   └── 🖼️ 2.png
@@ -46,29 +49,48 @@ Covers the basics of CSS, styling, selectors, displays, backgrounds, shadows, an
 │   ├── 🌐 structure.html
 │   ├── 🌐 third.html
 │   └── 🌐 video.html
-├── 📁 Milestone 1 Module 2 (M1.2)/
+├── 📁 Milestone 1 Module 2 - Git & GitHub/
 │   ├── 📄 command.txt
 │   └── 🌐 index.html
-└── 📁 Milestone 1 Module 3 (M1.3)/
-    ├── 📁 CSS-Learning/
-    │   ├── 🌐 index.html
-    │   └── 🎨 style.css
+├── 📁 Milestone 1 Module 3 - Explore CSS Basics/
+│   ├── 📁 CSS-Learning/
+│   │   ├── 🌐 index.html
+│   │   └── 🎨 style.css
+│   ├── 📁 images/
+│   │   └── 🖼️ flowers.jpg
+│   ├── 📁 style/
+│   │   ├── 🎨 display.css
+│   │   ├── 🖼️ formula1.jpg
+│   │   └── 🎨 shadow.css
+│   ├── 📁 who-gets-this-style/
+│   │   ├── 🌐 index.html
+│   │   └── 🎨 style.css
+│   ├── 🌐 adv-selector.html
+│   ├── 🌐 bg.html
+│   ├── 🌐 blog.html
+│   ├── 🌐 css.html
+│   ├── 🌐 display.html
+│   ├── 🌐 html.html
+│   └── 🌐 shadow.html
+└── 📁 Milestone 1 Module 4 - CSS Layouts and Advance Styling/
     ├── 📁 images/
-    │   └── 🖼️ flowers.jpg
-    ├── 📁 style/
-    │   ├── 🎨 display.css
-    │   ├── 🖼️ formula1.jpg
-    │   └── 🎨 shadow.css
-    ├── 📁 who-gets-this-style/
-    │   ├── 🌐 index.html
-    │   └── 🎨 style.css
-    ├── 🌐 adv-selector.html
-    ├── 🌐 bg.html
-    ├── 🌐 blog.html
-    ├── 🌐 css.html
-    ├── 🌐 display.html
-    ├── 🌐 html.html
-    └── 🌐 shadow.html
+    │   ├── 📄 boy.svg
+    │   ├── 🖼️ camp.jpg
+    │   ├── 🖼️ flowers.jpg
+    │   ├── 📄 ring.svg
+    │   └── 📄 water.svg
+    ├── 📁 styles/
+    │   ├── 🎨 banner.css
+    │   └── 🎨 nav.css
+    ├── 🌐 about-us.html
+    ├── 🌐 banner.html
+    ├── 🌐 calender.html
+    ├── 🌐 contact-us.html
+    ├── 🌐 flex.html
+    ├── 🌐 grid.html
+    ├── 🌐 nav.html
+    ├── 🌐 position.html
+    └── 🌐 table.html
 ```
 
 ---
