@@ -11,7 +11,7 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 ### 🎯 Current Focus
 ```bash
 🎯 Currently Mastering: AI-Driven Full Stack Web Engineering
-📊 Progress: 📈 Ongoing (Milestone 1, Module 4)
+📊 Progress: 📈 Ongoing (Milestone 1, Module 5)
 ```
 
 ## 📂 Repository Structure
@@ -88,6 +88,44 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 │   │   ├── 🌐 nav.html
 │   │   ├── 🌐 position.html
 │   │   └── 🌐 table.html
+│   ├── 📁 Milestone 1 Module 5 - Build a beautiful Portfolio Website/
+│   │   ├── 📁 b14-portfolio-resources/
+│   │   │   ├── 📁 images/
+│   │   │   │   ├── 📁 icons/
+│   │   │   │   │   ├── 🖼️ facebook.png
+│   │   │   │   │   ├── 🖼️ insta.png
+│   │   │   │   │   ├── 🖼️ js.png
+│   │   │   │   │   ├── 🖼️ mongo.png
+│   │   │   │   │   ├── 🖼️ nodejs.png
+│   │   │   │   │   ├── 🖼️ react.png
+│   │   │   │   │   └── 🖼️ twitter.png
+│   │   │   │   ├── 🖼️ developer.png
+│   │   │   │   ├── 🖼️ hardy.png
+│   │   │   │   └── 🖼️ header_bg.png
+│   │   │   ├── 📄 Portfolio.fig
+│   │   │   ├── 📄 Portfolio.pdf
+│   │   │   └── 📄 Portfolio.penpot
+│   │   ├── 📁 images/
+│   │   │   ├── 📁 gallary/
+│   │   │   │   ├── 🖼️ Rectangle 10.png
+│   │   │   │   ├── 🖼️ Rectangle 11.png
+│   │   │   │   ├── 🖼️ Rectangle 12.png
+│   │   │   │   ├── 🖼️ Rectangle 13.png
+│   │   │   │   ├── 🖼️ Rectangle 8.png
+│   │   │   │   └── 🖼️ Rectangle 9.png
+│   │   │   ├── 📁 icons/
+│   │   │   │   ├── 🖼️ facebook.png
+│   │   │   │   ├── 🖼️ insta.png
+│   │   │   │   ├── 🖼️ js.png
+│   │   │   │   ├── 🖼️ mongo.png
+│   │   │   │   ├── 🖼️ nodejs.png
+│   │   │   │   ├── 🖼️ react.png
+│   │   │   │   └── 🖼️ twitter.png
+│   │   │   ├── 🖼️ developer.png
+│   │   │   ├── 🖼️ hardy.png
+│   │   │   └── 🖼️ header_bg.png
+│   │   ├── 🌐 index.html
+│   │   └── 🎨 style.css
 │   └── 📖 README.md
 ├── 📁 Complete_Python_For_Ai_ML/
 │   ├── 📁 Chapter_1_Installation/
@@ -309,7 +347,7 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 ### 🔥 Latest Project
 **Project Name**: AI-Driven Full Stack Web Engineering
 **Tech Stack**: HTML5, CSS3, JavaScript, Git & GitHub
-**Status**: 📈 Ongoing (Milestone 1, Module 4)
+**Status**: 📈 Ongoing (Milestone 1, Module 5)
 
 <!-- ### 🎨 Mini Projects Collection
 - [ ] Todo List App

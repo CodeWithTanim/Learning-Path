@@ -16,6 +16,9 @@ Covers the basics of CSS, styling, selectors, displays, backgrounds, shadows, an
 ### 🔹 Milestone 1, Module 4: CSS Layouts and Advance Styling (`Milestone 1 Module 4 - CSS Layouts and Advance Styling`)
 Covers intermediate and advanced CSS layout techniques like Flexbox, Grid, positioning, tables, forms, navigation bar design, and custom page designs.
 
+### 🔹 Milestone 1, Module 5: Build a beautiful Portfolio Website (`Milestone 1 Module 5 - Build a beautiful Portfolio Website`)
+Building a complete, professional, and responsive portfolio website using HTML and CSS from scratch.
+
 ---
 
 ## 📂 Repository Structure
@@ -72,25 +75,63 @@ Covers intermediate and advanced CSS layout techniques like Flexbox, Grid, posit
 │   ├── 🌐 display.html
 │   ├── 🌐 html.html
 │   └── 🌐 shadow.html
-└── 📁 Milestone 1 Module 4 - CSS Layouts and Advance Styling/
+├── 📁 Milestone 1 Module 4 - CSS Layouts and Advance Styling/
+│   ├── 📁 images/
+│   │   ├── 📄 boy.svg
+│   │   ├── 🖼️ camp.jpg
+│   │   ├── 🖼️ flowers.jpg
+│   │   ├── 📄 ring.svg
+│   │   └── 📄 water.svg
+│   ├── 📁 styles/
+│   │   ├── 🎨 banner.css
+│   │   └── 🎨 nav.css
+│   ├── 🌐 about-us.html
+│   ├── 🌐 banner.html
+│   ├── 🌐 calender.html
+│   ├── 🌐 contact-us.html
+│   ├── 🌐 flex.html
+│   ├── 🌐 grid.html
+│   ├── 🌐 nav.html
+│   ├── 🌐 position.html
+│   └── 🌐 table.html
+└── 📁 Milestone 1 Module 5 - Build a beautiful Portfolio Website/
+    ├── 📁 b14-portfolio-resources/
+    │   ├── 📁 images/
+    │   │   ├── 📁 icons/
+    │   │   │   ├── 🖼️ facebook.png
+    │   │   │   ├── 🖼️ insta.png
+    │   │   │   ├── 🖼️ js.png
+    │   │   │   ├── 🖼️ mongo.png
+    │   │   │   ├── 🖼️ nodejs.png
+    │   │   │   ├── 🖼️ react.png
+    │   │   │   └── 🖼️ twitter.png
+    │   │   ├── 🖼️ developer.png
+    │   │   ├── 🖼️ hardy.png
+    │   │   └── 🖼️ header_bg.png
+    │   ├── 📄 Portfolio.fig
+    │   ├── 📄 Portfolio.pdf
+    │   └── 📄 Portfolio.penpot
     ├── 📁 images/
-    │   ├── 📄 boy.svg
-    │   ├── 🖼️ camp.jpg
-    │   ├── 🖼️ flowers.jpg
-    │   ├── 📄 ring.svg
-    │   └── 📄 water.svg
-    ├── 📁 styles/
-    │   ├── 🎨 banner.css
-    │   └── 🎨 nav.css
-    ├── 🌐 about-us.html
-    ├── 🌐 banner.html
-    ├── 🌐 calender.html
-    ├── 🌐 contact-us.html
-    ├── 🌐 flex.html
-    ├── 🌐 grid.html
-    ├── 🌐 nav.html
-    ├── 🌐 position.html
-    └── 🌐 table.html
+    │   ├── 📁 gallary/
+    │   │   ├── 🖼️ Rectangle 10.png
+    │   │   ├── 🖼️ Rectangle 11.png
+    │   │   ├── 🖼️ Rectangle 12.png
+    │   │   ├── 🖼️ Rectangle 13.png
+    │   │   ├── 🖼️ Rectangle 8.png
+    │   │   └── 🖼️ Rectangle 9.png
+    │   ├── 📁 icons/
+    │   │   ├── 🖼️ facebook.png
+    │   │   ├── 🖼️ insta.png
+    │   │   ├── 🖼️ js.png
+    │   │   ├── 🖼️ mongo.png
+    │   │   ├── 🖼️ nodejs.png
+    │   │   ├── 🖼️ react.png
+    │   │   └── 🖼️ twitter.png
+    │   ├── 🖼️ developer.png
+    │   ├── 🖼️ hardy.png
+    │   └── 🖼️ header_bg.png
+    ├── 🌐 index.html
+    └── 🎨 style.css
 ```
 
 ---
