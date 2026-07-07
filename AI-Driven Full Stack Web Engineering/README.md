@@ -95,22 +95,6 @@ Building a complete, professional, and responsive portfolio website using HTML a
 │   ├── 🌐 position.html
 │   └── 🌐 table.html
 └── 📁 Milestone 1 Module 5 - Build a beautiful Portfolio Website/
-    ├── 📁 b14-portfolio-resources/
-    │   ├── 📁 images/
-    │   │   ├── 📁 icons/
-    │   │   │   ├── 🖼️ facebook.png
-    │   │   │   ├── 🖼️ insta.png
-    │   │   │   ├── 🖼️ js.png
-    │   │   │   ├── 🖼️ mongo.png
-    │   │   │   ├── 🖼️ nodejs.png
-    │   │   │   ├── 🖼️ react.png
-    │   │   │   └── 🖼️ twitter.png
-    │   │   ├── 🖼️ developer.png
-    │   │   ├── 🖼️ hardy.png
-    │   │   └── 🖼️ header_bg.png
-    │   ├── 📄 Portfolio.fig
-    │   ├── 📄 Portfolio.pdf
-    │   └── 📄 Portfolio.penpot
     ├── 📁 images/
     │   ├── 📁 gallary/
     │   │   ├── 🖼️ Rectangle 10.png
@@ -130,6 +114,10 @@ Building a complete, professional, and responsive portfolio website using HTML a
     │   ├── 🖼️ developer.png
     │   ├── 🖼️ hardy.png
     │   └── 🖼️ header_bg.png
+    ├── 📁 Portfolio-Resources/
+    │   ├── 📄 Portfolio.fig
+    │   ├── 📄 Portfolio.pdf
+    │   └── 📄 Portfolio.penpot
     ├── 🌐 index.html
     └── 🎨 style.css
 ```
