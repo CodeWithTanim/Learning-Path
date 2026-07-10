@@ -25,6 +25,26 @@ Building a complete, professional, and responsive portfolio website using HTML a
 
 ```
 📦 AI-Driven Full Stack Web Engineering/
+├── 📁 M1.C1-Learn and Explore HTML, CSS (Project)/
+│   ├── 📁 conceptual-session/
+│   │   ├── 📄 Conceptual session.fig
+│   │   ├── 🌐 index.html
+│   │   └── 🎨 style.css
+│   ├── 📁 image/
+│   │   ├── 📁 social/
+│   │   │   ├── 🖼️ facebook.png
+│   │   │   ├── 🖼️ instagram.png
+│   │   │   └── 🖼️ linkedin.png
+│   │   ├── 📄 bg-image.avif
+│   │   ├── 🖼️ chocolate.png
+│   │   ├── 📄 Conceptual session.fig
+│   │   ├── 🖼️ cube.png
+│   │   ├── 🖼️ cup.png
+│   │   ├── 📄 footer-img.avif
+│   │   ├── 🖼️ glass.png
+│   │   └── 📄 our-story.avif
+│   ├── 🌐 index.html
+│   └── 🎨 style.css
 ├── 📁 Milestone 1 Module 1 - HTML Basics/
 │   ├── 📁 Image/
 │   │   ├── 🖼️ 1.png

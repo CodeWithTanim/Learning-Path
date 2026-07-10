@@ -116,6 +116,7 @@ def main():
     print("Updating root README.md...")
     root_ignore = [
         r'^\.git$',
+        r'^\.github$',
         r'^update_readme\.py$',
         r'^__pycache__$',
         r'^\.venv$',

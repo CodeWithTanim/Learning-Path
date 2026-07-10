@@ -1,0 +1,40 @@
+name: Auto-Update Repository Structure READMEs
+
+on:
+  push:
+    branches:
+      - main
+      - master
+    paths-ignore:
+      - '**/README.md'
+      - 'README.md'
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Run README Update Script
+        run: python update_readme.py
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md "AI-Driven Full Stack Web Engineering/README.md"
+          if ! git diff --cached --quiet; then
+            git commit -m "docs: auto-update repository structure trees in READMEs"
+            git push
+          else
+            echo "No changes in README files."
+          fi
