@@ -19,12 +19,38 @@ Covers intermediate and advanced CSS layout techniques like Flexbox, Grid, posit
 ### 🔹 Milestone 1, Module 5: Build a beautiful Portfolio Website (`Milestone 1 Module 5 - Build a beautiful Portfolio Website`)
 Building a complete, professional, and responsive portfolio website using HTML and CSS from scratch.
 
+### 🔹 Milestone 1, Module 6 / Assignment 1: DevConf 2026 (`M1.6-Assignment-1`)
+Designing and building a fully responsive conference website layout (DevConf 2026) using HTML and CSS from Figma/Penpot design templates.
+
 ---
 
 ## 📂 Repository Structure
 
 ```
 📦 AI-Driven Full Stack Web Engineering/
+├── 📁 M1.6-Assignment-1/
+│   ├── 📁 assets/
+│   │   ├── 🖼️ andrej.png
+│   │   ├── 🖼️ banner.jpg
+│   │   ├── 🖼️ demis.png
+│   │   ├── 🖼️ facebook.png
+│   │   ├── 🖼️ footer-logo.png
+│   │   ├── 🖼️ gary.png
+│   │   ├── 🖼️ github.png
+│   │   ├── 🖼️ linkedin.png
+│   │   ├── 🖼️ logo-mini.png
+│   │   ├── 🖼️ logo.png
+│   │   ├── 🖼️ mustafa.png
+│   │   └── 🖼️ twitter.png
+│   ├── 📁 B14-A01-DevConf-2026/
+│   │   ├── 📁 ui/
+│   │   │   └── 🖼️ DevConf 2026 Landing Page.png
+│   │   ├── 📄 DevConf2026.fig
+│   │   ├── 📄 DevConf2026.penpot
+│   │   └── 📖 Readme.md
+│   ├── 🌐 index.html
+│   ├── 📖 PROMPT.md
+│   └── 🎨 style.css
 ├── 📁 M1.C1-Learn and Explore HTML, CSS (Project)/
 │   ├── 📁 conceptual-session/
 │   │   ├── 📄 Conceptual session.fig
