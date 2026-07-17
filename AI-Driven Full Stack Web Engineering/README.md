@@ -28,30 +28,7 @@ Designing and building a fully responsive conference website layout (DevConf 202
 
 ```
 📦 AI-Driven Full Stack Web Engineering/
-├── 📁 M1.6-Assignment-1/
-│   ├── 📁 assets/
-│   │   ├── 🖼️ andrej.png
-│   │   ├── 🖼️ banner.jpg
-│   │   ├── 🖼️ demis.png
-│   │   ├── 🖼️ facebook.png
-│   │   ├── 🖼️ footer-logo.png
-│   │   ├── 🖼️ gary.png
-│   │   ├── 🖼️ github.png
-│   │   ├── 🖼️ linkedin.png
-│   │   ├── 🖼️ logo-mini.png
-│   │   ├── 🖼️ logo.png
-│   │   ├── 🖼️ mustafa.png
-│   │   └── 🖼️ twitter.png
-│   ├── 📁 B14-A01-DevConf-2026/
-│   │   ├── 📁 ui/
-│   │   │   └── 🖼️ DevConf 2026 Landing Page.png
-│   │   ├── 📄 DevConf2026.fig
-│   │   ├── 📄 DevConf2026.penpot
-│   │   └── 📖 Readme.md
-│   ├── 🌐 index.html
-│   ├── 📖 PROMPT.md
-│   └── 🎨 style.css
-├── 📁 M1.C1-Learn and Explore HTML, CSS (Project)/
+├── 📁 Milestone 1 Conceptual Session 1 - Learn and Explore HTML, CSS (Project)/
 │   ├── 📁 conceptual-session/
 │   │   ├── 📄 Conceptual session.fig
 │   │   ├── 🌐 index.html
@@ -140,30 +117,66 @@ Designing and building a fully responsive conference website layout (DevConf 202
 │   ├── 🌐 nav.html
 │   ├── 🌐 position.html
 │   └── 🌐 table.html
-└── 📁 Milestone 1 Module 5 - Build a beautiful Portfolio Website/
-    ├── 📁 images/
-    │   ├── 📁 gallary/
-    │   │   ├── 🖼️ Rectangle 10.png
-    │   │   ├── 🖼️ Rectangle 11.png
-    │   │   ├── 🖼️ Rectangle 12.png
-    │   │   ├── 🖼️ Rectangle 13.png
-    │   │   ├── 🖼️ Rectangle 8.png
-    │   │   └── 🖼️ Rectangle 9.png
-    │   ├── 📁 icons/
-    │   │   ├── 🖼️ facebook.png
-    │   │   ├── 🖼️ insta.png
-    │   │   ├── 🖼️ js.png
-    │   │   ├── 🖼️ mongo.png
-    │   │   ├── 🖼️ nodejs.png
-    │   │   ├── 🖼️ react.png
-    │   │   └── 🖼️ twitter.png
-    │   ├── 🖼️ developer.png
-    │   ├── 🖼️ hardy.png
-    │   └── 🖼️ header_bg.png
-    ├── 📁 Portfolio-Resources/
-    │   ├── 📄 Portfolio.fig
-    │   ├── 📄 Portfolio.pdf
-    │   └── 📄 Portfolio.penpot
+├── 📁 Milestone 1 Module 5 - Build a beautiful Portfolio Website/
+│   ├── 📁 images/
+│   │   ├── 📁 gallary/
+│   │   │   ├── 🖼️ Rectangle 10.png
+│   │   │   ├── 🖼️ Rectangle 11.png
+│   │   │   ├── 🖼️ Rectangle 12.png
+│   │   │   ├── 🖼️ Rectangle 13.png
+│   │   │   ├── 🖼️ Rectangle 8.png
+│   │   │   └── 🖼️ Rectangle 9.png
+│   │   ├── 📁 icons/
+│   │   │   ├── 🖼️ facebook.png
+│   │   │   ├── 🖼️ insta.png
+│   │   │   ├── 🖼️ js.png
+│   │   │   ├── 🖼️ mongo.png
+│   │   │   ├── 🖼️ nodejs.png
+│   │   │   ├── 🖼️ react.png
+│   │   │   └── 🖼️ twitter.png
+│   │   ├── 🖼️ developer.png
+│   │   ├── 🖼️ hardy.png
+│   │   └── 🖼️ header_bg.png
+│   ├── 📁 Portfolio-Resources/
+│   │   ├── 📄 Portfolio.fig
+│   │   ├── 📄 Portfolio.pdf
+│   │   └── 📄 Portfolio.penpot
+│   ├── 🌐 index.html
+│   └── 🎨 style.css
+├── 📁 Milestone 1 Module 6 - Assignment-1/
+│   ├── 📁 assets/
+│   │   ├── 🖼️ andrej.png
+│   │   ├── 🖼️ banner.jpg
+│   │   ├── 🖼️ demis.png
+│   │   ├── 🖼️ facebook.png
+│   │   ├── 🖼️ footer-logo.png
+│   │   ├── 🖼️ gary.png
+│   │   ├── 🖼️ github.png
+│   │   ├── 🖼️ linkedin.png
+│   │   ├── 🖼️ logo-mini.png
+│   │   ├── 🖼️ logo.png
+│   │   ├── 🖼️ mustafa.png
+│   │   └── 🖼️ twitter.png
+│   ├── 📁 B14-A01-DevConf-2026/
+│   │   ├── 📁 ui/
+│   │   │   └── 🖼️ DevConf 2026 Landing Page.png
+│   │   ├── 📄 DevConf2026.fig
+│   │   ├── 📄 DevConf2026.penpot
+│   │   └── 📖 Readme.md
+│   ├── 🌐 index.html
+│   ├── 📖 PROMPT.md
+│   └── 🎨 style.css
+└── 📁 Milestone 1 Module 6 - Practice-Project/
+    ├── 📁 assets/
+    │   ├── 🖼️ header-logo.png
+    │   ├── 🖼️ hero-image.png
+    │   ├── 🖼️ Homepage.png
+    │   ├── 🖼️ logo.png
+    │   ├── 🖼️ Mexico.jpg
+    │   ├── 🖼️ New_York.jpg
+    │   ├── 🖼️ slazzer-preview-1mtlq.png
+    │   ├── 🖼️ Toronto.jpg
+    │   └── 🖼️ Vancouver.jpg
     ├── 🌐 index.html
     └── 🎨 style.css
 ```
