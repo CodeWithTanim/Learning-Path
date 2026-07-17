@@ -166,19 +166,60 @@ Designing and building a fully responsive conference website layout (DevConf 202
 │   ├── 🌐 index.html
 │   ├── 📖 PROMPT.md
 │   └── 🎨 style.css
-└── 📁 Milestone 1 Module 6 - Practice-Project/
-    ├── 📁 assets/
-    │   ├── 🖼️ header-logo.png
-    │   ├── 🖼️ hero-image.png
-    │   ├── 🖼️ Homepage.png
-    │   ├── 🖼️ logo.png
-    │   ├── 🖼️ Mexico.jpg
-    │   ├── 🖼️ New_York.jpg
-    │   ├── 🖼️ slazzer-preview-1mtlq.png
-    │   ├── 🖼️ Toronto.jpg
-    │   └── 🖼️ Vancouver.jpg
-    ├── 🌐 index.html
-    └── 🎨 style.css
+├── 📁 Milestone 1 Module 6 - Practice-Project/
+│   ├── 📁 assets/
+│   │   ├── 🖼️ header-logo.png
+│   │   ├── 🖼️ hero-image.png
+│   │   ├── 🖼️ Homepage.png
+│   │   ├── 🖼️ logo.png
+│   │   ├── 🖼️ Mexico.jpg
+│   │   ├── 🖼️ New_York.jpg
+│   │   ├── 🖼️ slazzer-preview-1mtlq.png
+│   │   ├── 🖼️ Toronto.jpg
+│   │   └── 🖼️ Vancouver.jpg
+│   ├── 🌐 index.html
+│   └── 🎨 style.css
+└── 📁 Milestone 2 Module 7 - Introduction-to-JavaScript/
+    ├── 📁 practice/
+    │   ├── 📁 BonusChallenge/
+    │   │   └── ⚡ ShoppingBillCalculator.js
+    │   ├── 📁 Mini_Project/
+    │   │   └── ⚡ PersonalIntroductionCard.js
+    │   ├── 📁 Task_1/
+    │   │   └── ⚡ app.js
+    │   ├── 📁 Task_10/
+    │   │   └── ⚡ consoleQuiz.js
+    │   ├── 📁 Task_2/
+    │   │   └── ⚡ arithmeticOperations.js
+    │   ├── 📁 Task_3/
+    │   │   └── ⚡ studentDetails.js
+    │   ├── 📁 Task_4/
+    │   │   └── ⚡ type.js
+    │   ├── 📁 Task_5/
+    │   │   └── ⚡ validVariable.js
+    │   ├── 📁 Task_6/
+    │   │   └── ⚡ bio.js
+    │   ├── 📁 Task_7/
+    │   │   └── ⚡ arithmetic.js
+    │   ├── 📁 Task_8/
+    │   │   └── ⚡ shorthand.js
+    │   ├── 📁 Task_9/
+    │   │   └── ⚡ challenge.js
+    │   └── ⚡ practice_task1.js
+    ├── ⚡ 5_variable.js
+    ├── ⚡ add.js
+    ├── ⚡ boolean.js
+    ├── ⚡ devide.js
+    ├── ⚡ first.js
+    ├── ⚡ modile.js
+    ├── ⚡ multiply.js
+    ├── ⚡ naming.js
+    ├── ⚡ number.js
+    ├── ⚡ short.js
+    ├── ⚡ string.js
+    ├── ⚡ sub.js
+    ├── ⚡ type.js
+    └── ⚡ variable.js
 ```
 
 ---

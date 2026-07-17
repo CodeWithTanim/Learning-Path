@@ -170,6 +170,47 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 │   │   │   └── 🖼️ Vancouver.jpg
 │   │   ├── 🌐 index.html
 │   │   └── 🎨 style.css
+│   ├── 📁 Milestone 2 Module 7 - Introduction-to-JavaScript/
+│   │   ├── 📁 practice/
+│   │   │   ├── 📁 BonusChallenge/
+│   │   │   │   └── ⚡ ShoppingBillCalculator.js
+│   │   │   ├── 📁 Mini_Project/
+│   │   │   │   └── ⚡ PersonalIntroductionCard.js
+│   │   │   ├── 📁 Task_1/
+│   │   │   │   └── ⚡ app.js
+│   │   │   ├── 📁 Task_10/
+│   │   │   │   └── ⚡ consoleQuiz.js
+│   │   │   ├── 📁 Task_2/
+│   │   │   │   └── ⚡ arithmeticOperations.js
+│   │   │   ├── 📁 Task_3/
+│   │   │   │   └── ⚡ studentDetails.js
+│   │   │   ├── 📁 Task_4/
+│   │   │   │   └── ⚡ type.js
+│   │   │   ├── 📁 Task_5/
+│   │   │   │   └── ⚡ validVariable.js
+│   │   │   ├── 📁 Task_6/
+│   │   │   │   └── ⚡ bio.js
+│   │   │   ├── 📁 Task_7/
+│   │   │   │   └── ⚡ arithmetic.js
+│   │   │   ├── 📁 Task_8/
+│   │   │   │   └── ⚡ shorthand.js
+│   │   │   ├── 📁 Task_9/
+│   │   │   │   └── ⚡ challenge.js
+│   │   │   └── ⚡ practice_task1.js
+│   │   ├── ⚡ 5_variable.js
+│   │   ├── ⚡ add.js
+│   │   ├── ⚡ boolean.js
+│   │   ├── ⚡ devide.js
+│   │   ├── ⚡ first.js
+│   │   ├── ⚡ modile.js
+│   │   ├── ⚡ multiply.js
+│   │   ├── ⚡ naming.js
+│   │   ├── ⚡ number.js
+│   │   ├── ⚡ short.js
+│   │   ├── ⚡ string.js
+│   │   ├── ⚡ sub.js
+│   │   ├── ⚡ type.js
+│   │   └── ⚡ variable.js
 │   └── 📖 README.md
 ├── 📁 Complete_Python_For_Ai_ML/
 │   ├── 📁 Chapter_1_Installation/
@@ -327,18 +368,18 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 │   ├── 📁 2. My-First-HTML-Website/
 │   │   ├── 🌐 index.html
 │   │   ├── 📖 notes_Tutorail2.md
-│   │   ├── 📄 script.js
+│   │   ├── ⚡ script.js
 │   │   └── 🎨 style.css
 │   ├── 📁 3. Basic-Structure-of-an-HTML-Website/
 │   │   ├── 🌐 index.html
 │   │   ├── 📖 notes_Tutorial3.md
-│   │   ├── 📄 script.js
+│   │   ├── ⚡ script.js
 │   │   └── 🎨 style.css
 │   ├── 📁 4. Heading-Paragraphs-and-Links/
 │   │   ├── 🌐 bookmarkManager.html
 │   │   ├── 🌐 index.html
 │   │   ├── 📖 notes_Tutorial4.md
-│   │   ├── 📄 script.js
+│   │   ├── ⚡ script.js
 │   │   └── 🎨 style.css
 │   ├── 📁 5. Image-List-and-Tables in HTML/
 │   │   ├── 🖼️ image.png

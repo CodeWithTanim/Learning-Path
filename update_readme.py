@@ -6,6 +6,7 @@ EMOJI_MAPPING = {
     'dir': '📁',
     '.py': '🐍',
     '.php': '🐘',
+    '.js': '⚡',
     '.css': '🎨',
     '.sql': '💾',
     '.html': '🌐',
