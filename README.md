@@ -11,7 +11,7 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 ### 🎯 Current Focus
 ```bash
 🎯 Currently Mastering: AI-Driven Full Stack Web Engineering
-📊 Progress: 📈 Ongoing (Milestone 1, Module 6 / Assignment 1)
+📊 Progress: 📈 Ongoing (Milestone 2, Module 8 - Fundamental Concepts of Conditionals)
 ```
 
 ## 📂 Repository Structure
@@ -211,6 +211,41 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 │   │   ├── ⚡ sub.js
 │   │   ├── ⚡ type.js
 │   │   └── ⚡ variable.js
+│   ├── 📁 Milestone 2 Module 8 - Fundamental-Concepts-of-Conditionals/
+│   │   ├── 📁 Practice-Tasks/
+│   │   │   ├── ⚡ 1.Comparison-Operators.js
+│   │   │   ├── ⚡ 10.Simple-Login-System.js
+│   │   │   ├── ⚡ 11.Grading-System.js
+│   │   │   ├── ⚡ 12.BMI-category.js
+│   │   │   ├── ⚡ 13.Season-by-Month.js
+│   │   │   ├── ⚡ 14.Neasted-Voting.js
+│   │   │   ├── ⚡ 15.Neasted-Dashboard.js
+│   │   │   ├── ⚡ 16.Even-or-Odd.js
+│   │   │   ├── ⚡ 17.Adult-or-Minor.js
+│   │   │   ├── ⚡ 18.Price-Check.js
+│   │   │   ├── ⚡ 19.Permission-Check.js
+│   │   │   ├── ⚡ 2.Guess-the-Ourput.js
+│   │   │   ├── ⚡ 20.Online-Check.js
+│   │   │   ├── ⚡ 21.Discount-System.js
+│   │   │   ├── ⚡ 22.Login-and-Role-check.js
+│   │   │   ├── ⚡ 3. isRaining.js
+│   │   │   ├── ⚡ 4.Stock-Check.js
+│   │   │   ├── ⚡ 5.Positive-or-Negative.js
+│   │   │   ├── ⚡ 6.Leap-Year.js
+│   │   │   ├── ⚡ 7.Speed-Check.js
+│   │   │   ├── ⚡ 8.Age-Ticket.js
+│   │   │   └── ⚡ 9.Weekend-or-Holiday.js
+│   │   ├── ⚡ aunty.js
+│   │   ├── ⚡ discount.js
+│   │   ├── ⚡ else.js
+│   │   ├── ⚡ grade.js
+│   │   ├── ⚡ if.js
+│   │   ├── ⚡ multiple.js
+│   │   ├── ⚡ nested.js
+│   │   ├── ⚡ not.js
+│   │   ├── ⚡ recap.js
+│   │   ├── ⚡ Ternary.js
+│   │   └── ⚡ vote.js
 │   └── 📖 README.md
 ├── 📁 Complete_Python_For_Ai_ML/
 │   ├── 📁 Chapter_1_Installation/

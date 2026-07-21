@@ -19,8 +19,14 @@ Covers intermediate and advanced CSS layout techniques like Flexbox, Grid, posit
 ### 🔹 Milestone 1, Module 5: Build a beautiful Portfolio Website (`Milestone 1 Module 5 - Build a beautiful Portfolio Website`)
 Building a complete, professional, and responsive portfolio website using HTML and CSS from scratch.
 
-### 🔹 Milestone 1, Module 6 / Assignment 1: DevConf 2026 (`M1.6-Assignment-1`)
+### 🔹 Milestone 1, Module 6 / Assignment 1: DevConf 2026 (`Milestone 1 Module 6 - Assignment-1`)
 Designing and building a fully responsive conference website layout (DevConf 2026) using HTML and CSS from Figma/Penpot design templates.
+
+### 🔹 Milestone 2, Module 7: Introduction to JavaScript (`Milestone 2 Module 7 - Introduction-to-JavaScript`)
+Covers the core fundamentals of JavaScript, including variables, data types, arithmetic operations, variable naming rules, string operations, and practice tasks.
+
+### 🔹 Milestone 2, Module 8: Fundamental Concepts of Conditionals (`Milestone 2 Module 8 - Fundamental-Concepts-of-Conditionals`)
+Covers comparison operators, `if-else` condition statements, nested conditionals, ternary operators, logical AND/OR (`&&`/`||`), NOT operator, and practical challenge tasks (grading system, discount calculation, login check, etc.).
 
 ---
 
@@ -179,47 +185,82 @@ Designing and building a fully responsive conference website layout (DevConf 202
 │   │   └── 🖼️ Vancouver.jpg
 │   ├── 🌐 index.html
 │   └── 🎨 style.css
-└── 📁 Milestone 2 Module 7 - Introduction-to-JavaScript/
-    ├── 📁 practice/
-    │   ├── 📁 BonusChallenge/
-    │   │   └── ⚡ ShoppingBillCalculator.js
-    │   ├── 📁 Mini_Project/
-    │   │   └── ⚡ PersonalIntroductionCard.js
-    │   ├── 📁 Task_1/
-    │   │   └── ⚡ app.js
-    │   ├── 📁 Task_10/
-    │   │   └── ⚡ consoleQuiz.js
-    │   ├── 📁 Task_2/
-    │   │   └── ⚡ arithmeticOperations.js
-    │   ├── 📁 Task_3/
-    │   │   └── ⚡ studentDetails.js
-    │   ├── 📁 Task_4/
-    │   │   └── ⚡ type.js
-    │   ├── 📁 Task_5/
-    │   │   └── ⚡ validVariable.js
-    │   ├── 📁 Task_6/
-    │   │   └── ⚡ bio.js
-    │   ├── 📁 Task_7/
-    │   │   └── ⚡ arithmetic.js
-    │   ├── 📁 Task_8/
-    │   │   └── ⚡ shorthand.js
-    │   ├── 📁 Task_9/
-    │   │   └── ⚡ challenge.js
-    │   └── ⚡ practice_task1.js
-    ├── ⚡ 5_variable.js
-    ├── ⚡ add.js
-    ├── ⚡ boolean.js
-    ├── ⚡ devide.js
-    ├── ⚡ first.js
-    ├── ⚡ modile.js
-    ├── ⚡ multiply.js
-    ├── ⚡ naming.js
-    ├── ⚡ number.js
-    ├── ⚡ short.js
-    ├── ⚡ string.js
-    ├── ⚡ sub.js
-    ├── ⚡ type.js
-    └── ⚡ variable.js
+├── 📁 Milestone 2 Module 7 - Introduction-to-JavaScript/
+│   ├── 📁 practice/
+│   │   ├── 📁 BonusChallenge/
+│   │   │   └── ⚡ ShoppingBillCalculator.js
+│   │   ├── 📁 Mini_Project/
+│   │   │   └── ⚡ PersonalIntroductionCard.js
+│   │   ├── 📁 Task_1/
+│   │   │   └── ⚡ app.js
+│   │   ├── 📁 Task_10/
+│   │   │   └── ⚡ consoleQuiz.js
+│   │   ├── 📁 Task_2/
+│   │   │   └── ⚡ arithmeticOperations.js
+│   │   ├── 📁 Task_3/
+│   │   │   └── ⚡ studentDetails.js
+│   │   ├── 📁 Task_4/
+│   │   │   └── ⚡ type.js
+│   │   ├── 📁 Task_5/
+│   │   │   └── ⚡ validVariable.js
+│   │   ├── 📁 Task_6/
+│   │   │   └── ⚡ bio.js
+│   │   ├── 📁 Task_7/
+│   │   │   └── ⚡ arithmetic.js
+│   │   ├── 📁 Task_8/
+│   │   │   └── ⚡ shorthand.js
+│   │   ├── 📁 Task_9/
+│   │   │   └── ⚡ challenge.js
+│   │   └── ⚡ practice_task1.js
+│   ├── ⚡ 5_variable.js
+│   ├── ⚡ add.js
+│   ├── ⚡ boolean.js
+│   ├── ⚡ devide.js
+│   ├── ⚡ first.js
+│   ├── ⚡ modile.js
+│   ├── ⚡ multiply.js
+│   ├── ⚡ naming.js
+│   ├── ⚡ number.js
+│   ├── ⚡ short.js
+│   ├── ⚡ string.js
+│   ├── ⚡ sub.js
+│   ├── ⚡ type.js
+│   └── ⚡ variable.js
+└── 📁 Milestone 2 Module 8 - Fundamental-Concepts-of-Conditionals/
+    ├── 📁 Practice-Tasks/
+    │   ├── ⚡ 1.Comparison-Operators.js
+    │   ├── ⚡ 10.Simple-Login-System.js
+    │   ├── ⚡ 11.Grading-System.js
+    │   ├── ⚡ 12.BMI-category.js
+    │   ├── ⚡ 13.Season-by-Month.js
+    │   ├── ⚡ 14.Neasted-Voting.js
+    │   ├── ⚡ 15.Neasted-Dashboard.js
+    │   ├── ⚡ 16.Even-or-Odd.js
+    │   ├── ⚡ 17.Adult-or-Minor.js
+    │   ├── ⚡ 18.Price-Check.js
+    │   ├── ⚡ 19.Permission-Check.js
+    │   ├── ⚡ 2.Guess-the-Ourput.js
+    │   ├── ⚡ 20.Online-Check.js
+    │   ├── ⚡ 21.Discount-System.js
+    │   ├── ⚡ 22.Login-and-Role-check.js
+    │   ├── ⚡ 3. isRaining.js
+    │   ├── ⚡ 4.Stock-Check.js
+    │   ├── ⚡ 5.Positive-or-Negative.js
+    │   ├── ⚡ 6.Leap-Year.js
+    │   ├── ⚡ 7.Speed-Check.js
+    │   ├── ⚡ 8.Age-Ticket.js
+    │   └── ⚡ 9.Weekend-or-Holiday.js
+    ├── ⚡ aunty.js
+    ├── ⚡ discount.js
+    ├── ⚡ else.js
+    ├── ⚡ grade.js
+    ├── ⚡ if.js
+    ├── ⚡ multiple.js
+    ├── ⚡ nested.js
+    ├── ⚡ not.js
+    ├── ⚡ recap.js
+    ├── ⚡ Ternary.js
+    └── ⚡ vote.js
 ```
 
 ---
