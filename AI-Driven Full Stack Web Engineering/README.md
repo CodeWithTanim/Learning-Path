@@ -28,6 +28,9 @@ Covers the core fundamentals of JavaScript, including variables, data types, ari
 ### 🔹 Milestone 2, Module 8: Fundamental Concepts of Conditionals (`Milestone 2 Module 8 - Fundamental-Concepts-of-Conditionals`)
 Covers comparison operators, `if-else` condition statements, nested conditionals, ternary operators, logical AND/OR (`&&`/`||`), NOT operator, and practical challenge tasks (grading system, discount calculation, login check, etc.).
 
+### 🔹 Milestone 2, Module 9: Fundamental Concepts of Loops (`Milestone 2 Module 9 - Fundamental-Concepts-of-Loops`)
+Covers the core concepts of loops in JavaScript, including `for` loops, `while` loops, `do-while` loops, loop control statements (break/continue), and looping practice tasks.
+
 ---
 
 ## 📂 Repository Structure
@@ -226,41 +229,68 @@ Covers comparison operators, `if-else` condition statements, nested conditionals
 │   ├── ⚡ sub.js
 │   ├── ⚡ type.js
 │   └── ⚡ variable.js
-└── 📁 Milestone 2 Module 8 - Fundamental-Concepts-of-Conditionals/
-    ├── 📁 Practice-Tasks/
-    │   ├── ⚡ 1.Comparison-Operators.js
-    │   ├── ⚡ 10.Simple-Login-System.js
-    │   ├── ⚡ 11.Grading-System.js
-    │   ├── ⚡ 12.BMI-category.js
-    │   ├── ⚡ 13.Season-by-Month.js
-    │   ├── ⚡ 14.Neasted-Voting.js
-    │   ├── ⚡ 15.Neasted-Dashboard.js
-    │   ├── ⚡ 16.Even-or-Odd.js
-    │   ├── ⚡ 17.Adult-or-Minor.js
-    │   ├── ⚡ 18.Price-Check.js
-    │   ├── ⚡ 19.Permission-Check.js
-    │   ├── ⚡ 2.Guess-the-Ourput.js
-    │   ├── ⚡ 20.Online-Check.js
-    │   ├── ⚡ 21.Discount-System.js
-    │   ├── ⚡ 22.Login-and-Role-check.js
-    │   ├── ⚡ 3. isRaining.js
-    │   ├── ⚡ 4.Stock-Check.js
-    │   ├── ⚡ 5.Positive-or-Negative.js
-    │   ├── ⚡ 6.Leap-Year.js
-    │   ├── ⚡ 7.Speed-Check.js
-    │   ├── ⚡ 8.Age-Ticket.js
-    │   └── ⚡ 9.Weekend-or-Holiday.js
-    ├── ⚡ aunty.js
-    ├── ⚡ discount.js
-    ├── ⚡ else.js
-    ├── ⚡ grade.js
-    ├── ⚡ if.js
-    ├── ⚡ multiple.js
-    ├── ⚡ nested.js
-    ├── ⚡ not.js
-    ├── ⚡ recap.js
-    ├── ⚡ Ternary.js
-    └── ⚡ vote.js
+├── 📁 Milestone 2 Module 8 - Fundamental-Concepts-of-Conditionals/
+│   ├── 📁 Practice-Tasks/
+│   │   ├── ⚡ 1.Comparison-Operators.js
+│   │   ├── ⚡ 10.Simple-Login-System.js
+│   │   ├── ⚡ 11.Grading-System.js
+│   │   ├── ⚡ 12.BMI-category.js
+│   │   ├── ⚡ 13.Season-by-Month.js
+│   │   ├── ⚡ 14.Neasted-Voting.js
+│   │   ├── ⚡ 15.Neasted-Dashboard.js
+│   │   ├── ⚡ 16.Even-or-Odd.js
+│   │   ├── ⚡ 17.Adult-or-Minor.js
+│   │   ├── ⚡ 18.Price-Check.js
+│   │   ├── ⚡ 19.Permission-Check.js
+│   │   ├── ⚡ 2.Guess-the-Ourput.js
+│   │   ├── ⚡ 20.Online-Check.js
+│   │   ├── ⚡ 21.Discount-System.js
+│   │   ├── ⚡ 22.Login-and-Role-check.js
+│   │   ├── ⚡ 3. isRaining.js
+│   │   ├── ⚡ 4.Stock-Check.js
+│   │   ├── ⚡ 5.Positive-or-Negative.js
+│   │   ├── ⚡ 6.Leap-Year.js
+│   │   ├── ⚡ 7.Speed-Check.js
+│   │   ├── ⚡ 8.Age-Ticket.js
+│   │   └── ⚡ 9.Weekend-or-Holiday.js
+│   ├── ⚡ aunty.js
+│   ├── ⚡ discount.js
+│   ├── ⚡ else.js
+│   ├── ⚡ grade.js
+│   ├── ⚡ if.js
+│   ├── ⚡ multiple.js
+│   ├── ⚡ nested.js
+│   ├── ⚡ not.js
+│   ├── ⚡ recap.js
+│   ├── ⚡ Ternary.js
+│   └── ⚡ vote.js
+└── 📁 Milestone 2 Module 9 - Fundamental-Concepts-of-Loops/
+    ├── 📁 Practices/
+    │   ├── ⚡ 1.Print-Hello-5-Times.js
+    │   ├── ⚡ 10.Using-Break.js
+    │   ├── ⚡ 11.Using-Continue.js
+    │   ├── ⚡ 12.Do-While-Loop.js
+    │   ├── ⚡ 13.Comparing-Loop-Type.js
+    │   ├── ⚡ 14.Mini-Challenge.js
+    │   ├── ⚡ 2.Print-1-to-10.js
+    │   ├── ⚡ 3.Count-down-with-While-Loop.js
+    │   ├── ⚡ 4.Repeat-a-Message.js
+    │   ├── ⚡ 5.Even-Number.js
+    │   ├── ⚡ 6.Sum-of-Number.js
+    │   ├── ⚡ 7.Multiplication-Table.js
+    │   ├── ⚡ 8.Count-Down-from-20-for-Loop.js
+    │   └── ⚡ 9.Sum-of-Even-Number.js
+    ├── ⚡ break.js
+    ├── ⚡ continue.js
+    ├── ⚡ decreasing.js
+    ├── ⚡ do-while.js
+    ├── ⚡ even.js
+    ├── ⚡ for.js
+    ├── ⚡ loop.js
+    ├── ⚡ repeat.js
+    ├── ⚡ sum.js
+    ├── ⚡ table.js
+    └── ⚡ while.js
 ```
 
 ---

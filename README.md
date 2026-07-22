@@ -11,7 +11,7 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 ### 🎯 Current Focus
 ```bash
 🎯 Currently Mastering: AI-Driven Full Stack Web Engineering
-📊 Progress: 📈 Ongoing (Milestone 2, Module 8 - Fundamental Concepts of Conditionals)
+📊 Progress: 📈 Ongoing (Milestone 2, Module 9 - Fundamental Concepts of Loops)
 ```
 
 ## 📂 Repository Structure
@@ -246,6 +246,33 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 │   │   ├── ⚡ recap.js
 │   │   ├── ⚡ Ternary.js
 │   │   └── ⚡ vote.js
+│   ├── 📁 Milestone 2 Module 9 - Fundamental-Concepts-of-Loops/
+│   │   ├── 📁 Practices/
+│   │   │   ├── ⚡ 1.Print-Hello-5-Times.js
+│   │   │   ├── ⚡ 10.Using-Break.js
+│   │   │   ├── ⚡ 11.Using-Continue.js
+│   │   │   ├── ⚡ 12.Do-While-Loop.js
+│   │   │   ├── ⚡ 13.Comparing-Loop-Type.js
+│   │   │   ├── ⚡ 14.Mini-Challenge.js
+│   │   │   ├── ⚡ 2.Print-1-to-10.js
+│   │   │   ├── ⚡ 3.Count-down-with-While-Loop.js
+│   │   │   ├── ⚡ 4.Repeat-a-Message.js
+│   │   │   ├── ⚡ 5.Even-Number.js
+│   │   │   ├── ⚡ 6.Sum-of-Number.js
+│   │   │   ├── ⚡ 7.Multiplication-Table.js
+│   │   │   ├── ⚡ 8.Count-Down-from-20-for-Loop.js
+│   │   │   └── ⚡ 9.Sum-of-Even-Number.js
+│   │   ├── ⚡ break.js
+│   │   ├── ⚡ continue.js
+│   │   ├── ⚡ decreasing.js
+│   │   ├── ⚡ do-while.js
+│   │   ├── ⚡ even.js
+│   │   ├── ⚡ for.js
+│   │   ├── ⚡ loop.js
+│   │   ├── ⚡ repeat.js
+│   │   ├── ⚡ sum.js
+│   │   ├── ⚡ table.js
+│   │   └── ⚡ while.js
 │   └── 📖 README.md
 ├── 📁 Complete_Python_For_Ai_ML/
 │   ├── 📁 Chapter_1_Installation/
