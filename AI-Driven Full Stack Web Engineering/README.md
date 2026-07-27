@@ -31,6 +31,9 @@ Covers comparison operators, `if-else` condition statements, nested conditionals
 ### 🔹 Milestone 2, Module 9: Fundamental Concepts of Loops (`Milestone 2 Module 9 - Fundamental-Concepts-of-Loops`)
 Covers the core concepts of loops in JavaScript, including `for` loops, `while` loops, `do-while` loops, loop control statements (break/continue), and looping practice tasks.
 
+### 🔹 Milestone 2, Module 10: Fundamental Concepts of Array (`Milestone 2 Module 10 - Fundamental-Concepts-of-Array`)
+Covers the core concepts of arrays in JavaScript, including array initialization, indexing, push/pop/shift/unshift methods, array checks (`includes`/`indexOf`/`Array.isArray`), concatenation, slice/splice, and array manipulation practice tasks.
+
 ---
 
 ## 📂 Repository Structure
@@ -188,6 +191,37 @@ Covers the core concepts of loops in JavaScript, including `for` loops, `while` 
 │   │   └── 🖼️ Vancouver.jpg
 │   ├── 🌐 index.html
 │   └── 🎨 style.css
+├── 📁 Milestone 2 Module 10 - Fundamental-Concepts-of-Array/
+│   ├── 📁 Practice_Tasks/
+│   │   ├── ⚡ Advanced_Task_1.js
+│   │   ├── ⚡ Advanced_Task_2.js
+│   │   ├── ⚡ Advanced_Task_3.js
+│   │   ├── ⚡ Advanced_Task_4.js
+│   │   ├── ⚡ Advanced_Task_5.js
+│   │   ├── ⚡ Beginner.js
+│   │   ├── ⚡ Intermediate_Task_1.js
+│   │   ├── ⚡ Intermediate_Task_2.js
+│   │   ├── ⚡ Intermediate_Task_3.js
+│   │   ├── ⚡ Intermediate_Task_4.js
+│   │   ├── ⚡ Intermediate_Task_5.js
+│   │   ├── ⚡ Intermediate_Task_6.js
+│   │   ├── ⚡ Intermediate_Task_7.js
+│   │   ├── ⚡ Intermediate_Task_8.js
+│   │   └── ⚡ Intermediate_Task_9.js
+│   ├── ⚡ array.js
+│   ├── ⚡ for.js
+│   ├── ⚡ includes.js
+│   ├── ⚡ index.js
+│   ├── ⚡ length.js
+│   ├── ⚡ loop.js
+│   ├── ⚡ pop.js
+│   ├── ⚡ push.js
+│   ├── ⚡ reverse.js
+│   ├── ⚡ revision.js
+│   ├── ⚡ shift-unshift.js
+│   ├── ⚡ slice.js
+│   ├── ⚡ sort.js
+│   └── ⚡ while.js
 ├── 📁 Milestone 2 Module 7 - Introduction-to-JavaScript/
 │   ├── 📁 practice/
 │   │   ├── 📁 BonusChallenge/

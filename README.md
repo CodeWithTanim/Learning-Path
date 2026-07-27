@@ -11,7 +11,7 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 ### 🎯 Current Focus
 ```bash
 🎯 Currently Mastering: AI-Driven Full Stack Web Engineering
-📊 Progress: 📈 Ongoing (Milestone 2, Module 9 - Fundamental Concepts of Loops)
+📊 Progress: 📈 Ongoing (Milestone 2, Module 10 - Fundamental Concepts of Array)
 ```
 
 ## 📂 Repository Structure
@@ -170,6 +170,37 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 │   │   │   └── 🖼️ Vancouver.jpg
 │   │   ├── 🌐 index.html
 │   │   └── 🎨 style.css
+│   ├── 📁 Milestone 2 Module 10 - Fundamental-Concepts-of-Array/
+│   │   ├── 📁 Practice_Tasks/
+│   │   │   ├── ⚡ Advanced_Task_1.js
+│   │   │   ├── ⚡ Advanced_Task_2.js
+│   │   │   ├── ⚡ Advanced_Task_3.js
+│   │   │   ├── ⚡ Advanced_Task_4.js
+│   │   │   ├── ⚡ Advanced_Task_5.js
+│   │   │   ├── ⚡ Beginner.js
+│   │   │   ├── ⚡ Intermediate_Task_1.js
+│   │   │   ├── ⚡ Intermediate_Task_2.js
+│   │   │   ├── ⚡ Intermediate_Task_3.js
+│   │   │   ├── ⚡ Intermediate_Task_4.js
+│   │   │   ├── ⚡ Intermediate_Task_5.js
+│   │   │   ├── ⚡ Intermediate_Task_6.js
+│   │   │   ├── ⚡ Intermediate_Task_7.js
+│   │   │   ├── ⚡ Intermediate_Task_8.js
+│   │   │   └── ⚡ Intermediate_Task_9.js
+│   │   ├── ⚡ array.js
+│   │   ├── ⚡ for.js
+│   │   ├── ⚡ includes.js
+│   │   ├── ⚡ index.js
+│   │   ├── ⚡ length.js
+│   │   ├── ⚡ loop.js
+│   │   ├── ⚡ pop.js
+│   │   ├── ⚡ push.js
+│   │   ├── ⚡ reverse.js
+│   │   ├── ⚡ revision.js
+│   │   ├── ⚡ shift-unshift.js
+│   │   ├── ⚡ slice.js
+│   │   ├── ⚡ sort.js
+│   │   └── ⚡ while.js
 │   ├── 📁 Milestone 2 Module 7 - Introduction-to-JavaScript/
 │   │   ├── 📁 practice/
 │   │   │   ├── 📁 BonusChallenge/
