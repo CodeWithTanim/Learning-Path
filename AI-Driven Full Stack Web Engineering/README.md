@@ -37,6 +37,9 @@ Covers the core concepts of arrays in JavaScript, including array initialization
 ### 🔹 Milestone 2, Conceptual Session 2: JS Execution & Variable Declaration (`Milestone 2 Conceptual Session 2 - Introduction-to-JavaScript-Program-Execution-and-Variable-Declaration`)
 Covers intermediate JavaScript execution context, code execution phases (creation vs. execution), hoisting, scopes, and variable declarations (`var`, `let`, `const`).
 
+### 🔹 Milestone 2, Module 11: Fundamentals of Strings & Objects (`Milestone 2 Module 11 - Fundamentals of Strings & Objects`)
+Covers the core concepts of strings and objects in JavaScript, including string properties/methods (lowercase, uppercase, trim, slice, split, join, concat, includes, reverse), object declaration, accessing properties (dot vs. bracket notation), nested objects, keys/values extraction, looping through object properties, and practice tasks.
+
 ---
 
 ## 📂 Repository Structure
@@ -251,6 +254,36 @@ Covers intermediate JavaScript execution context, code execution phases (creatio
 │   ├── ⚡ slice.js
 │   ├── ⚡ sort.js
 │   └── ⚡ while.js
+├── 📁 Milestone 2 Module 11 - Fundamentals of Strings & Objects/
+│   ├── 📁 Practice/
+│   │   ├── ⚡ Task-1.1-Spot-the-Differenc.js
+│   │   ├── ⚡ Task-1.2-Convert-Between-Them.js
+│   │   ├── ⚡ Task-2.1-Case-Conversion.js
+│   │   ├── ⚡ Task-3.1-Slicing-Strings.js
+│   │   ├── ⚡ Task-3.2-Combine-String.js
+│   │   ├── ⚡ Task-4.1-Three-Reversal-Methods.js
+│   │   ├── ⚡ Task-5.1-Build-a-Profile-Object.js
+│   │   ├── ⚡ Task-5.2-Watch-The-Video-Concept.js
+│   │   ├── ⚡ Task-6.1-Dot-VS-Bracket-Notation.js
+│   │   ├── ⚡ Task-7.1-Keys-and-Values.js
+│   │   ├── ⚡ Task-7.2-Nested-Object.js
+│   │   ├── ⚡ Task-8.1-Loop=Through-Properties.js
+│   │   └── ⚡ Task-9.1-Contact-Book.js
+│   ├── ⚡ bracket.js
+│   ├── ⚡ comparison.js
+│   ├── ⚡ concat.js
+│   ├── ⚡ dot.js
+│   ├── ⚡ for-in.js
+│   ├── ⚡ includes.js
+│   ├── ⚡ keys.js
+│   ├── ⚡ nested.js
+│   ├── ⚡ object.js
+│   ├── ⚡ recape.js
+│   ├── ⚡ reverse.js
+│   ├── ⚡ slice.js
+│   ├── ⚡ split.js
+│   ├── ⚡ string.js
+│   └── ⚡ tempCodeRunnerFile.js
 ├── 📁 Milestone 2 Module 7 - Introduction-to-JavaScript/
 │   ├── 📁 practice/
 │   │   ├── 📁 BonusChallenge/

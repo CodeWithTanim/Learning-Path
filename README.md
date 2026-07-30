@@ -11,7 +11,7 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 ### 🎯 Current Focus
 ```bash
 🎯 Currently Mastering: AI-Driven Full Stack Web Engineering
-📊 Progress: 📈 Ongoing (Milestone 2, Conceptual Session 2 - JS Execution & Variable Declaration)
+📊 Progress: 📈 Ongoing (Milestone 2, Module 11 - Fundamentals of Strings & Objects)
 ```
 
 ## 📂 Repository Structure
@@ -227,6 +227,36 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 │   │   ├── ⚡ slice.js
 │   │   ├── ⚡ sort.js
 │   │   └── ⚡ while.js
+│   ├── 📁 Milestone 2 Module 11 - Fundamentals of Strings & Objects/
+│   │   ├── 📁 Practice/
+│   │   │   ├── ⚡ Task-1.1-Spot-the-Differenc.js
+│   │   │   ├── ⚡ Task-1.2-Convert-Between-Them.js
+│   │   │   ├── ⚡ Task-2.1-Case-Conversion.js
+│   │   │   ├── ⚡ Task-3.1-Slicing-Strings.js
+│   │   │   ├── ⚡ Task-3.2-Combine-String.js
+│   │   │   ├── ⚡ Task-4.1-Three-Reversal-Methods.js
+│   │   │   ├── ⚡ Task-5.1-Build-a-Profile-Object.js
+│   │   │   ├── ⚡ Task-5.2-Watch-The-Video-Concept.js
+│   │   │   ├── ⚡ Task-6.1-Dot-VS-Bracket-Notation.js
+│   │   │   ├── ⚡ Task-7.1-Keys-and-Values.js
+│   │   │   ├── ⚡ Task-7.2-Nested-Object.js
+│   │   │   ├── ⚡ Task-8.1-Loop=Through-Properties.js
+│   │   │   └── ⚡ Task-9.1-Contact-Book.js
+│   │   ├── ⚡ bracket.js
+│   │   ├── ⚡ comparison.js
+│   │   ├── ⚡ concat.js
+│   │   ├── ⚡ dot.js
+│   │   ├── ⚡ for-in.js
+│   │   ├── ⚡ includes.js
+│   │   ├── ⚡ keys.js
+│   │   ├── ⚡ nested.js
+│   │   ├── ⚡ object.js
+│   │   ├── ⚡ recape.js
+│   │   ├── ⚡ reverse.js
+│   │   ├── ⚡ slice.js
+│   │   ├── ⚡ split.js
+│   │   ├── ⚡ string.js
+│   │   └── ⚡ tempCodeRunnerFile.js
 │   ├── 📁 Milestone 2 Module 7 - Introduction-to-JavaScript/
 │   │   ├── 📁 practice/
 │   │   │   ├── 📁 BonusChallenge/
