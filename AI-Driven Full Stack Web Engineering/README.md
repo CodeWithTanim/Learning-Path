@@ -34,6 +34,9 @@ Covers the core concepts of loops in JavaScript, including `for` loops, `while` 
 ### 🔹 Milestone 2, Module 10: Fundamental Concepts of Array (`Milestone 2 Module 10 - Fundamental-Concepts-of-Array`)
 Covers the core concepts of arrays in JavaScript, including array initialization, indexing, push/pop/shift/unshift methods, array checks (`includes`/`indexOf`/`Array.isArray`), concatenation, slice/splice, and array manipulation practice tasks.
 
+### 🔹 Milestone 2, Conceptual Session 2: JS Execution & Variable Declaration (`Milestone 2 Conceptual Session 2 - Introduction-to-JavaScript-Program-Execution-and-Variable-Declaration`)
+Covers intermediate JavaScript execution context, code execution phases (creation vs. execution), hoisting, scopes, and variable declarations (`var`, `let`, `const`).
+
 ---
 
 ## 📂 Repository Structure
@@ -191,6 +194,32 @@ Covers the core concepts of arrays in JavaScript, including array initialization
 │   │   └── 🖼️ Vancouver.jpg
 │   ├── 🌐 index.html
 │   └── 🎨 style.css
+├── 📁 Milestone 2 Conceptual Session 2 - Introduction-to-JavaScript-Program-Execution-and-Variable-Declaration/
+│   ├── ⚡ arithmatic.js
+│   ├── ⚡ array.js
+│   ├── ⚡ arrayTraverse.js
+│   ├── ⚡ arrOperation.js
+│   ├── ⚡ break-Continue.js
+│   ├── ⚡ calToFar.js
+│   ├── ⚡ comparing.js
+│   ├── ⚡ dataType.js
+│   ├── ⚡ evenOdd.js
+│   ├── ⚡ factorial.js
+│   ├── ⚡ for-loop.js
+│   ├── ⚡ forOfLoop.js
+│   ├── ⚡ if-else.js
+│   ├── ⚡ ifElseLAdder.js
+│   ├── ⚡ logical-with-if-else.js
+│   ├── ⚡ logical.js
+│   ├── ⚡ reverse-sort.js
+│   ├── ⚡ shorthaa=nd.js
+│   ├── ⚡ slice-splice.js
+│   ├── ⚡ studentGrade.js
+│   ├── ⚡ takaToUsd.js
+│   ├── ⚡ tempCodeRunnerFile.js
+│   ├── ⚡ ternery.js
+│   ├── ⚡ variable.js
+│   └── ⚡ while.js
 ├── 📁 Milestone 2 Module 10 - Fundamental-Concepts-of-Array/
 │   ├── 📁 Practice_Tasks/
 │   │   ├── ⚡ Advanced_Task_1.js

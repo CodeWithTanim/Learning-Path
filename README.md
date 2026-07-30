@@ -11,7 +11,7 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 ### 🎯 Current Focus
 ```bash
 🎯 Currently Mastering: AI-Driven Full Stack Web Engineering
-📊 Progress: 📈 Ongoing (Milestone 2, Module 10 - Fundamental Concepts of Array)
+📊 Progress: 📈 Ongoing (Milestone 2, Conceptual Session 2 - JS Execution & Variable Declaration)
 ```
 
 ## 📂 Repository Structure
@@ -170,6 +170,32 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 │   │   │   └── 🖼️ Vancouver.jpg
 │   │   ├── 🌐 index.html
 │   │   └── 🎨 style.css
+│   ├── 📁 Milestone 2 Conceptual Session 2 - Introduction-to-JavaScript-Program-Execution-and-Variable-Declaration/
+│   │   ├── ⚡ arithmatic.js
+│   │   ├── ⚡ array.js
+│   │   ├── ⚡ arrayTraverse.js
+│   │   ├── ⚡ arrOperation.js
+│   │   ├── ⚡ break-Continue.js
+│   │   ├── ⚡ calToFar.js
+│   │   ├── ⚡ comparing.js
+│   │   ├── ⚡ dataType.js
+│   │   ├── ⚡ evenOdd.js
+│   │   ├── ⚡ factorial.js
+│   │   ├── ⚡ for-loop.js
+│   │   ├── ⚡ forOfLoop.js
+│   │   ├── ⚡ if-else.js
+│   │   ├── ⚡ ifElseLAdder.js
+│   │   ├── ⚡ logical-with-if-else.js
+│   │   ├── ⚡ logical.js
+│   │   ├── ⚡ reverse-sort.js
+│   │   ├── ⚡ shorthaa=nd.js
+│   │   ├── ⚡ slice-splice.js
+│   │   ├── ⚡ studentGrade.js
+│   │   ├── ⚡ takaToUsd.js
+│   │   ├── ⚡ tempCodeRunnerFile.js
+│   │   ├── ⚡ ternery.js
+│   │   ├── ⚡ variable.js
+│   │   └── ⚡ while.js
 │   ├── 📁 Milestone 2 Module 10 - Fundamental-Concepts-of-Array/
 │   │   ├── 📁 Practice_Tasks/
 │   │   │   ├── ⚡ Advanced_Task_1.js
