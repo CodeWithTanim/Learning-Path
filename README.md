@@ -11,7 +11,7 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 ### 🎯 Current Focus
 ```bash
 🎯 Currently Mastering: AI-Driven Full Stack Web Engineering
-📊 Progress: 📈 Ongoing (Milestone 2, Module 11 - Fundamentals of Strings & Objects)
+📊 Progress: 📈 Ongoing (Milestone 2, Module 12 - Fundamental of Functions)
 ```
 
 ## 📂 Repository Structure
@@ -257,6 +257,18 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 │   │   ├── ⚡ split.js
 │   │   ├── ⚡ string.js
 │   │   └── ⚡ tempCodeRunnerFile.js
+│   ├── 📁 Milestone 2 Module 12 - Fundamental-of-Functions/
+│   │   ├── ⚡ arguments.js
+│   │   ├── ⚡ arraySum.js
+│   │   ├── ⚡ different.js
+│   │   ├── ⚡ evens.js
+│   │   ├── ⚡ function.js
+│   │   ├── ⚡ is-even.js
+│   │   ├── ⚡ is-Odd.js
+│   │   ├── ⚡ parameter.js
+│   │   ├── ⚡ recap.js
+│   │   ├── ⚡ return.js
+│   │   └── ⚡ revision.js
 │   ├── 📁 Milestone 2 Module 7 - Introduction-to-JavaScript/
 │   │   ├── 📁 practice/
 │   │   │   ├── 📁 BonusChallenge/

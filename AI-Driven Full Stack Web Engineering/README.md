@@ -40,6 +40,9 @@ Covers intermediate JavaScript execution context, code execution phases (creatio
 ### 🔹 Milestone 2, Module 11: Fundamentals of Strings & Objects (`Milestone 2 Module 11 - Fundamentals of Strings & Objects`)
 Covers the core concepts of strings and objects in JavaScript, including string properties/methods (lowercase, uppercase, trim, slice, split, join, concat, includes, reverse), object declaration, accessing properties (dot vs. bracket notation), nested objects, keys/values extraction, looping through object properties, and practice tasks.
 
+### 🔹 Milestone 2, Module 12: Fundamental of Functions (`Milestone 2 Module 12 - Fundamental-of-Functions`)
+Covers the core concepts of functions in JavaScript, including function declaration, parameters, return statements, return vs. no-return, standard function structures, and function practice tasks.
+
 ---
 
 ## 📂 Repository Structure
@@ -284,6 +287,18 @@ Covers the core concepts of strings and objects in JavaScript, including string 
 │   ├── ⚡ split.js
 │   ├── ⚡ string.js
 │   └── ⚡ tempCodeRunnerFile.js
+├── 📁 Milestone 2 Module 12 - Fundamental-of-Functions/
+│   ├── ⚡ arguments.js
+│   ├── ⚡ arraySum.js
+│   ├── ⚡ different.js
+│   ├── ⚡ evens.js
+│   ├── ⚡ function.js
+│   ├── ⚡ is-even.js
+│   ├── ⚡ is-Odd.js
+│   ├── ⚡ parameter.js
+│   ├── ⚡ recap.js
+│   ├── ⚡ return.js
+│   └── ⚡ revision.js
 ├── 📁 Milestone 2 Module 7 - Introduction-to-JavaScript/
 │   ├── 📁 practice/
 │   │   ├── 📁 BonusChallenge/
