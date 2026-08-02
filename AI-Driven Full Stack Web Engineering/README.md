@@ -43,6 +43,9 @@ Covers the core concepts of strings and objects in JavaScript, including string 
 ### 🔹 Milestone 2, Module 12: Fundamental of Functions (`Milestone 2 Module 12 - Fundamental-of-Functions`)
 Covers the core concepts of functions in JavaScript, including function declaration, parameters, return statements, return vs. no-return, standard function structures, and function practice tasks.
 
+### 🔹 Milestone 2, Conceptual Session 3: JavaScript Foundation (`Milestone 2 Conceptual Session 3 - JavaScript-Foundation`)
+Deep dive session on fundamental JavaScript foundation concepts, variables, conditions, loops, arrays, objects, functions, and solving various practice problems.
+
 ---
 
 ## 📂 Repository Structure
@@ -226,6 +229,23 @@ Covers the core concepts of functions in JavaScript, including function declarat
 │   ├── ⚡ ternery.js
 │   ├── ⚡ variable.js
 │   └── ⚡ while.js
+├── 📁 Milestone 2 Conceptual Session 3 - JavaScript-Foundation/
+│   ├── ⚡ arrAvg.js
+│   ├── ⚡ calculatePrice.js
+│   ├── ⚡ evenOdd.js
+│   ├── ⚡ evenOddArr.js
+│   ├── ⚡ function-return.js
+│   ├── ⚡ function.js
+│   ├── ⚡ iteration-over-object.js
+│   ├── ⚡ largestNumber.js
+│   ├── ⚡ maxMinArr.js
+│   ├── ⚡ more-string-method.js
+│   ├── ⚡ object-method.js
+│   ├── ⚡ object.js
+│   ├── ⚡ string-method.js
+│   ├── ⚡ string.js
+│   ├── ⚡ strReverse-with-method.js
+│   └── ⚡ strReversed-with-loop.js
 ├── 📁 Milestone 2 Module 10 - Fundamental-Concepts-of-Array/
 │   ├── 📁 Practice_Tasks/
 │   │   ├── ⚡ Advanced_Task_1.js

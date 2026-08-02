@@ -11,7 +11,7 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 ### 🎯 Current Focus
 ```bash
 🎯 Currently Mastering: AI-Driven Full Stack Web Engineering
-📊 Progress: 📈 Ongoing (Milestone 2, Module 12 - Fundamental of Functions)
+📊 Progress: 📈 Ongoing (Milestone 2, Conceptual Session 3 - JavaScript Foundation)
 ```
 
 ## 📂 Repository Structure
@@ -196,6 +196,23 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 │   │   ├── ⚡ ternery.js
 │   │   ├── ⚡ variable.js
 │   │   └── ⚡ while.js
+│   ├── 📁 Milestone 2 Conceptual Session 3 - JavaScript-Foundation/
+│   │   ├── ⚡ arrAvg.js
+│   │   ├── ⚡ calculatePrice.js
+│   │   ├── ⚡ evenOdd.js
+│   │   ├── ⚡ evenOddArr.js
+│   │   ├── ⚡ function-return.js
+│   │   ├── ⚡ function.js
+│   │   ├── ⚡ iteration-over-object.js
+│   │   ├── ⚡ largestNumber.js
+│   │   ├── ⚡ maxMinArr.js
+│   │   ├── ⚡ more-string-method.js
+│   │   ├── ⚡ object-method.js
+│   │   ├── ⚡ object.js
+│   │   ├── ⚡ string-method.js
+│   │   ├── ⚡ string.js
+│   │   ├── ⚡ strReverse-with-method.js
+│   │   └── ⚡ strReversed-with-loop.js
 │   ├── 📁 Milestone 2 Module 10 - Fundamental-Concepts-of-Array/
 │   │   ├── 📁 Practice_Tasks/
 │   │   │   ├── ⚡ Advanced_Task_1.js
