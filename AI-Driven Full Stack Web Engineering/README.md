@@ -46,6 +46,9 @@ Covers the core concepts of functions in JavaScript, including function declarat
 ### 🔹 Milestone 2, Conceptual Session 3: JavaScript Foundation (`Milestone 2 Conceptual Session 3 - JavaScript-Foundation`)
 Deep dive session on fundamental JavaScript foundation concepts, variables, conditions, loops, arrays, objects, functions, and solving various practice problems.
 
+### 🔹 Milestone 2, Module 13: Basic Problem Solving With JavaScript (`Milestone 2 Module 13 - Basic-Problem-Solving-With-JavaScript`)
+Covers JavaScript problem solving, including unit conversions (inch to feet, mile to kilometer), leap year checks, sum/average of odd/even numbers in array, duplicate element removal, usage of standard JavaScript math functions, swapping variables, and array manipulation tasks.
+
 ---
 
 ## 📂 Repository Structure
@@ -319,6 +322,43 @@ Deep dive session on fundamental JavaScript foundation concepts, variables, cond
 │   ├── ⚡ recap.js
 │   ├── ⚡ return.js
 │   └── ⚡ revision.js
+├── 📁 Milestone 2 Module 13 - Basic-Problem-Solving-With-JavaScript/
+│   ├── 📁 Practice-Tasks/
+│   │   ├── 📄 B14-M13-Practice Task.pdf
+│   │   ├── ⚡ Task13-10A.js
+│   │   ├── ⚡ Task13-10B.js
+│   │   ├── ⚡ Task13-10C.js
+│   │   ├── ⚡ Task13-10D.js
+│   │   ├── ⚡ Task13-2A.js
+│   │   ├── ⚡ Task13-2B.js
+│   │   ├── ⚡ Task13-3A.js
+│   │   ├── ⚡ Task13-3B.js
+│   │   ├── ⚡ Task13-4A.js
+│   │   ├── ⚡ Task13-4B.js
+│   │   ├── ⚡ Task13-5A.js
+│   │   ├── ⚡ Task13-5B.js
+│   │   ├── ⚡ Task13-6A.js
+│   │   ├── ⚡ Task13-6B.js
+│   │   ├── ⚡ Task13-7A.js
+│   │   ├── ⚡ TAsk13-7B.js
+│   │   ├── ⚡ Task13-8A.js
+│   │   ├── ⚡ Task13-8B.js
+│   │   └── ⚡ Task13-9.js
+│   ├── ⚡ problem-1.js
+│   ├── ⚡ problem-10.js
+│   ├── ⚡ problem-11.js
+│   ├── ⚡ problem-12.js
+│   ├── ⚡ problem-13.js
+│   ├── ⚡ problem-14.js
+│   ├── ⚡ problem-15.js
+│   ├── ⚡ problem-2.js
+│   ├── ⚡ problem-3.js
+│   ├── ⚡ problem-4.js
+│   ├── ⚡ problem-5.js
+│   ├── ⚡ problem-6.js
+│   ├── ⚡ problem-7.js
+│   ├── ⚡ problem-8.js
+│   └── ⚡ problem-9.js
 ├── 📁 Milestone 2 Module 7 - Introduction-to-JavaScript/
 │   ├── 📁 practice/
 │   │   ├── 📁 BonusChallenge/
