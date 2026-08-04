@@ -49,6 +49,9 @@ Deep dive session on fundamental JavaScript foundation concepts, variables, cond
 ### 🔹 Milestone 2, Module 13: Basic Problem Solving With JavaScript (`Milestone 2 Module 13 - Basic-Problem-Solving-With-JavaScript`)
 Covers JavaScript problem solving, including unit conversions (inch to feet, mile to kilometer), leap year checks, sum/average of odd/even numbers in array, duplicate element removal, usage of standard JavaScript math functions, swapping variables, and array manipulation tasks.
 
+### 🔹 Milestone 2, Module 14: Debugging and Problem solving with JavaScript (`Milestone 2 Module 14 - Debugging-and-Problem-solving-with-JavaScript`)
+Covers JavaScript debugging techniques and solving various programming problems, including finding max/min values in arrays, summing numbers in arrays, calculating total price in shopping carts, discount logic, simple calculator implementation, and coding tasks.
+
 ---
 
 ## 📂 Repository Structure
@@ -359,6 +362,20 @@ Covers JavaScript problem solving, including unit conversions (inch to feet, mil
 │   ├── ⚡ problem-7.js
 │   ├── ⚡ problem-8.js
 │   └── ⚡ problem-9.js
+├── 📁 Milestone 2 Module 14 - Debugging-and-Problem-solving-with-JavaScript/
+│   ├── 📄 Module 14_ Practice Tasks (Find the Bug, Fix It) .pdf
+│   ├── ⚡ Task14-1.js
+│   ├── ⚡ Task14-2.js
+│   ├── ⚡ Task14-3.js
+│   ├── ⚡ Task14-4.js
+│   ├── ⚡ Task14-5.js
+│   ├── ⚡ Task14-6.js
+│   ├── ⚡ Task14-7.js
+│   ├── ⚡ Task14-8.js
+│   ├── ⚡ Task14-9.js
+│   ├── ⚡ Task14-9B.js
+│   ├── ⚡ Task14-9C.js
+│   └── ⚡ Task14-9D.js
 ├── 📁 Milestone 2 Module 7 - Introduction-to-JavaScript/
 │   ├── 📁 practice/
 │   │   ├── 📁 BonusChallenge/
