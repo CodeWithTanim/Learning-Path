@@ -52,6 +52,9 @@ Covers JavaScript problem solving, including unit conversions (inch to feet, mil
 ### 🔹 Milestone 2, Module 14: Debugging and Problem solving with JavaScript (`Milestone 2 Module 14 - Debugging-and-Problem-solving-with-JavaScript`)
 Covers JavaScript debugging techniques and solving various programming problems, including finding max/min values in arrays, summing numbers in arrays, calculating total price in shopping carts, discount logic, simple calculator implementation, and coding tasks.
 
+### 🔹 Milestone 2, Module 15 / Assignment 2: JavaScript Problems (`Milestone 2 Module 15 - Assignment-2`)
+Solving intermediate JavaScript assignment problems including match winner tracker, elevator weight safety checker, AI token cost calculator, top-rated restaurant finder, and API response time monitoring/debugging challenge.
+
 ---
 
 ## 📂 Repository Structure
@@ -376,6 +379,13 @@ Covers JavaScript debugging techniques and solving various programming problems,
 │   ├── ⚡ Task14-9B.js
 │   ├── ⚡ Task14-9C.js
 │   └── ⚡ Task14-9D.js
+├── 📁 Milestone 2 Module 15 - Assignment-2/
+│   ├── ⚡ final-solution-submited.js
+│   ├── ⚡ Problem-1-Match-Winner.js
+│   ├── ⚡ Problem-2-ElevatorWeightSafetyChecker.js
+│   ├── ⚡ Problem-3-Ai-Token-Cose-Calculator.js
+│   ├── ⚡ Problem-4-Top-Rated-Restaurant-Finder.js
+│   └── ⚡ Problem-5-Debugging-Challenge-API-Response-Time-Monitor.js
 ├── 📁 Milestone 2 Module 7 - Introduction-to-JavaScript/
 │   ├── 📁 practice/
 │   │   ├── 📁 BonusChallenge/

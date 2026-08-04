@@ -11,7 +11,7 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 ### 🎯 Current Focus
 ```bash
 🎯 Currently Mastering: AI-Driven Full Stack Web Engineering
-📊 Progress: 📈 Ongoing (Milestone 2, Module 14 - Debugging and Problem solving with JavaScript)
+📊 Progress: 📈 Ongoing (Milestone 2, Module 15 / Assignment 2 - JavaScript Problems)
 ```
 
 ## 📂 Repository Structure
@@ -337,6 +337,13 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 │   │   ├── ⚡ Task14-9B.js
 │   │   ├── ⚡ Task14-9C.js
 │   │   └── ⚡ Task14-9D.js
+│   ├── 📁 Milestone 2 Module 15 - Assignment-2/
+│   │   ├── ⚡ final-solution-submited.js
+│   │   ├── ⚡ Problem-1-Match-Winner.js
+│   │   ├── ⚡ Problem-2-ElevatorWeightSafetyChecker.js
+│   │   ├── ⚡ Problem-3-Ai-Token-Cose-Calculator.js
+│   │   ├── ⚡ Problem-4-Top-Rated-Restaurant-Finder.js
+│   │   └── ⚡ Problem-5-Debugging-Challenge-API-Response-Time-Monitor.js
 │   ├── 📁 Milestone 2 Module 7 - Introduction-to-JavaScript/
 │   │   ├── 📁 practice/
 │   │   │   ├── 📁 BonusChallenge/
