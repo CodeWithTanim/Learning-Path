@@ -11,7 +11,7 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 ### 🎯 Current Focus
 ```bash
 🎯 Currently Mastering: AI-Driven Full Stack Web Engineering
-📊 Progress: 📈 Ongoing (Milestone 2, Module 15 / Assignment 2 - JavaScript Problems)
+📊 Progress: 📈 Ongoing (Milestone 3, Module 16 - ES6 Fundamentals)
 ```
 
 ## 📂 Repository Structure
@@ -447,6 +447,26 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 │   │   ├── ⚡ sum.js
 │   │   ├── ⚡ table.js
 │   │   └── ⚡ while.js
+│   ├── 📁 Milestone 3 Module 16 - ES6-Fundamentals/
+│   │   ├── 📁 Practice-Tasks/
+│   │   │   ├── ⚡ 1.Scope-Detective.js
+│   │   │   ├── ⚡ 2.Movie-Ticket-Booking.js
+│   │   │   ├── ⚡ 3.Receipt-Generator.js
+│   │   │   ├── ⚡ 4.BMI-Calculator.js
+│   │   │   ├── ⚡ 5.Inventory-Merge-and-Max-Score.js
+│   │   │   ├── ⚡ 6.UserProfileExtractor.js
+│   │   │   ├── ⚡ 7.InventoryObjectManager.js
+│   │   │   ├── ⚡ 8.Object-Looper.js
+│   │   │   ├── ⚡ 9.ES6-Refactor-Challenge.js
+│   │   │   └── 📄 Module16_ES6_Practice_Tasks (1).pdf
+│   │   ├── ⚡ 1.Var_let_const.js
+│   │   ├── ⚡ 2.default-parameter.js
+│   │   ├── ⚡ 3.Template-String.js
+│   │   ├── ⚡ 4.Spread-and-rest-operator.js
+│   │   ├── ⚡ 5.array_Function.js
+│   │   ├── ⚡ 6.destructuring.js
+│   │   ├── ⚡ 7.Object-Method.js
+│   │   └── ⚡ 8.nested-object-optional-chaining-and-object-looping.js
 │   └── 📖 README.md
 ├── 📁 Complete_Python_For_Ai_ML/
 │   ├── 📁 Chapter_1_Installation/

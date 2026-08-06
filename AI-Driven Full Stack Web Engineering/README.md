@@ -55,6 +55,9 @@ Covers JavaScript debugging techniques and solving various programming problems,
 ### 🔹 Milestone 2, Module 15 / Assignment 2: JavaScript Problems (`Milestone 2 Module 15 - Assignment-2`)
 Solving intermediate JavaScript assignment problems including match winner tracker, elevator weight safety checker, AI token cost calculator, top-rated restaurant finder, and API response time monitoring/debugging challenge.
 
+### 🔹 Milestone 3, Module 16: ES6 Fundamentals (`Milestone 3 Module 16 - ES6-Fundamentals`)
+Covers modern ES6+ features in JavaScript including `let`/`const`, template literals, arrow functions, the spread operator (`...`), destructuring (objects & arrays), keys/values extraction, `forEach`, `map`, `filter`, `find`, `reduce`, classes, inheritance, and practice tasks.
+
 ---
 
 ## 📂 Repository Structure
@@ -462,33 +465,53 @@ Solving intermediate JavaScript assignment problems including match winner track
 │   ├── ⚡ recap.js
 │   ├── ⚡ Ternary.js
 │   └── ⚡ vote.js
-└── 📁 Milestone 2 Module 9 - Fundamental-Concepts-of-Loops/
-    ├── 📁 Practices/
-    │   ├── ⚡ 1.Print-Hello-5-Times.js
-    │   ├── ⚡ 10.Using-Break.js
-    │   ├── ⚡ 11.Using-Continue.js
-    │   ├── ⚡ 12.Do-While-Loop.js
-    │   ├── ⚡ 13.Comparing-Loop-Type.js
-    │   ├── ⚡ 14.Mini-Challenge.js
-    │   ├── ⚡ 2.Print-1-to-10.js
-    │   ├── ⚡ 3.Count-down-with-While-Loop.js
-    │   ├── ⚡ 4.Repeat-a-Message.js
-    │   ├── ⚡ 5.Even-Number.js
-    │   ├── ⚡ 6.Sum-of-Number.js
-    │   ├── ⚡ 7.Multiplication-Table.js
-    │   ├── ⚡ 8.Count-Down-from-20-for-Loop.js
-    │   └── ⚡ 9.Sum-of-Even-Number.js
-    ├── ⚡ break.js
-    ├── ⚡ continue.js
-    ├── ⚡ decreasing.js
-    ├── ⚡ do-while.js
-    ├── ⚡ even.js
-    ├── ⚡ for.js
-    ├── ⚡ loop.js
-    ├── ⚡ repeat.js
-    ├── ⚡ sum.js
-    ├── ⚡ table.js
-    └── ⚡ while.js
+├── 📁 Milestone 2 Module 9 - Fundamental-Concepts-of-Loops/
+│   ├── 📁 Practices/
+│   │   ├── ⚡ 1.Print-Hello-5-Times.js
+│   │   ├── ⚡ 10.Using-Break.js
+│   │   ├── ⚡ 11.Using-Continue.js
+│   │   ├── ⚡ 12.Do-While-Loop.js
+│   │   ├── ⚡ 13.Comparing-Loop-Type.js
+│   │   ├── ⚡ 14.Mini-Challenge.js
+│   │   ├── ⚡ 2.Print-1-to-10.js
+│   │   ├── ⚡ 3.Count-down-with-While-Loop.js
+│   │   ├── ⚡ 4.Repeat-a-Message.js
+│   │   ├── ⚡ 5.Even-Number.js
+│   │   ├── ⚡ 6.Sum-of-Number.js
+│   │   ├── ⚡ 7.Multiplication-Table.js
+│   │   ├── ⚡ 8.Count-Down-from-20-for-Loop.js
+│   │   └── ⚡ 9.Sum-of-Even-Number.js
+│   ├── ⚡ break.js
+│   ├── ⚡ continue.js
+│   ├── ⚡ decreasing.js
+│   ├── ⚡ do-while.js
+│   ├── ⚡ even.js
+│   ├── ⚡ for.js
+│   ├── ⚡ loop.js
+│   ├── ⚡ repeat.js
+│   ├── ⚡ sum.js
+│   ├── ⚡ table.js
+│   └── ⚡ while.js
+└── 📁 Milestone 3 Module 16 - ES6-Fundamentals/
+    ├── 📁 Practice-Tasks/
+    │   ├── ⚡ 1.Scope-Detective.js
+    │   ├── ⚡ 2.Movie-Ticket-Booking.js
+    │   ├── ⚡ 3.Receipt-Generator.js
+    │   ├── ⚡ 4.BMI-Calculator.js
+    │   ├── ⚡ 5.Inventory-Merge-and-Max-Score.js
+    │   ├── ⚡ 6.UserProfileExtractor.js
+    │   ├── ⚡ 7.InventoryObjectManager.js
+    │   ├── ⚡ 8.Object-Looper.js
+    │   ├── ⚡ 9.ES6-Refactor-Challenge.js
+    │   └── 📄 Module16_ES6_Practice_Tasks (1).pdf
+    ├── ⚡ 1.Var_let_const.js
+    ├── ⚡ 2.default-parameter.js
+    ├── ⚡ 3.Template-String.js
+    ├── ⚡ 4.Spread-and-rest-operator.js
+    ├── ⚡ 5.array_Function.js
+    ├── ⚡ 6.destructuring.js
+    ├── ⚡ 7.Object-Method.js
+    └── ⚡ 8.nested-object-optional-chaining-and-object-looping.js
 ```
 
 ---
