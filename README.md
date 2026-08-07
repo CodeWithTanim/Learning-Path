@@ -11,7 +11,7 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 ### 🎯 Current Focus
 ```bash
 🎯 Currently Mastering: AI-Driven Full Stack Web Engineering
-📊 Progress: 📈 Ongoing (Milestone 3, Module 16 - ES6 Fundamentals)
+📊 Progress: 📈 Ongoing (Milestone 3, Module 17 - More ES6)
 ```
 
 ## 📂 Repository Structure
@@ -467,6 +467,18 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 │   │   ├── ⚡ 6.destructuring.js
 │   │   ├── ⚡ 7.Object-Method.js
 │   │   └── ⚡ 8.nested-object-optional-chaining-and-object-looping.js
+│   ├── 📁 Milestone 3 Module 17 - More ES6/
+│   │   ├── ⚡ 1.data-type.js
+│   │   ├── ⚡ 10.reduce-and-slice.js
+│   │   ├── ⚡ 2.undefined-vs-null-and-truthy-falsy.js
+│   │   ├── ⚡ 3.==vs===scope-Hosting.js
+│   │   ├── ⚡ 4.hoisting.js
+│   │   ├── ⚡ 5.closure.js
+│   │   ├── ⚡ 6.callback-Fucntion.js
+│   │   ├── ⚡ 7.pass-by-value-pass-by-ref.js
+│   │   ├── ⚡ 8.pre-and-post-increment-decrement.js
+│   │   ├── ⚡ 9.map-for-each-filter-find.js
+│   │   └── ⚡ reels.js
 │   └── 📖 README.md
 ├── 📁 Complete_Python_For_Ai_ML/
 │   ├── 📁 Chapter_1_Installation/

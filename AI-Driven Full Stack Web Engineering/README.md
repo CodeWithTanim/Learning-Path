@@ -58,6 +58,9 @@ Solving intermediate JavaScript assignment problems including match winner track
 ### 🔹 Milestone 3, Module 16: ES6 Fundamentals (`Milestone 3 Module 16 - ES6-Fundamentals`)
 Covers modern ES6+ features in JavaScript including `let`/`const`, template literals, arrow functions, the spread operator (`...`), destructuring (objects & arrays), keys/values extraction, `forEach`, `map`, `filter`, `find`, `reduce`, classes, inheritance, and practice tasks.
 
+### 🔹 Milestone 3, Module 17: More ES6 (`Milestone 3 Module 17 - More ES6`)
+Covers advanced ES6+ topics in JavaScript, including `map` vs. `forEach`, filtering arrays, find operations, destructuring nested objects, accessing arrays of objects, optional chaining (`?.`), prototypal inheritance, and ES6 practice tasks.
+
 ---
 
 ## 📂 Repository Structure
@@ -492,26 +495,38 @@ Covers modern ES6+ features in JavaScript including `let`/`const`, template lite
 │   ├── ⚡ sum.js
 │   ├── ⚡ table.js
 │   └── ⚡ while.js
-└── 📁 Milestone 3 Module 16 - ES6-Fundamentals/
-    ├── 📁 Practice-Tasks/
-    │   ├── ⚡ 1.Scope-Detective.js
-    │   ├── ⚡ 2.Movie-Ticket-Booking.js
-    │   ├── ⚡ 3.Receipt-Generator.js
-    │   ├── ⚡ 4.BMI-Calculator.js
-    │   ├── ⚡ 5.Inventory-Merge-and-Max-Score.js
-    │   ├── ⚡ 6.UserProfileExtractor.js
-    │   ├── ⚡ 7.InventoryObjectManager.js
-    │   ├── ⚡ 8.Object-Looper.js
-    │   ├── ⚡ 9.ES6-Refactor-Challenge.js
-    │   └── 📄 Module16_ES6_Practice_Tasks (1).pdf
-    ├── ⚡ 1.Var_let_const.js
-    ├── ⚡ 2.default-parameter.js
-    ├── ⚡ 3.Template-String.js
-    ├── ⚡ 4.Spread-and-rest-operator.js
-    ├── ⚡ 5.array_Function.js
-    ├── ⚡ 6.destructuring.js
-    ├── ⚡ 7.Object-Method.js
-    └── ⚡ 8.nested-object-optional-chaining-and-object-looping.js
+├── 📁 Milestone 3 Module 16 - ES6-Fundamentals/
+│   ├── 📁 Practice-Tasks/
+│   │   ├── ⚡ 1.Scope-Detective.js
+│   │   ├── ⚡ 2.Movie-Ticket-Booking.js
+│   │   ├── ⚡ 3.Receipt-Generator.js
+│   │   ├── ⚡ 4.BMI-Calculator.js
+│   │   ├── ⚡ 5.Inventory-Merge-and-Max-Score.js
+│   │   ├── ⚡ 6.UserProfileExtractor.js
+│   │   ├── ⚡ 7.InventoryObjectManager.js
+│   │   ├── ⚡ 8.Object-Looper.js
+│   │   ├── ⚡ 9.ES6-Refactor-Challenge.js
+│   │   └── 📄 Module16_ES6_Practice_Tasks (1).pdf
+│   ├── ⚡ 1.Var_let_const.js
+│   ├── ⚡ 2.default-parameter.js
+│   ├── ⚡ 3.Template-String.js
+│   ├── ⚡ 4.Spread-and-rest-operator.js
+│   ├── ⚡ 5.array_Function.js
+│   ├── ⚡ 6.destructuring.js
+│   ├── ⚡ 7.Object-Method.js
+│   └── ⚡ 8.nested-object-optional-chaining-and-object-looping.js
+└── 📁 Milestone 3 Module 17 - More ES6/
+    ├── ⚡ 1.data-type.js
+    ├── ⚡ 10.reduce-and-slice.js
+    ├── ⚡ 2.undefined-vs-null-and-truthy-falsy.js
+    ├── ⚡ 3.==vs===scope-Hosting.js
+    ├── ⚡ 4.hoisting.js
+    ├── ⚡ 5.closure.js
+    ├── ⚡ 6.callback-Fucntion.js
+    ├── ⚡ 7.pass-by-value-pass-by-ref.js
+    ├── ⚡ 8.pre-and-post-increment-decrement.js
+    ├── ⚡ 9.map-for-each-filter-find.js
+    └── ⚡ reels.js
 ```
 
 ---
