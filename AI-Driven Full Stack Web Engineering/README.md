@@ -64,6 +64,9 @@ Covers modern ES6+ features in JavaScript including `let`/`const`, template lite
 ### 🔹 Milestone 3, Module 17: More ES6 (`Milestone 3 Module 17 - More ES6`)
 Covers advanced ES6+ topics in JavaScript, including `map` vs. `forEach`, filtering arrays, find operations, destructuring nested objects, accessing arrays of objects, optional chaining (`?.`), prototypal inheritance, and ES6 practice tasks.
 
+### 🔹 Milestone 3, Conceptual Session 5: JavaScript ES6 Intro (`Milestone 3 Conceptual Session 5 - JavaScript-ES6-Intro`)
+Conceptual session introducing advanced JavaScript ES6+ patterns, scope differences, array map/filter/find methods, object destructuring, optional chaining, and problem solving.
+
 ---
 
 ## 📂 Repository Structure
@@ -525,6 +528,19 @@ Covers advanced ES6+ topics in JavaScript, including `map` vs. `forEach`, filter
 │   ├── ⚡ sum.js
 │   ├── ⚡ table.js
 │   └── ⚡ while.js
+├── 📁 Milestone 3 Conceptual Session 5 - JavaScript-ES6-Intro/
+│   ├── ⚡ arrowFunction.js
+│   ├── ⚡ closure.js
+│   ├── ⚡ defaultParameter.js
+│   ├── ⚡ equal.js
+│   ├── ⚡ hoisting.js
+│   ├── ⚡ jsMethod.js
+│   ├── ⚡ objDest.js
+│   ├── ⚡ optionalChain.js
+│   ├── ⚡ premetive-NonPremitive-Data-Type.js
+│   ├── ⚡ restAndSpread.js
+│   ├── ⚡ scope.js
+│   └── ⚡ templateString.js
 ├── 📁 Milestone 3 Module 16 - ES6-Fundamentals/
 │   ├── 📁 Practice-Tasks/
 │   │   ├── ⚡ 1.Scope-Detective.js

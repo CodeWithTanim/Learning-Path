@@ -11,7 +11,7 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 ### 🎯 Current Focus
 ```bash
 🎯 Currently Mastering: AI-Driven Full Stack Web Engineering
-📊 Progress: 📈 Ongoing (Milestone 2, Conceptual Session 4 - Problem Solving with JavaScript)
+📊 Progress: 📈 Ongoing (Milestone 3, Conceptual Session 5 - JavaScript ES6 Intro)
 ```
 
 ## 📂 Repository Structure
@@ -474,6 +474,19 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 │   │   ├── ⚡ sum.js
 │   │   ├── ⚡ table.js
 │   │   └── ⚡ while.js
+│   ├── 📁 Milestone 3 Conceptual Session 5 - JavaScript-ES6-Intro/
+│   │   ├── ⚡ arrowFunction.js
+│   │   ├── ⚡ closure.js
+│   │   ├── ⚡ defaultParameter.js
+│   │   ├── ⚡ equal.js
+│   │   ├── ⚡ hoisting.js
+│   │   ├── ⚡ jsMethod.js
+│   │   ├── ⚡ objDest.js
+│   │   ├── ⚡ optionalChain.js
+│   │   ├── ⚡ premetive-NonPremitive-Data-Type.js
+│   │   ├── ⚡ restAndSpread.js
+│   │   ├── ⚡ scope.js
+│   │   └── ⚡ templateString.js
 │   ├── 📁 Milestone 3 Module 16 - ES6-Fundamentals/
 │   │   ├── 📁 Practice-Tasks/
 │   │   │   ├── ⚡ 1.Scope-Detective.js
