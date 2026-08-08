@@ -11,7 +11,7 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 ### 🎯 Current Focus
 ```bash
 🎯 Currently Mastering: AI-Driven Full Stack Web Engineering
-📊 Progress: 📈 Ongoing (Milestone 3, Module 17 - More ES6)
+📊 Progress: 📈 Ongoing (Milestone 2, Conceptual Session 4 - Problem Solving with JavaScript)
 ```
 
 ## 📂 Repository Structure
@@ -213,6 +213,33 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 │   │   ├── ⚡ string.js
 │   │   ├── ⚡ strReverse-with-method.js
 │   │   └── ⚡ strReversed-with-loop.js
+│   ├── 📁 Milestone 2 Conceptual Session 4 - Problem-Solving-with-JavaScript/
+│   │   ├── ⚡ A01_largest-and-smallest.js
+│   │   ├── ⚡ A02_word-positiong-filter.js
+│   │   ├── ⚡ A03-weekly-steps-summary.js
+│   │   ├── ⚡ A04_Palindrome-Checker.js
+│   │   ├── ⚡ A05_Count-Vowels.js
+│   │   ├── ⚡ A06_Remove-Duplicates.js
+│   │   ├── ⚡ A07_Student-Report-Card-Generator.js
+│   │   ├── ⚡ A08_Leap-Year-Check.js
+│   │   ├── ⚡ A09_Email-Domain-Analyzer.js
+│   │   ├── ⚡ AD01_Missing_Comma.js
+│   │   ├── ⚡ AD02_Typo_Trap.js
+│   │   ├── ⚡ AD03_Silent_Assignment.js
+│   │   ├── ⚡ AD04_Unreachable_Line.js
+│   │   ├── ⚡ B01_Sum-of-Digits.js
+│   │   ├── ⚡ B02_Running-Total-Generator.js
+│   │   ├── ⚡ B03_Reverse-each-word-in-a-sentence.js
+│   │   ├── ⚡ B04__Second-Largest-Number.js
+│   │   ├── ⚡ B05_Count-Even-and-Odd_in-an-Array.js
+│   │   ├── ⚡ B06_Employy-Salary-Slip.js
+│   │   ├── ⚡ B07_Character-Frequency-Counter.js
+│   │   ├── ⚡ B08_Cart-Total-Validator.js
+│   │   ├── ⚡ BD01_Missing_Parenthesis.js
+│   │   ├── ⚡ BD02_Method_That_Isnt_There.js
+│   │   ├── ⚡ BD03_Extra_Loop.js
+│   │   ├── ⚡ BD04_Reversed_Discount.js
+│   │   └── 📄 JS_Session03_Teach_Sheet.pdf
 │   ├── 📁 Milestone 2 Module 10 - Fundamental-Concepts-of-Array/
 │   │   ├── 📁 Practice_Tasks/
 │   │   │   ├── ⚡ Advanced_Task_1.js
