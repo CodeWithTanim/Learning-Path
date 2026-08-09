@@ -67,6 +67,9 @@ Covers advanced ES6+ topics in JavaScript, including `map` vs. `forEach`, filter
 ### 🔹 Milestone 3, Conceptual Session 5: JavaScript ES6 Intro (`Milestone 3 Conceptual Session 5 - JavaScript-ES6-Intro`)
 Conceptual session introducing advanced JavaScript ES6+ patterns, scope differences, array map/filter/find methods, object destructuring, optional chaining, and problem solving.
 
+### 🔹 Milestone 3, Module 18: Problem Solving with JavaScript and ES6 (`Milestone 3 Module 18 - Problem-Solving-wtih-JavaScript-and-ES6`)
+Covers JavaScript and ES6 problem solving, including finding the maximum product of two numbers, filtering books by page count/year, finding specific characters, and advanced coding challenges.
+
 ---
 
 ## 📂 Repository Structure
@@ -561,18 +564,37 @@ Conceptual session introducing advanced JavaScript ES6+ patterns, scope differen
 │   ├── ⚡ 6.destructuring.js
 │   ├── ⚡ 7.Object-Method.js
 │   └── ⚡ 8.nested-object-optional-chaining-and-object-looping.js
-└── 📁 Milestone 3 Module 17 - More ES6/
-    ├── ⚡ 1.data-type.js
-    ├── ⚡ 10.reduce-and-slice.js
-    ├── ⚡ 2.undefined-vs-null-and-truthy-falsy.js
-    ├── ⚡ 3.==vs===scope-Hosting.js
-    ├── ⚡ 4.hoisting.js
-    ├── ⚡ 5.closure.js
-    ├── ⚡ 6.callback-Fucntion.js
-    ├── ⚡ 7.pass-by-value-pass-by-ref.js
-    ├── ⚡ 8.pre-and-post-increment-decrement.js
-    ├── ⚡ 9.map-for-each-filter-find.js
-    └── ⚡ reels.js
+├── 📁 Milestone 3 Module 17 - More ES6/
+│   ├── ⚡ 1.data-type.js
+│   ├── ⚡ 10.reduce-and-slice.js
+│   ├── ⚡ 2.undefined-vs-null-and-truthy-falsy.js
+│   ├── ⚡ 3.==vs===scope-Hosting.js
+│   ├── ⚡ 4.hoisting.js
+│   ├── ⚡ 5.closure.js
+│   ├── ⚡ 6.callback-Fucntion.js
+│   ├── ⚡ 7.pass-by-value-pass-by-ref.js
+│   ├── ⚡ 8.pre-and-post-increment-decrement.js
+│   ├── ⚡ 9.map-for-each-filter-find.js
+│   └── ⚡ reels.js
+└── 📁 Milestone 3 Module 18 - Problem-Solving-wtih-JavaScript-and-ES6/
+    ├── 📁 Practice-Tasks/
+    │   ├── 📄 Module 18 — Practice Tasks.pdf
+    │   ├── ⚡ Task-1-calculateBill.js
+    │   ├── ⚡ Task-10-cloneAndUpdate.js
+    │   ├── ⚡ Task-2-buildProfileCard.js
+    │   ├── ⚡ Task-3-getLowestPrice.js
+    │   ├── ⚡ Task-4-swapValues.js
+    │   ├── ⚡ Task-5-getEmployeeDept.js
+    │   ├── ⚡ Task-6-promoteEmployee.js
+    │   ├── ⚡ Task-7-sumAllPrices.js
+    │   ├── ⚡ Task-8-getManagerName.js
+    │   └── ⚡ Task-9-splitFirstRest.js
+    ├── ⚡ 1.let-const-scope-and-template-string.js
+    ├── ⚡ 2.default-parameter-spread-and-rest.js
+    ├── ⚡ 3.Arrow-function.js
+    ├── ⚡ 4.Object-and-array-destructuring.js
+    ├── ⚡ 5.Object-method-and-optional-chaining.js
+    └── ⚡ 6.mixed-real-world-challenge.js
 ```
 
 ---

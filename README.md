@@ -11,7 +11,7 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 ### 🎯 Current Focus
 ```bash
 🎯 Currently Mastering: AI-Driven Full Stack Web Engineering
-📊 Progress: 📈 Ongoing (Milestone 3, Conceptual Session 5 - JavaScript ES6 Intro)
+📊 Progress: 📈 Ongoing (Milestone 3, Module 18 - Problem Solving with JavaScript and ES6)
 ```
 
 ## 📂 Repository Structure
@@ -519,6 +519,25 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 │   │   ├── ⚡ 8.pre-and-post-increment-decrement.js
 │   │   ├── ⚡ 9.map-for-each-filter-find.js
 │   │   └── ⚡ reels.js
+│   ├── 📁 Milestone 3 Module 18 - Problem-Solving-wtih-JavaScript-and-ES6/
+│   │   ├── 📁 Practice-Tasks/
+│   │   │   ├── 📄 Module 18 — Practice Tasks.pdf
+│   │   │   ├── ⚡ Task-1-calculateBill.js
+│   │   │   ├── ⚡ Task-10-cloneAndUpdate.js
+│   │   │   ├── ⚡ Task-2-buildProfileCard.js
+│   │   │   ├── ⚡ Task-3-getLowestPrice.js
+│   │   │   ├── ⚡ Task-4-swapValues.js
+│   │   │   ├── ⚡ Task-5-getEmployeeDept.js
+│   │   │   ├── ⚡ Task-6-promoteEmployee.js
+│   │   │   ├── ⚡ Task-7-sumAllPrices.js
+│   │   │   ├── ⚡ Task-8-getManagerName.js
+│   │   │   └── ⚡ Task-9-splitFirstRest.js
+│   │   ├── ⚡ 1.let-const-scope-and-template-string.js
+│   │   ├── ⚡ 2.default-parameter-spread-and-rest.js
+│   │   ├── ⚡ 3.Arrow-function.js
+│   │   ├── ⚡ 4.Object-and-array-destructuring.js
+│   │   ├── ⚡ 5.Object-method-and-optional-chaining.js
+│   │   └── ⚡ 6.mixed-real-world-challenge.js
 │   └── 📖 README.md
 ├── 📁 Complete_Python_For_Ai_ML/
 │   ├── 📁 Chapter_1_Installation/
