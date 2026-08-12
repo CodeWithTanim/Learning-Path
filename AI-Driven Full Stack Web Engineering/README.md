@@ -73,6 +73,9 @@ Covers JavaScript and ES6 problem solving, including finding the maximum product
 ### 🔹 Milestone 3, Module 19: Problem Solving with JavaScript and ES6 - PART 2 (`Milestone 3 Module 19 - Problem-Solving-wtih-JavaScript-and-ES6 -PART-2`)
 Covers the second part of ES6 problem solving, including working with arrays of objects, finding property values, filtering products by price, computing total shopping cart costs, calculating employee salaries, and coding challenges.
 
+### 🔹 Milestone 3, Conceptual Session 6: JavaScript ES6 Problem Solving (`Milestone 3 Conceptual Session 6 - JavaScript-ES6-Problem-Solving`)
+Conceptual session focusing on advanced JavaScript ES6+ problem solving patterns, filter/map chaining, find operations on arrays of objects, object property summation, and coding walkthroughs.
+
 ---
 
 ## 📂 Repository Structure
@@ -547,6 +550,14 @@ Covers the second part of ES6 problem solving, including working with arrays of 
 │   ├── ⚡ restAndSpread.js
 │   ├── ⚡ scope.js
 │   └── ⚡ templateString.js
+├── 📁 Milestone 3 Conceptual Session 6 - JavaScript-ES6-Problem-Solving/
+│   ├── ⚡ available.js
+│   ├── ⚡ countMention.js
+│   ├── ⚡ coupon.js
+│   ├── ⚡ discount.js
+│   ├── ⚡ employee.js
+│   ├── ⚡ generateTop.js
+│   └── ⚡ test.js
 ├── 📁 Milestone 3 Module 16 - ES6-Fundamentals/
 │   ├── 📁 Practice-Tasks/
 │   │   ├── ⚡ 1.Scope-Detective.js
