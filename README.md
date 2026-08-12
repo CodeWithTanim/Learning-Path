@@ -573,30 +573,6 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 │   │   ├── ⚡ Problem-4-Bonus-Score-Calculator.js
 │   │   └── ⚡ Problem-5-Debugging-Challenge-Ai-Leaderboard-Generator.js
 │   └── 📖 README.md
-├── 📁 Complete_Python_For_Ai_ML/
-│   ├── 📁 Chapter_1_Installation/
-│   │   └── 📖 Notes.md
-│   ├── 📁 Chapter_2_Comments_and_Variables/
-│   │   ├── 🐍 Comments.py
-│   │   ├── 📖 Notes.md
-│   │   └── 🐍 Variables.py
-│   ├── 📁 Chapter_3_Data_Types/
-│   │   ├── 🐍 main.py
-│   │   └── 📖 Notes.md
-│   ├── 📁 Chapter_4_String_and_Type_Conversion/
-│   │   ├── 🐍 main.py
-│   │   └── 📖 Notes.md
-│   ├── 📁 Chapter_5_Input_Output_and_Operators/
-│   │   ├── 🐍 main.py
-│   │   ├── 📖 Notes.md
-│   │   └── 🐍 tempCodeRunnerFile.py
-│   ├── 📁 Chapter_6_Conditional_Statement/
-│   │   ├── 🐍 main.py
-│   │   └── 📖 Notes.md
-│   ├── 📁 Chapter_7_Loops/
-│   │   └── 📖 Notes.md
-│   ├── 🌐 final_book.html
-│   └── 📄 part_1_full_course_transcript.txt
 ├── 📁 MySQL-Learning/
 │   ├── 📁 1. SQL-Student-Database/
 │   │   ├── 📖 README.md
