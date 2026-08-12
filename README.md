@@ -573,6 +573,8 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 │   │   ├── ⚡ Problem-4-Bonus-Score-Calculator.js
 │   │   └── ⚡ Problem-5-Debugging-Challenge-Ai-Leaderboard-Generator.js
 │   └── 📖 README.md
+├── 📁 Complete_Python_For_Ai_ML/
+│   └── 🌐 final_book.html
 ├── 📁 MySQL-Learning/
 │   ├── 📁 1. SQL-Student-Database/
 │   │   ├── 📖 README.md
