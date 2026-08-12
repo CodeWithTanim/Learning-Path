@@ -76,6 +76,9 @@ Covers the second part of ES6 problem solving, including working with arrays of 
 ### 🔹 Milestone 3, Conceptual Session 6: JavaScript ES6 Problem Solving (`Milestone 3 Conceptual Session 6 - JavaScript-ES6-Problem-Solving`)
 Conceptual session focusing on advanced JavaScript ES6+ problem solving patterns, filter/map chaining, find operations on arrays of objects, object property summation, and coding walkthroughs.
 
+### 🔹 Milestone 3, Module 20 / Assignment 3: JavaScript ES6 Problems (`Milestone 3 Module 20 - Assignment-3`)
+Solving advanced JavaScript and ES6+ assignment problems, including calculating custom discounts, processing complex user data, calculating service metrics, and related coding tasks.
+
 ---
 
 ## 📂 Repository Structure
@@ -609,25 +612,32 @@ Conceptual session focusing on advanced JavaScript ES6+ problem solving patterns
 │   ├── ⚡ 4.Object-and-array-destructuring.js
 │   ├── ⚡ 5.Object-method-and-optional-chaining.js
 │   └── ⚡ 6.mixed-real-world-challenge.js
-└── 📁 Milestone 3 Module 19 - Problem-Solving-wtih-JavaScript-and-ES6 -PART-2/
-    ├── 📁 Practice-Task/
-    │   ├── 📄 Module 19 — Practice Tasks.pdf
-    │   ├── ⚡ Task-1-getFormattedPrices.js
-    │   ├── ⚡ Task-10-getTopSellingProduct.js
-    │   ├── ⚡ Task-2-getAvailableProducts.js
-    │   ├── ⚡ Task-3-findProductByName.js
-    │   ├── ⚡ Task-4-getTotalStockValue.js
-    │   ├── ⚡ Task-5-getDiscountedTotalForCategory.js
-    │   ├── ⚡ Task-6-createIdGenerator.js
-    │   ├── ⚡ Task-7-sortByPriceAscending.js
-    │   ├── ⚡ Task-8-applyBonusPoints.js
-    │   └── ⚡ Task-9-isStrictMatch.js
-    ├── ⚡ 1.map-filter-bulk-discount-andpassing-students.js
-    ├── ⚡ 2.find-and-reduce-user-lookup-and-shopping-cart-total.js
-    ├── ⚡ 3.chaining-array-methods-filtered-cart-total.js
-    ├── ⚡ 4.closures.js
-    ├── ⚡ 5.callbacks-and-reference-bugs-sort-and-mutation-fix.js
-    └── ⚡ practice-task-by-github.js
+├── 📁 Milestone 3 Module 19 - Problem-Solving-wtih-JavaScript-and-ES6 -PART-2/
+│   ├── 📁 Practice-Task/
+│   │   ├── 📄 Module 19 — Practice Tasks.pdf
+│   │   ├── ⚡ Task-1-getFormattedPrices.js
+│   │   ├── ⚡ Task-10-getTopSellingProduct.js
+│   │   ├── ⚡ Task-2-getAvailableProducts.js
+│   │   ├── ⚡ Task-3-findProductByName.js
+│   │   ├── ⚡ Task-4-getTotalStockValue.js
+│   │   ├── ⚡ Task-5-getDiscountedTotalForCategory.js
+│   │   ├── ⚡ Task-6-createIdGenerator.js
+│   │   ├── ⚡ Task-7-sortByPriceAscending.js
+│   │   ├── ⚡ Task-8-applyBonusPoints.js
+│   │   └── ⚡ Task-9-isStrictMatch.js
+│   ├── ⚡ 1.map-filter-bulk-discount-andpassing-students.js
+│   ├── ⚡ 2.find-and-reduce-user-lookup-and-shopping-cart-total.js
+│   ├── ⚡ 3.chaining-array-methods-filtered-cart-total.js
+│   ├── ⚡ 4.closures.js
+│   ├── ⚡ 5.callbacks-and-reference-bugs-sort-and-mutation-fix.js
+│   └── ⚡ practice-task-by-github.js
+└── 📁 Milestone 3 Module 20 - Assignment-3/
+    ├── ⚡ final-solution-submitted.js
+    ├── ⚡ Problem-1-Student-Introduction-Generator.js
+    ├── ⚡ Problem-2-Active-User-Filter.js
+    ├── ⚡ Problem-3-Trending-Hashtag-Counter.js
+    ├── ⚡ Problem-4-Bonus-Score-Calculator.js
+    └── ⚡ Problem-5-Debugging-Challenge-Ai-Leaderboard-Generator.js
 ```
 
 ---

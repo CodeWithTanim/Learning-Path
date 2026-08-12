@@ -11,7 +11,7 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 ### 🎯 Current Focus
 ```bash
 🎯 Currently Mastering: AI-Driven Full Stack Web Engineering
-📊 Progress: 📈 Ongoing (Milestone 3, Conceptual Session 6 - JavaScript ES6 Problem Solving)
+📊 Progress: 📈 Ongoing (Milestone 3, Module 20 / Assignment 3 - JavaScript ES6 Problems)
 ```
 
 ## 📂 Repository Structure
@@ -565,6 +565,13 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 │   │   ├── ⚡ 4.closures.js
 │   │   ├── ⚡ 5.callbacks-and-reference-bugs-sort-and-mutation-fix.js
 │   │   └── ⚡ practice-task-by-github.js
+│   ├── 📁 Milestone 3 Module 20 - Assignment-3/
+│   │   ├── ⚡ final-solution-submitted.js
+│   │   ├── ⚡ Problem-1-Student-Introduction-Generator.js
+│   │   ├── ⚡ Problem-2-Active-User-Filter.js
+│   │   ├── ⚡ Problem-3-Trending-Hashtag-Counter.js
+│   │   ├── ⚡ Problem-4-Bonus-Score-Calculator.js
+│   │   └── ⚡ Problem-5-Debugging-Challenge-Ai-Leaderboard-Generator.js
 │   └── 📖 README.md
 ├── 📁 Complete_Python_For_Ai_ML/
 │   ├── 📁 Chapter_1_Installation/
