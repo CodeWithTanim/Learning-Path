@@ -70,6 +70,9 @@ Conceptual session introducing advanced JavaScript ES6+ patterns, scope differen
 ### 🔹 Milestone 3, Module 18: Problem Solving with JavaScript and ES6 (`Milestone 3 Module 18 - Problem-Solving-wtih-JavaScript-and-ES6`)
 Covers JavaScript and ES6 problem solving, including finding the maximum product of two numbers, filtering books by page count/year, finding specific characters, and advanced coding challenges.
 
+### 🔹 Milestone 3, Module 19: Problem Solving with JavaScript and ES6 - PART 2 (`Milestone 3 Module 19 - Problem-Solving-wtih-JavaScript-and-ES6 -PART-2`)
+Covers the second part of ES6 problem solving, including working with arrays of objects, finding property values, filtering products by price, computing total shopping cart costs, calculating employee salaries, and coding challenges.
+
 ---
 
 ## 📂 Repository Structure
@@ -576,25 +579,44 @@ Covers JavaScript and ES6 problem solving, including finding the maximum product
 │   ├── ⚡ 8.pre-and-post-increment-decrement.js
 │   ├── ⚡ 9.map-for-each-filter-find.js
 │   └── ⚡ reels.js
-└── 📁 Milestone 3 Module 18 - Problem-Solving-wtih-JavaScript-and-ES6/
-    ├── 📁 Practice-Tasks/
-    │   ├── 📄 Module 18 — Practice Tasks.pdf
-    │   ├── ⚡ Task-1-calculateBill.js
-    │   ├── ⚡ Task-10-cloneAndUpdate.js
-    │   ├── ⚡ Task-2-buildProfileCard.js
-    │   ├── ⚡ Task-3-getLowestPrice.js
-    │   ├── ⚡ Task-4-swapValues.js
-    │   ├── ⚡ Task-5-getEmployeeDept.js
-    │   ├── ⚡ Task-6-promoteEmployee.js
-    │   ├── ⚡ Task-7-sumAllPrices.js
-    │   ├── ⚡ Task-8-getManagerName.js
-    │   └── ⚡ Task-9-splitFirstRest.js
-    ├── ⚡ 1.let-const-scope-and-template-string.js
-    ├── ⚡ 2.default-parameter-spread-and-rest.js
-    ├── ⚡ 3.Arrow-function.js
-    ├── ⚡ 4.Object-and-array-destructuring.js
-    ├── ⚡ 5.Object-method-and-optional-chaining.js
-    └── ⚡ 6.mixed-real-world-challenge.js
+├── 📁 Milestone 3 Module 18 - Problem-Solving-wtih-JavaScript-and-ES6/
+│   ├── 📁 Practice-Tasks/
+│   │   ├── 📄 Module 18 — Practice Tasks.pdf
+│   │   ├── ⚡ Task-1-calculateBill.js
+│   │   ├── ⚡ Task-10-cloneAndUpdate.js
+│   │   ├── ⚡ Task-2-buildProfileCard.js
+│   │   ├── ⚡ Task-3-getLowestPrice.js
+│   │   ├── ⚡ Task-4-swapValues.js
+│   │   ├── ⚡ Task-5-getEmployeeDept.js
+│   │   ├── ⚡ Task-6-promoteEmployee.js
+│   │   ├── ⚡ Task-7-sumAllPrices.js
+│   │   ├── ⚡ Task-8-getManagerName.js
+│   │   └── ⚡ Task-9-splitFirstRest.js
+│   ├── ⚡ 1.let-const-scope-and-template-string.js
+│   ├── ⚡ 2.default-parameter-spread-and-rest.js
+│   ├── ⚡ 3.Arrow-function.js
+│   ├── ⚡ 4.Object-and-array-destructuring.js
+│   ├── ⚡ 5.Object-method-and-optional-chaining.js
+│   └── ⚡ 6.mixed-real-world-challenge.js
+└── 📁 Milestone 3 Module 19 - Problem-Solving-wtih-JavaScript-and-ES6 -PART-2/
+    ├── 📁 Practice-Task/
+    │   ├── 📄 Module 19 — Practice Tasks.pdf
+    │   ├── ⚡ Task-1-getFormattedPrices.js
+    │   ├── ⚡ Task-10-getTopSellingProduct.js
+    │   ├── ⚡ Task-2-getAvailableProducts.js
+    │   ├── ⚡ Task-3-findProductByName.js
+    │   ├── ⚡ Task-4-getTotalStockValue.js
+    │   ├── ⚡ Task-5-getDiscountedTotalForCategory.js
+    │   ├── ⚡ Task-6-createIdGenerator.js
+    │   ├── ⚡ Task-7-sortByPriceAscending.js
+    │   ├── ⚡ Task-8-applyBonusPoints.js
+    │   └── ⚡ Task-9-isStrictMatch.js
+    ├── ⚡ 1.map-filter-bulk-discount-andpassing-students.js
+    ├── ⚡ 2.find-and-reduce-user-lookup-and-shopping-cart-total.js
+    ├── ⚡ 3.chaining-array-methods-filtered-cart-total.js
+    ├── ⚡ 4.closures.js
+    ├── ⚡ 5.callbacks-and-reference-bugs-sort-and-mutation-fix.js
+    └── ⚡ practice-task-by-github.js
 ```
 
 ---

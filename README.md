@@ -11,7 +11,7 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 ### 🎯 Current Focus
 ```bash
 🎯 Currently Mastering: AI-Driven Full Stack Web Engineering
-📊 Progress: 📈 Ongoing (Milestone 3, Module 18 - Problem Solving with JavaScript and ES6)
+📊 Progress: 📈 Ongoing (Milestone 3, Module 19 - Problem Solving with JavaScript and ES6 - PART 2)
 ```
 
 ## 📂 Repository Structure
@@ -538,6 +538,25 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 │   │   ├── ⚡ 4.Object-and-array-destructuring.js
 │   │   ├── ⚡ 5.Object-method-and-optional-chaining.js
 │   │   └── ⚡ 6.mixed-real-world-challenge.js
+│   ├── 📁 Milestone 3 Module 19 - Problem-Solving-wtih-JavaScript-and-ES6 -PART-2/
+│   │   ├── 📁 Practice-Task/
+│   │   │   ├── 📄 Module 19 — Practice Tasks.pdf
+│   │   │   ├── ⚡ Task-1-getFormattedPrices.js
+│   │   │   ├── ⚡ Task-10-getTopSellingProduct.js
+│   │   │   ├── ⚡ Task-2-getAvailableProducts.js
+│   │   │   ├── ⚡ Task-3-findProductByName.js
+│   │   │   ├── ⚡ Task-4-getTotalStockValue.js
+│   │   │   ├── ⚡ Task-5-getDiscountedTotalForCategory.js
+│   │   │   ├── ⚡ Task-6-createIdGenerator.js
+│   │   │   ├── ⚡ Task-7-sortByPriceAscending.js
+│   │   │   ├── ⚡ Task-8-applyBonusPoints.js
+│   │   │   └── ⚡ Task-9-isStrictMatch.js
+│   │   ├── ⚡ 1.map-filter-bulk-discount-andpassing-students.js
+│   │   ├── ⚡ 2.find-and-reduce-user-lookup-and-shopping-cart-total.js
+│   │   ├── ⚡ 3.chaining-array-methods-filtered-cart-total.js
+│   │   ├── ⚡ 4.closures.js
+│   │   ├── ⚡ 5.callbacks-and-reference-bugs-sort-and-mutation-fix.js
+│   │   └── ⚡ practice-task-by-github.js
 │   └── 📖 README.md
 ├── 📁 Complete_Python_For_Ai_ML/
 │   ├── 📁 Chapter_1_Installation/
