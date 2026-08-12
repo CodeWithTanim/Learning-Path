@@ -574,6 +574,8 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 │   │   └── ⚡ Problem-5-Debugging-Challenge-Ai-Leaderboard-Generator.js
 │   └── 📖 README.md
 ├── 📁 Complete_Python_For_Ai_ML/
+│   ├── 📁 Chapter-1-Installation/
+│   │   └── 📖 Notes.md
 │   └── 🌐 final_book.html
 ├── 📁 MySQL-Learning/
 │   ├── 📁 1. SQL-Student-Database/
