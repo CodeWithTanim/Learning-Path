@@ -580,6 +580,9 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 │   │   ├── 🐍 comments.py
 │   │   ├── 📖 Notes.md
 │   │   └── 🐍 variable.py
+│   ├── 📁 Chapter-3-Data-Types/
+│   │   ├── 🐍 main.py
+│   │   └── 📖 Notes.md
 │   └── 🌐 final_book.html
 ├── 📁 MySQL-Learning/
 │   ├── 📁 1. SQL-Student-Database/
