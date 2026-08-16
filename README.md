@@ -604,14 +604,8 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 │   ├── 📁 Chapter-3-Data-Types/
 │   │   ├── 🐍 main.py
 │   │   └── 📖 Notes.md
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
 │   ├── 📁 Chapter-4-String-and-Type-Conversion/
 │   │   └── 📖 Notes.md
-=======
->>>>>>> bad96aad47ec4f7594d18a18001b64988c9c03af
->>>>>>> Stashed changes
 │   └── 🌐 final_book.html
 ├── 📁 MySQL-Learning/
 │   ├── 📁 1. SQL-Student-Database/
