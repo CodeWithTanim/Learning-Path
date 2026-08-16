@@ -79,6 +79,9 @@ Conceptual session focusing on advanced JavaScript ES6+ problem solving patterns
 ### 🔹 Milestone 3, Module 20 / Assignment 3: JavaScript ES6 Problems (`Milestone 3 Module 20 - Assignment-3`)
 Solving advanced JavaScript and ES6+ assignment problems, including calculating custom discounts, processing complex user data, calculating service metrics, and related coding tasks.
 
+### 🔹 Milestone 4, Module 21: TypeScript Fundamentals (`Milestone 4 Module 21 - TypeScript-Fundamentals`)
+Covers the core fundamentals of TypeScript, including installation, setting up `tsconfig.json`, basic type annotations (string, number, boolean, array, tuple, object), functions, type aliases, union/intersection types, interfaces, type assertions, and basic compiler usage.
+
 ---
 
 ## 📂 Repository Structure
@@ -631,13 +634,34 @@ Solving advanced JavaScript and ES6+ assignment problems, including calculating 
 │   ├── ⚡ 4.closures.js
 │   ├── ⚡ 5.callbacks-and-reference-bugs-sort-and-mutation-fix.js
 │   └── ⚡ practice-task-by-github.js
-└── 📁 Milestone 3 Module 20 - Assignment-3/
-    ├── ⚡ final-solution-submitted.js
-    ├── ⚡ Problem-1-Student-Introduction-Generator.js
-    ├── ⚡ Problem-2-Active-User-Filter.js
-    ├── ⚡ Problem-3-Trending-Hashtag-Counter.js
-    ├── ⚡ Problem-4-Bonus-Score-Calculator.js
-    └── ⚡ Problem-5-Debugging-Challenge-Ai-Leaderboard-Generator.js
+├── 📁 Milestone 3 Module 20 - Assignment-3/
+│   ├── ⚡ final-solution-submitted.js
+│   ├── ⚡ Problem-1-Student-Introduction-Generator.js
+│   ├── ⚡ Problem-2-Active-User-Filter.js
+│   ├── ⚡ Problem-3-Trending-Hashtag-Counter.js
+│   ├── ⚡ Problem-4-Bonus-Score-Calculator.js
+│   └── ⚡ Problem-5-Debugging-Challenge-Ai-Leaderboard-Generator.js
+└── 📁 Milestone 4 Module 21 - TypeScript-Fundamentals/
+    ├── 📁 Practice-Task/
+    │   └── 📄 Task-1.ts
+    ├── 📄 array.ts
+    ├── 📄 arrow-function.ts
+    ├── 📄 basics.ts
+    ├── ⚡ compare.js
+    ├── 📄 destructuring.ts
+    ├── ⚡ first.js
+    ├── 📄 function.ts
+    ├── ⚡ items.js
+    ├── 📄 items.ts
+    ├── 📄 map.ts
+    ├── ⚡ object.js
+    ├── 📄 object.ts
+    ├── 📄 recap.ts
+    ├── 📄 rest-spread.ts
+    ├── 📄 special.ts
+    ├── 📄 tuples.ts
+    ├── ⚡ types.js
+    └── 📄 types.ts
 ```
 
 ---

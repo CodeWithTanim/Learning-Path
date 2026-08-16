@@ -11,7 +11,7 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 ### 🎯 Current Focus
 ```bash
 🎯 Currently Mastering: AI-Driven Full Stack Web Engineering
-📊 Progress: 📈 Ongoing (Milestone 3, Module 20 / Assignment 3 - JavaScript ES6 Problems)
+📊 Progress: 📈 Ongoing (Milestone 4, Module 21 - TypeScript Fundamentals)
 ```
 
 ## 📂 Repository Structure
@@ -572,6 +572,27 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 │   │   ├── ⚡ Problem-3-Trending-Hashtag-Counter.js
 │   │   ├── ⚡ Problem-4-Bonus-Score-Calculator.js
 │   │   └── ⚡ Problem-5-Debugging-Challenge-Ai-Leaderboard-Generator.js
+│   ├── 📁 Milestone 4 Module 21 - TypeScript-Fundamentals/
+│   │   ├── 📁 Practice-Task/
+│   │   │   └── 📄 Task-1.ts
+│   │   ├── 📄 array.ts
+│   │   ├── 📄 arrow-function.ts
+│   │   ├── 📄 basics.ts
+│   │   ├── ⚡ compare.js
+│   │   ├── 📄 destructuring.ts
+│   │   ├── ⚡ first.js
+│   │   ├── 📄 function.ts
+│   │   ├── ⚡ items.js
+│   │   ├── 📄 items.ts
+│   │   ├── 📄 map.ts
+│   │   ├── ⚡ object.js
+│   │   ├── 📄 object.ts
+│   │   ├── 📄 recap.ts
+│   │   ├── 📄 rest-spread.ts
+│   │   ├── 📄 special.ts
+│   │   ├── 📄 tuples.ts
+│   │   ├── ⚡ types.js
+│   │   └── 📄 types.ts
 │   └── 📖 README.md
 ├── 📁 Complete_Python_For_Ai_ML/
 │   ├── 📁 Chapter-1-Installation/
@@ -583,6 +604,14 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 │   ├── 📁 Chapter-3-Data-Types/
 │   │   ├── 🐍 main.py
 │   │   └── 📖 Notes.md
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+│   ├── 📁 Chapter-4-String-and-Type-Conversion/
+│   │   └── 📖 Notes.md
+=======
+>>>>>>> bad96aad47ec4f7594d18a18001b64988c9c03af
+>>>>>>> Stashed changes
 │   └── 🌐 final_book.html
 ├── 📁 MySQL-Learning/
 │   ├── 📁 1. SQL-Student-Database/
