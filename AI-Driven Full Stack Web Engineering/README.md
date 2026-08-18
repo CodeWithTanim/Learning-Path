@@ -4,83 +4,86 @@ Welcome to the **AI-Driven Full Stack Web Engineering** module of my learning jo
 
 ## 📚 Milestones & Modules Overview
 
-### 🔹 Milestone 1, Module 1: HTML Basics (`Milestone 1 Module 1 - HTML Basics`)
+### 🔹 `Milestone 1 Module 1 - HTML Basics`
 Focuses on the fundamentals of HTML, structure, semantic tags, forms, tables, media elements, and building a basic restaurant landing page layout.
 
-### 🔹 Milestone 1, Module 2: Git & GitHub (`Milestone 1 Module 2 - Git & GitHub`)
+### 🔹 `Milestone 1 Module 2 - Git & GitHub`
 Covers the basics of Git, initializing repositories, staging changes, committing, and pushing code to GitHub.
 
-### 🔹 Milestone 1, Module 3: Explore CSS Basics (`Milestone 1 Module 3 - Explore CSS Basics`)
+### 🔹 `Milestone 1 Module 3 - Explore CSS Basics`
 Covers the basics of CSS, styling, selectors, displays, backgrounds, shadows, and applying basic styles to HTML pages.
 
-### 🔹 Milestone 1, Module 4: CSS Layouts and Advance Styling (`Milestone 1 Module 4 - CSS Layouts and Advance Styling`)
+### 🔹 `Milestone 1 Module 4 - CSS Layouts and Advance Styling`
 Covers intermediate and advanced CSS layout techniques like Flexbox, Grid, positioning, tables, forms, navigation bar design, and custom page designs.
 
-### 🔹 Milestone 1, Module 5: Build a beautiful Portfolio Website (`Milestone 1 Module 5 - Build a beautiful Portfolio Website`)
+### 🔹 `Milestone 1 Module 5 - Build a beautiful Portfolio Website`
 Building a complete, professional, and responsive portfolio website using HTML and CSS from scratch.
 
-### 🔹 Milestone 1, Module 6 / Assignment 1: DevConf 2026 (`Milestone 1 Module 6 - Assignment-1`)
+### 🔹 `Milestone 1 Module 6 - Assignment-1`
 Designing and building a fully responsive conference website layout (DevConf 2026) using HTML and CSS from Figma/Penpot design templates.
 
-### 🔹 Milestone 2, Module 7: Introduction to JavaScript (`Milestone 2 Module 7 - Introduction-to-JavaScript`)
+### 🔹 `Milestone 2 Module 7 - Introduction-to-JavaScript`
 Covers the core fundamentals of JavaScript, including variables, data types, arithmetic operations, variable naming rules, string operations, and practice tasks.
 
-### 🔹 Milestone 2, Module 8: Fundamental Concepts of Conditionals (`Milestone 2 Module 8 - Fundamental-Concepts-of-Conditionals`)
+### 🔹 `Milestone 2 Module 8 - Fundamental-Concepts-of-Conditionals`
 Covers comparison operators, `if-else` condition statements, nested conditionals, ternary operators, logical AND/OR (`&&`/`||`), NOT operator, and practical challenge tasks (grading system, discount calculation, login check, etc.).
 
-### 🔹 Milestone 2, Module 9: Fundamental Concepts of Loops (`Milestone 2 Module 9 - Fundamental-Concepts-of-Loops`)
+### 🔹 `Milestone 2 Module 9 - Fundamental-Concepts-of-Loops`
 Covers the core concepts of loops in JavaScript, including `for` loops, `while` loops, `do-while` loops, loop control statements (break/continue), and looping practice tasks.
 
-### 🔹 Milestone 2, Module 10: Fundamental Concepts of Array (`Milestone 2 Module 10 - Fundamental-Concepts-of-Array`)
+### 🔹 `Milestone 2 Module 10 - Fundamental-Concepts-of-Array`
 Covers the core concepts of arrays in JavaScript, including array initialization, indexing, push/pop/shift/unshift methods, array checks (`includes`/`indexOf`/`Array.isArray`), concatenation, slice/splice, and array manipulation practice tasks.
 
-### 🔹 Milestone 2, Conceptual Session 2: JS Execution & Variable Declaration (`Milestone 2 Conceptual Session 2 - Introduction-to-JavaScript-Program-Execution-and-Variable-Declaration`)
+### 🔹 `Milestone 2 Conceptual Session 2 - Introduction-to-JavaScript-Program-Execution-and-Variable-Declaration`
 Covers intermediate JavaScript execution context, code execution phases (creation vs. execution), hoisting, scopes, and variable declarations (`var`, `let`, `const`).
 
-### 🔹 Milestone 2, Module 11: Fundamentals of Strings & Objects (`Milestone 2 Module 11 - Fundamentals of Strings & Objects`)
+### 🔹 `Milestone 2 Module 11 - Fundamentals of Strings & Objects`
 Covers the core concepts of strings and objects in JavaScript, including string properties/methods (lowercase, uppercase, trim, slice, split, join, concat, includes, reverse), object declaration, accessing properties (dot vs. bracket notation), nested objects, keys/values extraction, looping through object properties, and practice tasks.
 
-### 🔹 Milestone 2, Module 12: Fundamental of Functions (`Milestone 2 Module 12 - Fundamental-of-Functions`)
+### 🔹 `Milestone 2 Module 12 - Fundamental-of-Functions`
 Covers the core concepts of functions in JavaScript, including function declaration, parameters, return statements, return vs. no-return, standard function structures, and function practice tasks.
 
-### 🔹 Milestone 2, Conceptual Session 3: JavaScript Foundation (`Milestone 2 Conceptual Session 3 - JavaScript-Foundation`)
+### 🔹 `Milestone 2 Conceptual Session 3 - JavaScript-Foundation`
 Deep dive session on fundamental JavaScript foundation concepts, variables, conditions, loops, arrays, objects, functions, and solving various practice problems.
 
-### 🔹 Milestone 2, Module 13: Basic Problem Solving With JavaScript (`Milestone 2 Module 13 - Basic-Problem-Solving-With-JavaScript`)
+### 🔹 `Milestone 2 Module 13 - Basic-Problem-Solving-With-JavaScript`
 Covers JavaScript problem solving, including unit conversions (inch to feet, mile to kilometer), leap year checks, sum/average of odd/even numbers in array, duplicate element removal, usage of standard JavaScript math functions, swapping variables, and array manipulation tasks.
 
-### 🔹 Milestone 2, Module 14: Debugging and Problem solving with JavaScript (`Milestone 2 Module 14 - Debugging-and-Problem-solving-with-JavaScript`)
+### 🔹`Milestone 2 Module 14 - Debugging-and-Problem-solving-with-JavaScript`
 Covers JavaScript debugging techniques and solving various programming problems, including finding max/min values in arrays, summing numbers in arrays, calculating total price in shopping carts, discount logic, simple calculator implementation, and coding tasks.
 
-### 🔹 Milestone 2, Module 15 / Assignment 2: JavaScript Problems (`Milestone 2 Module 15 - Assignment-2`)
+### 🔹 `Milestone 2 Module 15 - Assignment-2`
 Solving intermediate JavaScript assignment problems including match winner tracker, elevator weight safety checker, AI token cost calculator, top-rated restaurant finder, and API response time monitoring/debugging challenge.
 
-### 🔹 Milestone 2, Conceptual Session 4: Problem Solving with JavaScript (`Milestone 2 Conceptual Session 4 - Problem-Solving-with-JavaScript`)
+### 🔹 `Milestone 2 Conceptual Session 4 - Problem-Solving-with-JavaScript`
 Conceptual session focusing on solving real-world JavaScript problem tasks, including validation, advanced math calculations, shopping cart total calculations, and code walkthroughs.
 
-### 🔹 Milestone 3, Module 16: ES6 Fundamentals (`Milestone 3 Module 16 - ES6-Fundamentals`)
+### 🔹 `Milestone 3 Module 16 - ES6-Fundamentals`
 Covers modern ES6+ features in JavaScript including `let`/`const`, template literals, arrow functions, the spread operator (`...`), destructuring (objects & arrays), keys/values extraction, `forEach`, `map`, `filter`, `find`, `reduce`, classes, inheritance, and practice tasks.
 
-### 🔹 Milestone 3, Module 17: More ES6 (`Milestone 3 Module 17 - More ES6`)
+### 🔹 `Milestone 3 Module 17 - More ES6`
 Covers advanced ES6+ topics in JavaScript, including `map` vs. `forEach`, filtering arrays, find operations, destructuring nested objects, accessing arrays of objects, optional chaining (`?.`), prototypal inheritance, and ES6 practice tasks.
 
-### 🔹 Milestone 3, Conceptual Session 5: JavaScript ES6 Intro (`Milestone 3 Conceptual Session 5 - JavaScript-ES6-Intro`)
+### 🔹`Milestone 3 Conceptual Session 5 - JavaScript-ES6-Intro`
 Conceptual session introducing advanced JavaScript ES6+ patterns, scope differences, array map/filter/find methods, object destructuring, optional chaining, and problem solving.
 
-### 🔹 Milestone 3, Module 18: Problem Solving with JavaScript and ES6 (`Milestone 3 Module 18 - Problem-Solving-wtih-JavaScript-and-ES6`)
+### 🔹 `Milestone 3 Module 18 - Problem-Solving-wtih-JavaScript-and-ES6`
 Covers JavaScript and ES6 problem solving, including finding the maximum product of two numbers, filtering books by page count/year, finding specific characters, and advanced coding challenges.
 
-### 🔹 Milestone 3, Module 19: Problem Solving with JavaScript and ES6 - PART 2 (`Milestone 3 Module 19 - Problem-Solving-wtih-JavaScript-and-ES6 -PART-2`)
+### 🔹 `Milestone 3 Module 19 - Problem-Solving-wtih-JavaScript-and-ES6 -PART-2`
 Covers the second part of ES6 problem solving, including working with arrays of objects, finding property values, filtering products by price, computing total shopping cart costs, calculating employee salaries, and coding challenges.
 
-### 🔹 Milestone 3, Conceptual Session 6: JavaScript ES6 Problem Solving (`Milestone 3 Conceptual Session 6 - JavaScript-ES6-Problem-Solving`)
+### 🔹 `Milestone 3 Conceptual Session 6 - JavaScript-ES6-Problem-Solving`
 Conceptual session focusing on advanced JavaScript ES6+ problem solving patterns, filter/map chaining, find operations on arrays of objects, object property summation, and coding walkthroughs.
 
-### 🔹 Milestone 3, Module 20 / Assignment 3: JavaScript ES6 Problems (`Milestone 3 Module 20 - Assignment-3`)
+### 🔹 `Milestone 3 Module 20 - Assignment-3`
 Solving advanced JavaScript and ES6+ assignment problems, including calculating custom discounts, processing complex user data, calculating service metrics, and related coding tasks.
 
-### 🔹 Milestone 4, Module 21: TypeScript Fundamentals (`Milestone 4 Module 21 - TypeScript-Fundamentals`)
+### 🔹 `Milestone 4 Module 21 - TypeScript-Fundamentals`
 Covers the core fundamentals of TypeScript, including installation, setting up `tsconfig.json`, basic type annotations (string, number, boolean, array, tuple, object), functions, type aliases, union/intersection types, interfaces, type assertions, and basic compiler usage.
+
+### 🔹 `Milestone 4 Module 22 - More-TypeScript`
+Covers advanced TypeScript features including type assertions, type narrowing, interface vs. type alias, extending interfaces, generics (types, functions, interfaces, constraints), utility types (Pick, Omit, Partial, Required, Readonly, Record), and practice tasks.
 
 ---
 
@@ -641,27 +644,138 @@ Covers the core fundamentals of TypeScript, including installation, setting up `
 │   ├── ⚡ Problem-3-Trending-Hashtag-Counter.js
 │   ├── ⚡ Problem-4-Bonus-Score-Calculator.js
 │   └── ⚡ Problem-5-Debugging-Challenge-Ai-Leaderboard-Generator.js
-└── 📁 Milestone 4 Module 21 - TypeScript-Fundamentals/
-    ├── 📁 Practice-Task/
-    │   └── 📄 Task-1.ts
-    ├── 📄 array.ts
-    ├── 📄 arrow-function.ts
-    ├── 📄 basics.ts
-    ├── ⚡ compare.js
-    ├── 📄 destructuring.ts
-    ├── ⚡ first.js
-    ├── 📄 function.ts
-    ├── ⚡ items.js
-    ├── 📄 items.ts
-    ├── 📄 map.ts
-    ├── ⚡ object.js
-    ├── 📄 object.ts
-    ├── 📄 recap.ts
-    ├── 📄 rest-spread.ts
-    ├── 📄 special.ts
-    ├── 📄 tuples.ts
-    ├── ⚡ types.js
-    └── 📄 types.ts
+├── 📁 Milestone 4 Module 21 - TypeScript-Fundamentals/
+│   ├── 📁 Practice-Task/
+│   │   └── 📄 Task-1.ts
+│   ├── 📄 array.ts
+│   ├── 📄 arrow-function.ts
+│   ├── 📄 basics.ts
+│   ├── ⚡ compare.js
+│   ├── 📄 destructuring.ts
+│   ├── ⚡ first.js
+│   ├── 📄 function.ts
+│   ├── ⚡ items.js
+│   ├── 📄 items.ts
+│   ├── 📄 map.ts
+│   ├── ⚡ object.js
+│   ├── 📄 object.ts
+│   ├── 📄 recap.ts
+│   ├── 📄 rest-spread.ts
+│   ├── 📄 special.ts
+│   ├── 📄 tuples.ts
+│   ├── ⚡ types.js
+│   └── 📄 types.ts
+└── 📁 Milestone 4 Module 22 - More-TypeScript/
+    ├── 📁 for-projects/
+    │   ├── 📁 dist/
+    │   │   ├── 📁 Practice-Tasks/
+    │   │   │   ├── 📄 Task-1.d.ts
+    │   │   │   ├── 📄 Task-1.d.ts.map
+    │   │   │   ├── ⚡ Task-1.js
+    │   │   │   ├── 📄 Task-1.js.map
+    │   │   │   ├── 📄 Task-10.d.ts
+    │   │   │   ├── 📄 Task-10.d.ts.map
+    │   │   │   ├── ⚡ Task-10.js
+    │   │   │   ├── 📄 Task-10.js.map
+    │   │   │   ├── 📄 Task-2.d.ts
+    │   │   │   ├── 📄 Task-2.d.ts.map
+    │   │   │   ├── ⚡ Task-2.js
+    │   │   │   ├── 📄 Task-2.js.map
+    │   │   │   ├── 📄 Task-3.d.ts
+    │   │   │   ├── 📄 Task-3.d.ts.map
+    │   │   │   ├── ⚡ Task-3.js
+    │   │   │   ├── 📄 Task-3.js.map
+    │   │   │   ├── 📄 Task-4.d.ts
+    │   │   │   ├── 📄 Task-4.d.ts.map
+    │   │   │   ├── ⚡ Task-4.js
+    │   │   │   ├── 📄 Task-4.js.map
+    │   │   │   ├── 📄 Task-5.d.ts
+    │   │   │   ├── 📄 Task-5.d.ts.map
+    │   │   │   ├── ⚡ Task-5.js
+    │   │   │   ├── 📄 Task-5.js.map
+    │   │   │   ├── 📄 Task-6.d.ts
+    │   │   │   ├── 📄 Task-6.d.ts.map
+    │   │   │   ├── ⚡ Task-6.js
+    │   │   │   ├── 📄 Task-6.js.map
+    │   │   │   ├── 📄 Task-7.d.ts
+    │   │   │   ├── 📄 Task-7.d.ts.map
+    │   │   │   ├── ⚡ Task-7.js
+    │   │   │   ├── 📄 Task-7.js.map
+    │   │   │   ├── 📄 Task-8.d.ts
+    │   │   │   ├── 📄 Task-8.d.ts.map
+    │   │   │   ├── ⚡ Task-8.js
+    │   │   │   ├── 📄 Task-8.js.map
+    │   │   │   ├── 📄 Task-9.d.ts
+    │   │   │   ├── 📄 Task-9.d.ts.map
+    │   │   │   ├── ⚡ Task-9.js
+    │   │   │   └── 📄 Task-9.js.map
+    │   │   ├── 📁 type/
+    │   │   │   ├── 📄 assertion.d.ts
+    │   │   │   ├── 📄 assertion.d.ts.map
+    │   │   │   ├── ⚡ assertion.js
+    │   │   │   ├── 📄 assertion.js.map
+    │   │   │   ├── 📄 enum.d.ts
+    │   │   │   ├── 📄 enum.d.ts.map
+    │   │   │   ├── ⚡ enum.js
+    │   │   │   ├── 📄 enum.js.map
+    │   │   │   ├── 📄 generics.d.ts
+    │   │   │   ├── 📄 generics.d.ts.map
+    │   │   │   ├── ⚡ generics.js
+    │   │   │   ├── 📄 generics.js.map
+    │   │   │   ├── 📄 generics2.d.ts
+    │   │   │   ├── 📄 generics2.d.ts.map
+    │   │   │   ├── ⚡ generics2.js
+    │   │   │   ├── 📄 generics2.js.map
+    │   │   │   ├── 📄 interface.d.ts
+    │   │   │   ├── 📄 interface.d.ts.map
+    │   │   │   ├── ⚡ interface.js
+    │   │   │   ├── 📄 interface.js.map
+    │   │   │   ├── 📄 interface2.d.ts
+    │   │   │   ├── 📄 interface2.d.ts.map
+    │   │   │   ├── ⚡ interface2.js
+    │   │   │   ├── 📄 interface2.js.map
+    │   │   │   ├── 📄 products.d.ts
+    │   │   │   ├── 📄 products.d.ts.map
+    │   │   │   ├── ⚡ products.js
+    │   │   │   ├── 📄 products.js.map
+    │   │   │   ├── 📄 type.d.ts
+    │   │   │   ├── 📄 type.d.ts.map
+    │   │   │   ├── ⚡ type.js
+    │   │   │   └── 📄 type.js.map
+    │   │   ├── 📄 index.d.ts
+    │   │   ├── 📄 index.d.ts.map
+    │   │   ├── ⚡ index.js
+    │   │   ├── 📄 index.js.map
+    │   │   ├── 📄 overall.d.ts
+    │   │   ├── 📄 overall.d.ts.map
+    │   │   ├── ⚡ overall.js
+    │   │   └── 📄 overall.js.map
+    │   ├── 📁 src/
+    │   │   ├── 📁 Practice-Tasks/
+    │   │   │   ├── 📄 Task-1.ts
+    │   │   │   ├── 📄 Task-10.ts
+    │   │   │   ├── 📄 Task-2.ts
+    │   │   │   ├── 📄 Task-3.ts
+    │   │   │   ├── 📄 Task-4.ts
+    │   │   │   ├── 📄 Task-5.ts
+    │   │   │   ├── 📄 Task-6.ts
+    │   │   │   ├── 📄 Task-7.ts
+    │   │   │   ├── 📄 Task-8.ts
+    │   │   │   └── 📄 Task-9.ts
+    │   │   ├── 📁 type/
+    │   │   │   ├── 📄 assertion.ts
+    │   │   │   ├── 📄 enum.ts
+    │   │   │   ├── 📄 generics.ts
+    │   │   │   ├── 📄 generics2.ts
+    │   │   │   ├── 📄 interface.ts
+    │   │   │   ├── 📄 interface2.ts
+    │   │   │   ├── 📄 products.ts
+    │   │   │   └── 📄 type.ts
+    │   │   ├── 📄 index.ts
+    │   │   └── 📄 overall.ts
+    │   └── 📄 tsconfig.json
+    ├── ⚡ recap.js
+    └── 📄 recap.ts
 ```
 
 ---
