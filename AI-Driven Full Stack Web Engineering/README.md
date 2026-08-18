@@ -101,14 +101,14 @@ Covers advanced TypeScript features including type assertions, type narrowing, i
 │   │   │   ├── 🖼️ facebook.png
 │   │   │   ├── 🖼️ instagram.png
 │   │   │   └── 🖼️ linkedin.png
-│   │   ├── 📄 bg-image.avif
+│   │   ├── 🖼️ bg-image.avif
 │   │   ├── 🖼️ chocolate.png
 │   │   ├── 📄 Conceptual session.fig
 │   │   ├── 🖼️ cube.png
 │   │   ├── 🖼️ cup.png
-│   │   ├── 📄 footer-img.avif
+│   │   ├── 🖼️ footer-img.avif
 │   │   ├── 🖼️ glass.png
-│   │   └── 📄 our-story.avif
+│   │   └── 🖼️ our-story.avif
 │   ├── 🌐 index.html
 │   └── 🎨 style.css
 ├── 📁 Milestone 1 Module 1 - HTML Basics/
@@ -163,11 +163,11 @@ Covers advanced TypeScript features including type assertions, type narrowing, i
 │   └── 🌐 shadow.html
 ├── 📁 Milestone 1 Module 4 - CSS Layouts and Advance Styling/
 │   ├── 📁 images/
-│   │   ├── 📄 boy.svg
+│   │   ├── 🎨 boy.svg
 │   │   ├── 🖼️ camp.jpg
 │   │   ├── 🖼️ flowers.jpg
-│   │   ├── 📄 ring.svg
-│   │   └── 📄 water.svg
+│   │   ├── 🎨 ring.svg
+│   │   └── 🎨 water.svg
 │   ├── 📁 styles/
 │   │   ├── 🎨 banner.css
 │   │   └── 🎨 nav.css
@@ -202,7 +202,7 @@ Covers advanced TypeScript features including type assertions, type narrowing, i
 │   │   └── 🖼️ header_bg.png
 │   ├── 📁 Portfolio-Resources/
 │   │   ├── 📄 Portfolio.fig
-│   │   ├── 📄 Portfolio.pdf
+│   │   ├── 📕 Portfolio.pdf
 │   │   └── 📄 Portfolio.penpot
 │   ├── 🌐 index.html
 │   └── 🎨 style.css
@@ -311,7 +311,7 @@ Covers advanced TypeScript features including type assertions, type narrowing, i
 │   ├── ⚡ BD02_Method_That_Isnt_There.js
 │   ├── ⚡ BD03_Extra_Loop.js
 │   ├── ⚡ BD04_Reversed_Discount.js
-│   └── 📄 JS_Session03_Teach_Sheet.pdf
+│   └── 📕 JS_Session03_Teach_Sheet.pdf
 ├── 📁 Milestone 2 Module 10 - Fundamental-Concepts-of-Array/
 │   ├── 📁 Practice_Tasks/
 │   │   ├── ⚡ Advanced_Task_1.js
@@ -387,7 +387,7 @@ Covers advanced TypeScript features including type assertions, type narrowing, i
 │   └── ⚡ revision.js
 ├── 📁 Milestone 2 Module 13 - Basic-Problem-Solving-With-JavaScript/
 │   ├── 📁 Practice-Tasks/
-│   │   ├── 📄 B14-M13-Practice Task.pdf
+│   │   ├── 📕 B14-M13-Practice Task.pdf
 │   │   ├── ⚡ Task13-10A.js
 │   │   ├── ⚡ Task13-10B.js
 │   │   ├── ⚡ Task13-10C.js
@@ -423,7 +423,7 @@ Covers advanced TypeScript features including type assertions, type narrowing, i
 │   ├── ⚡ problem-8.js
 │   └── ⚡ problem-9.js
 ├── 📁 Milestone 2 Module 14 - Debugging-and-Problem-solving-with-JavaScript/
-│   ├── 📄 Module 14_ Practice Tasks (Find the Bug, Fix It) .pdf
+│   ├── 📕 Module 14_ Practice Tasks (Find the Bug, Fix It) .pdf
 │   ├── ⚡ Task14-1.js
 │   ├── ⚡ Task14-2.js
 │   ├── ⚡ Task14-3.js
@@ -578,7 +578,7 @@ Covers advanced TypeScript features including type assertions, type narrowing, i
 │   │   ├── ⚡ 7.InventoryObjectManager.js
 │   │   ├── ⚡ 8.Object-Looper.js
 │   │   ├── ⚡ 9.ES6-Refactor-Challenge.js
-│   │   └── 📄 Module16_ES6_Practice_Tasks (1).pdf
+│   │   └── 📕 Module16_ES6_Practice_Tasks (1).pdf
 │   ├── ⚡ 1.Var_let_const.js
 │   ├── ⚡ 2.default-parameter.js
 │   ├── ⚡ 3.Template-String.js
@@ -601,7 +601,7 @@ Covers advanced TypeScript features including type assertions, type narrowing, i
 │   └── ⚡ reels.js
 ├── 📁 Milestone 3 Module 18 - Problem-Solving-wtih-JavaScript-and-ES6/
 │   ├── 📁 Practice-Tasks/
-│   │   ├── 📄 Module 18 — Practice Tasks.pdf
+│   │   ├── 📕 Module 18 — Practice Tasks.pdf
 │   │   ├── ⚡ Task-1-calculateBill.js
 │   │   ├── ⚡ Task-10-cloneAndUpdate.js
 │   │   ├── ⚡ Task-2-buildProfileCard.js
@@ -620,7 +620,7 @@ Covers advanced TypeScript features including type assertions, type narrowing, i
 │   └── ⚡ 6.mixed-real-world-challenge.js
 ├── 📁 Milestone 3 Module 19 - Problem-Solving-wtih-JavaScript-and-ES6 -PART-2/
 │   ├── 📁 Practice-Task/
-│   │   ├── 📄 Module 19 — Practice Tasks.pdf
+│   │   ├── 📕 Module 19 — Practice Tasks.pdf
 │   │   ├── ⚡ Task-1-getFormattedPrices.js
 │   │   ├── ⚡ Task-10-getTopSellingProduct.js
 │   │   ├── ⚡ Task-2-getAvailableProducts.js
@@ -646,136 +646,136 @@ Covers advanced TypeScript features including type assertions, type narrowing, i
 │   └── ⚡ Problem-5-Debugging-Challenge-Ai-Leaderboard-Generator.js
 ├── 📁 Milestone 4 Module 21 - TypeScript-Fundamentals/
 │   ├── 📁 Practice-Task/
-│   │   └── 📄 Task-1.ts
-│   ├── 📄 array.ts
-│   ├── 📄 arrow-function.ts
-│   ├── 📄 basics.ts
+│   │   └── 🔷 Task-1.ts
+│   ├── 🔷 array.ts
+│   ├── 🔷 arrow-function.ts
+│   ├── 🔷 basics.ts
 │   ├── ⚡ compare.js
-│   ├── 📄 destructuring.ts
+│   ├── 🔷 destructuring.ts
 │   ├── ⚡ first.js
-│   ├── 📄 function.ts
+│   ├── 🔷 function.ts
 │   ├── ⚡ items.js
-│   ├── 📄 items.ts
-│   ├── 📄 map.ts
+│   ├── 🔷 items.ts
+│   ├── 🔷 map.ts
 │   ├── ⚡ object.js
-│   ├── 📄 object.ts
-│   ├── 📄 recap.ts
-│   ├── 📄 rest-spread.ts
-│   ├── 📄 special.ts
-│   ├── 📄 tuples.ts
+│   ├── 🔷 object.ts
+│   ├── 🔷 recap.ts
+│   ├── 🔷 rest-spread.ts
+│   ├── 🔷 special.ts
+│   ├── 🔷 tuples.ts
 │   ├── ⚡ types.js
-│   └── 📄 types.ts
+│   └── 🔷 types.ts
 └── 📁 Milestone 4 Module 22 - More-TypeScript/
     ├── 📁 for-projects/
     │   ├── 📁 dist/
     │   │   ├── 📁 Practice-Tasks/
-    │   │   │   ├── 📄 Task-1.d.ts
-    │   │   │   ├── 📄 Task-1.d.ts.map
+    │   │   │   ├── 🔷 Task-1.d.ts
+    │   │   │   ├── 🗺️ Task-1.d.ts.map
     │   │   │   ├── ⚡ Task-1.js
-    │   │   │   ├── 📄 Task-1.js.map
-    │   │   │   ├── 📄 Task-10.d.ts
-    │   │   │   ├── 📄 Task-10.d.ts.map
+    │   │   │   ├── 🗺️ Task-1.js.map
+    │   │   │   ├── 🔷 Task-10.d.ts
+    │   │   │   ├── 🗺️ Task-10.d.ts.map
     │   │   │   ├── ⚡ Task-10.js
-    │   │   │   ├── 📄 Task-10.js.map
-    │   │   │   ├── 📄 Task-2.d.ts
-    │   │   │   ├── 📄 Task-2.d.ts.map
+    │   │   │   ├── 🗺️ Task-10.js.map
+    │   │   │   ├── 🔷 Task-2.d.ts
+    │   │   │   ├── 🗺️ Task-2.d.ts.map
     │   │   │   ├── ⚡ Task-2.js
-    │   │   │   ├── 📄 Task-2.js.map
-    │   │   │   ├── 📄 Task-3.d.ts
-    │   │   │   ├── 📄 Task-3.d.ts.map
+    │   │   │   ├── 🗺️ Task-2.js.map
+    │   │   │   ├── 🔷 Task-3.d.ts
+    │   │   │   ├── 🗺️ Task-3.d.ts.map
     │   │   │   ├── ⚡ Task-3.js
-    │   │   │   ├── 📄 Task-3.js.map
-    │   │   │   ├── 📄 Task-4.d.ts
-    │   │   │   ├── 📄 Task-4.d.ts.map
+    │   │   │   ├── 🗺️ Task-3.js.map
+    │   │   │   ├── 🔷 Task-4.d.ts
+    │   │   │   ├── 🗺️ Task-4.d.ts.map
     │   │   │   ├── ⚡ Task-4.js
-    │   │   │   ├── 📄 Task-4.js.map
-    │   │   │   ├── 📄 Task-5.d.ts
-    │   │   │   ├── 📄 Task-5.d.ts.map
+    │   │   │   ├── 🗺️ Task-4.js.map
+    │   │   │   ├── 🔷 Task-5.d.ts
+    │   │   │   ├── 🗺️ Task-5.d.ts.map
     │   │   │   ├── ⚡ Task-5.js
-    │   │   │   ├── 📄 Task-5.js.map
-    │   │   │   ├── 📄 Task-6.d.ts
-    │   │   │   ├── 📄 Task-6.d.ts.map
+    │   │   │   ├── 🗺️ Task-5.js.map
+    │   │   │   ├── 🔷 Task-6.d.ts
+    │   │   │   ├── 🗺️ Task-6.d.ts.map
     │   │   │   ├── ⚡ Task-6.js
-    │   │   │   ├── 📄 Task-6.js.map
-    │   │   │   ├── 📄 Task-7.d.ts
-    │   │   │   ├── 📄 Task-7.d.ts.map
+    │   │   │   ├── 🗺️ Task-6.js.map
+    │   │   │   ├── 🔷 Task-7.d.ts
+    │   │   │   ├── 🗺️ Task-7.d.ts.map
     │   │   │   ├── ⚡ Task-7.js
-    │   │   │   ├── 📄 Task-7.js.map
-    │   │   │   ├── 📄 Task-8.d.ts
-    │   │   │   ├── 📄 Task-8.d.ts.map
+    │   │   │   ├── 🗺️ Task-7.js.map
+    │   │   │   ├── 🔷 Task-8.d.ts
+    │   │   │   ├── 🗺️ Task-8.d.ts.map
     │   │   │   ├── ⚡ Task-8.js
-    │   │   │   ├── 📄 Task-8.js.map
-    │   │   │   ├── 📄 Task-9.d.ts
-    │   │   │   ├── 📄 Task-9.d.ts.map
+    │   │   │   ├── 🗺️ Task-8.js.map
+    │   │   │   ├── 🔷 Task-9.d.ts
+    │   │   │   ├── 🗺️ Task-9.d.ts.map
     │   │   │   ├── ⚡ Task-9.js
-    │   │   │   └── 📄 Task-9.js.map
+    │   │   │   └── 🗺️ Task-9.js.map
     │   │   ├── 📁 type/
-    │   │   │   ├── 📄 assertion.d.ts
-    │   │   │   ├── 📄 assertion.d.ts.map
+    │   │   │   ├── 🔷 assertion.d.ts
+    │   │   │   ├── 🗺️ assertion.d.ts.map
     │   │   │   ├── ⚡ assertion.js
-    │   │   │   ├── 📄 assertion.js.map
-    │   │   │   ├── 📄 enum.d.ts
-    │   │   │   ├── 📄 enum.d.ts.map
+    │   │   │   ├── 🗺️ assertion.js.map
+    │   │   │   ├── 🔷 enum.d.ts
+    │   │   │   ├── 🗺️ enum.d.ts.map
     │   │   │   ├── ⚡ enum.js
-    │   │   │   ├── 📄 enum.js.map
-    │   │   │   ├── 📄 generics.d.ts
-    │   │   │   ├── 📄 generics.d.ts.map
+    │   │   │   ├── 🗺️ enum.js.map
+    │   │   │   ├── 🔷 generics.d.ts
+    │   │   │   ├── 🗺️ generics.d.ts.map
     │   │   │   ├── ⚡ generics.js
-    │   │   │   ├── 📄 generics.js.map
-    │   │   │   ├── 📄 generics2.d.ts
-    │   │   │   ├── 📄 generics2.d.ts.map
+    │   │   │   ├── 🗺️ generics.js.map
+    │   │   │   ├── 🔷 generics2.d.ts
+    │   │   │   ├── 🗺️ generics2.d.ts.map
     │   │   │   ├── ⚡ generics2.js
-    │   │   │   ├── 📄 generics2.js.map
-    │   │   │   ├── 📄 interface.d.ts
-    │   │   │   ├── 📄 interface.d.ts.map
+    │   │   │   ├── 🗺️ generics2.js.map
+    │   │   │   ├── 🔷 interface.d.ts
+    │   │   │   ├── 🗺️ interface.d.ts.map
     │   │   │   ├── ⚡ interface.js
-    │   │   │   ├── 📄 interface.js.map
-    │   │   │   ├── 📄 interface2.d.ts
-    │   │   │   ├── 📄 interface2.d.ts.map
+    │   │   │   ├── 🗺️ interface.js.map
+    │   │   │   ├── 🔷 interface2.d.ts
+    │   │   │   ├── 🗺️ interface2.d.ts.map
     │   │   │   ├── ⚡ interface2.js
-    │   │   │   ├── 📄 interface2.js.map
-    │   │   │   ├── 📄 products.d.ts
-    │   │   │   ├── 📄 products.d.ts.map
+    │   │   │   ├── 🗺️ interface2.js.map
+    │   │   │   ├── 🔷 products.d.ts
+    │   │   │   ├── 🗺️ products.d.ts.map
     │   │   │   ├── ⚡ products.js
-    │   │   │   ├── 📄 products.js.map
-    │   │   │   ├── 📄 type.d.ts
-    │   │   │   ├── 📄 type.d.ts.map
+    │   │   │   ├── 🗺️ products.js.map
+    │   │   │   ├── 🔷 type.d.ts
+    │   │   │   ├── 🗺️ type.d.ts.map
     │   │   │   ├── ⚡ type.js
-    │   │   │   └── 📄 type.js.map
-    │   │   ├── 📄 index.d.ts
-    │   │   ├── 📄 index.d.ts.map
+    │   │   │   └── 🗺️ type.js.map
+    │   │   ├── 🔷 index.d.ts
+    │   │   ├── 🗺️ index.d.ts.map
     │   │   ├── ⚡ index.js
-    │   │   ├── 📄 index.js.map
-    │   │   ├── 📄 overall.d.ts
-    │   │   ├── 📄 overall.d.ts.map
+    │   │   ├── 🗺️ index.js.map
+    │   │   ├── 🔷 overall.d.ts
+    │   │   ├── 🗺️ overall.d.ts.map
     │   │   ├── ⚡ overall.js
-    │   │   └── 📄 overall.js.map
+    │   │   └── 🗺️ overall.js.map
     │   ├── 📁 src/
     │   │   ├── 📁 Practice-Tasks/
-    │   │   │   ├── 📄 Task-1.ts
-    │   │   │   ├── 📄 Task-10.ts
-    │   │   │   ├── 📄 Task-2.ts
-    │   │   │   ├── 📄 Task-3.ts
-    │   │   │   ├── 📄 Task-4.ts
-    │   │   │   ├── 📄 Task-5.ts
-    │   │   │   ├── 📄 Task-6.ts
-    │   │   │   ├── 📄 Task-7.ts
-    │   │   │   ├── 📄 Task-8.ts
-    │   │   │   └── 📄 Task-9.ts
+    │   │   │   ├── 🔷 Task-1.ts
+    │   │   │   ├── 🔷 Task-10.ts
+    │   │   │   ├── 🔷 Task-2.ts
+    │   │   │   ├── 🔷 Task-3.ts
+    │   │   │   ├── 🔷 Task-4.ts
+    │   │   │   ├── 🔷 Task-5.ts
+    │   │   │   ├── 🔷 Task-6.ts
+    │   │   │   ├── 🔷 Task-7.ts
+    │   │   │   ├── 🔷 Task-8.ts
+    │   │   │   └── 🔷 Task-9.ts
     │   │   ├── 📁 type/
-    │   │   │   ├── 📄 assertion.ts
-    │   │   │   ├── 📄 enum.ts
-    │   │   │   ├── 📄 generics.ts
-    │   │   │   ├── 📄 generics2.ts
-    │   │   │   ├── 📄 interface.ts
-    │   │   │   ├── 📄 interface2.ts
-    │   │   │   ├── 📄 products.ts
-    │   │   │   └── 📄 type.ts
-    │   │   ├── 📄 index.ts
-    │   │   └── 📄 overall.ts
-    │   └── 📄 tsconfig.json
+    │   │   │   ├── 🔷 assertion.ts
+    │   │   │   ├── 🔷 enum.ts
+    │   │   │   ├── 🔷 generics.ts
+    │   │   │   ├── 🔷 generics2.ts
+    │   │   │   ├── 🔷 interface.ts
+    │   │   │   ├── 🔷 interface2.ts
+    │   │   │   ├── 🔷 products.ts
+    │   │   │   └── 🔷 type.ts
+    │   │   ├── 🔷 index.ts
+    │   │   └── 🔷 overall.ts
+    │   └── 🔶 tsconfig.json
     ├── ⚡ recap.js
-    └── 📄 recap.ts
+    └── 🔷 recap.ts
 ```
 
 ---
