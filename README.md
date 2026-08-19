@@ -11,7 +11,7 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 ### 🎯 Current Focus
 ```bash
 🎯 Currently Mastering: AI-Driven Full Stack Web Engineering
-📊 Progress: 📈 Ongoing (Milestone 4, Module 22 - More TypeScript)
+📊 Progress: 📈 Completed (Milestone 4, Module 23 - OOP in TypeScript)
 ```
 
 ## 📂 Repository Structure
@@ -704,6 +704,22 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 │   │   │   └── 🔶 tsconfig.json
 │   │   ├── ⚡ recap.js
 │   │   └── 🔷 recap.ts
+│   ├── 📁 Milestone 4 Module 23 - OOP-in-TypeScript/
+│   │   ├── 📁 dist/
+│   │   │   ├── 🔷 hello.d.ts
+│   │   │   ├── 🗺️ hello.d.ts.map
+│   │   │   ├── ⚡ hello.js
+│   │   │   └── 🗺️ hello.js.map
+│   │   ├── 📁 src/
+│   │   │   ├── 🔷 access-modifier.ts
+│   │   │   ├── 🔷 class.ts
+│   │   │   ├── 🔷 getter-setter.ts
+│   │   │   ├── 🔷 hello.ts
+│   │   │   ├── 🔷 inheritence.ts
+│   │   │   ├── 🔷 method.ts
+│   │   │   ├── 🔷 object.ts
+│   │   │   └── 🔷 polymorphism.ts
+│   │   └── 🔶 tsconfig.json
 │   └── 📚 README.md
 ├── 📁 Complete_Python_For_Ai_ML/
 │   ├── 📁 Chapter-1-Installation/
