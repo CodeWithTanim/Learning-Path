@@ -11,7 +11,7 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 ### 🎯 Current Focus
 ```bash
 🎯 Currently Mastering: AI-Driven Full Stack Web Engineering
-📊 Progress: 📈 Completed (Milestone 4, Module 23 - OOP in TypeScript)
+📊 Progress: 📈 Completed (Milestone 4, Module 24 - Problem-Solving-with-TypeScript)
 ```
 
 ## 📂 Repository Structure
@@ -720,6 +720,20 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 │   │   │   ├── 🔷 object.ts
 │   │   │   └── 🔷 polymorphism.ts
 │   │   └── 🔶 tsconfig.json
+│   ├── 📁 Milestone 4 Module 24 - Problem-Solving-with-TypeScript/
+│   │   ├── 📁 dist/
+│   │   │   ├── 📁 Practice-Tasks/
+│   │   │   ├── 🔷 1.getTicketPrice.d.ts
+│   │   │   ├── ⚡ 1.getTicketPrice.js
+│   │   │   ├── ...
+│   │   │   ├── 🔷 9.processTransaction.d.ts
+│   │   │   └── ⚡ 9.processTransaction.js
+│   │   ├── 📁 src/
+│   │   │   ├── 📁 Practice-Tasks/
+│   │   │   ├── 🔷 1.getTicketPrice.ts
+│   │   │   ├── ...
+│   │   │   └── 🔷 9.processTransaction.ts
+│   │   └── 🔶 tsconfig.json
 │   └── 📚 README.md
 ├── 📁 Complete_Python_For_Ai_ML/
 │   ├── 📁 Chapter-1-Installation/
@@ -916,6 +930,7 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 
 
 
@@ -929,8 +944,8 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 
 ### 🔥 Latest Project
 **Project Name**: AI-Driven Full Stack Web Engineering
-**Tech Stack**: HTML5, CSS3, JavaScript, Git & GitHub
-**Status**: 📈 Ongoing (Milestone 1, Module 6 / Assignment 1)
+**Tech Stack**: HTML5, CSS3, JavaScript (ES6+), TypeScript, Git & GitHub
+**Status**: 📈 Completed (Milestone 4, Module 24 / Problem-Solving-with-TypeScript)
 
 <!-- ### 🎨 Mini Projects Collection
 - [ ] Todo List App

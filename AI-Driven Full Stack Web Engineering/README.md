@@ -88,6 +88,9 @@ Covers advanced TypeScript features including type assertions, type narrowing, i
 ### 🔹 `Milestone 4 Module 23 - OOP-in-TypeScript`
 Covers Object-Oriented Programming (OOP) concepts in TypeScript, including classes, objects, constructors, inheritance, access modifiers (public, private, protected, readonly), getters and setters, polymorphism, abstraction (abstract classes & interfaces), static properties/methods, and practice tasks.
 
+### 🔹 `Milestone 4 Module 24 - Problem-Solving-with-TypeScript`
+Focuses on real-world TypeScript problem solving, applying type safety, union & intersection types, optional chaining, array & object manipulation, generics, and custom type guards across various practical programming challenges (movie ticketing, inventory stock status, user profiles, shopping carts, student results, role permissions, product filtering, healthcare patient records, and financial transaction processing).
+
 ---
 
 ## 📂 Repository Structure
@@ -779,21 +782,73 @@ Covers Object-Oriented Programming (OOP) concepts in TypeScript, including class
 │   │   └── 🔶 tsconfig.json
 │   ├── ⚡ recap.js
 │   └── 🔷 recap.ts
-└── 📁 Milestone 4 Module 23 - OOP-in-TypeScript/
+├── 📁 Milestone 4 Module 23 - OOP-in-TypeScript/
+│   ├── 📁 dist/
+│   │   ├── 🔷 hello.d.ts
+│   │   ├── 🗺️ hello.d.ts.map
+│   │   ├── ⚡ hello.js
+│   │   └── 🗺️ hello.js.map
+│   ├── 📁 src/
+│   │   ├── 🔷 access-modifier.ts
+│   │   ├── 🔷 class.ts
+│   │   ├── 🔷 getter-setter.ts
+│   │   ├── 🔷 hello.ts
+│   │   ├── 🔷 inheritence.ts
+│   │   ├── 🔷 method.ts
+│   │   ├── 🔷 object.ts
+│   │   └── 🔷 polymorphism.ts
+│   └── 🔶 tsconfig.json
+└── 📁 Milestone 4 Module 24 - Problem-Solving-with-TypeScript/
     ├── 📁 dist/
+    │   ├── 📁 Practice-Tasks/
+    │   │   ├── 🔷 1.getAgeRatingAccess.d.ts
+    │   │   ├── ⚡ 1.getAgeRatingAccess.js
+    │   │   ├── ...
+    │   │   ├── 🔷 10.calculateRentalFee.d.ts
+    │   │   └── ⚡ 10.calculateRentalFee.js
+    │   ├── 🔷 1.getTicketPrice.d.ts
+    │   ├── ⚡ 1.getTicketPrice.js
+    │   ├── 🔷 2.getStockStatus.d.ts
+    │   ├── ⚡ 2.getStockStatus.js
+    │   ├── 🔷 3.formatUserProfile.d.ts
+    │   ├── ⚡ 3.formatUserProfile.js
+    │   ├── 🔷 4.calculateCartTotal.d.ts
+    │   ├── ⚡ 4.calculateCartTotal.js
+    │   ├── 🔷 5.getStudentResult.d.ts
+    │   ├── ⚡ 5.getStudentResult.js
+    │   ├── 🔷 6.canEdit.d.ts
+    │   ├── ⚡ 6.canEdit.js
+    │   ├── 🔷 7.findProducts.d.ts
+    │   ├── ⚡ 7.findProducts.js
+    │   ├── 🔷 8.getPatientStatus.d.ts
+    │   ├── ⚡ 8.getPatientStatus.js
+    │   ├── 🔷 9.processTransaction.d.ts
+    │   ├── ⚡ 9.processTransaction.js
     │   ├── 🔷 hello.d.ts
-    │   ├── 🗺️ hello.d.ts.map
-    │   ├── ⚡ hello.js
-    │   └── 🗺️ hello.js.map
+    │   └── ⚡ hello.js
     ├── 📁 src/
-    │   ├── 🔷 access-modifier.ts
-    │   ├── 🔷 class.ts
-    │   ├── 🔷 getter-setter.ts
-    │   ├── 🔷 hello.ts
-    │   ├── 🔷 inheritence.ts
-    │   ├── 🔷 method.ts
-    │   ├── 🔷 object.ts
-    │   └── 🔷 polymorphism.ts
+    │   ├── 📁 Practice-Tasks/
+    │   │   ├── 🔷 1.getAgeRatingAccess.ts
+    │   │   ├── 🔷 2.getSignalStatus.ts
+    │   │   ├── 🔷 3.formatPlayerCard.ts
+    │   │   ├── 🔷 4.calculateTotalListeningTime.ts
+    │   │   ├── 🔷 5.getPlayerStats.ts
+    │   │   ├── 🔷 6.canAccessOfflineMode.ts
+    │   │   ├── 🔷 7.findMenuItemsByTag.ts
+    │   │   ├── 🔷 8.renderNotification.ts
+    │   │   ├── 🔷 9.updateStorageUsage.ts
+    │   │   ├── 🔷 10.calculateRentalFee.ts
+    │   │   └── 📄 TypeScript_Practice Task.pdf
+    │   ├── 🔷 1.getTicketPrice.ts
+    │   ├── 🔷 2.getStockStatus.ts
+    │   ├── 🔷 3.formatUserProfile.ts
+    │   ├── 🔷 4.calculateCartTotal.ts
+    │   ├── 🔷 5.getStudentResult.ts
+    │   ├── 🔷 6.canEdit.ts
+    │   ├── 🔷 7.findProducts.ts
+    │   ├── 🔷 8.getPatientStatus.ts
+    │   ├── 🔷 9.processTransaction.ts
+    │   └── 🔷 hello.ts
     └── 🔶 tsconfig.json
 ```
 
@@ -802,6 +857,9 @@ Covers Object-Oriented Programming (OOP) concepts in TypeScript, including class
 ## 🛠️ Technologies Learned
 - **HTML5**: Semantic tags, tables, forms, audio/video integration.
 - **Git & GitHub**: Version control, repository hosting, basic workflow.
+- **CSS3**: Selectors, Flexbox, Grid, Responsive Web Design, Navigation, Layouts.
+- **JavaScript (ES6+)**: Data types, Conditionals, Loops, Arrays, Objects, Functions, ES6+ features, Array Methods (`map`, `filter`, `find`, `reduce`), Destructuring.
+- **TypeScript**: Type annotations, Interfaces, Type Aliases, Generics, OOP (Classes, Inheritance, Access Modifiers, Polymorphism, Abstraction), Utility Types, Real-world Problem Solving.
 
 ---
 *Keep learning, keep coding!* 💻🔥
