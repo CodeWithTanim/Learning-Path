@@ -723,16 +723,113 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 │   ├── 📁 Milestone 4 Module 24 - Problem-Solving-with-TypeScript/
 │   │   ├── 📁 dist/
 │   │   │   ├── 📁 Practice-Tasks/
+│   │   │   │   ├── 🔷 1.getAgeRatingAccess.d.ts
+│   │   │   │   ├── 🗺️ 1.getAgeRatingAccess.d.ts.map
+│   │   │   │   ├── ⚡ 1.getAgeRatingAccess.js
+│   │   │   │   ├── 🗺️ 1.getAgeRatingAccess.js.map
+│   │   │   │   ├── 🔷 10.calculateRentalFee.d.ts
+│   │   │   │   ├── 🗺️ 10.calculateRentalFee.d.ts.map
+│   │   │   │   ├── ⚡ 10.calculateRentalFee.js
+│   │   │   │   ├── 🗺️ 10.calculateRentalFee.js.map
+│   │   │   │   ├── 🔷 2.getSignalStatus.d.ts
+│   │   │   │   ├── 🗺️ 2.getSignalStatus.d.ts.map
+│   │   │   │   ├── ⚡ 2.getSignalStatus.js
+│   │   │   │   ├── 🗺️ 2.getSignalStatus.js.map
+│   │   │   │   ├── 🔷 3.formatPlayerCard.d.ts
+│   │   │   │   ├── 🗺️ 3.formatPlayerCard.d.ts.map
+│   │   │   │   ├── ⚡ 3.formatPlayerCard.js
+│   │   │   │   ├── 🗺️ 3.formatPlayerCard.js.map
+│   │   │   │   ├── 🔷 4.calculateTotalListeningTime.d.ts
+│   │   │   │   ├── 🗺️ 4.calculateTotalListeningTime.d.ts.map
+│   │   │   │   ├── ⚡ 4.calculateTotalListeningTime.js
+│   │   │   │   ├── 🗺️ 4.calculateTotalListeningTime.js.map
+│   │   │   │   ├── 🔷 5.getPlayerStats.d.ts
+│   │   │   │   ├── 🗺️ 5.getPlayerStats.d.ts.map
+│   │   │   │   ├── ⚡ 5.getPlayerStats.js
+│   │   │   │   ├── 🗺️ 5.getPlayerStats.js.map
+│   │   │   │   ├── 🔷 6.canAccessOfflineMode.d.ts
+│   │   │   │   ├── 🗺️ 6.canAccessOfflineMode.d.ts.map
+│   │   │   │   ├── ⚡ 6.canAccessOfflineMode.js
+│   │   │   │   ├── 🗺️ 6.canAccessOfflineMode.js.map
+│   │   │   │   ├── 🔷 7.findMenuItemsByTag.d.ts
+│   │   │   │   ├── 🗺️ 7.findMenuItemsByTag.d.ts.map
+│   │   │   │   ├── ⚡ 7.findMenuItemsByTag.js
+│   │   │   │   ├── 🗺️ 7.findMenuItemsByTag.js.map
+│   │   │   │   ├── 🔷 8.renderNotification.d.ts
+│   │   │   │   ├── 🗺️ 8.renderNotification.d.ts.map
+│   │   │   │   ├── ⚡ 8.renderNotification.js
+│   │   │   │   ├── 🗺️ 8.renderNotification.js.map
+│   │   │   │   ├── 🔷 9.updateStorageUsage.d.ts
+│   │   │   │   ├── 🗺️ 9.updateStorageUsage.d.ts.map
+│   │   │   │   ├── ⚡ 9.updateStorageUsage.js
+│   │   │   │   └── 🗺️ 9.updateStorageUsage.js.map
 │   │   │   ├── 🔷 1.getTicketPrice.d.ts
+│   │   │   ├── 🗺️ 1.getTicketPrice.d.ts.map
 │   │   │   ├── ⚡ 1.getTicketPrice.js
-│   │   │   ├── ...
+│   │   │   ├── 🗺️ 1.getTicketPrice.js.map
+│   │   │   ├── 🔷 2.getStockStatus.d.ts
+│   │   │   ├── 🗺️ 2.getStockStatus.d.ts.map
+│   │   │   ├── ⚡ 2.getStockStatus.js
+│   │   │   ├── 🗺️ 2.getStockStatus.js.map
+│   │   │   ├── 🔷 3.formatUserProfile.d.ts
+│   │   │   ├── 🗺️ 3.formatUserProfile.d.ts.map
+│   │   │   ├── ⚡ 3.formatUserProfile.js
+│   │   │   ├── 🗺️ 3.formatUserProfile.js.map
+│   │   │   ├── 🔷 4.calculateCartTotal.d.ts
+│   │   │   ├── 🗺️ 4.calculateCartTotal.d.ts.map
+│   │   │   ├── ⚡ 4.calculateCartTotal.js
+│   │   │   ├── 🗺️ 4.calculateCartTotal.js.map
+│   │   │   ├── 🔷 5.getStudentResult.d.ts
+│   │   │   ├── 🗺️ 5.getStudentResult.d.ts.map
+│   │   │   ├── ⚡ 5.getStudentResult.js
+│   │   │   ├── 🗺️ 5.getStudentResult.js.map
+│   │   │   ├── 🔷 6.canEdit.d.ts
+│   │   │   ├── 🗺️ 6.canEdit.d.ts.map
+│   │   │   ├── ⚡ 6.canEdit.js
+│   │   │   ├── 🗺️ 6.canEdit.js.map
+│   │   │   ├── 🔷 7.findProducts.d.ts
+│   │   │   ├── 🗺️ 7.findProducts.d.ts.map
+│   │   │   ├── ⚡ 7.findProducts.js
+│   │   │   ├── 🗺️ 7.findProducts.js.map
+│   │   │   ├── 🔷 8.getPatientStatus.d.ts
+│   │   │   ├── 🗺️ 8.getPatientStatus.d.ts.map
+│   │   │   ├── ⚡ 8.getPatientStatus.js
+│   │   │   ├── 🗺️ 8.getPatientStatus.js.map
 │   │   │   ├── 🔷 9.processTransaction.d.ts
-│   │   │   └── ⚡ 9.processTransaction.js
+│   │   │   ├── 🗺️ 9.processTransaction.d.ts.map
+│   │   │   ├── ⚡ 9.processTransaction.js
+│   │   │   ├── 🗺️ 9.processTransaction.js.map
+│   │   │   ├── 🔷 getTicketPrice.d.ts
+│   │   │   ├── 🗺️ getTicketPrice.d.ts.map
+│   │   │   ├── ⚡ getTicketPrice.js
+│   │   │   ├── 🗺️ getTicketPrice.js.map
+│   │   │   ├── 🔷 hello.d.ts
+│   │   │   ├── 🗺️ hello.d.ts.map
+│   │   │   ├── ⚡ hello.js
+│   │   │   └── 🗺️ hello.js.map
 │   │   ├── 📁 src/
 │   │   │   ├── 📁 Practice-Tasks/
+│   │   │   │   ├── 🔷 1.getAgeRatingAccess.ts
+│   │   │   │   ├── 🔷 10.calculateRentalFee.ts
+│   │   │   │   ├── 🔷 2.getSignalStatus.ts
+│   │   │   │   ├── 🔷 3.formatPlayerCard.ts
+│   │   │   │   ├── 🔷 4.calculateTotalListeningTime.ts
+│   │   │   │   ├── 🔷 5.getPlayerStats.ts
+│   │   │   │   ├── 🔷 6.canAccessOfflineMode.ts
+│   │   │   │   ├── 🔷 7.findMenuItemsByTag.ts
+│   │   │   │   ├── 🔷 8.renderNotification.ts
+│   │   │   │   ├── 🔷 9.updateStorageUsage.ts
+│   │   │   │   └── 📕 TypeScript_Practice Task.pdf
 │   │   │   ├── 🔷 1.getTicketPrice.ts
-│   │   │   ├── ...
-│   │   │   └── 🔷 9.processTransaction.ts
+│   │   │   ├── 🔷 2.getStockStatus.ts
+│   │   │   ├── 🔷 3.formatUserProfile.ts
+│   │   │   ├── 🔷 4.calculateCartTotal.ts
+│   │   │   ├── 🔷 5.getStudentResult.ts
+│   │   │   ├── 🔷 6.canEdit.ts
+│   │   │   ├── 🔷 7.findProducts.ts
+│   │   │   ├── 🔷 8.getPatientStatus.ts
+│   │   │   ├── 🔷 9.processTransaction.ts
+│   │   │   └── 🔷 hello.ts
 │   │   └── 🔶 tsconfig.json
 │   └── 📚 README.md
 ├── 📁 Complete_Python_For_Ai_ML/
