@@ -656,6 +656,46 @@ Conceptual session focusing on TypeScript problem-solving patterns, including si
 │   ├── ⚡ Problem-3-Trending-Hashtag-Counter.js
 │   ├── ⚡ Problem-4-Bonus-Score-Calculator.js
 │   └── ⚡ Problem-5-Debugging-Challenge-Ai-Leaderboard-Generator.js
+├── 📁 Milestone 4 Concptual Session 7 - Problem-Solving-with-TypeScript/
+│   ├── 📁 dist/
+│   │   ├── 🔷 1.getSignalStatus.d.ts
+│   │   ├── 🗺️ 1.getSignalStatus.d.ts.map
+│   │   ├── ⚡ 1.getSignalStatus.js
+│   │   ├── 🗺️ 1.getSignalStatus.js.map
+│   │   ├── 🔷 2.formatTicketConfirmation.d.ts
+│   │   ├── 🗺️ 2.formatTicketConfirmation.d.ts.map
+│   │   ├── ⚡ 2.formatTicketConfirmation.js
+│   │   ├── 🗺️ 2.formatTicketConfirmation.js.map
+│   │   ├── 🔷 3.calculateWeeklySteps.d.ts
+│   │   ├── 🗺️ 3.calculateWeeklySteps.d.ts.map
+│   │   ├── ⚡ 3.calculateWeeklySteps.js
+│   │   ├── 🗺️ 3.calculateWeeklySteps.js.map
+│   │   ├── 🔷 4.calculateOrderTotal.d.ts
+│   │   ├── 🗺️ 4.calculateOrderTotal.d.ts.map
+│   │   ├── ⚡ 4.calculateOrderTotal.js
+│   │   ├── 🗺️ 4.calculateOrderTotal.js.map
+│   │   ├── 🔷 5.getWeatherAdvice.d.ts
+│   │   ├── 🗺️ 5.getWeatherAdvice.d.ts.map
+│   │   ├── ⚡ 5.getWeatherAdvice.js
+│   │   ├── 🗺️ 5.getWeatherAdvice.js.map
+│   │   ├── 🔷 6.findOnDutyEmployees.d.ts
+│   │   ├── 🗺️ 6.findOnDutyEmployees.d.ts.map
+│   │   ├── ⚡ 6.findOnDutyEmployees.js
+│   │   ├── 🗺️ 6.findOnDutyEmployees.js.map
+│   │   ├── 🔷 7.getDistanceSummary.d.ts
+│   │   ├── 🗺️ 7.getDistanceSummary.d.ts.map
+│   │   ├── ⚡ 7.getDistanceSummary.js
+│   │   └── 🗺️ 7.getDistanceSummary.js.map
+│   ├── 📁 src/
+│   │   ├── 🔷 1.getSignalStatus.ts
+│   │   ├── 🔷 2.formatTicketConfirmation.ts
+│   │   ├── 🔷 3.calculateWeeklySteps.ts
+│   │   ├── 🔷 4.calculateOrderTotal.ts
+│   │   ├── 🔷 5.getWeatherAdvice.ts
+│   │   ├── 🔷 6.findOnDutyEmployees.ts
+│   │   ├── 🔷 7.getDistanceSummary.ts
+│   │   └── 📕 Conceptual Session_ TypeScript Problem-Solving .pdf
+│   └── 🔶 tsconfig.json
 ├── 📁 Milestone 4 Module 21 - TypeScript-Fundamentals/
 │   ├── 📁 Practice-Task/
 │   │   └── 🔷 Task-1.ts
@@ -915,31 +955,14 @@ Conceptual session focusing on TypeScript problem-solving patterns, including si
 │   │   ├── 🔷 9.processTransaction.ts
 │   │   └── 🔷 hello.ts
 │   └── 🔶 tsconfig.json
-├── 📁 Milestone 4 Module 25 - Assignment-4/
-│   ├── 🔷 1.getBatteryStatus.ts
-│   ├── 🔷 2.formatBookingConfirmation.ts
-│   ├── 🔷 3.calculateWeeklyTotal.ts
-│   ├── 🔷 4.getTrafficAction.ts
-│   ├── 🔷 5.getQuizSummary.ts
-│   ├── 🔷 final_Answer.ts
-│   └── 📕 TypeScript Problem-Solving Assignment.pdf
-└── 📁 Milestone 4 Concptual Session 7 - Problem-Solving-with-TypeScript/
-    ├── 📁 dist/
-    │   ├── 🔷 1.getSignalStatus.d.ts
-    │   ├── ⚡ 1.getSignalStatus.js
-    │   ├── ...
-    │   ├── 🔷 7.getDistanceSummary.d.ts
-    │   └── ⚡ 7.getDistanceSummary.js
-    ├── 📁 src/
-    │   ├── 🔷 1.getSignalStatus.ts
-    │   ├── 🔷 2.formatTicketConfirmation.ts
-    │   ├── 🔷 3.calculateWeeklySteps.ts
-    │   ├── 🔷 4.calculateOrderTotal.ts
-    │   ├── 🔷 5.getWeatherAdvice.ts
-    │   ├── 🔷 6.findOnDutyEmployees.ts
-    │   ├── 🔷 7.getDistanceSummary.ts
-    │   └── 📕 Conceptual Session_ TypeScript Problem-Solving .pdf
-    └── 🔶 tsconfig.json
+└── 📁 Milestone 4 Module 25 - Assignment-4/
+    ├── 🔷 1.getBatteryStatus.ts
+    ├── 🔷 2.formatBookingConfirmation.ts
+    ├── 🔷 3.calculateWeeklyTotal.ts
+    ├── 🔷 4.getTrafficAction.ts
+    ├── 🔷 5.getQuizSummary.ts
+    ├── 🔷 final_Answer.ts
+    └── 📕 TypeScript Problem-Solving Assignment.pdf
 ```
 
 ---
