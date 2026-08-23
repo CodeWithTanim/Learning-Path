@@ -91,6 +91,9 @@ Covers Object-Oriented Programming (OOP) concepts in TypeScript, including class
 ### 🔹 `Milestone 4 Module 24 - Problem-Solving-with-TypeScript`
 Focuses on real-world TypeScript problem solving, applying type safety, union & intersection types, optional chaining, array & object manipulation, generics, and custom type guards across various practical programming challenges (movie ticketing, inventory stock status, user profiles, shopping carts, student results, role permissions, product filtering, healthcare patient records, and financial transaction processing).
 
+### 🔹 `Milestone 4 Module 25 - Assignment-4`
+Solving practical TypeScript assignment problems, including battery level status checker (`getBatteryStatus`), table booking confirmation formatter (`formatBookingConfirmation`), weekly expense tracker (`calculateWeeklyTotal`), traffic light action handler (`getTrafficAction`), quiz score summary calculator (`getQuizSummary`), and combined solution implementations (`final_Answer.ts`).
+
 ---
 
 ## 📂 Repository Structure
@@ -798,7 +801,7 @@ Focuses on real-world TypeScript problem solving, applying type safety, union & 
 │   │   ├── 🔷 object.ts
 │   │   └── 🔷 polymorphism.ts
 │   └── 🔶 tsconfig.json
-└── 📁 Milestone 4 Module 24 - Problem-Solving-with-TypeScript/
+├── 📁 Milestone 4 Module 24 - Problem-Solving-with-TypeScript/
     ├── 📁 dist/
     │   ├── 📁 Practice-Tasks/
     │   │   ├── 🔷 1.getAgeRatingAccess.d.ts
@@ -909,6 +912,14 @@ Focuses on real-world TypeScript problem solving, applying type safety, union & 
     │   ├── 🔷 9.processTransaction.ts
     │   └── 🔷 hello.ts
     └── 🔶 tsconfig.json
+└── 📁 Milestone 4 Module 25 - Assignment-4/
+    ├── 🔷 1.getBatteryStatus.ts
+    ├── 🔷 2.formatBookingConfirmation.ts
+    ├── 🔷 3.calculateWeeklyTotal.ts
+    ├── 🔷 4.getTrafficAction.ts
+    ├── 🔷 5.getQuizSummary.ts
+    ├── 🔷 final_Answer.ts
+    └── 📕 TypeScript Problem-Solving Assignment.pdf
 ```
 
 ---

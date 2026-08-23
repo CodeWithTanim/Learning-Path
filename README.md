@@ -11,7 +11,7 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 ### 🎯 Current Focus
 ```bash
 🎯 Currently Mastering: AI-Driven Full Stack Web Engineering
-📊 Progress: 📈 Completed (Milestone 4, Module 24 - Problem-Solving-with-TypeScript)
+📊 Progress: 📈 Completed (Milestone 4, Module 25 - Assignment-4)
 ```
 
 ## 📂 Repository Structure
@@ -831,6 +831,14 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 │   │   │   ├── 🔷 9.processTransaction.ts
 │   │   │   └── 🔷 hello.ts
 │   │   └── 🔶 tsconfig.json
+│   ├── 📁 Milestone 4 Module 25 - Assignment-4/
+│   │   ├── 🔷 1.getBatteryStatus.ts
+│   │   ├── 🔷 2.formatBookingConfirmation.ts
+│   │   ├── 🔷 3.calculateWeeklyTotal.ts
+│   │   ├── 🔷 4.getTrafficAction.ts
+│   │   ├── 🔷 5.getQuizSummary.ts
+│   │   ├── 🔷 final_Answer.ts
+│   │   └── 📕 TypeScript Problem-Solving Assignment.pdf
 │   └── 📚 README.md
 ├── 📁 Complete_Python_For_Ai_ML/
 │   ├── 📁 Chapter-1-Installation/
@@ -1042,7 +1050,7 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 ### 🔥 Latest Project
 **Project Name**: AI-Driven Full Stack Web Engineering
 **Tech Stack**: HTML5, CSS3, JavaScript (ES6+), TypeScript, Git & GitHub
-**Status**: 📈 Completed (Milestone 4, Module 24 / Problem-Solving-with-TypeScript)
+**Status**: 📈 Completed (Milestone 4, Module 25 / Assignment-4)
 
 <!-- ### 🎨 Mini Projects Collection
 - [ ] Todo List App
