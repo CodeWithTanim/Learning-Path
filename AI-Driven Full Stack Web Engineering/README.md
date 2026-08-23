@@ -94,6 +94,9 @@ Focuses on real-world TypeScript problem solving, applying type safety, union & 
 ### 🔹 `Milestone 4 Module 25 - Assignment-4`
 Solving practical TypeScript assignment problems, including battery level status checker (`getBatteryStatus`), table booking confirmation formatter (`formatBookingConfirmation`), weekly expense tracker (`calculateWeeklyTotal`), traffic light action handler (`getTrafficAction`), quiz score summary calculator (`getQuizSummary`), and combined solution implementations (`final_Answer.ts`).
 
+### 🔹 `Milestone 4 Conceptual Session 7 - Problem-Solving-with-TypeScript`
+Conceptual session focusing on TypeScript problem-solving patterns, including signal status checker (`getSignalStatus`), event ticket confirmation (`formatTicketConfirmation`), weekly step tracker (`calculateWeeklySteps`), order total calculator (`calculateOrderTotal`), weather advice generator (`getWeatherAdvice`), filtering on-duty employees (`findOnDutyEmployees`), and distance summary calculations (`getDistanceSummary`).
+
 ---
 
 ## 📂 Repository Structure
@@ -912,14 +915,31 @@ Solving practical TypeScript assignment problems, including battery level status
 │   │   ├── 🔷 9.processTransaction.ts
 │   │   └── 🔷 hello.ts
 │   └── 🔶 tsconfig.json
-└── 📁 Milestone 4 Module 25 - Assignment-4/
-    ├── 🔷 1.getBatteryStatus.ts
-    ├── 🔷 2.formatBookingConfirmation.ts
-    ├── 🔷 3.calculateWeeklyTotal.ts
-    ├── 🔷 4.getTrafficAction.ts
-    ├── 🔷 5.getQuizSummary.ts
-    ├── 🔷 final_Answer.ts
-    └── 📕 TypeScript Problem-Solving Assignment.pdf
+├── 📁 Milestone 4 Module 25 - Assignment-4/
+│   ├── 🔷 1.getBatteryStatus.ts
+│   ├── 🔷 2.formatBookingConfirmation.ts
+│   ├── 🔷 3.calculateWeeklyTotal.ts
+│   ├── 🔷 4.getTrafficAction.ts
+│   ├── 🔷 5.getQuizSummary.ts
+│   ├── 🔷 final_Answer.ts
+│   └── 📕 TypeScript Problem-Solving Assignment.pdf
+└── 📁 Milestone 4 Concptual Session 7 - Problem-Solving-with-TypeScript/
+    ├── 📁 dist/
+    │   ├── 🔷 1.getSignalStatus.d.ts
+    │   ├── ⚡ 1.getSignalStatus.js
+    │   ├── ...
+    │   ├── 🔷 7.getDistanceSummary.d.ts
+    │   └── ⚡ 7.getDistanceSummary.js
+    ├── 📁 src/
+    │   ├── 🔷 1.getSignalStatus.ts
+    │   ├── 🔷 2.formatTicketConfirmation.ts
+    │   ├── 🔷 3.calculateWeeklySteps.ts
+    │   ├── 🔷 4.calculateOrderTotal.ts
+    │   ├── 🔷 5.getWeatherAdvice.ts
+    │   ├── 🔷 6.findOnDutyEmployees.ts
+    │   ├── 🔷 7.getDistanceSummary.ts
+    │   └── 📕 Conceptual Session_ TypeScript Problem-Solving .pdf
+    └── 🔶 tsconfig.json
 ```
 
 ---

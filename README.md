@@ -11,7 +11,7 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 ### 🎯 Current Focus
 ```bash
 🎯 Currently Mastering: AI-Driven Full Stack Web Engineering
-📊 Progress: 📈 Completed (Milestone 4, Module 25 - Assignment-4)
+📊 Progress: 📈 Completed (Milestone 4, Conceptual Session 7 - Problem-Solving-with-TypeScript)
 ```
 
 ## 📂 Repository Structure
@@ -839,6 +839,18 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 │   │   ├── 🔷 5.getQuizSummary.ts
 │   │   ├── 🔷 final_Answer.ts
 │   │   └── 📕 TypeScript Problem-Solving Assignment.pdf
+│   ├── 📁 Milestone 4 Concptual Session 7 - Problem-Solving-with-TypeScript/
+│   │   ├── 📁 dist/
+│   │   ├── 📁 src/
+│   │   │   ├── 🔷 1.getSignalStatus.ts
+│   │   │   ├── 🔷 2.formatTicketConfirmation.ts
+│   │   │   ├── 🔷 3.calculateWeeklySteps.ts
+│   │   │   ├── 🔷 4.calculateOrderTotal.ts
+│   │   │   ├── 🔷 5.getWeatherAdvice.ts
+│   │   │   ├── 🔷 6.findOnDutyEmployees.ts
+│   │   │   ├── 🔷 7.getDistanceSummary.ts
+│   │   │   └── 📕 Conceptual Session_ TypeScript Problem-Solving .pdf
+│   │   └── 🔶 tsconfig.json
 │   └── 📚 README.md
 ├── 📁 Complete_Python_For_Ai_ML/
 │   ├── 📁 Chapter-1-Installation/
@@ -1050,7 +1062,7 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 ### 🔥 Latest Project
 **Project Name**: AI-Driven Full Stack Web Engineering
 **Tech Stack**: HTML5, CSS3, JavaScript (ES6+), TypeScript, Git & GitHub
-**Status**: 📈 Completed (Milestone 4, Module 25 / Assignment-4)
+**Status**: 📈 Completed (Milestone 4, Conceptual Session 7 / Problem-Solving-with-TypeScript)
 
 <!-- ### 🎨 Mini Projects Collection
 - [ ] Todo List App
