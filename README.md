@@ -13,6 +13,10 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 🎯 Currently Mastering: AI-Driven Full Stack Web Engineering
 📊 Progress: 📈 Completed (Milestone 4, Conceptual Session 7 - Problem-Solving-with-TypeScript)
 ```
+```bash
+🎯 Currently Mastering: Next-Level-Foundation-Program
+📊 Progress: 📈 Completed (Mission 1, Module 1 - Introduction to JavaScript & Various DataTypes)
+```
 
 ## 📂 Repository Structure
 
@@ -914,6 +918,18 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 │   │   ├── 📚 README.md
 │   │   ├── 💾 student_marks_analysis.sql
 │   │   └── 💾 student_marks_analysis2.sql
+│   └── 📚 README.md
+├── 📁 Next-Level-Foundation-Program/
+│   ├── 📁 Mission 1, Module 1-Introduction to JavaScript & Various DataTypes/
+│   │   ├── ⚡ arrow-function.js
+│   │   ├── ⚡ bmi.js
+│   │   ├── ⚡ decision.js
+│   │   ├── ⚡ function.js
+│   │   ├── ⚡ operator.js
+│   │   ├── ⚡ scope.js
+│   │   ├── ⚡ string.js
+│   │   ├── ⚡ values.js
+│   │   └── ⚡ variable.js
 │   └── 📚 README.md
 ├── 📁 PHP-Programming/
 │   ├── 🐘 01_basics.php

@@ -661,5 +661,18 @@ def main():
         ai_tree = generate_tree(ai_dir, ai_ignore)
         update_readme_file(os.path.join(ai_dir, "README.md"), ai_tree, "AI-Driven Full Stack Web Engineering")
 
+    # 3. Update Next-Level-Foundation-Program/README.md
+    nl_dir = os.path.join(repo_root, "Next-Level-Foundation-Program")
+    if os.path.exists(nl_dir):
+        print("Updating Next-Level-Foundation-Program README.md...")
+        nl_ignore = [
+            r'^\.git$',
+            r'^README\.md$',
+            r'^__pycache__$',
+            r'\.pyc$',
+        ]
+        nl_tree = generate_tree(nl_dir, nl_ignore)
+        update_readme_file(os.path.join(nl_dir, "README.md"), nl_tree, "Next-Level-Foundation-Program")
+
 if __name__ == "__main__":
     main()
