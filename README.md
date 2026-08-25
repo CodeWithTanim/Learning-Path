@@ -23,6 +23,13 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 ```
 📦 learning-path/
 ├── 📁 AI-Driven Full Stack Web Engineering/
+│   ├── 📁 Durbar - Task/
+│   │   └── 📁 Durbar Contest #1/
+│   │       ├── ⚡ 1.getMonthName.js
+│   │       ├── ⚡ 2.countNumberProperties.js
+│   │       ├── ⚡ 3.checkMathOperationsForNine.js
+│   │       ├── 🔷 4.extractBodyContent.ts
+│   │       └── ⚡ 5.calculateRemainingMoney.js
 │   ├── 📁 Milestone 1 Conceptual Session 1 - Learn and Explore HTML, CSS (Project)/
 │   │   ├── 📁 conceptual-session/
 │   │   │   ├── 📄 Conceptual session.fig

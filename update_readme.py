@@ -674,5 +674,18 @@ def main():
         nl_tree = generate_tree(nl_dir, nl_ignore)
         update_readme_file(os.path.join(nl_dir, "README.md"), nl_tree, "Next-Level-Foundation-Program")
 
+    # 4. Update MySQL-Learning/README.md
+    mysql_dir = os.path.join(repo_root, "MySQL-Learning")
+    if os.path.exists(mysql_dir):
+        print("Updating MySQL-Learning README.md...")
+        mysql_ignore = [
+            r'^\.git$',
+            r'^README\.md$',
+            r'^__pycache__$',
+            r'\.pyc$',
+        ]
+        mysql_tree = generate_tree(mysql_dir, mysql_ignore)
+        update_readme_file(os.path.join(mysql_dir, "README.md"), mysql_tree, "MySQL-Learning")
+
 if __name__ == "__main__":
     main()

@@ -97,12 +97,22 @@ Solving practical TypeScript assignment problems, including battery level status
 ### 🔹 `Milestone 4 Conceptual Session 7 - Problem-Solving-with-TypeScript`
 Conceptual session focusing on TypeScript problem-solving patterns, including signal status checker (`getSignalStatus`), event ticket confirmation (`formatTicketConfirmation`), weekly step tracker (`calculateWeeklySteps`), order total calculator (`calculateOrderTotal`), weather advice generator (`getWeatherAdvice`), filtering on-duty employees (`findOnDutyEmployees`), and distance summary calculations (`getDistanceSummary`).
 
+### 🔹 `Durbar - Task`
+Contains problem-solving challenges and contest submissions (e.g., Durbar Contest #1), including JavaScript and TypeScript solutions for month resolution (`getMonthName.js`), object property counting (`countNumberProperties.js`), math operation validations (`checkMathOperationsForNine.js`), HTML body content extraction (`extractBodyContent.ts`), and monetary calculations (`calculateRemainingMoney.js`).
+
 ---
 
 ## 📂 Repository Structure
 
 ```
 📦 AI-Driven Full Stack Web Engineering/
+├── 📁 Durbar - Task/
+│   └── 📁 Durbar Contest #1/
+│       ├── ⚡ 1.getMonthName.js
+│       ├── ⚡ 2.countNumberProperties.js
+│       ├── ⚡ 3.checkMathOperationsForNine.js
+│       ├── 🔷 4.extractBodyContent.ts
+│       └── ⚡ 5.calculateRemainingMoney.js
 ├── 📁 Milestone 1 Conceptual Session 1 - Learn and Explore HTML, CSS (Project)/
 │   ├── 📁 conceptual-session/
 │   │   ├── 📄 Conceptual session.fig

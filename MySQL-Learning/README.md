@@ -7,35 +7,25 @@ Perfect for students, beginners, and anyone wanting to practice MySQL step-by-st
 
 ---
 
-## 📁 Folder Structure
+## 📂 Repository Structure
 
 ```
-MySQL-Learning/
-│
-├── 1. SQL-Student-Database/
-│   ├── README.md
-│   ├── student_database.sql
-│   └── student_database2.sql
-│
-├── 2. SQL-Employee-Database/
-│   ├── README.md
-│   ├── employee.sql
-│   └── employee2.sql
-│
-├── 3. SQL-Employee-Table-Modification/
-│   ├── README.md
-│   ├── alter_employee.sql
-│   └── alter_employee2.sql
-│
-├── 4. SQL-Student-Marks/
-│   ├── README.md
-│   ├── student_marks.sql
-│   └── student_marks2.sql
-│
-├── 5. SQL-Student-Marks-Analysis/
-│   ├── README.md
-│   ├── student_marks_analysis.sql
-│   └── student_marks_analysis2.sql
+📦 MySQL-Learning/
+├── 📁 1. SQL-Student-Database/
+│   ├── 💾 student_database.sql
+│   └── 💾 student_database2.sql
+├── 📁 2. SQL-Employee-Database/
+│   ├── 💾 employee.sql
+│   └── 💾 employee2.sql
+├── 📁 3. SQL-Employee-Table-Modification/
+│   ├── 💾 alter_employee.sql
+│   └── 💾 alter_employee2.sql
+├── 📁 4. SQL-Student-Marks/
+│   ├── 💾 student_marks.sql
+│   └── 💾 student_marks2.sql
+└── 📁 5. SQL-Student-Marks-Analysis/
+    ├── 💾 student_marks_analysis.sql
+    └── 💾 student_marks_analysis2.sql
 ```
 
 ---
