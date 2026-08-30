@@ -15,7 +15,7 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 ```
 ```bash
 🎯 Currently Mastering: Next-Level-Foundation-Program
-📊 Progress: 📈 Completed (Mission 1, Module 1 - Introduction to JavaScript & Various DataTypes)
+📊 Progress: 📈 Completed (Mission 1, Module 2 - Array Object Loop & Problem Solving)
 ```
 
 ## 📂 Repository Structure
@@ -937,6 +937,16 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 │   │   ├── ⚡ string.js
 │   │   ├── ⚡ values.js
 │   │   └── ⚡ variable.js
+│   ├── 📁 Mission 1, Module 2-Array Object Loop & Problem Solving/
+│   │   ├── ⚡ array.js
+│   │   ├── ⚡ arrayOps.js
+│   │   ├── ⚡ differentLoop.js
+│   │   ├── ⚡ dry.js
+│   │   ├── ⚡ loop.js
+│   │   ├── ⚡ miniProject.js
+│   │   ├── ⚡ nested.js
+│   │   ├── ⚡ object.js
+│   │   └── ⚡ objOps.js
 │   └── 📚 README.md
 ├── 📁 PHP-Programming/
 │   ├── 🐘 01_basics.php
