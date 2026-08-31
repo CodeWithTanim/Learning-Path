@@ -97,6 +97,9 @@ Solving practical TypeScript assignment problems, including battery level status
 ### 🔹 `Milestone 4 Conceptual Session 7 - Problem-Solving-with-TypeScript`
 Conceptual session focusing on TypeScript problem-solving patterns, including signal status checker (`getSignalStatus`), event ticket confirmation (`formatTicketConfirmation`), weekly step tracker (`calculateWeeklySteps`), order total calculator (`calculateOrderTotal`), weather advice generator (`getWeatherAdvice`), filtering on-duty employees (`findOnDutyEmployees`), and distance summary calculations (`getDistanceSummary`).
 
+### 🔹 `Milestone 4 - Special Session on JS, TS for React`
+Covers essential JavaScript and TypeScript concepts for React development, including template literals, destructuring, spread & rest operators, array methods (`map`, `filter`, `find`, `forEach`, `reduce`), ternary operators, optional chaining & nullish coalescing (`?.`, `??`), Promises & async handling, and TypeScript configurations.
+
 ### 🔹 `Durbar - Task`
 Contains problem-solving challenges and contest submissions (e.g., Durbar Contest #1), including JavaScript and TypeScript solutions for month resolution (`getMonthName.js`), object property counting (`countNumberProperties.js`), math operation validations (`checkMathOperationsForNine.js`), HTML body content extraction (`extractBodyContent.ts`), and monetary calculations (`calculateRemainingMoney.js`).
 
@@ -666,6 +669,22 @@ Contains problem-solving challenges and contest submissions (e.g., Durbar Contes
 │   ├── ⚡ Problem-3-Trending-Hashtag-Counter.js
 │   ├── ⚡ Problem-4-Bonus-Score-Calculator.js
 │   └── ⚡ Problem-5-Debugging-Challenge-Ai-Leaderboard-Generator.js
+├── 📁 Milestone 4 - Special Session on JS, TS for React/
+│   ├── 📁 dist/
+│   │   ├── 🔷 hello.d.ts
+│   │   ├── 🗺️ hello.d.ts.map
+│   │   ├── ⚡ hello.js
+│   │   └── 🗺️ hello.js.map
+│   ├── 📁 src/
+│   │   ├── 🔷 ChainingCoalescing.ts
+│   │   ├── 🔷 destructuring.ts
+│   │   ├── 🔷 hello.ts
+│   │   ├── 🔷 methods.ts
+│   │   ├── 🔷 operator.ts
+│   │   ├── 🔷 promise.ts
+│   │   ├── 🔷 spread.ts
+│   │   └── 🔷 ternary.ts
+│   └── 🔶 tsconfig.json
 ├── 📁 Milestone 4 Concptual Session 7 - Problem-Solving-with-TypeScript/
 │   ├── 📁 dist/
 │   │   ├── 🔷 1.getSignalStatus.d.ts
