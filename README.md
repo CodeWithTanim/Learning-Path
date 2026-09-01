@@ -11,7 +11,7 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 ### 🎯 Current Focus
 ```bash
 🎯 Currently Mastering: AI-Driven Full Stack Web Engineering
-📊 Progress: 📈 Completed (Milestone 4 - Special Session on JS, TS for React)
+📊 Progress: 📈 Completed (Milestone 5, Module 26 - Web-Design-Intro-to-Tailwind-and-Responsiveness)
 ```
 ```bash
 🎯 Currently Mastering: Next-Level-Foundation-Program
@@ -906,6 +906,35 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 │   │   ├── 🔷 5.getQuizSummary.ts
 │   │   ├── 🔷 final_Answer.ts
 │   │   └── 📕 TypeScript Problem-Solving Assignment.pdf
+│   ├── 📁 Milestone 5 Module 26-Web-Design-Intro-to-Tailwind-and-Responsiveness/
+│   │   ├── 📁 assets/
+│   │   │   ├── 🖼️ dawat-logo.png
+│   │   │   ├── 🖼️ delivery.png
+│   │   │   ├── 🖼️ footer-logo.png
+│   │   │   ├── 🖼️ gate-logo.png
+│   │   │   ├── 🖼️ grocery-basket.png
+│   │   │   ├── 🖼️ Group 9181.png
+│   │   │   ├── 🖼️ Hero Section 1.png
+│   │   │   ├── 🖼️ Hero Section-large.png
+│   │   │   ├── 🖼️ Mask group.png
+│   │   │   ├── 🖼️ nav-logo.png
+│   │   │   ├── 🖼️ offers-1.png
+│   │   │   ├── 🖼️ offers-2.png
+│   │   │   ├── 🖼️ onion.png
+│   │   │   ├── 🖼️ popular.png
+│   │   │   ├── 🖼️ potato.png
+│   │   │   ├── 🖼️ products.png
+│   │   │   ├── 🖼️ service.png
+│   │   │   └── 🖼️ tomato.png
+│   │   ├── 📁 Nature-s-platter-b14-m25/
+│   │   │   ├── 🌐 index.html
+│   │   │   └── 📄 Nature's Platter.fig
+│   │   ├── 📁 TailwindPractice/
+│   │   │   ├── 🌐 index.html
+│   │   │   ├── 🎨 style.css
+│   │   │   └── 🎨 tailwind.init.css
+│   │   ├── 🌐 index.html
+│   │   └── 🎨 tailwind.init.css
 │   └── 📚 README.md
 ├── 📁 Complete_Python_For_Ai_ML/
 │   ├── 📁 Chapter-1-Installation/
@@ -1125,6 +1154,7 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
 
 
@@ -1138,8 +1168,8 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 
 ### 🔥 Latest Project
 **Project Name**: AI-Driven Full Stack Web Engineering
-**Tech Stack**: HTML5, CSS3, JavaScript (ES6+), TypeScript, Git & GitHub
-**Status**: 📈 Completed (Milestone 4 - Special Session on JS, TS for React)
+**Tech Stack**: HTML5, CSS3, Tailwind CSS, JavaScript (ES6+), TypeScript, Git & GitHub
+**Status**: 📈 Completed (Milestone 5, Module 26 - Web-Design-Intro-to-Tailwind-and-Responsiveness)
 
 <!-- ### 🎨 Mini Projects Collection
 - [ ] Todo List App
