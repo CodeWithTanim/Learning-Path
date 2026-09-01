@@ -11,7 +11,7 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 ### 🎯 Current Focus
 ```bash
 🎯 Currently Mastering: AI-Driven Full Stack Web Engineering
-📊 Progress: 📈 Completed (Milestone 5, Module 26 - Web-Design-Intro-to-Tailwind-and-Responsiveness)
+📊 Progress: 📈 Completed (Milestone 5, Module 27 - React Core Concepts, Components, JSX, Props & Rendering)
 ```
 ```bash
 🎯 Currently Mastering: Next-Level-Foundation-Program
@@ -935,6 +935,34 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 │   │   │   └── 🎨 tailwind.init.css
 │   │   ├── 🌐 index.html
 │   │   └── 🎨 tailwind.init.css
+│   ├── 📁 Milestone 5 Module 27-React-Code-Components-JSX-Props-and-Rendering/
+│   │   ├── 📁 public/
+│   │   │   ├── 🎨 favicon.svg
+│   │   │   └── 🎨 icons.svg
+│   │   ├── 📁 src/
+│   │   │   ├── 📁 assets/
+│   │   │   │   ├── 🖼️ hero.png
+│   │   │   │   ├── 🎨 react.svg
+│   │   │   │   └── 🎨 vite.svg
+│   │   │   ├── 🎨 App.css
+│   │   │   ├── ⚛️ App.tsx
+│   │   │   ├── ⚛️ Book.tsx
+│   │   │   ├── 🎨 index.css
+│   │   │   ├── ⚛️ main.tsx
+│   │   │   ├── ⚛️ Task.tsx
+│   │   │   ├── ⚛️ Todo.tsx
+│   │   │   ├── ⚛️ UserCard.tsx
+│   │   │   └── ⚛️ Users.tsx
+│   │   ├── 🙈 .gitignore
+│   │   ├── 🔶 .oxlintrc.json
+│   │   ├── 🌐 index.html
+│   │   ├── 🔒 package-lock.json
+│   │   ├── 📦 package.json
+│   │   ├── 📚 README.md
+│   │   ├── 🔶 tsconfig.app.json
+│   │   ├── 🔶 tsconfig.json
+│   │   ├── 🔶 tsconfig.node.json
+│   │   └── 🔷 vite.config.ts
 │   └── 📚 README.md
 ├── 📁 Complete_Python_For_Ai_ML/
 │   ├── 📁 Chapter-1-Installation/
@@ -1155,6 +1183,8 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 
 
 
@@ -1168,8 +1198,8 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 
 ### 🔥 Latest Project
 **Project Name**: AI-Driven Full Stack Web Engineering
-**Tech Stack**: HTML5, CSS3, Tailwind CSS, JavaScript (ES6+), TypeScript, Git & GitHub
-**Status**: 📈 Completed (Milestone 5, Module 26 - Web-Design-Intro-to-Tailwind-and-Responsiveness)
+**Tech Stack**: HTML5, CSS3, Tailwind CSS, JavaScript (ES6+), TypeScript, React, Vite, Git & GitHub
+**Status**: 📈 Completed (Milestone 5, Module 27 - React Core Concepts, Components, JSX, Props & Rendering)
 
 <!-- ### 🎨 Mini Projects Collection
 - [ ] Todo List App

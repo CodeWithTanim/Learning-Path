@@ -103,6 +103,9 @@ Covers essential JavaScript and TypeScript concepts for React development, inclu
 ### 🔹 `Milestone 5 Module 26 - Web-Design-Intro-to-Tailwind-and-Responsiveness`
 Focuses on modern web design fundamentals using Tailwind CSS, including CDN integration, responsive breakpoints (`sm`, `md`, `lg`), layout structuring with Flexbox and Grid, custom utility styling, asset handling, and practical projects (`Nature-s-platter-b14-m25`, `TailwindPractice`).
 
+### 🔹 `Milestone 5 Module 27 - React-Code-Components-JSX-Props-and-Rendering`
+Covers core React concepts using Vite & TypeScript, including JSX architecture, creating reusable functional components (`Task`, `Todo`, `UserCard`, `Users`, `Book`), passing & destructuring props, conditional rendering (if/else, ternary operator, logical `&&`), rendering lists with `.map()`, component-level CSS, and Oxlint setup.
+
 ### 🔹 `Durbar - Task`
 Contains problem-solving challenges and contest submissions (e.g., Durbar Contest #1), including JavaScript and TypeScript solutions for month resolution (`getMonthName.js`), object property counting (`countNumberProperties.js`), math operation validations (`checkMathOperationsForNine.js`), HTML body content extraction (`extractBodyContent.ts`), and monetary calculations (`calculateRemainingMoney.js`).
 
@@ -995,35 +998,62 @@ Contains problem-solving challenges and contest submissions (e.g., Durbar Contes
 │   ├── 🔷 5.getQuizSummary.ts
 │   ├── 🔷 final_Answer.ts
 │   └── 📕 TypeScript Problem-Solving Assignment.pdf
-└── 📁 Milestone 5 Module 26-Web-Design-Intro-to-Tailwind-and-Responsiveness/
-    ├── 📁 assets/
-    │   ├── 🖼️ dawat-logo.png
-    │   ├── 🖼️ delivery.png
-    │   ├── 🖼️ footer-logo.png
-    │   ├── 🖼️ gate-logo.png
-    │   ├── 🖼️ grocery-basket.png
-    │   ├── 🖼️ Group 9181.png
-    │   ├── 🖼️ Hero Section 1.png
-    │   ├── 🖼️ Hero Section-large.png
-    │   ├── 🖼️ Mask group.png
-    │   ├── 🖼️ nav-logo.png
-    │   ├── 🖼️ offers-1.png
-    │   ├── 🖼️ offers-2.png
-    │   ├── 🖼️ onion.png
-    │   ├── 🖼️ popular.png
-    │   ├── 🖼️ potato.png
-    │   ├── 🖼️ products.png
-    │   ├── 🖼️ service.png
-    │   └── 🖼️ tomato.png
-    ├── 📁 Nature-s-platter-b14-m25/
-    │   ├── 🌐 index.html
-    │   └── 📄 Nature's Platter.fig
-    ├── 📁 TailwindPractice/
-    │   ├── 🌐 index.html
-    │   ├── 🎨 style.css
-    │   └── 🎨 tailwind.init.css
+├── 📁 Milestone 5 Module 26-Web-Design-Intro-to-Tailwind-and-Responsiveness/
+│   ├── 📁 assets/
+│   │   ├── 🖼️ dawat-logo.png
+│   │   ├── 🖼️ delivery.png
+│   │   ├── 🖼️ footer-logo.png
+│   │   ├── 🖼️ gate-logo.png
+│   │   ├── 🖼️ grocery-basket.png
+│   │   ├── 🖼️ Group 9181.png
+│   │   ├── 🖼️ Hero Section 1.png
+│   │   ├── 🖼️ Hero Section-large.png
+│   │   ├── 🖼️ Mask group.png
+│   │   ├── 🖼️ nav-logo.png
+│   │   ├── 🖼️ offers-1.png
+│   │   ├── 🖼️ offers-2.png
+│   │   ├── 🖼️ onion.png
+│   │   ├── 🖼️ popular.png
+│   │   ├── 🖼️ potato.png
+│   │   ├── 🖼️ products.png
+│   │   ├── 🖼️ service.png
+│   │   └── 🖼️ tomato.png
+│   ├── 📁 Nature-s-platter-b14-m25/
+│   │   ├── 🌐 index.html
+│   │   └── 📄 Nature's Platter.fig
+│   ├── 📁 TailwindPractice/
+│   │   ├── 🌐 index.html
+│   │   ├── 🎨 style.css
+│   │   └── 🎨 tailwind.init.css
+│   ├── 🌐 index.html
+│   └── 🎨 tailwind.init.css
+└── 📁 Milestone 5 Module 27-React-Code-Components-JSX-Props-and-Rendering/
+    ├── 📁 public/
+    │   ├── 🎨 favicon.svg
+    │   └── 🎨 icons.svg
+    ├── 📁 src/
+    │   ├── 📁 assets/
+    │   │   ├── 🖼️ hero.png
+    │   │   ├── 🎨 react.svg
+    │   │   └── 🎨 vite.svg
+    │   ├── 🎨 App.css
+    │   ├── ⚛️ App.tsx
+    │   ├── ⚛️ Book.tsx
+    │   ├── 🎨 index.css
+    │   ├── ⚛️ main.tsx
+    │   ├── ⚛️ Task.tsx
+    │   ├── ⚛️ Todo.tsx
+    │   ├── ⚛️ UserCard.tsx
+    │   └── ⚛️ Users.tsx
+    ├── 🙈 .gitignore
+    ├── 🔶 .oxlintrc.json
     ├── 🌐 index.html
-    └── 🎨 tailwind.init.css
+    ├── 🔒 package-lock.json
+    ├── 📦 package.json
+    ├── 🔶 tsconfig.app.json
+    ├── 🔶 tsconfig.json
+    ├── 🔶 tsconfig.node.json
+    └── 🔷 vite.config.ts
 ```
 
 ---
@@ -1035,6 +1065,7 @@ Contains problem-solving challenges and contest submissions (e.g., Durbar Contes
 - **Tailwind CSS**: Responsive utility styling, breakpoints (`sm`, `md`, `lg`), Flexbox & Grid layouts, custom component styling.
 - **JavaScript (ES6+)**: Data types, Conditionals, Loops, Arrays, Objects, Functions, ES6+ features, Array Methods (`map`, `filter`, `find`, `reduce`), Destructuring.
 - **TypeScript**: Type annotations, Interfaces, Type Aliases, Generics, OOP (Classes, Inheritance, Access Modifiers, Polymorphism, Abstraction), Utility Types, Real-world Problem Solving.
+- **React & Vite**: Functional components, JSX, Props passing & destructuring, Conditional rendering, List rendering (`.map`), component styling, Vite dev toolchain.
 
 ---
 *Keep learning, keep coding!* 💻🔥
