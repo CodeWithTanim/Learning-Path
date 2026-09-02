@@ -10,6 +10,9 @@ Covers the core fundamentals of JavaScript, including variable declarations (`va
 ### 🔹 `Mission 1, Module 2-Array Object Loop & Problem Solving`
 Covers arrays, array operations, different loop structures (`for`, `while`, `for...of`, `for...in`), object manipulation, nested data structures, DRY principles, and a Student Management System mini-project.
 
+### 🔹 `Mission 1, Module 3 - Modern JavaScript & Powerful Array Methods`
+Covers modern JavaScript (ES6+) features including template literals, spread and rest operators, array/object destructuring, optional chaining (safe access), JavaScript `Math` built-ins, advanced array iteration methods (`map`, `filter`, `find`, `reduce`, `sort`, `some`, `every`), and comprehensive practice tasks.
+
 ---
 
 ## 📂 Repository Structure
@@ -26,14 +29,26 @@ Covers arrays, array operations, different loop structures (`for`, `while`, `for
 │   ├── ⚡ string.js
 │   ├── ⚡ values.js
 │   └── ⚡ variable.js
-└── 📁 Mission 1, Module 2-Array Object Loop & Problem Solving/
-    ├── ⚡ array.js
+├── 📁 Mission 1, Module 2-Array Object Loop & Problem Solving/
+│   ├── ⚡ array.js
+│   ├── ⚡ arrayOps.js
+│   ├── ⚡ differentLoop.js
+│   ├── ⚡ dry.js
+│   ├── ⚡ loop.js
+│   ├── ⚡ miniProject.js
+│   ├── ⚡ nested.js
+│   ├── ⚡ object.js
+│   └── ⚡ objOps.js
+└── 📁 Mission 1, Module 3 - Modern JavaScript & Powerful Array Methods/
     ├── ⚡ arrayOps.js
-    ├── ⚡ differentLoop.js
-    ├── ⚡ dry.js
-    ├── ⚡ loop.js
-    ├── ⚡ miniProject.js
-    ├── ⚡ nested.js
-    ├── ⚡ object.js
-    └── ⚡ objOps.js
+    ├── ⚡ arrayOps2.js
+    ├── ⚡ arrayOps3.js
+    ├── ⚡ check.js
+    ├── ⚡ Destructuring.js
+    ├── ⚡ literals.js
+    ├── ⚡ math.js
+    ├── ⚡ rest.js
+    ├── ⚡ safeAccess.js
+    ├── ⚡ spread.js
+    └── ⚡ task.js
 ```
