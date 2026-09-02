@@ -13,6 +13,9 @@ Covers arrays, array operations, different loop structures (`for`, `while`, `for
 ### 🔹 `Mission 1, Module 3 - Modern JavaScript & Powerful Array Methods`
 Covers modern JavaScript (ES6+) features including template literals, spread and rest operators, array/object destructuring, optional chaining (safe access), JavaScript `Math` built-ins, advanced array iteration methods (`map`, `filter`, `find`, `reduce`, `sort`, `some`, `every`), and comprehensive practice tasks.
 
+### 🔹 `Mission 1, Module 4 - DOM, Events, APIs & Asynchronous JavaScript`
+Covers Document Object Model (DOM) manipulation, event handling, HTML DOM tree structure, asynchronous JavaScript, and interactive project implementations including a TODO application.
+
 ---
 
 ## 📂 Repository Structure
@@ -39,16 +42,25 @@ Covers modern JavaScript (ES6+) features including template literals, spread and
 │   ├── ⚡ nested.js
 │   ├── ⚡ object.js
 │   └── ⚡ objOps.js
-└── 📁 Mission 1, Module 3 - Modern JavaScript & Powerful Array Methods/
-    ├── ⚡ arrayOps.js
-    ├── ⚡ arrayOps2.js
-    ├── ⚡ arrayOps3.js
-    ├── ⚡ check.js
-    ├── ⚡ Destructuring.js
-    ├── ⚡ literals.js
-    ├── ⚡ math.js
-    ├── ⚡ rest.js
-    ├── ⚡ safeAccess.js
-    ├── ⚡ spread.js
-    └── ⚡ task.js
+├── 📁 Mission 1, Module 3 - Modern JavaScript & Powerful Array Methods/
+│   ├── ⚡ arrayOps.js
+│   ├── ⚡ arrayOps2.js
+│   ├── ⚡ arrayOps3.js
+│   ├── ⚡ check.js
+│   ├── ⚡ Destructuring.js
+│   ├── ⚡ literals.js
+│   ├── ⚡ math.js
+│   ├── ⚡ rest.js
+│   ├── ⚡ safeAccess.js
+│   ├── ⚡ spread.js
+│   └── ⚡ task.js
+└── 📁 Mission 1, Module 4 - DOM, Events, APIs & Asynchronous JavaScript/
+    ├── 📁 TODO/
+    │   ├── ⚡ app.js
+    │   ├── 🌐 index.html
+    │   └── ⚡ todo.js
+    └── 📁 video_1/
+        ├── 🖼️ html_dom.jpg
+        ├── 🌐 index.html
+        └── ⚡ index.js
 ```

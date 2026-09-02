@@ -15,7 +15,7 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 ```
 ```bash
 🎯 Currently Mastering: Next-Level-Foundation-Program
-📊 Progress: 📈 Completed (Mission 1, Module 3 - Modern JavaScript & Powerful Array Methods)
+📊 Progress: 📈 Completed (Mission 1, Module 4 - DOM, Events, APIs & Asynchronous JavaScript)
 ```
 
 ## 📂 Repository Structure
@@ -1032,6 +1032,15 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 │   │   ├── ⚡ safeAccess.js
 │   │   ├── ⚡ spread.js
 │   │   └── ⚡ task.js
+│   ├── 📁 Mission 1, Module 4 - DOM, Events, APIs & Asynchronous JavaScript/
+│   │   ├── 📁 TODO/
+│   │   │   ├── ⚡ app.js
+│   │   │   ├── 🌐 index.html
+│   │   │   └── ⚡ todo.js
+│   │   └── 📁 video_1/
+│   │       ├── 🖼️ html_dom.jpg
+│   │       ├── 🌐 index.html
+│   │       └── ⚡ index.js
 │   └── 📚 README.md
 ├── 📁 PHP-Programming/
 │   ├── 🐘 01_basics.php
