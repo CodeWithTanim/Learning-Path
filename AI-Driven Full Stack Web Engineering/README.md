@@ -106,6 +106,9 @@ Focuses on modern web design fundamentals using Tailwind CSS, including CDN inte
 ### 🔹 `Milestone 5 Module 27 - React-Code-Components-JSX-Props-and-Rendering`
 Covers core React concepts using Vite & TypeScript, including JSX architecture, creating reusable functional components (`Task`, `Todo`, `UserCard`, `Users`, `Book`), passing & destructuring props, conditional rendering (if/else, ternary operator, logical `&&`), rendering lists with `.map()`, component-level CSS, and Oxlint setup.
 
+### 🔹 `Milestone 5 Module 28 - State-Management-in-React-Events-and-Data-Fetching`
+Covers React state management and side effects, including `useState` hook for reactive state updates (`Counter`, `Batter`, `Cart`), event handling and event parameters, `useEffect` hook for asynchronous data fetching from external APIs (JSONPlaceholder), managing loading states, rendering dynamic card components (`Users`, `UsersCard`, `Post`, `Todos`), and modular CSS styling.
+
 ### 🔹 `Durbar - Task`
 Contains problem-solving challenges and contest submissions (e.g., Durbar Contest #1), including JavaScript and TypeScript solutions for month resolution (`getMonthName.js`), object property counting (`countNumberProperties.js`), math operation validations (`checkMathOperationsForNine.js`), HTML body content extraction (`extractBodyContent.ts`), and monetary calculations (`calculateRemainingMoney.js`).
 
@@ -1027,7 +1030,34 @@ Contains problem-solving challenges and contest submissions (e.g., Durbar Contes
 │   │   └── 🎨 tailwind.init.css
 │   ├── 🌐 index.html
 │   └── 🎨 tailwind.init.css
-└── 📁 Milestone 5 Module 27-React-Code-Components-JSX-Props-and-Rendering/
+├── 📁 Milestone 5 Module 27-React-Code-Components-JSX-Props-and-Rendering/
+│   ├── 📁 public/
+│   │   ├── 🎨 favicon.svg
+│   │   └── 🎨 icons.svg
+│   ├── 📁 src/
+│   │   ├── 📁 assets/
+│   │   │   ├── 🖼️ hero.png
+│   │   │   ├── 🎨 react.svg
+│   │   │   └── 🎨 vite.svg
+│   │   ├── 🎨 App.css
+│   │   ├── ⚛️ App.tsx
+│   │   ├── ⚛️ Book.tsx
+│   │   ├── 🎨 index.css
+│   │   ├── ⚛️ main.tsx
+│   │   ├── ⚛️ Task.tsx
+│   │   ├── ⚛️ Todo.tsx
+│   │   ├── ⚛️ UserCard.tsx
+│   │   └── ⚛️ Users.tsx
+│   ├── 🙈 .gitignore
+│   ├── 🔶 .oxlintrc.json
+│   ├── 🌐 index.html
+│   ├── 🔒 package-lock.json
+│   ├── 📦 package.json
+│   ├── 🔶 tsconfig.app.json
+│   ├── 🔶 tsconfig.json
+│   ├── 🔶 tsconfig.node.json
+│   └── 🔷 vite.config.ts
+└── 📁 Milestone 5 Module 28-State-Management-in-React-Events-and-Data-Fetching/
     ├── 📁 public/
     │   ├── 🎨 favicon.svg
     │   └── 🎨 icons.svg
@@ -1038,13 +1068,16 @@ Contains problem-solving challenges and contest submissions (e.g., Durbar Contes
     │   │   └── 🎨 vite.svg
     │   ├── 🎨 App.css
     │   ├── ⚛️ App.tsx
-    │   ├── ⚛️ Book.tsx
+    │   ├── ⚛️ Batter.tsx
+    │   ├── ⚛️ Cart.tsx
+    │   ├── ⚛️ Counter.tsx
     │   ├── 🎨 index.css
     │   ├── ⚛️ main.tsx
-    │   ├── ⚛️ Task.tsx
-    │   ├── ⚛️ Todo.tsx
-    │   ├── ⚛️ UserCard.tsx
-    │   └── ⚛️ Users.tsx
+    │   ├── ⚛️ Post.tsx
+    │   ├── ⚛️ Todos.tsx
+    │   ├── 🎨 UserCard.css
+    │   ├── ⚛️ Users.tsx
+    │   └── ⚛️ UsersCard.tsx
     ├── 🙈 .gitignore
     ├── 🔶 .oxlintrc.json
     ├── 🌐 index.html
@@ -1065,7 +1098,7 @@ Contains problem-solving challenges and contest submissions (e.g., Durbar Contes
 - **Tailwind CSS**: Responsive utility styling, breakpoints (`sm`, `md`, `lg`), Flexbox & Grid layouts, custom component styling.
 - **JavaScript (ES6+)**: Data types, Conditionals, Loops, Arrays, Objects, Functions, ES6+ features, Array Methods (`map`, `filter`, `find`, `reduce`), Destructuring.
 - **TypeScript**: Type annotations, Interfaces, Type Aliases, Generics, OOP (Classes, Inheritance, Access Modifiers, Polymorphism, Abstraction), Utility Types, Real-world Problem Solving.
-- **React & Vite**: Functional components, JSX, Props passing & destructuring, Conditional rendering, List rendering (`.map`), component styling, Vite dev toolchain.
+- **React & Vite**: Functional components, JSX, Props passing & destructuring, Conditional rendering, List rendering (`.map`), `useState` state management, Event handling, `useEffect` data fetching (APIs), component styling, Vite dev toolchain.
 
 ---
 *Keep learning, keep coding!* 💻🔥

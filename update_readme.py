@@ -640,6 +640,7 @@ def main():
         r'^\.github$',
         r'^update_readme\.py$',
         r'^__pycache__$',
+        r'^node_modules$',
         r'^\.venv$',
         r'^venv$',
         r'^env$',
@@ -656,6 +657,7 @@ def main():
             r'^\.git$',
             r'^README\.md$',
             r'^__pycache__$',
+            r'^node_modules$',
             r'\.pyc$',
         ]
         ai_tree = generate_tree(ai_dir, ai_ignore)
@@ -669,6 +671,7 @@ def main():
             r'^\.git$',
             r'^README\.md$',
             r'^__pycache__$',
+            r'^node_modules$',
             r'\.pyc$',
         ]
         nl_tree = generate_tree(nl_dir, nl_ignore)
@@ -682,6 +685,7 @@ def main():
             r'^\.git$',
             r'^README\.md$',
             r'^__pycache__$',
+            r'^node_modules$',
             r'\.pyc$',
         ]
         mysql_tree = generate_tree(mysql_dir, mysql_ignore)

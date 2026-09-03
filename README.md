@@ -11,7 +11,7 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 ### 🎯 Current Focus
 ```bash
 🎯 Currently Mastering: AI-Driven Full Stack Web Engineering
-📊 Progress: 📈 Completed (Milestone 5, Module 27 - React Core Concepts, Components, JSX, Props & Rendering)
+📊 Progress: 📈 Completed (Milestone 5, Module 28 - State Management in React, Events and Data Fetching)
 ```
 ```bash
 🎯 Currently Mastering: Next-Level-Foundation-Program
@@ -963,6 +963,37 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 │   │   ├── 🔶 tsconfig.json
 │   │   ├── 🔶 tsconfig.node.json
 │   │   └── 🔷 vite.config.ts
+│   ├── 📁 Milestone 5 Module 28-State-Management-in-React-Events-and-Data-Fetching/
+│   │   ├── 📁 public/
+│   │   │   ├── 🎨 favicon.svg
+│   │   │   └── 🎨 icons.svg
+│   │   ├── 📁 src/
+│   │   │   ├── 📁 assets/
+│   │   │   │   ├── 🖼️ hero.png
+│   │   │   │   ├── 🎨 react.svg
+│   │   │   │   └── 🎨 vite.svg
+│   │   │   ├── 🎨 App.css
+│   │   │   ├── ⚛️ App.tsx
+│   │   │   ├── ⚛️ Batter.tsx
+│   │   │   ├── ⚛️ Cart.tsx
+│   │   │   ├── ⚛️ Counter.tsx
+│   │   │   ├── 🎨 index.css
+│   │   │   ├── ⚛️ main.tsx
+│   │   │   ├── ⚛️ Post.tsx
+│   │   │   ├── ⚛️ Todos.tsx
+│   │   │   ├── 🎨 UserCard.css
+│   │   │   ├── ⚛️ Users.tsx
+│   │   │   └── ⚛️ UsersCard.tsx
+│   │   ├── 🙈 .gitignore
+│   │   ├── 🔶 .oxlintrc.json
+│   │   ├── 🌐 index.html
+│   │   ├── 🔒 package-lock.json
+│   │   ├── 📦 package.json
+│   │   ├── 📚 README.md
+│   │   ├── 🔶 tsconfig.app.json
+│   │   ├── 🔶 tsconfig.json
+│   │   ├── 🔶 tsconfig.node.json
+│   │   └── 🔷 vite.config.ts
 │   └── 📚 README.md
 ├── 📁 Complete_Python_For_Ai_ML/
 │   ├── 📁 Chapter-1-Installation/
@@ -1228,7 +1259,7 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 ### 🔥 Latest Project
 **Project Name**: AI-Driven Full Stack Web Engineering
 **Tech Stack**: HTML5, CSS3, Tailwind CSS, JavaScript (ES6+), TypeScript, React, Vite, Git & GitHub
-**Status**: 📈 Completed (Milestone 5, Module 27 - React Core Concepts, Components, JSX, Props & Rendering)
+**Status**: 📈 Completed (Milestone 5, Module 28 - State Management in React, Events and Data Fetching)
 
 <!-- ### 🎨 Mini Projects Collection
 - [ ] Todo List App
