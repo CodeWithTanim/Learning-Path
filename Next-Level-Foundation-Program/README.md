@@ -16,6 +16,9 @@ Covers modern JavaScript (ES6+) features including template literals, spread and
 ### 🔹 `Mission 1, Module 4 - DOM, Events, APIs & Asynchronous JavaScript`
 Covers Document Object Model (DOM) manipulation, event handling, HTML DOM tree structure, asynchronous JavaScript, and interactive project implementations including a TODO application.
 
+### 🔹 `Mission 1, Module 5 - Assignment 1`
+Solving Mission 1 Assignment 1 JavaScript programming challenges, including value descriptor (`describeValue`), day type classifier (`getDayType`), username validator (`validateUsername`), CNG fare calculator (`getCngFare`), cricket run chase verdict analyzer (`getChaseVerdict`), and compiled final submission file (`final_Answer.js`).
+
 ---
 
 ## 📂 Repository Structure
@@ -54,13 +57,21 @@ Covers Document Object Model (DOM) manipulation, event handling, HTML DOM tree s
 │   ├── ⚡ safeAccess.js
 │   ├── ⚡ spread.js
 │   └── ⚡ task.js
-└── 📁 Mission 1, Module 4 - DOM, Events, APIs & Asynchronous JavaScript/
-    ├── 📁 TODO/
-    │   ├── ⚡ app.js
-    │   ├── 🌐 index.html
-    │   └── ⚡ todo.js
-    └── 📁 video_1/
-        ├── 🖼️ html_dom.jpg
-        ├── 🌐 index.html
-        └── ⚡ index.js
+├── 📁 Mission 1, Module 4 - DOM, Events, APIs & Asynchronous JavaScript/
+│   ├── 📁 TODO/
+│   │   ├── ⚡ app.js
+│   │   ├── 🌐 index.html
+│   │   └── ⚡ todo.js
+│   └── 📁 video_1/
+│       ├── 🖼️ html_dom.jpg
+│       ├── 🌐 index.html
+│       └── ⚡ index.js
+└── 📁 Mission 1, Module 5 - Assignment 1/
+    ├── ⚡ 1.describeValue.js
+    ├── ⚡ 2.getDayType.js
+    ├── ⚡ 3.validateUsername.js
+    ├── ⚡ 4.getCngFare.js
+    ├── ⚡ 5.getChaseVerdict.js
+    ├── ⚡ final_Answer.js
+    └── 📖 questions.md
 ```

@@ -15,7 +15,7 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 ```
 ```bash
 🎯 Currently Mastering: Next-Level-Foundation-Program
-📊 Progress: 📈 Completed (Mission 1, Module 4 - DOM, Events, APIs & Asynchronous JavaScript)
+📊 Progress: 📈 Completed (Mission 1, Module 5 - Assignment 1)
 ```
 
 ## 📂 Repository Structure
@@ -1041,6 +1041,14 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 │   │       ├── 🖼️ html_dom.jpg
 │   │       ├── 🌐 index.html
 │   │       └── ⚡ index.js
+│   ├── 📁 Mission 1, Module 5 - Assignment 1/
+│   │   ├── ⚡ 1.describeValue.js
+│   │   ├── ⚡ 2.getDayType.js
+│   │   ├── ⚡ 3.validateUsername.js
+│   │   ├── ⚡ 4.getCngFare.js
+│   │   ├── ⚡ 5.getChaseVerdict.js
+│   │   ├── ⚡ final_Answer.js
+│   │   └── 📖 questions.md
 │   └── 📚 README.md
 ├── 📁 PHP-Programming/
 │   ├── 🐘 01_basics.php
