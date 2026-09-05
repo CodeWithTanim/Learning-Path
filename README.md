@@ -1000,6 +1000,38 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 │   │   ├── 🔶 tsconfig.json
 │   │   ├── 🔶 tsconfig.node.json
 │   │   └── 🔷 vite.config.ts
+│   ├── 📁 Milestone 5 Module 29-React-Project-Countries-Explorer/
+│   │   ├── 📁 public/
+│   │   │   ├── 🎨 favicon.svg
+│   │   │   └── 🎨 icons.svg
+│   │   ├── 📁 src/
+│   │   │   ├── 📁 assets/
+│   │   │   │   ├── 🖼️ hero.png
+│   │   │   │   ├── 🎨 react.svg
+│   │   │   │   └── 🎨 vite.svg
+│   │   │   ├── 📁 components/
+│   │   │   │   ├── 📁 Countries/
+│   │   │   │   │   ├── 🎨 Countries.css
+│   │   │   │   │   └── ⚛️ Countries.tsx
+│   │   │   │   └── 📁 Country/
+│   │   │   │       ├── 🎨 Country.css
+│   │   │   │       └── ⚛️ Country.tsx
+│   │   │   ├── 🎨 App.css
+│   │   │   ├── ⚛️ App.tsx
+│   │   │   ├── 🎨 index.css
+│   │   │   ├── ⚛️ main.tsx
+│   │   │   ├── 🔷 Type.ts
+│   │   │   └── ⚛️ User.tsx
+│   │   ├── 🙈 .gitignore
+│   │   ├── 🔶 .oxlintrc.json
+│   │   ├── 🌐 index.html
+│   │   ├── 🔒 package-lock.json
+│   │   ├── 📦 package.json
+│   │   ├── 📚 README.md
+│   │   ├── 🔶 tsconfig.app.json
+│   │   ├── 🔶 tsconfig.json
+│   │   ├── 🔶 tsconfig.node.json
+│   │   └── 🔷 vite.config.ts
 │   └── 📚 README.md
 ├── 📁 Complete_Python_For_Ai_ML/
 │   ├── 📁 Chapter-1-Installation/
