@@ -11,7 +11,7 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 ### 🎯 Current Focus
 ```bash
 🎯 Currently Mastering: AI-Driven Full Stack Web Engineering
-📊 Progress: 📈 Completed (Milestone 5, Module 28 - State Management in React, Events and Data Fetching)
+📊 Progress: 📈 Completed (Milestone 5, Module 29 - React Project World Countries Explorer)
 ```
 ```bash
 🎯 Currently Mastering: Next-Level-Foundation-Program
@@ -24,12 +24,18 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 📦 learning-path/
 ├── 📁 AI-Driven Full Stack Web Engineering/
 │   ├── 📁 Durbar - Task/
-│   │   └── 📁 Durbar Contest #1/
-│   │       ├── ⚡ 1.getMonthName.js
-│   │       ├── ⚡ 2.countNumberProperties.js
-│   │       ├── ⚡ 3.checkMathOperationsForNine.js
-│   │       ├── 🔷 4.extractBodyContent.ts
-│   │       └── ⚡ 5.calculateRemainingMoney.js
+│   │   ├── 📁 Durbar Contest #1/
+│   │   │   ├── ⚡ 1.getMonthName.js
+│   │   │   ├── ⚡ 2.countNumberProperties.js
+│   │   │   ├── ⚡ 3.checkMathOperationsForNine.js
+│   │   │   ├── 🔷 4.extractBodyContent.ts
+│   │   │   └── ⚡ 5.calculateRemainingMoney.js
+│   │   └── 📁 Durbar Contest #2/
+│   │       ├── ⚡ 1.convertToCamelCase.js
+│   │       ├── ⚡ 2.countEvenOdd.js
+│   │       ├── ⚡ 3.findFirstUniqueChar.js
+│   │       ├── ⚡ 4.findLongestWord.js
+│   │       └── ⚡ 5.findSecondLargestUnique.js
 │   ├── 📁 Milestone 1 Conceptual Session 1 - Learn and Explore HTML, CSS (Project)/
 │   │   ├── 📁 conceptual-session/
 │   │   │   ├── 📄 Conceptual session.fig
@@ -994,6 +1000,38 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 │   │   ├── 🔶 tsconfig.json
 │   │   ├── 🔶 tsconfig.node.json
 │   │   └── 🔷 vite.config.ts
+│   ├── 📁 Milestone 5 Module 29-React-Project-Countries-Explorer/
+│   │   ├── 📁 public/
+│   │   │   ├── 🎨 favicon.svg
+│   │   │   └── 🎨 icons.svg
+│   │   ├── 📁 src/
+│   │   │   ├── 📁 assets/
+│   │   │   │   ├── 🖼️ hero.png
+│   │   │   │   ├── 🎨 react.svg
+│   │   │   │   └── 🎨 vite.svg
+│   │   │   ├── 📁 components/
+│   │   │   │   ├── 📁 Countries/
+│   │   │   │   │   ├── 🎨 Countries.css
+│   │   │   │   │   └── ⚛️ Countries.tsx
+│   │   │   │   └── 📁 Country/
+│   │   │   │       ├── 🎨 Country.css
+│   │   │   │       └── ⚛️ Country.tsx
+│   │   │   ├── 🎨 App.css
+│   │   │   ├── ⚛️ App.tsx
+│   │   │   ├── 🎨 index.css
+│   │   │   ├── ⚛️ main.tsx
+│   │   │   ├── 🔷 Type.ts
+│   │   │   └── ⚛️ User.tsx
+│   │   ├── 🙈 .gitignore
+│   │   ├── 🔶 .oxlintrc.json
+│   │   ├── 🌐 index.html
+│   │   ├── 🔒 package-lock.json
+│   │   ├── 📦 package.json
+│   │   ├── 📚 README.md
+│   │   ├── 🔶 tsconfig.app.json
+│   │   ├── 🔶 tsconfig.json
+│   │   ├── 🔶 tsconfig.node.json
+│   │   └── 🔷 vite.config.ts
 │   └── 📚 README.md
 ├── 📁 Complete_Python_For_Ai_ML/
 │   ├── 📁 Chapter-1-Installation/
@@ -1259,7 +1297,7 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 ### 🔥 Latest Project
 **Project Name**: AI-Driven Full Stack Web Engineering
 **Tech Stack**: HTML5, CSS3, Tailwind CSS, JavaScript (ES6+), TypeScript, React, Vite, Git & GitHub
-**Status**: 📈 Completed (Milestone 5, Module 28 - State Management in React, Events and Data Fetching)
+**Status**: 📈 Completed (Milestone 5, Module 29 - React Project World Countries Explorer)
 
 <!-- ### 🎨 Mini Projects Collection
 - [ ] Todo List App

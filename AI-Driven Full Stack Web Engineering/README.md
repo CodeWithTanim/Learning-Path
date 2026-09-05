@@ -109,8 +109,13 @@ Covers core React concepts using Vite & TypeScript, including JSX architecture, 
 ### 🔹 `Milestone 5 Module 28 - State-Management-in-React-Events-and-Data-Fetching`
 Covers React state management and side effects, including `useState` hook for reactive state updates (`Counter`, `Batter`, `Cart`), event handling and event parameters, `useEffect` hook for asynchronous data fetching from external APIs (JSONPlaceholder), managing loading states, rendering dynamic card components (`Users`, `UsersCard`, `Post`, `Todos`), and modular CSS styling.
 
+### 🔹 `Milestone 5 Module 29 - React-Project-Countries-Explorer`
+Building a full-fledged World Countries Explorer web application using React, Vite, and TypeScript. Covers REST Countries API integration, managing complex application state (`visitedCountries`, `visitedFlags`), child-to-parent callback prop handling, custom TypeScript type interfaces (`CountryType`, `Flags`, `Name`), grid layouts, visited country markers, and interactive flag lists.
+
 ### 🔹 `Durbar - Task`
-Contains problem-solving challenges and contest submissions (e.g., Durbar Contest #1), including JavaScript and TypeScript solutions for month resolution (`getMonthName.js`), object property counting (`countNumberProperties.js`), math operation validations (`checkMathOperationsForNine.js`), HTML body content extraction (`extractBodyContent.ts`), and monetary calculations (`calculateRemainingMoney.js`).
+Contains problem-solving challenges and contest submissions, including:
+- **Durbar Contest #1**: Month resolution (`getMonthName.js`), object property counting (`countNumberProperties.js`), math operation validations (`checkMathOperationsForNine.js`), HTML body content extraction (`extractBodyContent.ts`), monetary calculations (`calculateRemainingMoney.js`).
+- **Durbar Contest #2**: String camelCase conversion (`convertToCamelCase.js`), array even/odd counting (`countEvenOdd.js`), first unique character finder (`findFirstUniqueChar.js`), longest word identifier (`findLongestWord.js`), second largest unique element finder (`findSecondLargestUnique.js`).
 
 ---
 
@@ -119,12 +124,18 @@ Contains problem-solving challenges and contest submissions (e.g., Durbar Contes
 ```
 📦 AI-Driven Full Stack Web Engineering/
 ├── 📁 Durbar - Task/
-│   └── 📁 Durbar Contest #1/
-│       ├── ⚡ 1.getMonthName.js
-│       ├── ⚡ 2.countNumberProperties.js
-│       ├── ⚡ 3.checkMathOperationsForNine.js
-│       ├── 🔷 4.extractBodyContent.ts
-│       └── ⚡ 5.calculateRemainingMoney.js
+│   ├── 📁 Durbar Contest #1/
+│   │   ├── ⚡ 1.getMonthName.js
+│   │   ├── ⚡ 2.countNumberProperties.js
+│   │   ├── ⚡ 3.checkMathOperationsForNine.js
+│   │   ├── 🔷 4.extractBodyContent.ts
+│   │   └── ⚡ 5.calculateRemainingMoney.js
+│   └── 📁 Durbar Contest #2/
+│       ├── ⚡ 1.convertToCamelCase.js
+│       ├── ⚡ 2.countEvenOdd.js
+│       ├── ⚡ 3.findFirstUniqueChar.js
+│       ├── ⚡ 4.findLongestWord.js
+│       └── ⚡ 5.findSecondLargestUnique.js
 ├── 📁 Milestone 1 Conceptual Session 1 - Learn and Explore HTML, CSS (Project)/
 │   ├── 📁 conceptual-session/
 │   │   ├── 📄 Conceptual session.fig
@@ -1057,7 +1068,37 @@ Contains problem-solving challenges and contest submissions (e.g., Durbar Contes
 │   ├── 🔶 tsconfig.json
 │   ├── 🔶 tsconfig.node.json
 │   └── 🔷 vite.config.ts
-└── 📁 Milestone 5 Module 28-State-Management-in-React-Events-and-Data-Fetching/
+├── 📁 Milestone 5 Module 28-State-Management-in-React-Events-and-Data-Fetching/
+│   ├── 📁 public/
+│   │   ├── 🎨 favicon.svg
+│   │   └── 🎨 icons.svg
+│   ├── 📁 src/
+│   │   ├── 📁 assets/
+│   │   │   ├── 🖼️ hero.png
+│   │   │   ├── 🎨 react.svg
+│   │   │   └── 🎨 vite.svg
+│   │   ├── 🎨 App.css
+│   │   ├── ⚛️ App.tsx
+│   │   ├── ⚛️ Batter.tsx
+│   │   ├── ⚛️ Cart.tsx
+│   │   ├── ⚛️ Counter.tsx
+│   │   ├── 🎨 index.css
+│   │   ├── ⚛️ main.tsx
+│   │   ├── ⚛️ Post.tsx
+│   │   ├── ⚛️ Todos.tsx
+│   │   ├── 🎨 UserCard.css
+│   │   ├── ⚛️ Users.tsx
+│   │   └── ⚛️ UsersCard.tsx
+│   ├── 🙈 .gitignore
+│   ├── 🔶 .oxlintrc.json
+│   ├── 🌐 index.html
+│   ├── 🔒 package-lock.json
+│   ├── 📦 package.json
+│   ├── 🔶 tsconfig.app.json
+│   ├── 🔶 tsconfig.json
+│   ├── 🔶 tsconfig.node.json
+│   └── 🔷 vite.config.ts
+└── 📁 Milestone 5 Module 29-React-Project-Countries-Explorer/
     ├── 📁 public/
     │   ├── 🎨 favicon.svg
     │   └── 🎨 icons.svg
@@ -1066,18 +1107,19 @@ Contains problem-solving challenges and contest submissions (e.g., Durbar Contes
     │   │   ├── 🖼️ hero.png
     │   │   ├── 🎨 react.svg
     │   │   └── 🎨 vite.svg
+    │   ├── 📁 components/
+    │   │   ├── 📁 Countries/
+    │   │   │   ├── 🎨 Countries.css
+    │   │   │   └── ⚛️ Countries.tsx
+    │   │   └── 📁 Country/
+    │   │       ├── 🎨 Country.css
+    │   │       └── ⚛️ Country.tsx
     │   ├── 🎨 App.css
     │   ├── ⚛️ App.tsx
-    │   ├── ⚛️ Batter.tsx
-    │   ├── ⚛️ Cart.tsx
-    │   ├── ⚛️ Counter.tsx
     │   ├── 🎨 index.css
     │   ├── ⚛️ main.tsx
-    │   ├── ⚛️ Post.tsx
-    │   ├── ⚛️ Todos.tsx
-    │   ├── 🎨 UserCard.css
-    │   ├── ⚛️ Users.tsx
-    │   └── ⚛️ UsersCard.tsx
+    │   ├── 🔷 Type.ts
+    │   └── ⚛️ User.tsx
     ├── 🙈 .gitignore
     ├── 🔶 .oxlintrc.json
     ├── 🌐 index.html
