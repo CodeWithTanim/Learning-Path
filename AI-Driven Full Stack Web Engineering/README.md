@@ -1068,37 +1068,7 @@ Contains problem-solving challenges and contest submissions, including:
 │   ├── 🔶 tsconfig.json
 │   ├── 🔶 tsconfig.node.json
 │   └── 🔷 vite.config.ts
-├── 📁 Milestone 5 Module 28-State-Management-in-React-Events-and-Data-Fetching/
-│   ├── 📁 public/
-│   │   ├── 🎨 favicon.svg
-│   │   └── 🎨 icons.svg
-│   ├── 📁 src/
-│   │   ├── 📁 assets/
-│   │   │   ├── 🖼️ hero.png
-│   │   │   ├── 🎨 react.svg
-│   │   │   └── 🎨 vite.svg
-│   │   ├── 🎨 App.css
-│   │   ├── ⚛️ App.tsx
-│   │   ├── ⚛️ Batter.tsx
-│   │   ├── ⚛️ Cart.tsx
-│   │   ├── ⚛️ Counter.tsx
-│   │   ├── 🎨 index.css
-│   │   ├── ⚛️ main.tsx
-│   │   ├── ⚛️ Post.tsx
-│   │   ├── ⚛️ Todos.tsx
-│   │   ├── 🎨 UserCard.css
-│   │   ├── ⚛️ Users.tsx
-│   │   └── ⚛️ UsersCard.tsx
-│   ├── 🙈 .gitignore
-│   ├── 🔶 .oxlintrc.json
-│   ├── 🌐 index.html
-│   ├── 🔒 package-lock.json
-│   ├── 📦 package.json
-│   ├── 🔶 tsconfig.app.json
-│   ├── 🔶 tsconfig.json
-│   ├── 🔶 tsconfig.node.json
-│   └── 🔷 vite.config.ts
-└── 📁 Milestone 5 Module 29-React-Project-Countries-Explorer/
+└── 📁 Milestone 5 Module 28-State-Management-in-React-Events-and-Data-Fetching/
     ├── 📁 public/
     │   ├── 🎨 favicon.svg
     │   └── 🎨 icons.svg
@@ -1107,19 +1077,18 @@ Contains problem-solving challenges and contest submissions, including:
     │   │   ├── 🖼️ hero.png
     │   │   ├── 🎨 react.svg
     │   │   └── 🎨 vite.svg
-    │   ├── 📁 components/
-    │   │   ├── 📁 Countries/
-    │   │   │   ├── 🎨 Countries.css
-    │   │   │   └── ⚛️ Countries.tsx
-    │   │   └── 📁 Country/
-    │   │       ├── 🎨 Country.css
-    │   │       └── ⚛️ Country.tsx
     │   ├── 🎨 App.css
     │   ├── ⚛️ App.tsx
+    │   ├── ⚛️ Batter.tsx
+    │   ├── ⚛️ Cart.tsx
+    │   ├── ⚛️ Counter.tsx
     │   ├── 🎨 index.css
     │   ├── ⚛️ main.tsx
-    │   ├── 🔷 Type.ts
-    │   └── ⚛️ User.tsx
+    │   ├── ⚛️ Post.tsx
+    │   ├── ⚛️ Todos.tsx
+    │   ├── 🎨 UserCard.css
+    │   ├── ⚛️ Users.tsx
+    │   └── ⚛️ UsersCard.tsx
     ├── 🙈 .gitignore
     ├── 🔶 .oxlintrc.json
     ├── 🌐 index.html
