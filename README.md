@@ -1069,55 +1069,56 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 │   │   └── 💾 student_marks_analysis2.sql
 │   └── 📚 README.md
 ├── 📁 Next-Level-Foundation-Program/
-│   ├── 📁 Mission 1, Module 1-Introduction to JavaScript & Various DataTypes/
-│   │   ├── ⚡ arrow-function.js
-│   │   ├── ⚡ bmi.js
-│   │   ├── ⚡ decision.js
-│   │   ├── ⚡ function.js
-│   │   ├── ⚡ operator.js
-│   │   ├── ⚡ scope.js
-│   │   ├── ⚡ string.js
-│   │   ├── ⚡ values.js
-│   │   └── ⚡ variable.js
-│   ├── 📁 Mission 1, Module 2-Array Object Loop & Problem Solving/
-│   │   ├── ⚡ array.js
-│   │   ├── ⚡ arrayOps.js
-│   │   ├── ⚡ differentLoop.js
-│   │   ├── ⚡ dry.js
-│   │   ├── ⚡ loop.js
-│   │   ├── ⚡ miniProject.js
-│   │   ├── ⚡ nested.js
-│   │   ├── ⚡ object.js
-│   │   └── ⚡ objOps.js
-│   ├── 📁 Mission 1, Module 3 - Modern JavaScript & Powerful Array Methods/
-│   │   ├── ⚡ arrayOps.js
-│   │   ├── ⚡ arrayOps2.js
-│   │   ├── ⚡ arrayOps3.js
-│   │   ├── ⚡ check.js
-│   │   ├── ⚡ Destructuring.js
-│   │   ├── ⚡ literals.js
-│   │   ├── ⚡ math.js
-│   │   ├── ⚡ rest.js
-│   │   ├── ⚡ safeAccess.js
-│   │   ├── ⚡ spread.js
-│   │   └── ⚡ task.js
-│   ├── 📁 Mission 1, Module 4 - DOM, Events, APIs & Asynchronous JavaScript/
-│   │   ├── 📁 TODO/
-│   │   │   ├── ⚡ app.js
-│   │   │   ├── 🌐 index.html
-│   │   │   └── ⚡ todo.js
-│   │   └── 📁 video_1/
-│   │       ├── 🖼️ html_dom.jpg
-│   │       ├── 🌐 index.html
-│   │       └── ⚡ index.js
-│   ├── 📁 Mission 1, Module 5 - Assignment 1/
-│   │   ├── ⚡ 1.describeValue.js
-│   │   ├── ⚡ 2.getDayType.js
-│   │   ├── ⚡ 3.validateUsername.js
-│   │   ├── ⚡ 4.getCngFare.js
-│   │   ├── ⚡ 5.getChaseVerdict.js
-│   │   ├── ⚡ final_Answer.js
-│   │   └── 📖 questions.md
+│   ├── 📁 Mission 1 - JavaScriopt Fundamentals/
+│   │   ├── 📁 Module 1-Introduction to JavaScript & Various DataTypes/
+│   │   │   ├── ⚡ arrow-function.js
+│   │   │   ├── ⚡ bmi.js
+│   │   │   ├── ⚡ decision.js
+│   │   │   ├── ⚡ function.js
+│   │   │   ├── ⚡ operator.js
+│   │   │   ├── ⚡ scope.js
+│   │   │   ├── ⚡ string.js
+│   │   │   ├── ⚡ values.js
+│   │   │   └── ⚡ variable.js
+│   │   ├── 📁 Module 2-Array Object Loop & Problem Solving/
+│   │   │   ├── ⚡ array.js
+│   │   │   ├── ⚡ arrayOps.js
+│   │   │   ├── ⚡ differentLoop.js
+│   │   │   ├── ⚡ dry.js
+│   │   │   ├── ⚡ loop.js
+│   │   │   ├── ⚡ miniProject.js
+│   │   │   ├── ⚡ nested.js
+│   │   │   ├── ⚡ object.js
+│   │   │   └── ⚡ objOps.js
+│   │   ├── 📁 Module 3 - Modern JavaScript & Powerful Array Methods/
+│   │   │   ├── ⚡ arrayOps.js
+│   │   │   ├── ⚡ arrayOps2.js
+│   │   │   ├── ⚡ arrayOps3.js
+│   │   │   ├── ⚡ check.js
+│   │   │   ├── ⚡ Destructuring.js
+│   │   │   ├── ⚡ literals.js
+│   │   │   ├── ⚡ math.js
+│   │   │   ├── ⚡ rest.js
+│   │   │   ├── ⚡ safeAccess.js
+│   │   │   ├── ⚡ spread.js
+│   │   │   └── ⚡ task.js
+│   │   ├── 📁 Module 4 - DOM, Events, APIs & Asynchronous JavaScript/
+│   │   │   ├── 📁 TODO/
+│   │   │   │   ├── ⚡ app.js
+│   │   │   │   ├── 🌐 index.html
+│   │   │   │   └── ⚡ todo.js
+│   │   │   └── 📁 video_1/
+│   │   │       ├── 🖼️ html_dom.jpg
+│   │   │       ├── 🌐 index.html
+│   │   │       └── ⚡ index.js
+│   │   └── 📁 Module 5 - Assignment 1/
+│   │       ├── ⚡ 1.describeValue.js
+│   │       ├── ⚡ 2.getDayType.js
+│   │       ├── ⚡ 3.validateUsername.js
+│   │       ├── ⚡ 4.getCngFare.js
+│   │       ├── ⚡ 5.getChaseVerdict.js
+│   │       ├── ⚡ final_Answer.js
+│   │       └── 📖 questions.md
 │   └── 📚 README.md
 ├── 📁 PHP-Programming/
 │   ├── 🐘 01_basics.php
