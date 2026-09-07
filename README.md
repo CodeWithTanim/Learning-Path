@@ -15,7 +15,7 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 ```
 ```bash
 🎯 Currently Mastering: Next-Level-Foundation-Program
-📊 Progress: 📈 Completed (Mission 1, Module 5 - Assignment 1)
+📊 Progress: 📈 Completed (Mission 2, Module 6 - Introduction to React)
 ```
 
 ## 📂 Repository Structure
@@ -1124,6 +1124,26 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 │   │       ├── ⚡ 5.getChaseVerdict.js
 │   │       ├── ⚡ final_Answer.js
 │   │       └── 📖 questions.md
+│   ├── 📁 Mission 2 - React Fundamentals/
+│   │   └── 📁 Module 6-Introduction to React/
+│   │       ├── 📁 public/
+│   │       │   ├── 🎨 favicon.svg
+│   │       │   └── 🎨 icons.svg
+│   │       ├── 📁 src/
+│   │       │   ├── 📁 assets/
+│   │       │   │   ├── 🖼️ hero.png
+│   │       │   │   ├── 🎨 react.svg
+│   │       │   │   └── 🎨 vite.svg
+│   │       │   ├── 🎨 App.css
+│   │       │   ├── ⚛️ App.jsx
+│   │       │   └── ⚛️ main.jsx
+│   │       ├── 🙈 .gitignore
+│   │       ├── ⚡ eslint.config.js
+│   │       ├── 🌐 index.html
+│   │       ├── 🔒 package-lock.json
+│   │       ├── 📦 package.json
+│   │       ├── 📚 README.md
+│   │       └── ⚡ vite.config.js
 │   └── 📚 README.md
 ├── 📁 PHP-Programming/
 │   ├── 🐘 01_basics.php
