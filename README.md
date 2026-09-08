@@ -11,7 +11,7 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 ### 🎯 Current Focus
 ```bash
 🎯 Currently Mastering: AI-Driven Full Stack Web Engineering
-📊 Progress: 📈 Completed (Milestone 5, Module 29 - React Project World Countries Explorer)
+📊 Progress: 📈 Completed (Milestone 5, Conceptual Session 8 - React Basic Concepts)
 ```
 ```bash
 🎯 Currently Mastering: Next-Level-Foundation-Program
@@ -917,6 +917,40 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 │   │       │   └── 🔷 ternary.ts
 │   │       └── 🔶 tsconfig.json
 │   ├── 📁 Milestone 5 - Building Interactive UIs With React/
+│   │   ├── 📁 Conceptual Session 8 - React Basic Concepts/
+│   │   │   ├── 📁 public/
+│   │   │   │   ├── 🎨 favicon.svg
+│   │   │   │   └── 🎨 icons.svg
+│   │   │   ├── 📁 src/
+│   │   │   │   ├── 📁 assets/
+│   │   │   │   │   ├── 🖼️ hero.png
+│   │   │   │   │   ├── 🎨 react.svg
+│   │   │   │   │   └── 🎨 vite.svg
+│   │   │   │   ├── 📁 components/
+│   │   │   │   │   ├── 📁 bestSelling/
+│   │   │   │   │   │   ├── 🎨 BestSelling.css
+│   │   │   │   │   │   └── ⚛️ BestSelling.tsx
+│   │   │   │   │   ├── 📁 product/
+│   │   │   │   │   │   ├── 🎨 Product.css
+│   │   │   │   │   │   └── ⚛️ Product.tsx
+│   │   │   │   │   └── 📁 products/
+│   │   │   │   │       ├── 🎨 Products.css
+│   │   │   │   │       └── ⚛️ Products.tsx
+│   │   │   │   ├── 🎨 App.css
+│   │   │   │   ├── ⚛️ App.tsx
+│   │   │   │   ├── 🎨 index.css
+│   │   │   │   ├── ⚛️ main.tsx
+│   │   │   │   └── 🔷 type.ts
+│   │   │   ├── 🙈 .gitignore
+│   │   │   ├── 🔶 .oxlintrc.json
+│   │   │   ├── 🌐 index.html
+│   │   │   ├── 🔒 package-lock.json
+│   │   │   ├── 📦 package.json
+│   │   │   ├── 📚 README.md
+│   │   │   ├── 🔶 tsconfig.app.json
+│   │   │   ├── 🔶 tsconfig.json
+│   │   │   ├── 🔶 tsconfig.node.json
+│   │   │   └── 🔷 vite.config.ts
 │   │   ├── 📁 Module 26-Web-Design-Intro-to-Tailwind-and-Responsiveness/
 │   │   │   ├── 📁 assets/
 │   │   │   │   ├── 🖼️ dawat-logo.png
@@ -1323,7 +1357,7 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 ### 🔥 Latest Project
 **Project Name**: AI-Driven Full Stack Web Engineering
 **Tech Stack**: HTML5, CSS3, Tailwind CSS, JavaScript (ES6+), TypeScript, React, Vite, Git & GitHub
-**Status**: 📈 Completed (Milestone 5, Module 29 - React Project World Countries Explorer)
+**Status**: 📈 Completed (Milestone 5, Conceptual Session 8 - React Basic Concepts)
 
 <!-- ### 🎨 Mini Projects Collection
 - [ ] Todo List App

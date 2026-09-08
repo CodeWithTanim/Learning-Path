@@ -112,6 +112,9 @@ Covers React state management and side effects, including `useState` hook for re
 ### 🔹 `Milestone 5 Module 29 - React-Project-Countries-Explorer`
 Building a full-fledged World Countries Explorer web application using React, Vite, and TypeScript. Covers REST Countries API integration, managing complex application state (`visitedCountries`, `visitedFlags`), child-to-parent callback prop handling, custom TypeScript type interfaces (`CountryType`, `Flags`, `Name`), grid layouts, visited country markers, and interactive flag lists.
 
+### 🔹 `Milestone 5 Conceptual Session 8 - React Basic Concepts`
+Conceptual deep dive session on core React concepts using Vite and TypeScript, focusing on component hierarchy, prop passing, rendering product catalogs (`Products`, `BestSelling`, `ProductCard`), managing state, TypeScript type definitions (`type.ts`), and clean code architecture.
+
 ### 🔹 `Durbar - Task`
 Contains problem-solving challenges and contest submissions, including:
 - **Durbar Contest #1**: Month resolution (`getMonthName.js`), object property counting (`countNumberProperties.js`), math operation validations (`checkMathOperationsForNine.js`), HTML body content extraction (`extractBodyContent.ts`), monetary calculations (`calculateRemainingMoney.js`).
@@ -1017,6 +1020,39 @@ Contains problem-solving challenges and contest submissions, including:
 │       │   └── 🔷 ternary.ts
 │       └── 🔶 tsconfig.json
 └── 📁 Milestone 5 - Building Interactive UIs With React/
+    ├── 📁 Conceptual Session 8 - React Basic Concepts/
+    │   ├── 📁 public/
+    │   │   ├── 🎨 favicon.svg
+    │   │   └── 🎨 icons.svg
+    │   ├── 📁 src/
+    │   │   ├── 📁 assets/
+    │   │   │   ├── 🖼️ hero.png
+    │   │   │   ├── 🎨 react.svg
+    │   │   │   └── 🎨 vite.svg
+    │   │   ├── 📁 components/
+    │   │   │   ├── 📁 bestSelling/
+    │   │   │   │   ├── 🎨 BestSelling.css
+    │   │   │   │   └── ⚛️ BestSelling.tsx
+    │   │   │   ├── 📁 product/
+    │   │   │   │   ├── 🎨 Product.css
+    │   │   │   │   └── ⚛️ Product.tsx
+    │   │   │   └── 📁 products/
+    │   │   │       ├── 🎨 Products.css
+    │   │   │       └── ⚛️ Products.tsx
+    │   │   ├── 🎨 App.css
+    │   │   ├── ⚛️ App.tsx
+    │   │   ├── 🎨 index.css
+    │   │   ├── ⚛️ main.tsx
+    │   │   └── 🔷 type.ts
+    │   ├── 🙈 .gitignore
+    │   ├── 🔶 .oxlintrc.json
+    │   ├── 🌐 index.html
+    │   ├── 🔒 package-lock.json
+    │   ├── 📦 package.json
+    │   ├── 🔶 tsconfig.app.json
+    │   ├── 🔶 tsconfig.json
+    │   ├── 🔶 tsconfig.node.json
+    │   └── 🔷 vite.config.ts
     ├── 📁 Module 26-Web-Design-Intro-to-Tailwind-and-Responsiveness/
     │   ├── 📁 assets/
     │   │   ├── 🖼️ dawat-logo.png
