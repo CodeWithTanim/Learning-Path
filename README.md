@@ -30,12 +30,18 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 │   │   │   ├── ⚡ 3.checkMathOperationsForNine.js
 │   │   │   ├── 🔷 4.extractBodyContent.ts
 │   │   │   └── ⚡ 5.calculateRemainingMoney.js
-│   │   └── 📁 Durbar Contest #2/
-│   │       ├── ⚡ 1.convertToCamelCase.js
-│   │       ├── ⚡ 2.countEvenOdd.js
-│   │       ├── ⚡ 3.findFirstUniqueChar.js
-│   │       ├── ⚡ 4.findLongestWord.js
-│   │       └── ⚡ 5.findSecondLargestUnique.js
+│   │   ├── 📁 Durbar Contest #2/
+│   │   │   ├── ⚡ 1.convertToCamelCase.js
+│   │   │   ├── ⚡ 2.countEvenOdd.js
+│   │   │   ├── ⚡ 3.findFirstUniqueChar.js
+│   │   │   ├── ⚡ 4.findLongestWord.js
+│   │   │   └── ⚡ 5.findSecondLargestUnique.js
+│   │   └── 📁 Durbar Contest #3/
+│   │       ├── ⚡ 1.reverseEachWord.js
+│   │       ├── ⚡ 2.convertTemperature.js
+│   │       ├── ⚡ 3.isPalindrome.js
+│   │       ├── ⚡ 4.classifyPassword.js
+│   │       └── ⚡ 5.repeatedDigitSum.js
 │   ├── 📁 Milestone 1 - Launch Your Web Journey - HTML, CSS, and GitHUb Fundamentals/
 │   │   ├── 📁 Conceptual Session 1 - Learn and Explore HTML, CSS (Project)/
 │   │   │   ├── 📁 conceptual-session/
