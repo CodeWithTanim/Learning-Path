@@ -115,10 +115,14 @@ Building a full-fledged World Countries Explorer web application using React, Vi
 ### 🔹 `Milestone 5 Conceptual Session 8 - React Basic Concepts`
 Conceptual deep dive session on core React concepts using Vite and TypeScript, focusing on component hierarchy, prop passing, rendering product catalogs (`Products`, `BestSelling`, `ProductCard`), managing state, TypeScript type definitions (`type.ts`), and clean code architecture.
 
+### 🔹 `Milestone 5 Module 30 - JavaScript-DOM-and-BOM-Deep-Dive`
+Comprehensive deep dive into JavaScript Document Object Model (DOM) and Browser Object Model (BOM). Covers DOM selectors (`getElementById`, `getElementsByTagName`, `getElementsByClassName`, `querySelector`, `querySelectorAll`), modifying element text and HTML content (`textContent`, `innerText`, `innerHTML`), manipulating attributes (`getAttribute`, `setAttribute`, `removeAttribute`, `hasAttribute`), class list management (`classList.add`, `remove`, `toggle`), interactive DOM event listeners (click, keypress, input handling), Browser Object Model (BOM) APIs (`window`, `location.reload`), asynchronous timers (`setTimeout`, `setInterval`, `clearTimeout`, `clearInterval`), and browser storage persistence (`localStorage` and `sessionStorage`).
+
 ### 🔹 `Durbar - Task`
 Contains problem-solving challenges and contest submissions, including:
 - **Durbar Contest #1**: Month resolution (`getMonthName.js`), object property counting (`countNumberProperties.js`), math operation validations (`checkMathOperationsForNine.js`), HTML body content extraction (`extractBodyContent.ts`), monetary calculations (`calculateRemainingMoney.js`).
 - **Durbar Contest #2**: String camelCase conversion (`convertToCamelCase.js`), array even/odd counting (`countEvenOdd.js`), first unique character finder (`findFirstUniqueChar.js`), longest word identifier (`findLongestWord.js`), second largest unique element finder (`findSecondLargestUnique.js`).
+- **Durbar Contest #3**: String reversal per word (`reverseEachWord.js`), temperature conversion (`convertTemperature.js`), palindrome verification (`isPalindrome.js`), password strength classification (`classifyPassword.js`), repeated digit summation (`repeatedDigitSum.js`).
 
 ---
 
@@ -133,12 +137,18 @@ Contains problem-solving challenges and contest submissions, including:
 │   │   ├── ⚡ 3.checkMathOperationsForNine.js
 │   │   ├── 🔷 4.extractBodyContent.ts
 │   │   └── ⚡ 5.calculateRemainingMoney.js
-│   └── 📁 Durbar Contest #2/
-│       ├── ⚡ 1.convertToCamelCase.js
-│       ├── ⚡ 2.countEvenOdd.js
-│       ├── ⚡ 3.findFirstUniqueChar.js
-│       ├── ⚡ 4.findLongestWord.js
-│       └── ⚡ 5.findSecondLargestUnique.js
+│   ├── 📁 Durbar Contest #2/
+│   │   ├── ⚡ 1.convertToCamelCase.js
+│   │   ├── ⚡ 2.countEvenOdd.js
+│   │   ├── ⚡ 3.findFirstUniqueChar.js
+│   │   ├── ⚡ 4.findLongestWord.js
+│   │   └── ⚡ 5.findSecondLargestUnique.js
+│   └── 📁 Durbar Contest #3/
+│       ├── ⚡ 1.reverseEachWord.js
+│       ├── ⚡ 2.convertTemperature.js
+│       ├── ⚡ 3.isPalindrome.js
+│       ├── ⚡ 4.classifyPassword.js
+│       └── ⚡ 5.repeatedDigitSum.js
 ├── 📁 Milestone 1 - Launch Your Web Journey - HTML, CSS, and GitHUb Fundamentals/
 │   ├── 📁 Conceptual Session 1 - Learn and Explore HTML, CSS (Project)/
 │   │   ├── 📁 conceptual-session/
@@ -1139,37 +1149,41 @@ Contains problem-solving challenges and contest submissions, including:
     │   ├── 🔶 tsconfig.json
     │   ├── 🔶 tsconfig.node.json
     │   └── 🔷 vite.config.ts
-    └── 📁 Module 29-React-Project-Countries-Explorer/
-        ├── 📁 public/
-        │   ├── 🎨 favicon.svg
-        │   └── 🎨 icons.svg
-        ├── 📁 src/
-        │   ├── 📁 assets/
-        │   │   ├── 🖼️ hero.png
-        │   │   ├── 🎨 react.svg
-        │   │   └── 🎨 vite.svg
-        │   ├── 📁 components/
-        │   │   ├── 📁 Countries/
-        │   │   │   ├── 🎨 Countries.css
-        │   │   │   └── ⚛️ Countries.tsx
-        │   │   └── 📁 Country/
-        │   │       ├── 🎨 Country.css
-        │   │       └── ⚛️ Country.tsx
-        │   ├── 🎨 App.css
-        │   ├── ⚛️ App.tsx
-        │   ├── 🎨 index.css
-        │   ├── ⚛️ main.tsx
-        │   ├── 🔷 Type.ts
-        │   └── ⚛️ User.tsx
-        ├── 🙈 .gitignore
-        ├── 🔶 .oxlintrc.json
+    ├── 📁 Module 29-React-Project-Countries-Explorer/
+    │   ├── 📁 public/
+    │   │   ├── 🎨 favicon.svg
+    │   │   └── 🎨 icons.svg
+    │   ├── 📁 src/
+    │   │   ├── 📁 assets/
+    │   │   │   ├── 🖼️ hero.png
+    │   │   │   ├── 🎨 react.svg
+    │   │   │   └── 🎨 vite.svg
+    │   │   ├── 📁 components/
+    │   │   │   ├── 📁 Countries/
+    │   │   │   │   ├── 🎨 Countries.css
+    │   │   │   │   └── ⚛️ Countries.tsx
+    │   │   │   └── 📁 Country/
+    │   │   │       ├── 🎨 Country.css
+    │   │   │       └── ⚛️ Country.tsx
+    │   │   ├── 🎨 App.css
+    │   │   ├── ⚛️ App.tsx
+    │   │   ├── 🎨 index.css
+    │   │   ├── ⚛️ main.tsx
+    │   │   ├── 🔷 Type.ts
+    │   │   └── ⚛️ User.tsx
+    │   ├── 🙈 .gitignore
+    │   ├── 🔶 .oxlintrc.json
+    │   ├── 🌐 index.html
+    │   ├── 🔒 package-lock.json
+    │   ├── 📦 package.json
+    │   ├── 🔶 tsconfig.app.json
+    │   ├── 🔶 tsconfig.json
+    │   ├── 🔶 tsconfig.node.json
+    │   └── 🔷 vite.config.ts
+    └── 📁 Module 30-JavaScript-DOM-and-BOM-Deep-Dive/
         ├── 🌐 index.html
-        ├── 🔒 package-lock.json
-        ├── 📦 package.json
-        ├── 🔶 tsconfig.app.json
-        ├── 🔶 tsconfig.json
-        ├── 🔶 tsconfig.node.json
-        └── 🔷 vite.config.ts
+        ├── ⚡ script.js
+        └── ⚡ timer.js
 ```
 
 ---
@@ -1179,7 +1193,7 @@ Contains problem-solving challenges and contest submissions, including:
 - **Git & GitHub**: Version control, repository hosting, basic workflow.
 - **CSS3**: Selectors, Flexbox, Grid, Responsive Web Design, Navigation, Layouts.
 - **Tailwind CSS**: Responsive utility styling, breakpoints (`sm`, `md`, `lg`), Flexbox & Grid layouts, custom component styling.
-- **JavaScript (ES6+)**: Data types, Conditionals, Loops, Arrays, Objects, Functions, ES6+ features, Array Methods (`map`, `filter`, `find`, `reduce`), Destructuring.
+- **JavaScript (ES6+)**: Data types, Conditionals, Loops, Arrays, Objects, Functions, ES6+ features, Array Methods (`map`, `filter`, `find`, `reduce`), Destructuring, DOM manipulation, Events, BOM, Web Storage (`localStorage`/`sessionStorage`), Timers (`setTimeout`/`setInterval`).
 - **TypeScript**: Type annotations, Interfaces, Type Aliases, Generics, OOP (Classes, Inheritance, Access Modifiers, Polymorphism, Abstraction), Utility Types, Real-world Problem Solving.
 - **React & Vite**: Functional components, JSX, Props passing & destructuring, Conditional rendering, List rendering (`.map`), `useState` state management, Event handling, `useEffect` data fetching (APIs), component styling, Vite dev toolchain.
 

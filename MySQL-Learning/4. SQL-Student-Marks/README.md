@@ -1,85 +1,73 @@
-# 📘 SQL – Employee Table Modification (ALTER TABLE) Project
+# 📘 SQL – Student Marks Project
 
-This SQL mini-project focuses on **modifying an existing table**, specifically using:
+This SQL mini-project focuses on managing and aggregating student marks using:
 
-* `ALTER TABLE ADD`
-* `ALTER TABLE MODIFY`
-* `ALTER TABLE CHANGE`
+* `CREATE TABLE` with multi-row subject records
+* `INSERT INTO` multiple subject rows per student
+* `SUM()` aggregate function
+* `GROUP BY` grouping by student name
 
-These operations are super important when updating database structures **after** they’ve been created.
+These operations are fundamental for academic reporting, score cards, and grade management systems.
 
 ---
 
 ## 📂 Folder Structure
 
 ```
-📁 SQL-Employee-Table-Modification/
+📁 SQL-Student-Marks/
 ├── 📖 README.md
-└── 💾 alter_employee.sql
+├── 💾 student_marks.sql
+└── 💾 student_marks2.sql
 ```
 
 ---
 
 # 📄 SQL Breakdown
 
-## ✅ 1. Create the EMPLOYEE Table
+## ✅ 1. Create the `Student_marks` Table
 
 ```sql
-CREATE TABLE EMPLOYEE (
-    Emp_no INT PRIMARY KEY,
-    E_name VARCHAR(50),
-    E_address VARCHAR(255),
-    E_ph_no VARCHAR(15),
-    Dept_no INT,
-    Dept_name VARCHAR(50),
-    Job_id CHAR(10),
-    Salary DECIMAL(10,2)
+CREATE TABLE Student_marks (
+    St_RollNo INT,
+    St_Name VARCHAR(50),
+    St_Subject VARCHAR(50),
+    St_Marks INT
 );
 ```
 
-This table includes employee details like:
+This table stores:
 
-* Name
-* Address
-* Phone
-* Department
-* Job ID
-* Salary
+* `St_RollNo` → Student Roll Number
+* `St_Name` → Student Name
+* `St_Subject` → Subject Name (Math, Physics, Chemistry)
+* `St_Marks` → Marks obtained
 
 ---
 
-## ✅ 2. Add a New Column: `HIREDATE`
+## ✅ 2. Insert Student Marks Records
 
 ```sql
-ALTER TABLE EMPLOYEE 
-ADD COLUMN HIREDATE DATE;
+INSERT INTO Student_marks VALUES (1, 'Mohan', 'Math', 70);
+INSERT INTO Student_marks VALUES (1, 'Mohan', 'Physics', 75);
+INSERT INTO Student_marks VALUES (1, 'Mohan', 'Chemistry', 65);
+INSERT INTO Student_marks VALUES (2, 'Vipul', 'Physics', 70);
+INSERT INTO Student_marks VALUES (2, 'Vipul', 'Chemistry', 75);
+INSERT INTO Student_marks VALUES (2, 'Vipul', 'Math', 60);
+INSERT INTO Student_marks VALUES (3, 'Jitendra', 'Physics', 85);
+INSERT INTO Student_marks VALUES (3, 'Jitendra', 'Chemistry', 75);
+INSERT INTO Student_marks VALUES (3, 'Jitendra', 'Math', 60);
 ```
 
-Adds a **new DATE column** to store when the employee was hired.
+Nine subject records inserted across three students.
 
 ---
 
-## ✅ 3. Change Data Type of `Job_id` (CHAR → VARCHAR)
+## ✅ 3. Find Total Marks Obtained by Each Student
 
 ```sql
-ALTER TABLE EMPLOYEE 
-MODIFY COLUMN Job_id VARCHAR(20);
+SELECT St_Name, SUM(St_Marks) AS Total_Marks
+FROM Student_marks
+GROUP BY St_Name;
 ```
 
-Why this matters:
-
-* `CHAR` = fixed length (not flexible)
-* `VARCHAR` = variable length, better for job codes
-
-This update makes the column more scalable.
-
----
-
-## ✅ 4. Rename Column `Emp_no` → `E_no`
-
-```sql
-ALTER TABLE EMPLOYEE 
-CHANGE COLUMN Emp_no E_no INT;
-```
-
-Renaming columns is common when improving naming conventions or aligning with new standards.
+Calculates the aggregate sum of marks obtained across all subjects for each student.

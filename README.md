@@ -11,7 +11,7 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 ### 🎯 Current Focus
 ```bash
 🎯 Currently Mastering: AI-Driven Full Stack Web Engineering
-📊 Progress: 📈 Completed (Milestone 5, Conceptual Session 8 - React Basic Concepts)
+📊 Progress: 📈 Completed (Milestone 5, Module 30 - JavaScript DOM and BOM Deep Dive)
 ```
 ```bash
 🎯 Currently Mastering: Next-Level-Foundation-Program
@@ -30,12 +30,18 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 │   │   │   ├── ⚡ 3.checkMathOperationsForNine.js
 │   │   │   ├── 🔷 4.extractBodyContent.ts
 │   │   │   └── ⚡ 5.calculateRemainingMoney.js
-│   │   └── 📁 Durbar Contest #2/
-│   │       ├── ⚡ 1.convertToCamelCase.js
-│   │       ├── ⚡ 2.countEvenOdd.js
-│   │       ├── ⚡ 3.findFirstUniqueChar.js
-│   │       ├── ⚡ 4.findLongestWord.js
-│   │       └── ⚡ 5.findSecondLargestUnique.js
+│   │   ├── 📁 Durbar Contest #2/
+│   │   │   ├── ⚡ 1.convertToCamelCase.js
+│   │   │   ├── ⚡ 2.countEvenOdd.js
+│   │   │   ├── ⚡ 3.findFirstUniqueChar.js
+│   │   │   ├── ⚡ 4.findLongestWord.js
+│   │   │   └── ⚡ 5.findSecondLargestUnique.js
+│   │   └── 📁 Durbar Contest #3/
+│   │       ├── ⚡ 1.reverseEachWord.js
+│   │       ├── ⚡ 2.convertTemperature.js
+│   │       ├── ⚡ 3.isPalindrome.js
+│   │       ├── ⚡ 4.classifyPassword.js
+│   │       └── ⚡ 5.repeatedDigitSum.js
 │   ├── 📁 Milestone 1 - Launch Your Web Journey - HTML, CSS, and GitHUb Fundamentals/
 │   │   ├── 📁 Conceptual Session 1 - Learn and Explore HTML, CSS (Project)/
 │   │   │   ├── 📁 conceptual-session/
@@ -1039,38 +1045,42 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 │   │   │   ├── 🔶 tsconfig.json
 │   │   │   ├── 🔶 tsconfig.node.json
 │   │   │   └── 🔷 vite.config.ts
-│   │   └── 📁 Module 29-React-Project-Countries-Explorer/
-│   │       ├── 📁 public/
-│   │       │   ├── 🎨 favicon.svg
-│   │       │   └── 🎨 icons.svg
-│   │       ├── 📁 src/
-│   │       │   ├── 📁 assets/
-│   │       │   │   ├── 🖼️ hero.png
-│   │       │   │   ├── 🎨 react.svg
-│   │       │   │   └── 🎨 vite.svg
-│   │       │   ├── 📁 components/
-│   │       │   │   ├── 📁 Countries/
-│   │       │   │   │   ├── 🎨 Countries.css
-│   │       │   │   │   └── ⚛️ Countries.tsx
-│   │       │   │   └── 📁 Country/
-│   │       │   │       ├── 🎨 Country.css
-│   │       │   │       └── ⚛️ Country.tsx
-│   │       │   ├── 🎨 App.css
-│   │       │   ├── ⚛️ App.tsx
-│   │       │   ├── 🎨 index.css
-│   │       │   ├── ⚛️ main.tsx
-│   │       │   ├── 🔷 Type.ts
-│   │       │   └── ⚛️ User.tsx
-│   │       ├── 🙈 .gitignore
-│   │       ├── 🔶 .oxlintrc.json
+│   │   ├── 📁 Module 29-React-Project-Countries-Explorer/
+│   │   │   ├── 📁 public/
+│   │   │   │   ├── 🎨 favicon.svg
+│   │   │   │   └── 🎨 icons.svg
+│   │   │   ├── 📁 src/
+│   │   │   │   ├── 📁 assets/
+│   │   │   │   │   ├── 🖼️ hero.png
+│   │   │   │   │   ├── 🎨 react.svg
+│   │   │   │   │   └── 🎨 vite.svg
+│   │   │   │   ├── 📁 components/
+│   │   │   │   │   ├── 📁 Countries/
+│   │   │   │   │   │   ├── 🎨 Countries.css
+│   │   │   │   │   │   └── ⚛️ Countries.tsx
+│   │   │   │   │   └── 📁 Country/
+│   │   │   │   │       ├── 🎨 Country.css
+│   │   │   │   │       └── ⚛️ Country.tsx
+│   │   │   │   ├── 🎨 App.css
+│   │   │   │   ├── ⚛️ App.tsx
+│   │   │   │   ├── 🎨 index.css
+│   │   │   │   ├── ⚛️ main.tsx
+│   │   │   │   ├── 🔷 Type.ts
+│   │   │   │   └── ⚛️ User.tsx
+│   │   │   ├── 🙈 .gitignore
+│   │   │   ├── 🔶 .oxlintrc.json
+│   │   │   ├── 🌐 index.html
+│   │   │   ├── 🔒 package-lock.json
+│   │   │   ├── 📦 package.json
+│   │   │   ├── 📚 README.md
+│   │   │   ├── 🔶 tsconfig.app.json
+│   │   │   ├── 🔶 tsconfig.json
+│   │   │   ├── 🔶 tsconfig.node.json
+│   │   │   └── 🔷 vite.config.ts
+│   │   └── 📁 Module 30-JavaScript-DOM-and-BOM-Deep-Dive/
 │   │       ├── 🌐 index.html
-│   │       ├── 🔒 package-lock.json
-│   │       ├── 📦 package.json
-│   │       ├── 📚 README.md
-│   │       ├── 🔶 tsconfig.app.json
-│   │       ├── 🔶 tsconfig.json
-│   │       ├── 🔶 tsconfig.node.json
-│   │       └── 🔷 vite.config.ts
+│   │       ├── ⚡ script.js
+│   │       └── ⚡ timer.js
 │   └── 📚 README.md
 ├── 📁 Complete_Python_For_Ai_ML/
 │   ├── 📁 Chapter-1-Installation/
@@ -1357,7 +1367,7 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 ### 🔥 Latest Project
 **Project Name**: AI-Driven Full Stack Web Engineering
 **Tech Stack**: HTML5, CSS3, Tailwind CSS, JavaScript (ES6+), TypeScript, React, Vite, Git & GitHub
-**Status**: 📈 Completed (Milestone 5, Conceptual Session 8 - React Basic Concepts)
+**Status**: 📈 Completed (Milestone 5, Module 30 - JavaScript DOM and BOM Deep Dive)
 
 <!-- ### 🎨 Mini Projects Collection
 - [ ] Todo List App
