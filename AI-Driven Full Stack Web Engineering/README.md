@@ -118,6 +118,9 @@ Conceptual deep dive session on core React concepts using Vite and TypeScript, f
 ### 🔹 `Milestone 5 Module 30 - JavaScript-DOM-and-BOM-Deep-Dive`
 Comprehensive deep dive into JavaScript Document Object Model (DOM) and Browser Object Model (BOM). Covers DOM selectors (`getElementById`, `getElementsByTagName`, `getElementsByClassName`, `querySelector`, `querySelectorAll`), modifying element text and HTML content (`textContent`, `innerText`, `innerHTML`), manipulating attributes (`getAttribute`, `setAttribute`, `removeAttribute`, `hasAttribute`), class list management (`classList.add`, `remove`, `toggle`), interactive DOM event listeners (click, keypress, input handling), Browser Object Model (BOM) APIs (`window`, `location.reload`), asynchronous timers (`setTimeout`, `setInterval`, `clearTimeout`, `clearInterval`), and browser storage persistence (`localStorage` and `sessionStorage`).
 
+### 🔹 `Milestone 5 Conceptual Session 9 - React Recap with Project`
+Comprehensive recap session building a full-featured e-commerce product showcase project using React, TypeScript, and Vite. Covers reusable UI component architecture (`Navbar`, `Banner`, `Services`, `Cart`, `PopularProducts`, `PopularProductCard`), asynchronous data fetching (`fetch`), React `Suspense` for asynchronous component rendering with fallback loaders, shopping cart state management (`useState`) with add-to-cart, remove, and toggle logic, TypeScript type definitions (`IPopularProduct`), and responsive UI layout.
+
 ### 🔹 `Durbar - Task`
 Contains problem-solving challenges and contest submissions, including:
 - **Durbar Contest #1**: Month resolution (`getMonthName.js`), object property counting (`countNumberProperties.js`), math operation validations (`checkMathOperationsForNine.js`), HTML body content extraction (`extractBodyContent.ts`), monetary calculations (`calculateRemainingMoney.js`).
@@ -1056,6 +1059,75 @@ Contains problem-solving challenges and contest submissions, including:
     │   │   └── 🔷 type.ts
     │   ├── 🙈 .gitignore
     │   ├── 🔶 .oxlintrc.json
+    │   ├── 🌐 index.html
+    │   ├── 🔒 package-lock.json
+    │   ├── 📦 package.json
+    │   ├── 🔶 tsconfig.app.json
+    │   ├── 🔶 tsconfig.json
+    │   ├── 🔶 tsconfig.node.json
+    │   └── 🔷 vite.config.ts
+    ├── 📁 Conceptual Session 9 - React Recap with Project/
+    │   ├── 📁 public/
+    │   │   ├── 📁 assets/
+    │   │   │   ├── 🖼️ dawat-logo.png
+    │   │   │   ├── 🖼️ delivery.png
+    │   │   │   ├── 🖼️ footer-logo.png
+    │   │   │   ├── 🖼️ gate-logo.png
+    │   │   │   ├── 🖼️ grocery-basket.png
+    │   │   │   ├── 🖼️ Group 9181.png
+    │   │   │   ├── 🖼️ Hero Section 1.png
+    │   │   │   ├── 🖼️ Hero Section-large.png
+    │   │   │   ├── 🖼️ Mask group.png
+    │   │   │   ├── 🖼️ nav-logo.png
+    │   │   │   ├── 🖼️ offers-1.png
+    │   │   │   ├── 🖼️ offers-2.png
+    │   │   │   ├── 🖼️ onion.png
+    │   │   │   ├── 🖼️ popular.png
+    │   │   │   ├── 🖼️ potato.png
+    │   │   │   ├── 🖼️ products.png
+    │   │   │   ├── 🖼️ service.png
+    │   │   │   └── 🖼️ tomato.png
+    │   │   ├── 🎨 favicon.svg
+    │   │   ├── 🎨 icons.svg
+    │   │   ├── 🖼️ nav-logo.png
+    │   │   └── 🔶 popularProducts.json
+    │   ├── 📁 src/
+    │   │   ├── 📁 assets/
+    │   │   │   ├── 🖼️ dawat-logo.png
+    │   │   │   ├── 🖼️ delivery.png
+    │   │   │   ├── 🖼️ footer-logo.png
+    │   │   │   ├── 🖼️ gate-logo.png
+    │   │   │   ├── 🖼️ grocery-basket.png
+    │   │   │   ├── 🖼️ Group 9181.png
+    │   │   │   ├── 🖼️ Hero Section 1.png
+    │   │   │   ├── 🖼️ Hero Section-large.png
+    │   │   │   ├── 🖼️ hero.png
+    │   │   │   ├── 🖼️ Mask group.png
+    │   │   │   ├── 🖼️ nav-logo.png
+    │   │   │   ├── 🖼️ offers-1.png
+    │   │   │   ├── 🖼️ offers-2.png
+    │   │   │   ├── 🖼️ onion.png
+    │   │   │   ├── 🖼️ popular.png
+    │   │   │   ├── 🖼️ potato.png
+    │   │   │   ├── 🖼️ products.png
+    │   │   │   ├── 🎨 react.svg
+    │   │   │   ├── 🖼️ service.png
+    │   │   │   ├── 🖼️ tomato.png
+    │   │   │   └── 🎨 vite.svg
+    │   │   ├── 📁 components/
+    │   │   │   ├── ⚛️ Banner.tsx
+    │   │   │   ├── ⚛️ Cart.tsx
+    │   │   │   ├── ⚛️ Navbar.tsx
+    │   │   │   ├── ⚛️ PopularProductCard.tsx
+    │   │   │   ├── ⚛️ PopularProducts.tsx
+    │   │   │   └── ⚛️ Services.tsx
+    │   │   ├── 📁 types/
+    │   │   │   └── 🔷 product.ts
+    │   │   ├── ⚛️ App.tsx
+    │   │   ├── 🎨 index.css
+    │   │   └── ⚛️ main.tsx
+    │   ├── 🙈 .gitignore
+    │   ├── ⚡ eslint.config.js
     │   ├── 🌐 index.html
     │   ├── 🔒 package-lock.json
     │   ├── 📦 package.json

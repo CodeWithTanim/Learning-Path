@@ -560,7 +560,9 @@ def get_emoji(name, is_dir):
         
     return '📄'
 
-def generate_tree(dir_path, ignore_patterns):
+def generate_tree(dir_path, ignore_patterns, ignore_root_files=None):
+    if ignore_root_files is None:
+        ignore_root_files = []
     lines = []
     
     def walk(current_dir, prefix=""):
@@ -571,6 +573,8 @@ def generate_tree(dir_path, ignore_patterns):
             
         filtered_items = []
         for item in items:
+            if current_dir == dir_path and item in ignore_root_files:
+                continue
             should_ignore = False
             for pattern in ignore_patterns:
                 if re.match(pattern, item):
@@ -683,12 +687,11 @@ def main():
         print("Updating MySQL-Learning README.md...")
         mysql_ignore = [
             r'^\.git$',
-            r'^README\.md$',
             r'^__pycache__$',
             r'^node_modules$',
             r'\.pyc$',
         ]
-        mysql_tree = generate_tree(mysql_dir, mysql_ignore)
+        mysql_tree = generate_tree(mysql_dir, mysql_ignore, ignore_root_files=['README.md'])
         update_readme_file(os.path.join(mysql_dir, "README.md"), mysql_tree, "MySQL-Learning")
 
 if __name__ == "__main__":

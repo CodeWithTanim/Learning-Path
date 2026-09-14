@@ -26,18 +26,23 @@ Advanced SQL querying and analytical aggregation on student performance datasets
 ```
 📦 MySQL-Learning/
 ├── 📁 1. SQL-Student-Database/
+│   ├── 📚 README.md
 │   ├── 💾 student_database.sql
 │   └── 💾 student_database2.sql
 ├── 📁 2. SQL-Employee-Database/
 │   ├── 💾 employee.sql
-│   └── 💾 employee2.sql
+│   ├── 💾 employee2.sql
+│   └── 📚 README.md
 ├── 📁 3. SQL-Employee-Table-Modification/
 │   ├── 💾 alter_employee.sql
-│   └── 💾 alter_employee2.sql
+│   ├── 💾 alter_employee2.sql
+│   └── 📚 README.md
 ├── 📁 4. SQL-Student-Marks/
+│   ├── 📚 README.md
 │   ├── 💾 student_marks.sql
 │   └── 💾 student_marks2.sql
 └── 📁 5. SQL-Student-Marks-Analysis/
+    ├── 📚 README.md
     ├── 💾 student_marks_analysis.sql
     └── 💾 student_marks_analysis2.sql
 ```
