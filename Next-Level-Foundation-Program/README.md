@@ -22,6 +22,9 @@ Solving Mission 1 Assignment 1 JavaScript programming challenges, including valu
 ### 🔹 `Mission 2, Module 6 - Introduction to React`
 Introduction to React.js core concepts, Vite project setup, JSX syntax, functional components, props, state basics, and initial React application development.
 
+### 🔹 `Mission 2, Module 7 - Basics of React`
+Covers core React fundamentals and component architecture using Vite. Explores JSX rules, React Fragments, component declaration (`TestComponent`, `Card`), prop passing and destructuring, `children` prop, conditional rendering techniques (ternary operator, logical `&&`, if/else), rendering and filtering lists (`.map()`, `.filter()`, `.sort()`), event handling with arguments, form submission handling (`onSubmit`, `e.preventDefault()`, `onChange`), and reactive state management with `useState` (`Counter` with increment, decrement, and bounded operations).
+
 ---
 
 ## 📂 Repository Structure
@@ -79,7 +82,25 @@ Introduction to React.js core concepts, Vite project setup, JSX syntax, function
 │       ├── ⚡ final_Answer.js
 │       └── 📖 questions.md
 └── 📁 Mission 2 - React Fundamentals/
-    └── 📁 Module 6-Introduction to React/
+    ├── 📁 Module 6-Introduction to React/
+    │   ├── 📁 public/
+    │   │   ├── 🎨 favicon.svg
+    │   │   └── 🎨 icons.svg
+    │   ├── 📁 src/
+    │   │   ├── 📁 assets/
+    │   │   │   ├── 🖼️ hero.png
+    │   │   │   ├── 🎨 react.svg
+    │   │   │   └── 🎨 vite.svg
+    │   │   ├── 🎨 App.css
+    │   │   ├── ⚛️ App.jsx
+    │   │   └── ⚛️ main.jsx
+    │   ├── 🙈 .gitignore
+    │   ├── ⚡ eslint.config.js
+    │   ├── 🌐 index.html
+    │   ├── 🔒 package-lock.json
+    │   ├── 📦 package.json
+    │   └── ⚡ vite.config.js
+    └── 📁 Module 7 - Basics of React/
         ├── 📁 public/
         │   ├── 🎨 favicon.svg
         │   └── 🎨 icons.svg
@@ -88,9 +109,15 @@ Introduction to React.js core concepts, Vite project setup, JSX syntax, function
         │   │   ├── 🖼️ hero.png
         │   │   ├── 🎨 react.svg
         │   │   └── 🎨 vite.svg
+        │   ├── 📁 components/
+        │   │   ├── 🎨 Card.css
+        │   │   ├── ⚛️ Card.jsx
+        │   │   └── ⚛️ Counter.jsx
         │   ├── 🎨 App.css
         │   ├── ⚛️ App.jsx
-        │   └── ⚛️ main.jsx
+        │   ├── 🎨 index.css
+        │   ├── ⚛️ main.jsx
+        │   └── ⚛️ TestComponent.jsx
         ├── 🙈 .gitignore
         ├── ⚡ eslint.config.js
         ├── 🌐 index.html
