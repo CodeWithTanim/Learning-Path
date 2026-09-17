@@ -25,6 +25,9 @@ Introduction to React.js core concepts, Vite project setup, JSX syntax, function
 ### 🔹 `Mission 2, Module 7 - Basics of React`
 Covers core React fundamentals and component architecture using Vite. Explores JSX rules, React Fragments, component declaration (`TestComponent`, `Card`), prop passing and destructuring, `children` prop, conditional rendering techniques (ternary operator, logical `&&`, if/else), rendering and filtering lists (`.map()`, `.filter()`, `.sort()`), event handling with arguments, form submission handling (`onSubmit`, `e.preventDefault()`, `onChange`), and reactive state management with `useState` (`Counter` with increment, decrement, and bounded operations).
 
+### 🔹 `Mission 2, Module 8 - React Hooks`
+Deep dive into essential React hooks and global state patterns using Vite. Covers `useEffect` for managing lifecycle side effects, dependencies, timer intervals and cleanup functions, asynchronous data fetching (`fetchUsers`) with loading and error states (`isloading`, `error`), API integration with JSONPlaceholder, and Context API global state architecture (`createContext`, `CounterProvider`) consumed in nested components (`NestedDisplay`, `Display`) using React's `use` hook.
+
 ---
 
 ## 📂 Repository Structure
@@ -100,7 +103,31 @@ Covers core React fundamentals and component architecture using Vite. Explores J
     │   ├── 🔒 package-lock.json
     │   ├── 📦 package.json
     │   └── ⚡ vite.config.js
-    └── 📁 Module 7 - Basics of React/
+    ├── 📁 Module 7 - Basics of React/
+    │   ├── 📁 public/
+    │   │   ├── 🎨 favicon.svg
+    │   │   └── 🎨 icons.svg
+    │   ├── 📁 src/
+    │   │   ├── 📁 assets/
+    │   │   │   ├── 🖼️ hero.png
+    │   │   │   ├── 🎨 react.svg
+    │   │   │   └── 🎨 vite.svg
+    │   │   ├── 📁 components/
+    │   │   │   ├── 🎨 Card.css
+    │   │   │   ├── ⚛️ Card.jsx
+    │   │   │   └── ⚛️ Counter.jsx
+    │   │   ├── 🎨 App.css
+    │   │   ├── ⚛️ App.jsx
+    │   │   ├── 🎨 index.css
+    │   │   ├── ⚛️ main.jsx
+    │   │   └── ⚛️ TestComponent.jsx
+    │   ├── 🙈 .gitignore
+    │   ├── ⚡ eslint.config.js
+    │   ├── 🌐 index.html
+    │   ├── 🔒 package-lock.json
+    │   ├── 📦 package.json
+    │   └── ⚡ vite.config.js
+    └── 📁 Module 8 - React Hooks/
         ├── 📁 public/
         │   ├── 🎨 favicon.svg
         │   └── 🎨 icons.svg
@@ -110,9 +137,16 @@ Covers core React fundamentals and component architecture using Vite. Explores J
         │   │   ├── 🎨 react.svg
         │   │   └── 🎨 vite.svg
         │   ├── 📁 components/
+        │   │   ├── ⚛️ Card-older.jsx
         │   │   ├── 🎨 Card.css
         │   │   ├── ⚛️ Card.jsx
-        │   │   └── ⚛️ Counter.jsx
+        │   │   ├── ⚛️ Counter.jsx
+        │   │   ├── ⚛️ Display.jsx
+        │   │   ├── ⚛️ DisplayUsers.jsx
+        │   │   └── ⚛️ NestedDisplay.jsx
+        │   ├── 📁 providers/
+        │   │   └── ⚛️ CounterProvider.jsx.jsx
+        │   ├── ⚛️ App-older.jsx
         │   ├── 🎨 App.css
         │   ├── ⚛️ App.jsx
         │   ├── 🎨 index.css

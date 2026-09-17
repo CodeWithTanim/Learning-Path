@@ -1,0 +1,20 @@
+.card {
+    background-color: rgb(240, 137, 231);
+    border-radius: 8px;
+    padding: 8px;
+    margin: 10px 0px;
+}
+
+.card-blue {
+    background-color: rgb(124, 147, 224);
+    border-radius: 8px;
+    padding: 8px;
+    margin: 10px 0px;
+}
+
+.card-orange {
+    background-color: rgb(250, 153, 82);
+    border-radius: 8px;
+    padding: 8px;
+    margin: 10px 0px;
+}

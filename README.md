@@ -15,7 +15,7 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 ```
 ```bash
 🎯 Currently Mastering: Next-Level-Foundation-Program
-📊 Progress: 📈 Completed (Mission 2, Module 7 - Basics of React)
+📊 Progress: 📈 Completed (Mission 2, Module 8 - React Hooks)
 ```
 
 ## 📂 Repository Structure
@@ -1258,7 +1258,32 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 │   │   │   ├── 📦 package.json
 │   │   │   ├── 📚 README.md
 │   │   │   └── ⚡ vite.config.js
-│   │   └── 📁 Module 7 - Basics of React/
+│   │   ├── 📁 Module 7 - Basics of React/
+│   │   │   ├── 📁 public/
+│   │   │   │   ├── 🎨 favicon.svg
+│   │   │   │   └── 🎨 icons.svg
+│   │   │   ├── 📁 src/
+│   │   │   │   ├── 📁 assets/
+│   │   │   │   │   ├── 🖼️ hero.png
+│   │   │   │   │   ├── 🎨 react.svg
+│   │   │   │   │   └── 🎨 vite.svg
+│   │   │   │   ├── 📁 components/
+│   │   │   │   │   ├── 🎨 Card.css
+│   │   │   │   │   ├── ⚛️ Card.jsx
+│   │   │   │   │   └── ⚛️ Counter.jsx
+│   │   │   │   ├── 🎨 App.css
+│   │   │   │   ├── ⚛️ App.jsx
+│   │   │   │   ├── 🎨 index.css
+│   │   │   │   ├── ⚛️ main.jsx
+│   │   │   │   └── ⚛️ TestComponent.jsx
+│   │   │   ├── 🙈 .gitignore
+│   │   │   ├── ⚡ eslint.config.js
+│   │   │   ├── 🌐 index.html
+│   │   │   ├── 🔒 package-lock.json
+│   │   │   ├── 📦 package.json
+│   │   │   ├── 📚 README.md
+│   │   │   └── ⚡ vite.config.js
+│   │   └── 📁 Module 8 - React Hooks/
 │   │       ├── 📁 public/
 │   │       │   ├── 🎨 favicon.svg
 │   │       │   └── 🎨 icons.svg
@@ -1268,9 +1293,16 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 │   │       │   │   ├── 🎨 react.svg
 │   │       │   │   └── 🎨 vite.svg
 │   │       │   ├── 📁 components/
+│   │       │   │   ├── ⚛️ Card-older.jsx
 │   │       │   │   ├── 🎨 Card.css
 │   │       │   │   ├── ⚛️ Card.jsx
-│   │       │   │   └── ⚛️ Counter.jsx
+│   │       │   │   ├── ⚛️ Counter.jsx
+│   │       │   │   ├── ⚛️ Display.jsx
+│   │       │   │   ├── ⚛️ DisplayUsers.jsx
+│   │       │   │   └── ⚛️ NestedDisplay.jsx
+│   │       │   ├── 📁 providers/
+│   │       │   │   └── ⚛️ CounterProvider.jsx.jsx
+│   │       │   ├── ⚛️ App-older.jsx
 │   │       │   ├── 🎨 App.css
 │   │       │   ├── ⚛️ App.jsx
 │   │       │   ├── 🎨 index.css
