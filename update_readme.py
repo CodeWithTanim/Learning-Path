@@ -642,6 +642,9 @@ def main():
     root_ignore = [
         r'^\.git$',
         r'^\.github$',
+        r'^\.next$',
+        r'^\.vercel$',
+        r'^\.turbo$',
         r'^update_readme\.py$',
         r'^__pycache__$',
         r'^node_modules$',
@@ -659,12 +662,14 @@ def main():
         print("Updating AI-Driven Full Stack Web Engineering README.md...")
         ai_ignore = [
             r'^\.git$',
-            r'^README\.md$',
+            r'^\.next$',
+            r'^\.vercel$',
+            r'^\.turbo$',
             r'^__pycache__$',
             r'^node_modules$',
             r'\.pyc$',
         ]
-        ai_tree = generate_tree(ai_dir, ai_ignore)
+        ai_tree = generate_tree(ai_dir, ai_ignore, ignore_root_files=['README.md'])
         update_readme_file(os.path.join(ai_dir, "README.md"), ai_tree, "AI-Driven Full Stack Web Engineering")
 
     # 3. Update Next-Level-Foundation-Program/README.md
@@ -673,12 +678,14 @@ def main():
         print("Updating Next-Level-Foundation-Program README.md...")
         nl_ignore = [
             r'^\.git$',
-            r'^README\.md$',
+            r'^\.next$',
+            r'^\.vercel$',
+            r'^\.turbo$',
             r'^__pycache__$',
             r'^node_modules$',
             r'\.pyc$',
         ]
-        nl_tree = generate_tree(nl_dir, nl_ignore)
+        nl_tree = generate_tree(nl_dir, nl_ignore, ignore_root_files=['README.md'])
         update_readme_file(os.path.join(nl_dir, "README.md"), nl_tree, "Next-Level-Foundation-Program")
 
     # 4. Update MySQL-Learning/README.md
@@ -687,6 +694,9 @@ def main():
         print("Updating MySQL-Learning README.md...")
         mysql_ignore = [
             r'^\.git$',
+            r'^\.next$',
+            r'^\.vercel$',
+            r'^\.turbo$',
             r'^__pycache__$',
             r'^node_modules$',
             r'\.pyc$',

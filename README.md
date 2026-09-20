@@ -11,7 +11,7 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 ### 🎯 Current Focus
 ```bash
 🎯 Currently Mastering: AI-Driven Full Stack Web Engineering
-📊 Progress: 📈 Completed (Milestone 5, Module 32 - Assignment-5)
+📊 Progress: 📈 Completed (Milestone 6, Module 33 - Next.js Foundation and Routing)
 ```
 ```bash
 🎯 Currently Mastering: Next-Level-Foundation-Program
@@ -1233,6 +1233,60 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 │   │       ├── 🔶 tsconfig.json
 │   │       ├── 🔶 tsconfig.node.json
 │   │       └── 🔷 vite.config.ts
+│   ├── 📁 Milestone 6 - Next.js - Pages, Routing and Beyond/
+│   │   └── 📁 module-33-next.js-foundation-and-routing/
+│   │       ├── 📁 public/
+│   │       │   ├── 📁 images/
+│   │       │   │   ├── 🖼️ samiur.png
+│   │       │   │   └── 🖼️ tanim4.jpg
+│   │       │   ├── 🎨 file.svg
+│   │       │   ├── 🎨 globe.svg
+│   │       │   ├── 🎨 next.svg
+│   │       │   ├── 🖼️ photo.png
+│   │       │   ├── 🎨 vercel.svg
+│   │       │   └── 🎨 window.svg
+│   │       ├── 📁 src/
+│   │       │   └── 📁 app/
+│   │       │       ├── 📁 about/
+│   │       │       │   ├── 📁 designer/
+│   │       │       │   │   └── ⚛️ page.jsx
+│   │       │       │   ├── 📁 developers/
+│   │       │       │   │   └── ⚛️ page.jsx
+│   │       │       │   └── ⚛️ page.jsx
+│   │       │       ├── 📁 blogs/
+│   │       │       │   ├── 📁 [postid]/
+│   │       │       │   │   └── ⚛️ page.jsx
+│   │       │       │   ├── ⚛️ layout.jsx
+│   │       │       │   └── ⚛️ page.jsx
+│   │       │       ├── 📁 components/
+│   │       │       │   ├── ⚛️ Navbar.jsx
+│   │       │       │   └── ⚛️ Post.jsx
+│   │       │       ├── 📁 dashboard/
+│   │       │       │   ├── ⚛️ layout.jsx
+│   │       │       │   └── ⚛️ page.jsx
+│   │       │       ├── 📁 docs/
+│   │       │       │   └── ⚛️ page.jsx
+│   │       │       ├── 📁 showcase/
+│   │       │       │   └── ⚛️ page.jsx
+│   │       │       ├── 📁 users/
+│   │       │       │   ├── 📁 [userid]/
+│   │       │       │   │   └── ⚛️ page.jsx
+│   │       │       │   └── ⚛️ page.jsx
+│   │       │       ├── 🖼️ favicon.ico
+│   │       │       ├── 🎨 globals.css
+│   │       │       ├── ⚡ layout.js
+│   │       │       ├── ⚛️ not-found.jsx
+│   │       │       └── ⚡ page.js
+│   │       ├── 🙈 .gitignore
+│   │       ├── 📖 AGENTS.md
+│   │       ├── 📖 CLAUDE.md
+│   │       ├── ⚡ eslint.config.mjs
+│   │       ├── 🔶 jsconfig.json
+│   │       ├── ⚡ next.config.mjs
+│   │       ├── 🔒 package-lock.json
+│   │       ├── 📦 package.json
+│   │       ├── ⚡ postcss.config.mjs
+│   │       └── 📚 README.md
 │   └── 📚 README.md
 ├── 📁 Complete_Python_For_Ai_ML/
 │   ├── 📁 Chapter-1-Installation/
@@ -1561,6 +1615,7 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 
 
@@ -1575,8 +1630,8 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 
 ### 🔥 Latest Project
 **Project Name**: AI-Driven Full Stack Web Engineering
-**Tech Stack**: HTML5, CSS3, Tailwind CSS, JavaScript (ES6+), TypeScript, React, Vite, Git & GitHub
-**Status**: 📈 Completed (Milestone 5, Module 32 - Assignment-5)
+**Tech Stack**: HTML5, CSS3, Tailwind CSS, JavaScript (ES6+), TypeScript, React, Next.js, Vite, Git & GitHub
+**Status**: 📈 Completed (Milestone 6, Module 33 - Next.js Foundation and Routing)
 
 <!-- ### 🎨 Mini Projects Collection
 - [ ] Todo List App

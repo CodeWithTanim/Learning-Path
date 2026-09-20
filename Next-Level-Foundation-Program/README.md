@@ -102,6 +102,7 @@ Deep dive into essential React hooks and global state patterns using Vite. Cover
     │   ├── 🌐 index.html
     │   ├── 🔒 package-lock.json
     │   ├── 📦 package.json
+    │   ├── 📚 README.md
     │   └── ⚡ vite.config.js
     ├── 📁 Module 7 - Basics of React/
     │   ├── 📁 public/
@@ -126,6 +127,7 @@ Deep dive into essential React hooks and global state patterns using Vite. Cover
     │   ├── 🌐 index.html
     │   ├── 🔒 package-lock.json
     │   ├── 📦 package.json
+    │   ├── 📚 README.md
     │   └── ⚡ vite.config.js
     └── 📁 Module 8 - React Hooks/
         ├── 📁 public/
@@ -157,5 +159,6 @@ Deep dive into essential React hooks and global state patterns using Vite. Cover
         ├── 🌐 index.html
         ├── 🔒 package-lock.json
         ├── 📦 package.json
+        ├── 📚 README.md
         └── ⚡ vite.config.js
 ```
