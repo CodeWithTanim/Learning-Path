@@ -183,6 +183,7 @@ Contains problem-solving challenges and contest submissions, including:
 - **Durbar Contest #1**: Month resolution (`getMonthName.js`), object property counting (`countNumberProperties.js`), math operation validations (`checkMathOperationsForNine.js`), HTML body content extraction (`extractBodyContent.ts`), monetary calculations (`calculateRemainingMoney.js`).
 - **Durbar Contest #2**: String camelCase conversion (`convertToCamelCase.js`), array even/odd counting (`countEvenOdd.js`), first unique character finder (`findFirstUniqueChar.js`), longest word identifier (`findLongestWord.js`), second largest unique element finder (`findSecondLargestUnique.js`).
 - **Durbar Contest #3**: String reversal per word (`reverseEachWord.js`), temperature conversion (`convertTemperature.js`), palindrome verification (`isPalindrome.js`), password strength classification (`classifyPassword.js`), repeated digit summation (`repeatedDigitSum.js`).
+- **Durbar Contest #4**: Anagram validation (`isAnagram.js`), character run-length compression (`compressCharacters.js`), sentence title casing (`titleCaseSentence.js`), alphanumeric tokenization and word frequency counting (`countWordFrequencies.js`), string truncation with ellipsis formatting (`truncateString.js`).
 
 ---
 
@@ -203,12 +204,18 @@ Contains problem-solving challenges and contest submissions, including:
 │   │   ├── ⚡ 3.findFirstUniqueChar.js
 │   │   ├── ⚡ 4.findLongestWord.js
 │   │   └── ⚡ 5.findSecondLargestUnique.js
-│   └── 📁 Durbar Contest #3/
-│       ├── ⚡ 1.reverseEachWord.js
-│       ├── ⚡ 2.convertTemperature.js
-│       ├── ⚡ 3.isPalindrome.js
-│       ├── ⚡ 4.classifyPassword.js
-│       └── ⚡ 5.repeatedDigitSum.js
+│   ├── 📁 Durbar Contest #3/
+│   │   ├── ⚡ 1.reverseEachWord.js
+│   │   ├── ⚡ 2.convertTemperature.js
+│   │   ├── ⚡ 3.isPalindrome.js
+│   │   ├── ⚡ 4.classifyPassword.js
+│   │   └── ⚡ 5.repeatedDigitSum.js
+│   └── 📁 Durbar Contest #4/
+│       ├── ⚡ 1.isAnagram.js
+│       ├── ⚡ 2.compressCharacters.js
+│       ├── ⚡ 3.titleCaseSentence.js
+│       ├── ⚡ 4.countWordFrequencies.js
+│       └── ⚡ 5.truncateString.js
 ├── 📁 Milestone 1 - Launch Your Web Journey - HTML, CSS, and GitHUb Fundamentals/
 │   ├── 📁 Conceptual Session 1 - Learn and Explore HTML, CSS (Project)/
 │   │   ├── 📁 conceptual-session/
