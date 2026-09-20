@@ -11,7 +11,7 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 ### 🎯 Current Focus
 ```bash
 🎯 Currently Mastering: AI-Driven Full Stack Web Engineering
-📊 Progress: 📈 Completed (Milestone 6, Module 33 - Next.js Foundation and Routing)
+📊 Progress: 📈 Completed (Milestone 6, Module 34 - Next.js Rendering Basics)
 ```
 ```bash
 🎯 Currently Mastering: Next-Level-Foundation-Program
@@ -1234,48 +1234,81 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 │   │       ├── 🔶 tsconfig.node.json
 │   │       └── 🔷 vite.config.ts
 │   ├── 📁 Milestone 6 - Next.js - Pages, Routing and Beyond/
-│   │   └── 📁 module-33-next.js-foundation-and-routing/
+│   │   ├── 📁 module-33-next.js-foundation-and-routing/
+│   │   │   ├── 📁 public/
+│   │   │   │   ├── 📁 images/
+│   │   │   │   │   ├── 🖼️ samiur.png
+│   │   │   │   │   └── 🖼️ tanim4.jpg
+│   │   │   │   ├── 🎨 file.svg
+│   │   │   │   ├── 🎨 globe.svg
+│   │   │   │   ├── 🎨 next.svg
+│   │   │   │   ├── 🖼️ photo.png
+│   │   │   │   ├── 🎨 vercel.svg
+│   │   │   │   └── 🎨 window.svg
+│   │   │   ├── 📁 src/
+│   │   │   │   └── 📁 app/
+│   │   │   │       ├── 📁 about/
+│   │   │   │       │   ├── 📁 designer/
+│   │   │   │       │   │   └── ⚛️ page.jsx
+│   │   │   │       │   ├── 📁 developers/
+│   │   │   │       │   │   └── ⚛️ page.jsx
+│   │   │   │       │   └── ⚛️ page.jsx
+│   │   │   │       ├── 📁 blogs/
+│   │   │   │       │   ├── 📁 [postid]/
+│   │   │   │       │   │   └── ⚛️ page.jsx
+│   │   │   │       │   ├── ⚛️ layout.jsx
+│   │   │   │       │   └── ⚛️ page.jsx
+│   │   │   │       ├── 📁 components/
+│   │   │   │       │   ├── ⚛️ Navbar.jsx
+│   │   │   │       │   └── ⚛️ Post.jsx
+│   │   │   │       ├── 📁 dashboard/
+│   │   │   │       │   ├── ⚛️ layout.jsx
+│   │   │   │       │   └── ⚛️ page.jsx
+│   │   │   │       ├── 📁 docs/
+│   │   │   │       │   └── ⚛️ page.jsx
+│   │   │   │       ├── 📁 showcase/
+│   │   │   │       │   └── ⚛️ page.jsx
+│   │   │   │       ├── 📁 users/
+│   │   │   │       │   ├── 📁 [userid]/
+│   │   │   │       │   │   └── ⚛️ page.jsx
+│   │   │   │       │   └── ⚛️ page.jsx
+│   │   │   │       ├── 🖼️ favicon.ico
+│   │   │   │       ├── 🎨 globals.css
+│   │   │   │       ├── ⚡ layout.js
+│   │   │   │       ├── ⚛️ not-found.jsx
+│   │   │   │       └── ⚡ page.js
+│   │   │   ├── 🙈 .gitignore
+│   │   │   ├── 📖 AGENTS.md
+│   │   │   ├── 📖 CLAUDE.md
+│   │   │   ├── ⚡ eslint.config.mjs
+│   │   │   ├── 🔶 jsconfig.json
+│   │   │   ├── ⚡ next.config.mjs
+│   │   │   ├── 🔒 package-lock.json
+│   │   │   ├── 📦 package.json
+│   │   │   ├── ⚡ postcss.config.mjs
+│   │   │   └── 📚 README.md
+│   │   └── 📁 module-34-next.js-rendering-basics/
 │   │       ├── 📁 public/
-│   │       │   ├── 📁 images/
-│   │       │   │   ├── 🖼️ samiur.png
-│   │       │   │   └── 🖼️ tanim4.jpg
 │   │       │   ├── 🎨 file.svg
 │   │       │   ├── 🎨 globe.svg
 │   │       │   ├── 🎨 next.svg
-│   │       │   ├── 🖼️ photo.png
 │   │       │   ├── 🎨 vercel.svg
 │   │       │   └── 🎨 window.svg
 │   │       ├── 📁 src/
 │   │       │   └── 📁 app/
-│   │       │       ├── 📁 about/
-│   │       │       │   ├── 📁 designer/
-│   │       │       │   │   └── ⚛️ page.jsx
-│   │       │       │   ├── 📁 developers/
-│   │       │       │   │   └── ⚛️ page.jsx
-│   │       │       │   └── ⚛️ page.jsx
-│   │       │       ├── 📁 blogs/
-│   │       │       │   ├── 📁 [postid]/
-│   │       │       │   │   └── ⚛️ page.jsx
-│   │       │       │   ├── ⚛️ layout.jsx
-│   │       │       │   └── ⚛️ page.jsx
 │   │       │       ├── 📁 components/
-│   │       │       │   ├── ⚛️ Navbar.jsx
+│   │       │       │   ├── ⚛️ Counter.jsx
+│   │       │       │   ├── ⚛️ FoodCart.jsx
 │   │       │       │   └── ⚛️ Post.jsx
 │   │       │       ├── 📁 dashboard/
-│   │       │       │   ├── ⚛️ layout.jsx
 │   │       │       │   └── ⚛️ page.jsx
-│   │       │       ├── 📁 docs/
+│   │       │       ├── 📁 menu/
 │   │       │       │   └── ⚛️ page.jsx
-│   │       │       ├── 📁 showcase/
-│   │       │       │   └── ⚛️ page.jsx
-│   │       │       ├── 📁 users/
-│   │       │       │   ├── 📁 [userid]/
-│   │       │       │   │   └── ⚛️ page.jsx
+│   │       │       ├── 📁 post/
 │   │       │       │   └── ⚛️ page.jsx
 │   │       │       ├── 🖼️ favicon.ico
 │   │       │       ├── 🎨 globals.css
 │   │       │       ├── ⚡ layout.js
-│   │       │       ├── ⚛️ not-found.jsx
 │   │       │       └── ⚡ page.js
 │   │       ├── 🙈 .gitignore
 │   │       ├── 📖 AGENTS.md
@@ -1631,7 +1664,7 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 ### 🔥 Latest Project
 **Project Name**: AI-Driven Full Stack Web Engineering
 **Tech Stack**: HTML5, CSS3, Tailwind CSS, JavaScript (ES6+), TypeScript, React, Next.js, Vite, Git & GitHub
-**Status**: 📈 Completed (Milestone 6, Module 33 - Next.js Foundation and Routing)
+**Status**: 📈 Completed (Milestone 6, Module 34 - Next.js Rendering Basics)
 
 <!-- ### 🎨 Mini Projects Collection
 - [ ] Todo List App
