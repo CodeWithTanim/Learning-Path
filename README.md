@@ -11,7 +11,7 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 ### 🎯 Current Focus
 ```bash
 🎯 Currently Mastering: AI-Driven Full Stack Web Engineering
-📊 Progress: 📈 Completed (Milestone 6, Module 34 - Next.js Rendering Basics)
+📊 Progress: 📈 Completed (Milestone 6, Module 35 - Advance Data Fetching and UI Integration)
 ```
 ```bash
 🎯 Currently Mastering: Next-Level-Foundation-Program
@@ -1293,7 +1293,40 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 │   │   │   ├── 📦 package.json
 │   │   │   ├── ⚡ postcss.config.mjs
 │   │   │   └── 📚 README.md
-│   │   └── 📁 module-34-next.js-rendering-basics/
+│   │   ├── 📁 module-34-next.js-rendering-basics/
+│   │   │   ├── 📁 public/
+│   │   │   │   ├── 🎨 file.svg
+│   │   │   │   ├── 🎨 globe.svg
+│   │   │   │   ├── 🎨 next.svg
+│   │   │   │   ├── 🎨 vercel.svg
+│   │   │   │   └── 🎨 window.svg
+│   │   │   ├── 📁 src/
+│   │   │   │   └── 📁 app/
+│   │   │   │       ├── 📁 components/
+│   │   │   │       │   ├── ⚛️ Counter.jsx
+│   │   │   │       │   ├── ⚛️ FoodCart.jsx
+│   │   │   │       │   └── ⚛️ Post.jsx
+│   │   │   │       ├── 📁 dashboard/
+│   │   │   │       │   └── ⚛️ page.jsx
+│   │   │   │       ├── 📁 menu/
+│   │   │   │       │   └── ⚛️ page.jsx
+│   │   │   │       ├── 📁 post/
+│   │   │   │       │   └── ⚛️ page.jsx
+│   │   │   │       ├── 🖼️ favicon.ico
+│   │   │   │       ├── 🎨 globals.css
+│   │   │   │       ├── ⚡ layout.js
+│   │   │   │       └── ⚡ page.js
+│   │   │   ├── 🙈 .gitignore
+│   │   │   ├── 📖 AGENTS.md
+│   │   │   ├── 📖 CLAUDE.md
+│   │   │   ├── ⚡ eslint.config.mjs
+│   │   │   ├── 🔶 jsconfig.json
+│   │   │   ├── ⚡ next.config.mjs
+│   │   │   ├── 🔒 package-lock.json
+│   │   │   ├── 📦 package.json
+│   │   │   ├── ⚡ postcss.config.mjs
+│   │   │   └── 📚 README.md
+│   │   └── 📁 module-35-advance-data-fetching-and-ui-integration/
 │   │       ├── 📁 public/
 │   │       │   ├── 🎨 file.svg
 │   │       │   ├── 🎨 globe.svg
@@ -1302,23 +1335,33 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 │   │       │   └── 🎨 window.svg
 │   │       ├── 📁 src/
 │   │       │   └── 📁 app/
+│   │       │       ├── 📁 books/
+│   │       │       │   ├── 📁 [bookid]/
+│   │       │       │   │   ├── ⚛️ loading.jsx
+│   │       │       │   │   └── ⚛️ page.jsx
+│   │       │       │   └── ⚛️ page.jsx
 │   │       │       ├── 📁 components/
-│   │       │       │   ├── ⚛️ Counter.jsx
-│   │       │       │   ├── ⚛️ FoodCart.jsx
-│   │       │       │   └── ⚛️ Post.jsx
-│   │       │       ├── 📁 dashboard/
+│   │       │       │   ├── ⚛️ BookCard.jsx
+│   │       │       │   ├── ⚛️ Navbar.jsx
+│   │       │       │   └── ⚛️ ProductCard.jsx
+│   │       │       ├── 📁 contexts/
+│   │       │       │   └── ⚛️ UserContext.jsx
+│   │       │       ├── 📁 hooks/
+│   │       │       │   └── ⚛️ useUser.jsx
+│   │       │       ├── 📁 posts/
+│   │       │       │   ├── ⚡ loading.js
 │   │       │       │   └── ⚛️ page.jsx
-│   │       │       ├── 📁 menu/
-│   │       │       │   └── ⚛️ page.jsx
-│   │       │       ├── 📁 post/
+│   │       │       ├── 📁 products/
 │   │       │       │   └── ⚛️ page.jsx
 │   │       │       ├── 🖼️ favicon.ico
 │   │       │       ├── 🎨 globals.css
 │   │       │       ├── ⚡ layout.js
+│   │       │       ├── ⚛️ not-found.jsx
 │   │       │       └── ⚡ page.js
 │   │       ├── 🙈 .gitignore
 │   │       ├── 📖 AGENTS.md
 │   │       ├── 📖 CLAUDE.md
+│   │       ├── 🔶 db.json
 │   │       ├── ⚡ eslint.config.mjs
 │   │       ├── 🔶 jsconfig.json
 │   │       ├── ⚡ next.config.mjs
@@ -1670,7 +1713,7 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 ### 🔥 Latest Project
 **Project Name**: AI-Driven Full Stack Web Engineering
 **Tech Stack**: HTML5, CSS3, Tailwind CSS, JavaScript (ES6+), TypeScript, React, Next.js, Vite, Git & GitHub
-**Status**: 📈 Completed (Milestone 6, Module 34 - Next.js Rendering Basics)
+**Status**: 📈 Completed (Milestone 6, Module 35 - Advance Data Fetching and UI Integration)
 
 <!-- ### 🎨 Mini Projects Collection
 - [ ] Todo List App
