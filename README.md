@@ -11,7 +11,7 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 ### 🎯 Current Focus
 ```bash
 🎯 Currently Mastering: AI-Driven Full Stack Web Engineering
-📊 Progress: 📈 Completed (Milestone 6, Module 35 - Advance Data Fetching and UI Integration)
+📊 Progress: 📈 Completed (Milestone 6, Module 36 - Project with Next.js and TypeScript)
 ```
 ```bash
 🎯 Currently Mastering: Next-Level-Foundation-Program
@@ -1326,49 +1326,103 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 │   │   │   ├── 📦 package.json
 │   │   │   ├── ⚡ postcss.config.mjs
 │   │   │   └── 📚 README.md
-│   │   └── 📁 module-35-advance-data-fetching-and-ui-integration/
+│   │   ├── 📁 module-35-advance-data-fetching-and-ui-integration/
+│   │   │   ├── 📁 public/
+│   │   │   │   ├── 🎨 file.svg
+│   │   │   │   ├── 🎨 globe.svg
+│   │   │   │   ├── 🎨 next.svg
+│   │   │   │   ├── 🎨 vercel.svg
+│   │   │   │   └── 🎨 window.svg
+│   │   │   ├── 📁 src/
+│   │   │   │   └── 📁 app/
+│   │   │   │       ├── 📁 books/
+│   │   │   │       │   ├── 📁 [bookid]/
+│   │   │   │       │   │   ├── ⚛️ loading.jsx
+│   │   │   │       │   │   └── ⚛️ page.jsx
+│   │   │   │       │   └── ⚛️ page.jsx
+│   │   │   │       ├── 📁 components/
+│   │   │   │       │   ├── ⚛️ BookCard.jsx
+│   │   │   │       │   ├── ⚛️ Navbar.jsx
+│   │   │   │       │   └── ⚛️ ProductCard.jsx
+│   │   │   │       ├── 📁 contexts/
+│   │   │   │       │   └── ⚛️ UserContext.jsx
+│   │   │   │       ├── 📁 hooks/
+│   │   │   │       │   └── ⚛️ useUser.jsx
+│   │   │   │       ├── 📁 posts/
+│   │   │   │       │   ├── ⚡ loading.js
+│   │   │   │       │   └── ⚛️ page.jsx
+│   │   │   │       ├── 📁 products/
+│   │   │   │       │   └── ⚛️ page.jsx
+│   │   │   │       ├── 🖼️ favicon.ico
+│   │   │   │       ├── 🎨 globals.css
+│   │   │   │       ├── ⚡ layout.js
+│   │   │   │       ├── ⚛️ not-found.jsx
+│   │   │   │       └── ⚡ page.js
+│   │   │   ├── 🙈 .gitignore
+│   │   │   ├── 📖 AGENTS.md
+│   │   │   ├── 📖 CLAUDE.md
+│   │   │   ├── 🔶 db.json
+│   │   │   ├── ⚡ eslint.config.mjs
+│   │   │   ├── 🔶 jsconfig.json
+│   │   │   ├── ⚡ next.config.mjs
+│   │   │   ├── 🔒 package-lock.json
+│   │   │   ├── 📦 package.json
+│   │   │   ├── ⚡ postcss.config.mjs
+│   │   │   └── 📚 README.md
+│   │   └── 📁 module-36-project-with-next.js-and-typescript/
 │   │       ├── 📁 public/
+│   │       │   ├── 🔶 booksData.json
 │   │       │   ├── 🎨 file.svg
 │   │       │   ├── 🎨 globe.svg
 │   │       │   ├── 🎨 next.svg
 │   │       │   ├── 🎨 vercel.svg
 │   │       │   └── 🎨 window.svg
 │   │       ├── 📁 src/
-│   │       │   └── 📁 app/
-│   │       │       ├── 📁 books/
-│   │       │       │   ├── 📁 [bookid]/
-│   │       │       │   │   ├── ⚛️ loading.jsx
-│   │       │       │   │   └── ⚛️ page.jsx
-│   │       │       │   └── ⚛️ page.jsx
-│   │       │       ├── 📁 components/
-│   │       │       │   ├── ⚛️ BookCard.jsx
-│   │       │       │   ├── ⚛️ Navbar.jsx
-│   │       │       │   └── ⚛️ ProductCard.jsx
-│   │       │       ├── 📁 contexts/
-│   │       │       │   └── ⚛️ UserContext.jsx
-│   │       │       ├── 📁 hooks/
-│   │       │       │   └── ⚛️ useUser.jsx
-│   │       │       ├── 📁 posts/
-│   │       │       │   ├── ⚡ loading.js
-│   │       │       │   └── ⚛️ page.jsx
-│   │       │       ├── 📁 products/
-│   │       │       │   └── ⚛️ page.jsx
-│   │       │       ├── 🖼️ favicon.ico
-│   │       │       ├── 🎨 globals.css
-│   │       │       ├── ⚡ layout.js
-│   │       │       ├── ⚛️ not-found.jsx
-│   │       │       └── ⚡ page.js
+│   │       │   ├── 📁 app/
+│   │       │   │   ├── 📁 books/
+│   │       │   │   │   ├── 📁 [id]/
+│   │       │   │   │   │   ├── ⚛️ loading.tsx
+│   │       │   │   │   │   └── ⚛️ page.tsx
+│   │       │   │   │   ├── ⚛️ loading.tsx
+│   │       │   │   │   └── ⚛️ page.tsx
+│   │       │   │   ├── 📁 listed-books/
+│   │       │   │   │   └── ⚛️ page.tsx
+│   │       │   │   ├── 📁 read-books/
+│   │       │   │   │   └── ⚛️ page.tsx
+│   │       │   │   ├── 🖼️ favicon.ico
+│   │       │   │   ├── 🎨 globals.css
+│   │       │   │   ├── ⚛️ layout.tsx
+│   │       │   │   ├── ⚛️ loading.tsx
+│   │       │   │   └── ⚛️ page.tsx
+│   │       │   ├── 📁 assets/
+│   │       │   │   ├── 🖼️ book.ico
+│   │       │   │   └── 🖼️ hero_img.jpg
+│   │       │   ├── 📁 components/
+│   │       │   │   ├── 📁 bookDetails/
+│   │       │   │   │   ├── ⚛️ ReadButton.tsx
+│   │       │   │   │   └── ⚛️ WishlistButton.tsx
+│   │       │   │   ├── 📁 homepage/
+│   │       │   │   │   ├── ⚛️ Banner.tsx
+│   │       │   │   │   └── ⚛️ Books.tsx
+│   │       │   │   └── 📁 shared/
+│   │       │   │       ├── ⚛️ BookCard.tsx
+│   │       │   │       ├── ⚛️ Footer.tsx
+│   │       │   │       ├── ⚛️ ListedBookCard.tsx
+│   │       │   │       └── ⚛️ Navbar.tsx
+│   │       │   ├── 📁 context/
+│   │       │   │   └── ⚛️ BookContext.tsx
+│   │       │   └── 📁 types/
+│   │       │       └── ⚛️ books.type.tsx
+│   │       ├── 🔐 .env
 │   │       ├── 🙈 .gitignore
-│   │       ├── 📖 AGENTS.md
-│   │       ├── 📖 CLAUDE.md
-│   │       ├── 🔶 db.json
 │   │       ├── ⚡ eslint.config.mjs
-│   │       ├── 🔶 jsconfig.json
-│   │       ├── ⚡ next.config.mjs
+│   │       ├── 🔷 next-env.d.ts
+│   │       ├── 🔷 next.config.ts
 │   │       ├── 🔒 package-lock.json
 │   │       ├── 📦 package.json
 │   │       ├── ⚡ postcss.config.mjs
-│   │       └── 📚 README.md
+│   │       ├── 📚 README.md
+│   │       └── 🔶 tsconfig.json
 │   └── 📚 README.md
 ├── 📁 Complete_Python_For_Ai_ML/
 │   ├── 📁 Chapter-1-Installation/
@@ -1713,7 +1767,7 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 ### 🔥 Latest Project
 **Project Name**: AI-Driven Full Stack Web Engineering
 **Tech Stack**: HTML5, CSS3, Tailwind CSS, JavaScript (ES6+), TypeScript, React, Next.js, Vite, Git & GitHub
-**Status**: 📈 Completed (Milestone 6, Module 35 - Advance Data Fetching and UI Integration)
+**Status**: 📈 Completed (Milestone 6, Module 36 - Project with Next.js and TypeScript)
 
 <!-- ### 🎨 Mini Projects Collection
 - [ ] Todo List App

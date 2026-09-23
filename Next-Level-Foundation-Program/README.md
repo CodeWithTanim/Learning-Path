@@ -162,3 +162,17 @@ Deep dive into essential React hooks and global state patterns using Vite. Cover
         ├── 📚 README.md
         └── ⚡ vite.config.js
 ```
+
+---
+
+## 🛠️ Technologies Learned
+
+- **HTML5 & CSS3**: DOM structure, semantic markup, and component-level CSS styling (`Card.css`, `App.css`, `index.css`).
+- **JavaScript (ES6+)**: Variables (`var`, `let`, `const`), Data Types, Conditionals, Loops (`for`, `while`, `for...of`, `for...in`), Functions & Arrow Functions, Scope, Strings, Arrays & Objects, ES6+ features (Template Literals, Destructuring, Spread & Rest operators, Optional Chaining, Math built-ins, Array methods: `map`, `filter`, `find`, `reduce`, `sort`, `some`, `every`), DOM manipulation, Event handling, and Asynchronous JavaScript.
+- **React & Vite**: Component-based architecture, JSX, Props & `children`, Conditional rendering, Lists & Keys, Event handling, Form handling (`onSubmit`, `e.preventDefault()`), Reactive state management with `useState`, `useEffect` side effects, timer cleanups, API data fetching, React 19 `use` hook, and Context API global state management.
+- **Build Tools & Linters**: Vite development toolchain, ESLint configuration.
+
+---
+
+_Keep learning, keep coding!_ 💻🔥
+
