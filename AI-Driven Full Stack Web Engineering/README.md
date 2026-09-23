@@ -1589,10 +1589,8 @@ Contains problem-solving challenges and contest submissions, including:
         │   │   └── ⚛️ BookContext.tsx
         │   └── 📁 types/
         │       └── ⚛️ books.type.tsx
-        ├── 🔐 .env
         ├── 🙈 .gitignore
         ├── ⚡ eslint.config.mjs
-        ├── 🔷 next-env.d.ts
         ├── 🔷 next.config.ts
         ├── 🔒 package-lock.json
         ├── 📦 package.json
