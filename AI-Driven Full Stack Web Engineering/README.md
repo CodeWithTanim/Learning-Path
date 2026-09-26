@@ -184,6 +184,10 @@ Focuses on advanced Next.js data fetching paradigms, caching strategies, and ren
 
 Building a full-featured Book Review and Reading Tracker web application using Next.js App Router and TypeScript. Covers type-safe domain models (`IBook`), dynamic routing (`/books/[id]`) with async params resolution, global state management with React Context API (`BookContext`) for managing Read Books and Wishlist collections, toast notifications with `react-toastify`, interactive data visualization and reading progress charts using Recharts (`BarChart`, custom shape `TriangleBar`), streaming fallbacks (`loading.tsx`), and responsive modern UI with Tailwind CSS and DaisyUI.
 
+### 🔹 `Milestone 6 Conceptual Session 10 - Next.js with TypeScript Project`
+
+Comprehensive conceptual project session building **Hero IO**, a modern App Store and application marketplace using Next.js App Router and TypeScript. Covers type-safe domain models (`TApp`, `TRating`), static route pre-rendering with `generateStaticParams` (`/apps/[id]`), custom 404 handling (`not-found.tsx`) and streaming fallbacks (`loading.tsx`), global app installation state management with React Context API (`AppContext`, `AppProvider`), interactive rating distribution progress bars, dynamic installed apps management (`/installation`), and modern responsive styling with Tailwind CSS, DaisyUI, React Icons, and React-Toastify.
+
 ### 🔹 `Durbar - Task`
 
 Contains problem-solving challenges and contest submissions, including:
@@ -1416,6 +1420,75 @@ Contains problem-solving challenges and contest submissions, including:
 │       ├── 🔶 tsconfig.node.json
 │       └── 🔷 vite.config.ts
 └── 📁 Milestone 6 - Next.js - Pages, Routing and Beyond/
+    ├── 📁 conceptual-session-10-next.js-with-typescript-project/
+    │   ├── 📁 public/
+    │   │   ├── 🔶 data.json
+    │   │   ├── 🎨 file.svg
+    │   │   ├── 🎨 globe.svg
+    │   │   ├── 🎨 next.svg
+    │   │   ├── 🎨 vercel.svg
+    │   │   └── 🎨 window.svg
+    │   ├── 📁 src/
+    │   │   ├── 📁 app/
+    │   │   │   ├── 📁 apps/
+    │   │   │   │   ├── 📁 [id]/
+    │   │   │   │   │   └── ⚛️ page.tsx
+    │   │   │   │   ├── ⚛️ loading.tsx
+    │   │   │   │   └── ⚛️ page.tsx
+    │   │   │   ├── 📁 installation/
+    │   │   │   │   └── ⚛️ page.tsx
+    │   │   │   ├── 🖼️ favicon.ico
+    │   │   │   ├── 🎨 globals.css
+    │   │   │   ├── ⚛️ layout.tsx
+    │   │   │   ├── ⚛️ loading.tsx
+    │   │   │   ├── ⚛️ not-found.tsx
+    │   │   │   └── ⚛️ page.tsx
+    │   │   ├── 📁 assets/
+    │   │   │   ├── 🖼️ App-Error.png
+    │   │   │   ├── 🖼️ demo-app (1).webp
+    │   │   │   ├── 🖼️ demo-app (2).webp
+    │   │   │   ├── 🖼️ demo-app (3).webp
+    │   │   │   ├── 🖼️ demo-app (4).webp
+    │   │   │   ├── 🖼️ demo-app (5).webp
+    │   │   │   ├── 🖼️ demo-app (6).webp
+    │   │   │   ├── 🖼️ error-404.png
+    │   │   │   ├── 📄 Hero IO.fig
+    │   │   │   ├── 🖼️ hero.png
+    │   │   │   ├── 🖼️ icon-downloads.png
+    │   │   │   ├── 🖼️ icon-ratings.png
+    │   │   │   ├── 🖼️ icon-review.png
+    │   │   │   └── 🖼️ logo.png
+    │   │   ├── 📁 components/
+    │   │   │   ├── 📁 Apps/
+    │   │   │   │   └── ⚛️ InstallAppButton.tsx
+    │   │   │   ├── 📁 homepage/
+    │   │   │   │   ├── ⚛️ Banner.tsx
+    │   │   │   │   ├── ⚛️ Hero.tsx
+    │   │   │   │   ├── ⚛️ TrandingApp.tsx
+    │   │   │   │   └── ⚛️ TrendingApp.tsx
+    │   │   │   ├── 📁 shared/
+    │   │   │   │   ├── ⚛️ AppCard.tsx
+    │   │   │   │   ├── ⚛️ Footer.tsx
+    │   │   │   │   └── ⚛️ Navbar.tsx
+    │   │   │   └── 📁 states/
+    │   │   │       └── ⚛️ States.tsx
+    │   │   ├── 📁 context/
+    │   │   │   ├── ⚛️ AppContext.tsx
+    │   │   │   └── ⚛️ AppProvider.tsx
+    │   │   ├── 📁 lib/
+    │   │   │   └── 🔷 apps.ts
+    │   │   └── 📁 types/
+    │   │       ├── 🔷 apps.type.ts
+    │   │       └── 🔷 apps.types.ts
+    │   ├── 🙈 .gitignore
+    │   ├── ⚡ eslint.config.mjs
+    │   ├── 🔷 next-env.d.ts
+    │   ├── 🔷 next.config.ts
+    │   ├── 🔒 package-lock.json
+    │   ├── 📦 package.json
+    │   ├── ⚡ postcss.config.mjs
+    │   ├── 📚 README.md
+    │   └── 🔶 tsconfig.json
     ├── 📁 module-33-next.js-foundation-and-routing/
     │   ├── 📁 public/
     │   │   ├── 📁 images/

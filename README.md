@@ -11,7 +11,7 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 ### 🎯 Current Focus
 ```bash
 🎯 Currently Mastering: AI-Driven Full Stack Web Engineering
-📊 Progress: 📈 Completed (Milestone 6, Module 36 - Project with Next.js and TypeScript)
+📊 Progress: 📈 Completed (Milestone 6, Conceptual Session 10 - Next.js with TypeScript Project)
 ```
 ```bash
 🎯 Currently Mastering: Next-Level-Foundation-Program
@@ -1240,6 +1240,75 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 │   │       ├── 🔶 tsconfig.node.json
 │   │       └── 🔷 vite.config.ts
 │   ├── 📁 Milestone 6 - Next.js - Pages, Routing and Beyond/
+│   │   ├── 📁 conceptual-session-10-next.js-with-typescript-project/
+│   │   │   ├── 📁 public/
+│   │   │   │   ├── 🔶 data.json
+│   │   │   │   ├── 🎨 file.svg
+│   │   │   │   ├── 🎨 globe.svg
+│   │   │   │   ├── 🎨 next.svg
+│   │   │   │   ├── 🎨 vercel.svg
+│   │   │   │   └── 🎨 window.svg
+│   │   │   ├── 📁 src/
+│   │   │   │   ├── 📁 app/
+│   │   │   │   │   ├── 📁 apps/
+│   │   │   │   │   │   ├── 📁 [id]/
+│   │   │   │   │   │   │   └── ⚛️ page.tsx
+│   │   │   │   │   │   ├── ⚛️ loading.tsx
+│   │   │   │   │   │   └── ⚛️ page.tsx
+│   │   │   │   │   ├── 📁 installation/
+│   │   │   │   │   │   └── ⚛️ page.tsx
+│   │   │   │   │   ├── 🖼️ favicon.ico
+│   │   │   │   │   ├── 🎨 globals.css
+│   │   │   │   │   ├── ⚛️ layout.tsx
+│   │   │   │   │   ├── ⚛️ loading.tsx
+│   │   │   │   │   ├── ⚛️ not-found.tsx
+│   │   │   │   │   └── ⚛️ page.tsx
+│   │   │   │   ├── 📁 assets/
+│   │   │   │   │   ├── 🖼️ App-Error.png
+│   │   │   │   │   ├── 🖼️ demo-app (1).webp
+│   │   │   │   │   ├── 🖼️ demo-app (2).webp
+│   │   │   │   │   ├── 🖼️ demo-app (3).webp
+│   │   │   │   │   ├── 🖼️ demo-app (4).webp
+│   │   │   │   │   ├── 🖼️ demo-app (5).webp
+│   │   │   │   │   ├── 🖼️ demo-app (6).webp
+│   │   │   │   │   ├── 🖼️ error-404.png
+│   │   │   │   │   ├── 📄 Hero IO.fig
+│   │   │   │   │   ├── 🖼️ hero.png
+│   │   │   │   │   ├── 🖼️ icon-downloads.png
+│   │   │   │   │   ├── 🖼️ icon-ratings.png
+│   │   │   │   │   ├── 🖼️ icon-review.png
+│   │   │   │   │   └── 🖼️ logo.png
+│   │   │   │   ├── 📁 components/
+│   │   │   │   │   ├── 📁 Apps/
+│   │   │   │   │   │   └── ⚛️ InstallAppButton.tsx
+│   │   │   │   │   ├── 📁 homepage/
+│   │   │   │   │   │   ├── ⚛️ Banner.tsx
+│   │   │   │   │   │   ├── ⚛️ Hero.tsx
+│   │   │   │   │   │   ├── ⚛️ TrandingApp.tsx
+│   │   │   │   │   │   └── ⚛️ TrendingApp.tsx
+│   │   │   │   │   ├── 📁 shared/
+│   │   │   │   │   │   ├── ⚛️ AppCard.tsx
+│   │   │   │   │   │   ├── ⚛️ Footer.tsx
+│   │   │   │   │   │   └── ⚛️ Navbar.tsx
+│   │   │   │   │   └── 📁 states/
+│   │   │   │   │       └── ⚛️ States.tsx
+│   │   │   │   ├── 📁 context/
+│   │   │   │   │   ├── ⚛️ AppContext.tsx
+│   │   │   │   │   └── ⚛️ AppProvider.tsx
+│   │   │   │   ├── 📁 lib/
+│   │   │   │   │   └── 🔷 apps.ts
+│   │   │   │   └── 📁 types/
+│   │   │   │       ├── 🔷 apps.type.ts
+│   │   │   │       └── 🔷 apps.types.ts
+│   │   │   ├── 🙈 .gitignore
+│   │   │   ├── ⚡ eslint.config.mjs
+│   │   │   ├── 🔷 next-env.d.ts
+│   │   │   ├── 🔷 next.config.ts
+│   │   │   ├── 🔒 package-lock.json
+│   │   │   ├── 📦 package.json
+│   │   │   ├── ⚡ postcss.config.mjs
+│   │   │   ├── 📚 README.md
+│   │   │   └── 🔶 tsconfig.json
 │   │   ├── 📁 module-33-next.js-foundation-and-routing/
 │   │   │   ├── 📁 public/
 │   │   │   │   ├── 📁 images/
@@ -1767,7 +1836,7 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 ### 🔥 Latest Project
 **Project Name**: AI-Driven Full Stack Web Engineering
 **Tech Stack**: HTML5, CSS3, Tailwind CSS, JavaScript (ES6+), TypeScript, React, Next.js, Vite, Git & GitHub
-**Status**: 📈 Completed (Milestone 6, Module 36 - Project with Next.js and TypeScript)
+**Status**: 📈 Completed (Milestone 6, Conceptual Session 10 - Next.js with TypeScript Project)
 
 <!-- ### 🎨 Mini Projects Collection
 - [ ] Todo List App
