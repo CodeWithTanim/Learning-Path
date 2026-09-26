@@ -188,6 +188,10 @@ Building a full-featured Book Review and Reading Tracker web application using N
 
 Comprehensive conceptual project session building **Hero IO**, a modern App Store and application marketplace using Next.js App Router and TypeScript. Covers type-safe domain models (`TApp`, `TRating`), static route pre-rendering with `generateStaticParams` (`/apps/[id]`), custom 404 handling (`not-found.tsx`) and streaming fallbacks (`loading.tsx`), global app installation state management with React Context API (`AppContext`, `AppProvider`), interactive rating distribution progress bars, dynamic installed apps management (`/installation`), and modern responsive styling with Tailwind CSS, DaisyUI, React Icons, and React-Toastify.
 
+### 🔹 `Milestone 6 Module 37 - Assignment-6`
+
+Building **FitLog**, a comprehensive dark-themed daily workout management and routine planning web application using Next.js 16 (App Router), React 19, TypeScript, and Tailwind CSS v4. Features a searchable 12+ workout library across major muscle groups with difficulty and calorie metrics, dynamic individual exercise detail views (`/workout/[id]`) with step-by-step form instructions, daily training plan builder (`/my-plan`) enforcing a deliberate 5-exercise daily cap, dedicated "Save for Later" bookmarking list, real-time live metric summaries (total exercises, duration, and calories burned), interactive workout completion tracking ("Mark as Done"), sorting options, persistent local storage synchronization via custom `WorkoutContext`, and custom 404 page routing.
+
 ### 🔹 `Durbar - Task`
 
 Contains problem-solving challenges and contest submissions, including:
@@ -1482,7 +1486,6 @@ Contains problem-solving challenges and contest submissions, including:
     │   │       └── 🔷 apps.types.ts
     │   ├── 🙈 .gitignore
     │   ├── ⚡ eslint.config.mjs
-    │   ├── 🔷 next-env.d.ts
     │   ├── 🔷 next.config.ts
     │   ├── 🔒 package-lock.json
     │   ├── 📦 package.json
@@ -1618,9 +1621,60 @@ Contains problem-solving challenges and contest submissions, including:
     │   ├── 📦 package.json
     │   ├── ⚡ postcss.config.mjs
     │   └── 📚 README.md
-    └── 📁 module-36-project-with-next.js-and-typescript/
+    ├── 📁 module-36-project-with-next.js-and-typescript/
+    │   ├── 📁 public/
+    │   │   ├── 🔶 booksData.json
+    │   │   ├── 🎨 file.svg
+    │   │   ├── 🎨 globe.svg
+    │   │   ├── 🎨 next.svg
+    │   │   ├── 🎨 vercel.svg
+    │   │   └── 🎨 window.svg
+    │   ├── 📁 src/
+    │   │   ├── 📁 app/
+    │   │   │   ├── 📁 books/
+    │   │   │   │   ├── 📁 [id]/
+    │   │   │   │   │   ├── ⚛️ loading.tsx
+    │   │   │   │   │   └── ⚛️ page.tsx
+    │   │   │   │   ├── ⚛️ loading.tsx
+    │   │   │   │   └── ⚛️ page.tsx
+    │   │   │   ├── 📁 listed-books/
+    │   │   │   │   └── ⚛️ page.tsx
+    │   │   │   ├── 📁 read-books/
+    │   │   │   │   └── ⚛️ page.tsx
+    │   │   │   ├── 🖼️ favicon.ico
+    │   │   │   ├── 🎨 globals.css
+    │   │   │   ├── ⚛️ layout.tsx
+    │   │   │   ├── ⚛️ loading.tsx
+    │   │   │   └── ⚛️ page.tsx
+    │   │   ├── 📁 assets/
+    │   │   │   ├── 🖼️ book.ico
+    │   │   │   └── 🖼️ hero_img.jpg
+    │   │   ├── 📁 components/
+    │   │   │   ├── 📁 bookDetails/
+    │   │   │   │   ├── ⚛️ ReadButton.tsx
+    │   │   │   │   └── ⚛️ WishlistButton.tsx
+    │   │   │   ├── 📁 homepage/
+    │   │   │   │   ├── ⚛️ Banner.tsx
+    │   │   │   │   └── ⚛️ Books.tsx
+    │   │   │   └── 📁 shared/
+    │   │   │       ├── ⚛️ BookCard.tsx
+    │   │   │       ├── ⚛️ Footer.tsx
+    │   │   │       ├── ⚛️ ListedBookCard.tsx
+    │   │   │       └── ⚛️ Navbar.tsx
+    │   │   ├── 📁 context/
+    │   │   │   └── ⚛️ BookContext.tsx
+    │   │   └── 📁 types/
+    │   │       └── ⚛️ books.type.tsx
+    │   ├── 🙈 .gitignore
+    │   ├── ⚡ eslint.config.mjs
+    │   ├── 🔷 next.config.ts
+    │   ├── 🔒 package-lock.json
+    │   ├── 📦 package.json
+    │   ├── ⚡ postcss.config.mjs
+    │   ├── 📚 README.md
+    │   └── 🔶 tsconfig.json
+    └── 📁 module-37-assignment-6-fitlog/
         ├── 📁 public/
-        │   ├── 🔶 booksData.json
         │   ├── 🎨 file.svg
         │   ├── 🎨 globe.svg
         │   ├── 🎨 next.svg
@@ -1628,40 +1682,36 @@ Contains problem-solving challenges and contest submissions, including:
         │   └── 🎨 window.svg
         ├── 📁 src/
         │   ├── 📁 app/
-        │   │   ├── 📁 books/
-        │   │   │   ├── 📁 [id]/
-        │   │   │   │   ├── ⚛️ loading.tsx
-        │   │   │   │   └── ⚛️ page.tsx
-        │   │   │   ├── ⚛️ loading.tsx
+        │   │   ├── 📁 my-plan/
         │   │   │   └── ⚛️ page.tsx
-        │   │   ├── 📁 listed-books/
-        │   │   │   └── ⚛️ page.tsx
-        │   │   ├── 📁 read-books/
-        │   │   │   └── ⚛️ page.tsx
+        │   │   ├── 📁 workout/
+        │   │   │   └── 📁 [id]/
+        │   │   │       └── ⚛️ page.tsx
         │   │   ├── 🖼️ favicon.ico
         │   │   ├── 🎨 globals.css
         │   │   ├── ⚛️ layout.tsx
         │   │   ├── ⚛️ loading.tsx
+        │   │   ├── ⚛️ not-found.tsx
         │   │   └── ⚛️ page.tsx
         │   ├── 📁 assets/
-        │   │   ├── 🖼️ book.ico
-        │   │   └── 🖼️ hero_img.jpg
+        │   │   ├── 🖼️ banner.png
+        │   │   └── 🖼️ logo.png
         │   ├── 📁 components/
-        │   │   ├── 📁 bookDetails/
-        │   │   │   ├── ⚛️ ReadButton.tsx
-        │   │   │   └── ⚛️ WishlistButton.tsx
         │   │   ├── 📁 homepage/
         │   │   │   ├── ⚛️ Banner.tsx
-        │   │   │   └── ⚛️ Books.tsx
-        │   │   └── 📁 shared/
-        │   │       ├── ⚛️ BookCard.tsx
-        │   │       ├── ⚛️ Footer.tsx
-        │   │       ├── ⚛️ ListedBookCard.tsx
-        │   │       └── ⚛️ Navbar.tsx
+        │   │   │   └── ⚛️ Library.tsx
+        │   │   ├── 📁 shared/
+        │   │   │   ├── ⚛️ Footer.tsx
+        │   │   │   ├── ⚛️ Navbar.tsx
+        │   │   │   ├── ⚛️ PlannedWorkoutCard.tsx
+        │   │   │   └── ⚛️ WorkoutCard.tsx
+        │   │   └── 📁 workoutDetails/
+        │   │       ├── ⚛️ AddToPlanButton.tsx
+        │   │       └── ⚛️ SaveForLaterButton.tsx
         │   ├── 📁 context/
-        │   │   └── ⚛️ BookContext.tsx
+        │   │   └── ⚛️ WorkoutContext.tsx
         │   └── 📁 types/
-        │       └── ⚛️ books.type.tsx
+        │       └── 🔷 workout.type.ts
         ├── 🙈 .gitignore
         ├── ⚡ eslint.config.mjs
         ├── 🔷 next.config.ts
