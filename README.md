@@ -1482,10 +1482,8 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 │   │       │   │   └── ⚛️ BookContext.tsx
 │   │       │   └── 📁 types/
 │   │       │       └── ⚛️ books.type.tsx
-│   │       ├── 🔐 .env
 │   │       ├── 🙈 .gitignore
 │   │       ├── ⚡ eslint.config.mjs
-│   │       ├── 🔷 next-env.d.ts
 │   │       ├── 🔷 next.config.ts
 │   │       ├── 🔒 package-lock.json
 │   │       ├── 📦 package.json
