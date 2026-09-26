@@ -1302,7 +1302,6 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 │   │   │   │       └── 🔷 apps.types.ts
 │   │   │   ├── 🙈 .gitignore
 │   │   │   ├── ⚡ eslint.config.mjs
-│   │   │   ├── 🔷 next-env.d.ts
 │   │   │   ├── 🔷 next.config.ts
 │   │   │   ├── 🔒 package-lock.json
 │   │   │   ├── 📦 package.json

@@ -1482,7 +1482,6 @@ Contains problem-solving challenges and contest submissions, including:
     │   │       └── 🔷 apps.types.ts
     │   ├── 🙈 .gitignore
     │   ├── ⚡ eslint.config.mjs
-    │   ├── 🔷 next-env.d.ts
     │   ├── 🔷 next.config.ts
     │   ├── 🔒 package-lock.json
     │   ├── 📦 package.json
