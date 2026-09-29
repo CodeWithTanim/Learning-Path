@@ -192,6 +192,10 @@ Comprehensive conceptual project session building **Hero IO**, a modern App Stor
 
 Building **FitLog**, a comprehensive dark-themed daily workout management and routine planning web application using Next.js 16 (App Router), React 19, TypeScript, and Tailwind CSS v4. Features a searchable 12+ workout library across major muscle groups with difficulty and calorie metrics, dynamic individual exercise detail views (`/workout/[id]`) with step-by-step form instructions, daily training plan builder (`/my-plan`) enforcing a deliberate 5-exercise daily cap, dedicated "Save for Later" bookmarking list, real-time live metric summaries (total exercises, duration, and calories burned), interactive workout completion tracking ("Mark as Done"), sorting options, persistent local storage synchronization via custom `WorkoutContext`, and custom 404 page routing.
 
+### 🔹 `Milestone 7 Module 38 - Authentication in Next.js with BetterAuth`
+
+Comprehensive guide to implementing full-stack authentication in Next.js 16 (App Router) using BetterAuth and MongoDB. Covers server-side authentication setup with `betterAuth` and `@better-auth/mongo-adapter`, native database connectivity via `MongoClient`, and catch-all dynamic API route handler (`/api/auth/[...all]`). Explores client-side authentication integration via `createAuthClient` (`signIn`, `signUp`, `signOut`, `useSession`), creating responsive authentication forms using HeroUI (`Form`, `TextField`, `InputGroup`, `Button`, `Spinner`), client-side input validation for emails and complex password rules, password visibility toggling with Gravity UI icons, and building a session-aware dynamic navigation bar.
+
 ### 🔹 `Durbar - Task`
 
 Contains problem-solving challenges and contest submissions, including:
@@ -1423,257 +1427,305 @@ Contains problem-solving challenges and contest submissions, including:
 │       ├── 🔶 tsconfig.json
 │       ├── 🔶 tsconfig.node.json
 │       └── 🔷 vite.config.ts
-└── 📁 Milestone 6 - Next.js - Pages, Routing and Beyond/
-    ├── 📁 conceptual-session-10-next.js-with-typescript-project/
-    │   ├── 📁 public/
-    │   │   ├── 🔶 data.json
-    │   │   ├── 🎨 file.svg
-    │   │   ├── 🎨 globe.svg
-    │   │   ├── 🎨 next.svg
-    │   │   ├── 🎨 vercel.svg
-    │   │   └── 🎨 window.svg
-    │   ├── 📁 src/
-    │   │   ├── 📁 app/
-    │   │   │   ├── 📁 apps/
-    │   │   │   │   ├── 📁 [id]/
-    │   │   │   │   │   └── ⚛️ page.tsx
-    │   │   │   │   ├── ⚛️ loading.tsx
-    │   │   │   │   └── ⚛️ page.tsx
-    │   │   │   ├── 📁 installation/
-    │   │   │   │   └── ⚛️ page.tsx
-    │   │   │   ├── 🖼️ favicon.ico
-    │   │   │   ├── 🎨 globals.css
-    │   │   │   ├── ⚛️ layout.tsx
-    │   │   │   ├── ⚛️ loading.tsx
-    │   │   │   ├── ⚛️ not-found.tsx
-    │   │   │   └── ⚛️ page.tsx
-    │   │   ├── 📁 assets/
-    │   │   │   ├── 🖼️ App-Error.png
-    │   │   │   ├── 🖼️ demo-app (1).webp
-    │   │   │   ├── 🖼️ demo-app (2).webp
-    │   │   │   ├── 🖼️ demo-app (3).webp
-    │   │   │   ├── 🖼️ demo-app (4).webp
-    │   │   │   ├── 🖼️ demo-app (5).webp
-    │   │   │   ├── 🖼️ demo-app (6).webp
-    │   │   │   ├── 🖼️ error-404.png
-    │   │   │   ├── 📄 Hero IO.fig
-    │   │   │   ├── 🖼️ hero.png
-    │   │   │   ├── 🖼️ icon-downloads.png
-    │   │   │   ├── 🖼️ icon-ratings.png
-    │   │   │   ├── 🖼️ icon-review.png
-    │   │   │   └── 🖼️ logo.png
-    │   │   ├── 📁 components/
-    │   │   │   ├── 📁 Apps/
-    │   │   │   │   └── ⚛️ InstallAppButton.tsx
-    │   │   │   ├── 📁 homepage/
-    │   │   │   │   ├── ⚛️ Banner.tsx
-    │   │   │   │   ├── ⚛️ Hero.tsx
-    │   │   │   │   ├── ⚛️ TrandingApp.tsx
-    │   │   │   │   └── ⚛️ TrendingApp.tsx
-    │   │   │   ├── 📁 shared/
-    │   │   │   │   ├── ⚛️ AppCard.tsx
-    │   │   │   │   ├── ⚛️ Footer.tsx
-    │   │   │   │   └── ⚛️ Navbar.tsx
-    │   │   │   └── 📁 states/
-    │   │   │       └── ⚛️ States.tsx
-    │   │   ├── 📁 context/
-    │   │   │   ├── ⚛️ AppContext.tsx
-    │   │   │   └── ⚛️ AppProvider.tsx
-    │   │   ├── 📁 lib/
-    │   │   │   └── 🔷 apps.ts
-    │   │   └── 📁 types/
-    │   │       ├── 🔷 apps.type.ts
-    │   │       └── 🔷 apps.types.ts
-    │   ├── 🙈 .gitignore
-    │   ├── ⚡ eslint.config.mjs
-    │   ├── 🔷 next.config.ts
-    │   ├── 🔒 package-lock.json
-    │   ├── 📦 package.json
-    │   ├── ⚡ postcss.config.mjs
-    │   ├── 📚 README.md
-    │   └── 🔶 tsconfig.json
-    ├── 📁 module-33-next.js-foundation-and-routing/
-    │   ├── 📁 public/
-    │   │   ├── 📁 images/
-    │   │   │   ├── 🖼️ samiur.png
-    │   │   │   └── 🖼️ tanim4.jpg
-    │   │   ├── 🎨 file.svg
-    │   │   ├── 🎨 globe.svg
-    │   │   ├── 🎨 next.svg
-    │   │   ├── 🖼️ photo.png
-    │   │   ├── 🎨 vercel.svg
-    │   │   └── 🎨 window.svg
-    │   ├── 📁 src/
-    │   │   └── 📁 app/
-    │   │       ├── 📁 about/
-    │   │       │   ├── 📁 designer/
-    │   │       │   │   └── ⚛️ page.jsx
-    │   │       │   ├── 📁 developers/
-    │   │       │   │   └── ⚛️ page.jsx
-    │   │       │   └── ⚛️ page.jsx
-    │   │       ├── 📁 blogs/
-    │   │       │   ├── 📁 [postid]/
-    │   │       │   │   └── ⚛️ page.jsx
-    │   │       │   ├── ⚛️ layout.jsx
-    │   │       │   └── ⚛️ page.jsx
-    │   │       ├── 📁 components/
-    │   │       │   ├── ⚛️ Navbar.jsx
-    │   │       │   └── ⚛️ Post.jsx
-    │   │       ├── 📁 dashboard/
-    │   │       │   ├── ⚛️ layout.jsx
-    │   │       │   └── ⚛️ page.jsx
-    │   │       ├── 📁 docs/
-    │   │       │   └── ⚛️ page.jsx
-    │   │       ├── 📁 showcase/
-    │   │       │   └── ⚛️ page.jsx
-    │   │       ├── 📁 users/
-    │   │       │   ├── 📁 [userid]/
-    │   │       │   │   └── ⚛️ page.jsx
-    │   │       │   └── ⚛️ page.jsx
-    │   │       ├── 🖼️ favicon.ico
-    │   │       ├── 🎨 globals.css
-    │   │       ├── ⚡ layout.js
-    │   │       ├── ⚛️ not-found.jsx
-    │   │       └── ⚡ page.js
-    │   ├── 🙈 .gitignore
-    │   ├── 📖 AGENTS.md
-    │   ├── 📖 CLAUDE.md
-    │   ├── ⚡ eslint.config.mjs
-    │   ├── 🔶 jsconfig.json
-    │   ├── ⚡ next.config.mjs
-    │   ├── 🔒 package-lock.json
-    │   ├── 📦 package.json
-    │   ├── ⚡ postcss.config.mjs
-    │   └── 📚 README.md
-    ├── 📁 module-34-next.js-rendering-basics/
-    │   ├── 📁 public/
-    │   │   ├── 🎨 file.svg
-    │   │   ├── 🎨 globe.svg
-    │   │   ├── 🎨 next.svg
-    │   │   ├── 🎨 vercel.svg
-    │   │   └── 🎨 window.svg
-    │   ├── 📁 src/
-    │   │   └── 📁 app/
-    │   │       ├── 📁 components/
-    │   │       │   ├── ⚛️ Counter.jsx
-    │   │       │   ├── ⚛️ FoodCart.jsx
-    │   │       │   └── ⚛️ Post.jsx
-    │   │       ├── 📁 dashboard/
-    │   │       │   └── ⚛️ page.jsx
-    │   │       ├── 📁 menu/
-    │   │       │   └── ⚛️ page.jsx
-    │   │       ├── 📁 post/
-    │   │       │   └── ⚛️ page.jsx
-    │   │       ├── 🖼️ favicon.ico
-    │   │       ├── 🎨 globals.css
-    │   │       ├── ⚡ layout.js
-    │   │       └── ⚡ page.js
-    │   ├── 🙈 .gitignore
-    │   ├── 📖 AGENTS.md
-    │   ├── 📖 CLAUDE.md
-    │   ├── ⚡ eslint.config.mjs
-    │   ├── 🔶 jsconfig.json
-    │   ├── ⚡ next.config.mjs
-    │   ├── 🔒 package-lock.json
-    │   ├── 📦 package.json
-    │   ├── ⚡ postcss.config.mjs
-    │   └── 📚 README.md
-    ├── 📁 module-35-advance-data-fetching-and-ui-integration/
-    │   ├── 📁 public/
-    │   │   ├── 🎨 file.svg
-    │   │   ├── 🎨 globe.svg
-    │   │   ├── 🎨 next.svg
-    │   │   ├── 🎨 vercel.svg
-    │   │   └── 🎨 window.svg
-    │   ├── 📁 src/
-    │   │   └── 📁 app/
-    │   │       ├── 📁 books/
-    │   │       │   ├── 📁 [bookid]/
-    │   │       │   │   ├── ⚛️ loading.jsx
-    │   │       │   │   └── ⚛️ page.jsx
-    │   │       │   └── ⚛️ page.jsx
-    │   │       ├── 📁 components/
-    │   │       │   ├── ⚛️ BookCard.jsx
-    │   │       │   ├── ⚛️ Navbar.jsx
-    │   │       │   └── ⚛️ ProductCard.jsx
-    │   │       ├── 📁 contexts/
-    │   │       │   └── ⚛️ UserContext.jsx
-    │   │       ├── 📁 hooks/
-    │   │       │   └── ⚛️ useUser.jsx
-    │   │       ├── 📁 posts/
-    │   │       │   ├── ⚡ loading.js
-    │   │       │   └── ⚛️ page.jsx
-    │   │       ├── 📁 products/
-    │   │       │   └── ⚛️ page.jsx
-    │   │       ├── 🖼️ favicon.ico
-    │   │       ├── 🎨 globals.css
-    │   │       ├── ⚡ layout.js
-    │   │       ├── ⚛️ not-found.jsx
-    │   │       └── ⚡ page.js
-    │   ├── 🙈 .gitignore
-    │   ├── 📖 AGENTS.md
-    │   ├── 📖 CLAUDE.md
-    │   ├── 🔶 db.json
-    │   ├── ⚡ eslint.config.mjs
-    │   ├── 🔶 jsconfig.json
-    │   ├── ⚡ next.config.mjs
-    │   ├── 🔒 package-lock.json
-    │   ├── 📦 package.json
-    │   ├── ⚡ postcss.config.mjs
-    │   └── 📚 README.md
-    ├── 📁 module-36-project-with-next.js-and-typescript/
-    │   ├── 📁 public/
-    │   │   ├── 🔶 booksData.json
-    │   │   ├── 🎨 file.svg
-    │   │   ├── 🎨 globe.svg
-    │   │   ├── 🎨 next.svg
-    │   │   ├── 🎨 vercel.svg
-    │   │   └── 🎨 window.svg
-    │   ├── 📁 src/
-    │   │   ├── 📁 app/
-    │   │   │   ├── 📁 books/
-    │   │   │   │   ├── 📁 [id]/
-    │   │   │   │   │   ├── ⚛️ loading.tsx
-    │   │   │   │   │   └── ⚛️ page.tsx
-    │   │   │   │   ├── ⚛️ loading.tsx
-    │   │   │   │   └── ⚛️ page.tsx
-    │   │   │   ├── 📁 listed-books/
-    │   │   │   │   └── ⚛️ page.tsx
-    │   │   │   ├── 📁 read-books/
-    │   │   │   │   └── ⚛️ page.tsx
-    │   │   │   ├── 🖼️ favicon.ico
-    │   │   │   ├── 🎨 globals.css
-    │   │   │   ├── ⚛️ layout.tsx
-    │   │   │   ├── ⚛️ loading.tsx
-    │   │   │   └── ⚛️ page.tsx
-    │   │   ├── 📁 assets/
-    │   │   │   ├── 🖼️ book.ico
-    │   │   │   └── 🖼️ hero_img.jpg
-    │   │   ├── 📁 components/
-    │   │   │   ├── 📁 bookDetails/
-    │   │   │   │   ├── ⚛️ ReadButton.tsx
-    │   │   │   │   └── ⚛️ WishlistButton.tsx
-    │   │   │   ├── 📁 homepage/
-    │   │   │   │   ├── ⚛️ Banner.tsx
-    │   │   │   │   └── ⚛️ Books.tsx
-    │   │   │   └── 📁 shared/
-    │   │   │       ├── ⚛️ BookCard.tsx
-    │   │   │       ├── ⚛️ Footer.tsx
-    │   │   │       ├── ⚛️ ListedBookCard.tsx
-    │   │   │       └── ⚛️ Navbar.tsx
-    │   │   ├── 📁 context/
-    │   │   │   └── ⚛️ BookContext.tsx
-    │   │   └── 📁 types/
-    │   │       └── ⚛️ books.type.tsx
-    │   ├── 🙈 .gitignore
-    │   ├── ⚡ eslint.config.mjs
-    │   ├── 🔷 next.config.ts
-    │   ├── 🔒 package-lock.json
-    │   ├── 📦 package.json
-    │   ├── ⚡ postcss.config.mjs
-    │   ├── 📚 README.md
-    │   └── 🔶 tsconfig.json
-    └── 📁 module-37-assignment-6-fitlog/
+├── 📁 Milestone 6 - Next.js - Pages, Routing and Beyond/
+│   ├── 📁 conceptual-session-10-next.js-with-typescript-project/
+│   │   ├── 📁 public/
+│   │   │   ├── 🔶 data.json
+│   │   │   ├── 🎨 file.svg
+│   │   │   ├── 🎨 globe.svg
+│   │   │   ├── 🎨 next.svg
+│   │   │   ├── 🎨 vercel.svg
+│   │   │   └── 🎨 window.svg
+│   │   ├── 📁 src/
+│   │   │   ├── 📁 app/
+│   │   │   │   ├── 📁 apps/
+│   │   │   │   │   ├── 📁 [id]/
+│   │   │   │   │   │   └── ⚛️ page.tsx
+│   │   │   │   │   ├── ⚛️ loading.tsx
+│   │   │   │   │   └── ⚛️ page.tsx
+│   │   │   │   ├── 📁 installation/
+│   │   │   │   │   └── ⚛️ page.tsx
+│   │   │   │   ├── 🖼️ favicon.ico
+│   │   │   │   ├── 🎨 globals.css
+│   │   │   │   ├── ⚛️ layout.tsx
+│   │   │   │   ├── ⚛️ loading.tsx
+│   │   │   │   ├── ⚛️ not-found.tsx
+│   │   │   │   └── ⚛️ page.tsx
+│   │   │   ├── 📁 assets/
+│   │   │   │   ├── 🖼️ App-Error.png
+│   │   │   │   ├── 🖼️ demo-app (1).webp
+│   │   │   │   ├── 🖼️ demo-app (2).webp
+│   │   │   │   ├── 🖼️ demo-app (3).webp
+│   │   │   │   ├── 🖼️ demo-app (4).webp
+│   │   │   │   ├── 🖼️ demo-app (5).webp
+│   │   │   │   ├── 🖼️ demo-app (6).webp
+│   │   │   │   ├── 🖼️ error-404.png
+│   │   │   │   ├── 📄 Hero IO.fig
+│   │   │   │   ├── 🖼️ hero.png
+│   │   │   │   ├── 🖼️ icon-downloads.png
+│   │   │   │   ├── 🖼️ icon-ratings.png
+│   │   │   │   ├── 🖼️ icon-review.png
+│   │   │   │   └── 🖼️ logo.png
+│   │   │   ├── 📁 components/
+│   │   │   │   ├── 📁 Apps/
+│   │   │   │   │   └── ⚛️ InstallAppButton.tsx
+│   │   │   │   ├── 📁 homepage/
+│   │   │   │   │   ├── ⚛️ Banner.tsx
+│   │   │   │   │   ├── ⚛️ Hero.tsx
+│   │   │   │   │   ├── ⚛️ TrandingApp.tsx
+│   │   │   │   │   └── ⚛️ TrendingApp.tsx
+│   │   │   │   ├── 📁 shared/
+│   │   │   │   │   ├── ⚛️ AppCard.tsx
+│   │   │   │   │   ├── ⚛️ Footer.tsx
+│   │   │   │   │   └── ⚛️ Navbar.tsx
+│   │   │   │   └── 📁 states/
+│   │   │   │       └── ⚛️ States.tsx
+│   │   │   ├── 📁 context/
+│   │   │   │   ├── ⚛️ AppContext.tsx
+│   │   │   │   └── ⚛️ AppProvider.tsx
+│   │   │   ├── 📁 lib/
+│   │   │   │   └── 🔷 apps.ts
+│   │   │   └── 📁 types/
+│   │   │       ├── 🔷 apps.type.ts
+│   │   │       └── 🔷 apps.types.ts
+│   │   ├── 🙈 .gitignore
+│   │   ├── ⚡ eslint.config.mjs
+│   │   ├── 🔷 next.config.ts
+│   │   ├── 🔒 package-lock.json
+│   │   ├── 📦 package.json
+│   │   ├── ⚡ postcss.config.mjs
+│   │   ├── 📚 README.md
+│   │   └── 🔶 tsconfig.json
+│   ├── 📁 module-33-next.js-foundation-and-routing/
+│   │   ├── 📁 public/
+│   │   │   ├── 📁 images/
+│   │   │   │   ├── 🖼️ samiur.png
+│   │   │   │   └── 🖼️ tanim4.jpg
+│   │   │   ├── 🎨 file.svg
+│   │   │   ├── 🎨 globe.svg
+│   │   │   ├── 🎨 next.svg
+│   │   │   ├── 🖼️ photo.png
+│   │   │   ├── 🎨 vercel.svg
+│   │   │   └── 🎨 window.svg
+│   │   ├── 📁 src/
+│   │   │   └── 📁 app/
+│   │   │       ├── 📁 about/
+│   │   │       │   ├── 📁 designer/
+│   │   │       │   │   └── ⚛️ page.jsx
+│   │   │       │   ├── 📁 developers/
+│   │   │       │   │   └── ⚛️ page.jsx
+│   │   │       │   └── ⚛️ page.jsx
+│   │   │       ├── 📁 blogs/
+│   │   │       │   ├── 📁 [postid]/
+│   │   │       │   │   └── ⚛️ page.jsx
+│   │   │       │   ├── ⚛️ layout.jsx
+│   │   │       │   └── ⚛️ page.jsx
+│   │   │       ├── 📁 components/
+│   │   │       │   ├── ⚛️ Navbar.jsx
+│   │   │       │   └── ⚛️ Post.jsx
+│   │   │       ├── 📁 dashboard/
+│   │   │       │   ├── ⚛️ layout.jsx
+│   │   │       │   └── ⚛️ page.jsx
+│   │   │       ├── 📁 docs/
+│   │   │       │   └── ⚛️ page.jsx
+│   │   │       ├── 📁 showcase/
+│   │   │       │   └── ⚛️ page.jsx
+│   │   │       ├── 📁 users/
+│   │   │       │   ├── 📁 [userid]/
+│   │   │       │   │   └── ⚛️ page.jsx
+│   │   │       │   └── ⚛️ page.jsx
+│   │   │       ├── 🖼️ favicon.ico
+│   │   │       ├── 🎨 globals.css
+│   │   │       ├── ⚡ layout.js
+│   │   │       ├── ⚛️ not-found.jsx
+│   │   │       └── ⚡ page.js
+│   │   ├── 🙈 .gitignore
+│   │   ├── 📖 AGENTS.md
+│   │   ├── 📖 CLAUDE.md
+│   │   ├── ⚡ eslint.config.mjs
+│   │   ├── 🔶 jsconfig.json
+│   │   ├── ⚡ next.config.mjs
+│   │   ├── 🔒 package-lock.json
+│   │   ├── 📦 package.json
+│   │   ├── ⚡ postcss.config.mjs
+│   │   └── 📚 README.md
+│   ├── 📁 module-34-next.js-rendering-basics/
+│   │   ├── 📁 public/
+│   │   │   ├── 🎨 file.svg
+│   │   │   ├── 🎨 globe.svg
+│   │   │   ├── 🎨 next.svg
+│   │   │   ├── 🎨 vercel.svg
+│   │   │   └── 🎨 window.svg
+│   │   ├── 📁 src/
+│   │   │   └── 📁 app/
+│   │   │       ├── 📁 components/
+│   │   │       │   ├── ⚛️ Counter.jsx
+│   │   │       │   ├── ⚛️ FoodCart.jsx
+│   │   │       │   └── ⚛️ Post.jsx
+│   │   │       ├── 📁 dashboard/
+│   │   │       │   └── ⚛️ page.jsx
+│   │   │       ├── 📁 menu/
+│   │   │       │   └── ⚛️ page.jsx
+│   │   │       ├── 📁 post/
+│   │   │       │   └── ⚛️ page.jsx
+│   │   │       ├── 🖼️ favicon.ico
+│   │   │       ├── 🎨 globals.css
+│   │   │       ├── ⚡ layout.js
+│   │   │       └── ⚡ page.js
+│   │   ├── 🙈 .gitignore
+│   │   ├── 📖 AGENTS.md
+│   │   ├── 📖 CLAUDE.md
+│   │   ├── ⚡ eslint.config.mjs
+│   │   ├── 🔶 jsconfig.json
+│   │   ├── ⚡ next.config.mjs
+│   │   ├── 🔒 package-lock.json
+│   │   ├── 📦 package.json
+│   │   ├── ⚡ postcss.config.mjs
+│   │   └── 📚 README.md
+│   ├── 📁 module-35-advance-data-fetching-and-ui-integration/
+│   │   ├── 📁 public/
+│   │   │   ├── 🎨 file.svg
+│   │   │   ├── 🎨 globe.svg
+│   │   │   ├── 🎨 next.svg
+│   │   │   ├── 🎨 vercel.svg
+│   │   │   └── 🎨 window.svg
+│   │   ├── 📁 src/
+│   │   │   └── 📁 app/
+│   │   │       ├── 📁 books/
+│   │   │       │   ├── 📁 [bookid]/
+│   │   │       │   │   ├── ⚛️ loading.jsx
+│   │   │       │   │   └── ⚛️ page.jsx
+│   │   │       │   └── ⚛️ page.jsx
+│   │   │       ├── 📁 components/
+│   │   │       │   ├── ⚛️ BookCard.jsx
+│   │   │       │   ├── ⚛️ Navbar.jsx
+│   │   │       │   └── ⚛️ ProductCard.jsx
+│   │   │       ├── 📁 contexts/
+│   │   │       │   └── ⚛️ UserContext.jsx
+│   │   │       ├── 📁 hooks/
+│   │   │       │   └── ⚛️ useUser.jsx
+│   │   │       ├── 📁 posts/
+│   │   │       │   ├── ⚡ loading.js
+│   │   │       │   └── ⚛️ page.jsx
+│   │   │       ├── 📁 products/
+│   │   │       │   └── ⚛️ page.jsx
+│   │   │       ├── 🖼️ favicon.ico
+│   │   │       ├── 🎨 globals.css
+│   │   │       ├── ⚡ layout.js
+│   │   │       ├── ⚛️ not-found.jsx
+│   │   │       └── ⚡ page.js
+│   │   ├── 🙈 .gitignore
+│   │   ├── 📖 AGENTS.md
+│   │   ├── 📖 CLAUDE.md
+│   │   ├── 🔶 db.json
+│   │   ├── ⚡ eslint.config.mjs
+│   │   ├── 🔶 jsconfig.json
+│   │   ├── ⚡ next.config.mjs
+│   │   ├── 🔒 package-lock.json
+│   │   ├── 📦 package.json
+│   │   ├── ⚡ postcss.config.mjs
+│   │   └── 📚 README.md
+│   ├── 📁 module-36-project-with-next.js-and-typescript/
+│   │   ├── 📁 public/
+│   │   │   ├── 🔶 booksData.json
+│   │   │   ├── 🎨 file.svg
+│   │   │   ├── 🎨 globe.svg
+│   │   │   ├── 🎨 next.svg
+│   │   │   ├── 🎨 vercel.svg
+│   │   │   └── 🎨 window.svg
+│   │   ├── 📁 src/
+│   │   │   ├── 📁 app/
+│   │   │   │   ├── 📁 books/
+│   │   │   │   │   ├── 📁 [id]/
+│   │   │   │   │   │   ├── ⚛️ loading.tsx
+│   │   │   │   │   │   └── ⚛️ page.tsx
+│   │   │   │   │   ├── ⚛️ loading.tsx
+│   │   │   │   │   └── ⚛️ page.tsx
+│   │   │   │   ├── 📁 listed-books/
+│   │   │   │   │   └── ⚛️ page.tsx
+│   │   │   │   ├── 📁 read-books/
+│   │   │   │   │   └── ⚛️ page.tsx
+│   │   │   │   ├── 🖼️ favicon.ico
+│   │   │   │   ├── 🎨 globals.css
+│   │   │   │   ├── ⚛️ layout.tsx
+│   │   │   │   ├── ⚛️ loading.tsx
+│   │   │   │   └── ⚛️ page.tsx
+│   │   │   ├── 📁 assets/
+│   │   │   │   ├── 🖼️ book.ico
+│   │   │   │   └── 🖼️ hero_img.jpg
+│   │   │   ├── 📁 components/
+│   │   │   │   ├── 📁 bookDetails/
+│   │   │   │   │   ├── ⚛️ ReadButton.tsx
+│   │   │   │   │   └── ⚛️ WishlistButton.tsx
+│   │   │   │   ├── 📁 homepage/
+│   │   │   │   │   ├── ⚛️ Banner.tsx
+│   │   │   │   │   └── ⚛️ Books.tsx
+│   │   │   │   └── 📁 shared/
+│   │   │   │       ├── ⚛️ BookCard.tsx
+│   │   │   │       ├── ⚛️ Footer.tsx
+│   │   │   │       ├── ⚛️ ListedBookCard.tsx
+│   │   │   │       └── ⚛️ Navbar.tsx
+│   │   │   ├── 📁 context/
+│   │   │   │   └── ⚛️ BookContext.tsx
+│   │   │   └── 📁 types/
+│   │   │       └── ⚛️ books.type.tsx
+│   │   ├── 🙈 .gitignore
+│   │   ├── ⚡ eslint.config.mjs
+│   │   ├── 🔷 next.config.ts
+│   │   ├── 🔒 package-lock.json
+│   │   ├── 📦 package.json
+│   │   ├── ⚡ postcss.config.mjs
+│   │   ├── 📚 README.md
+│   │   └── 🔶 tsconfig.json
+│   └── 📁 module-37-assignment-6-fitlog/
+│       ├── 📁 public/
+│       │   ├── 🎨 file.svg
+│       │   ├── 🎨 globe.svg
+│       │   ├── 🎨 next.svg
+│       │   ├── 🎨 vercel.svg
+│       │   └── 🎨 window.svg
+│       ├── 📁 src/
+│       │   ├── 📁 app/
+│       │   │   ├── 📁 my-plan/
+│       │   │   │   └── ⚛️ page.tsx
+│       │   │   ├── 📁 workout/
+│       │   │   │   └── 📁 [id]/
+│       │   │   │       └── ⚛️ page.tsx
+│       │   │   ├── 🖼️ favicon.ico
+│       │   │   ├── 🎨 globals.css
+│       │   │   ├── ⚛️ layout.tsx
+│       │   │   ├── ⚛️ loading.tsx
+│       │   │   ├── ⚛️ not-found.tsx
+│       │   │   └── ⚛️ page.tsx
+│       │   ├── 📁 assets/
+│       │   │   ├── 🖼️ banner.png
+│       │   │   └── 🖼️ logo.png
+│       │   ├── 📁 components/
+│       │   │   ├── 📁 homepage/
+│       │   │   │   ├── ⚛️ Banner.tsx
+│       │   │   │   └── ⚛️ Library.tsx
+│       │   │   ├── 📁 shared/
+│       │   │   │   ├── ⚛️ Footer.tsx
+│       │   │   │   ├── ⚛️ Navbar.tsx
+│       │   │   │   ├── ⚛️ PlannedWorkoutCard.tsx
+│       │   │   │   └── ⚛️ WorkoutCard.tsx
+│       │   │   └── 📁 workoutDetails/
+│       │   │       ├── ⚛️ AddToPlanButton.tsx
+│       │   │       └── ⚛️ SaveForLaterButton.tsx
+│       │   ├── 📁 context/
+│       │   │   └── ⚛️ WorkoutContext.tsx
+│       │   └── 📁 types/
+│       │       └── 🔷 workout.type.ts
+│       ├── 🙈 .gitignore
+│       ├── ⚡ eslint.config.mjs
+│       ├── 🔷 next.config.ts
+│       ├── 🔒 package-lock.json
+│       ├── 📦 package.json
+│       ├── ⚡ postcss.config.mjs
+│       ├── 📚 README.md
+│       └── 🔶 tsconfig.json
+└── 📁 Milestone 7 - Authentication with BetterAuth and Next.JS/
+    └── 📁 module-38-authentication-in-nextjs-with-betterauth/
         ├── 📁 public/
         │   ├── 🎨 file.svg
         │   ├── 🎨 globe.svg
@@ -1682,39 +1734,28 @@ Contains problem-solving challenges and contest submissions, including:
         │   └── 🎨 window.svg
         ├── 📁 src/
         │   ├── 📁 app/
-        │   │   ├── 📁 my-plan/
-        │   │   │   └── ⚛️ page.tsx
-        │   │   ├── 📁 workout/
-        │   │   │   └── 📁 [id]/
-        │   │   │       └── ⚛️ page.tsx
+        │   │   ├── 📁 (auth)/
+        │   │   │   ├── 📁 sign-in/
+        │   │   │   │   └── ⚛️ page.jsx
+        │   │   │   └── 📁 sign-up/
+        │   │   │       └── ⚛️ page.jsx
+        │   │   ├── 📁 api/
+        │   │   │   └── 📁 auth/
+        │   │   │       └── 📁 [...all]/
+        │   │   │           └── ⚡ route.js
+        │   │   ├── 📁 components/
+        │   │   │   └── ⚛️ Navbar.jsx
         │   │   ├── 🖼️ favicon.ico
         │   │   ├── 🎨 globals.css
-        │   │   ├── ⚛️ layout.tsx
-        │   │   ├── ⚛️ loading.tsx
-        │   │   ├── ⚛️ not-found.tsx
-        │   │   └── ⚛️ page.tsx
-        │   ├── 📁 assets/
-        │   │   ├── 🖼️ banner.png
-        │   │   └── 🖼️ logo.png
-        │   ├── 📁 components/
-        │   │   ├── 📁 homepage/
-        │   │   │   ├── ⚛️ Banner.tsx
-        │   │   │   └── ⚛️ Library.tsx
-        │   │   ├── 📁 shared/
-        │   │   │   ├── ⚛️ Footer.tsx
-        │   │   │   ├── ⚛️ Navbar.tsx
-        │   │   │   ├── ⚛️ PlannedWorkoutCard.tsx
-        │   │   │   └── ⚛️ WorkoutCard.tsx
-        │   │   └── 📁 workoutDetails/
-        │   │       ├── ⚛️ AddToPlanButton.tsx
-        │   │       └── ⚛️ SaveForLaterButton.tsx
-        │   ├── 📁 context/
-        │   │   └── ⚛️ WorkoutContext.tsx
-        │   └── 📁 types/
-        │       └── 🔷 workout.type.ts
+        │   │   ├── ⚡ layout.js
+        │   │   └── ⚡ page.js
+        │   └── 📁 lib/
+        │       ├── ⚡ auth-client.js
+        │       └── ⚡ auth.js
         ├── 🙈 .gitignore
         ├── ⚡ eslint.config.mjs
-        ├── 🔷 next.config.ts
+        ├── 🔶 jsconfig.json
+        ├── ⚡ next.config.mjs
         ├── 🔒 package-lock.json
         ├── 📦 package.json
         ├── ⚡ postcss.config.mjs
@@ -1733,7 +1774,8 @@ Contains problem-solving challenges and contest submissions, including:
 - **JavaScript (ES6+)**: Data types, Conditionals, Loops, Arrays, Objects, Functions, ES6+ features, Array Methods (`map`, `filter`, `find`, `reduce`), Destructuring, DOM manipulation, Events, BOM, Web Storage (`localStorage`/`sessionStorage`), Timers (`setTimeout`/`setInterval`).
 - **TypeScript**: Type annotations, Interfaces, Type Aliases, Generics, OOP (Classes, Inheritance, Access Modifiers, Polymorphism, Abstraction), Utility Types, Real-world Problem Solving.
 - **React & Vite**: Functional components, JSX, Props passing & destructuring, Conditional rendering, List rendering (`.map`), `useState` state management, Event handling, `useEffect` data fetching (APIs), component styling, Vite dev toolchain.
-- **Next.js**: App Router, TypeScript Integration, Server Components (RSC), Client Components (`'use client'`), Root & Nested Layouts, Static & Dynamic Routing (`[id]`, `[postid]`, `[userid]`), SSG (`force-cache`, `generateStaticParams`), SSR (`no-store`), ISR (`revalidate`), Streaming & Skeleton Loaders (`loading.tsx`), Custom 404 (`not-found`), Server Data Fetching (`async`/`await`), Image Optimization (`next/image`), Recharts Data Visualization, React Context State, Tailwind CSS & DaisyUI Integration.
+- **Next.js**: App Router, TypeScript Integration, Server Components (RSC), Client Components (`'use client'`), Root & Nested Layouts, Static & Dynamic Routing (`[id]`, `[postid]`, `[userid]`), Route Handlers (`/api/auth/[...all]`), SSG (`force-cache`, `generateStaticParams`), SSR (`no-store`), ISR (`revalidate`), Streaming & Skeleton Loaders (`loading.tsx`), Custom 404 (`not-found`), Server Data Fetching (`async`/`await`), Image Optimization (`next/image`), Recharts Data Visualization, React Context State, Tailwind CSS & DaisyUI Integration.
+- **Authentication & Databases**: BetterAuth (`better-auth`, `@better-auth/mongo-adapter`), client-side session management (`createAuthClient`, `useSession`, `signIn`, `signUp`, `signOut`), MongoDB (`MongoClient`), HeroUI component system (`@heroui/react`, `@heroui/styles`), Gravity UI icons (`@gravity-ui/icons`).
 
 ---
 
