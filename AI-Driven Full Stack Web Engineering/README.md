@@ -196,6 +196,10 @@ Building **FitLog**, a comprehensive dark-themed daily workout management and ro
 
 Comprehensive guide to implementing full-stack authentication in Next.js 16 (App Router) using BetterAuth and MongoDB. Covers server-side authentication setup with `betterAuth` and `@better-auth/mongo-adapter`, native database connectivity via `MongoClient`, and catch-all dynamic API route handler (`/api/auth/[...all]`). Explores client-side authentication integration via `createAuthClient` (`signIn`, `signUp`, `signOut`, `useSession`), creating responsive authentication forms using HeroUI (`Form`, `TextField`, `InputGroup`, `Button`, `Spinner`), client-side input validation for emails and complex password rules, password visibility toggling with Gravity UI icons, and building a session-aware dynamic navigation bar.
 
+### 🔹 `Milestone 7 Module 39 - Advanced Authentication: Profile, Password & Email`
+
+Advanced authentication workflows in Next.js 16 (App Router) using BetterAuth, MongoDB, and Resend. Implements email verification flows on registration (`requireEmailVerification`, `sendVerificationEmail`, `autoSignInAfterVerification`), transactional password reset workflows with HTML email dispatch (`sendResetPassword`, `requestPasswordReset`, `resetPassword`) and token handling under React `Suspense`, OAuth social provider integration (Google, GitHub, Discord), route-level authentication guards via custom middleware proxy (`proxy.js` protecting `/dashboard` and `/profile` routes with server-side session checks), interactive profile settings management (`updateUser`), and feedback notifications using `react-toastify` and HeroUI form components.
+
 ### 🔹 `Durbar - Task`
 
 Contains problem-solving challenges and contest submissions, including:
@@ -1737,7 +1741,43 @@ Contains problem-solving challenges and contest submissions, including:
 │       ├── 📚 README.md
 │       └── 🔶 tsconfig.json
 └── 📁 Milestone 7 - Authentication with BetterAuth and Next.JS/
-    └── 📁 module-38-authentication-in-nextjs-with-betterauth/
+    ├── 📁 module-38-authentication-in-nextjs-with-betterauth/
+    │   ├── 📁 public/
+    │   │   ├── 🎨 file.svg
+    │   │   ├── 🎨 globe.svg
+    │   │   ├── 🎨 next.svg
+    │   │   ├── 🎨 vercel.svg
+    │   │   └── 🎨 window.svg
+    │   ├── 📁 src/
+    │   │   ├── 📁 app/
+    │   │   │   ├── 📁 (auth)/
+    │   │   │   │   ├── 📁 sign-in/
+    │   │   │   │   │   └── ⚛️ page.jsx
+    │   │   │   │   └── 📁 sign-up/
+    │   │   │   │       └── ⚛️ page.jsx
+    │   │   │   ├── 📁 api/
+    │   │   │   │   └── 📁 auth/
+    │   │   │   │       └── 📁 [...all]/
+    │   │   │   │           └── ⚡ route.js
+    │   │   │   ├── 📁 components/
+    │   │   │   │   └── ⚛️ Navbar.jsx
+    │   │   │   ├── 🖼️ favicon.ico
+    │   │   │   ├── 🎨 globals.css
+    │   │   │   ├── ⚡ layout.js
+    │   │   │   └── ⚡ page.js
+    │   │   └── 📁 lib/
+    │   │       ├── ⚡ auth-client.js
+    │   │       └── ⚡ auth.js
+    │   ├── 🙈 .gitignore
+    │   ├── ⚡ eslint.config.mjs
+    │   ├── 🔶 jsconfig.json
+    │   ├── ⚡ next.config.mjs
+    │   ├── 🔒 package-lock.json
+    │   ├── 📦 package.json
+    │   ├── ⚡ postcss.config.mjs
+    │   ├── 📚 README.md
+    │   └── 🔶 tsconfig.json
+    └── 📁 module-39-authentication-advanced-profile-password-and-email/
         ├── 📁 public/
         │   ├── 🎨 file.svg
         │   ├── 🎨 globe.svg
@@ -1747,6 +1787,15 @@ Contains problem-solving challenges and contest submissions, including:
         ├── 📁 src/
         │   ├── 📁 app/
         │   │   ├── 📁 (auth)/
+        │   │   │   ├── 📁 dashboard/
+        │   │   │   │   └── ⚛️ page.jsx
+        │   │   │   ├── 📁 forgot-password/
+        │   │   │   │   └── ⚛️ page.jsx
+        │   │   │   ├── 📁 profile/
+        │   │   │   │   └── ⚛️ page.jsx
+        │   │   │   ├── 📁 reset-password/
+        │   │   │   │   ├── ⚛️ page.jsx
+        │   │   │   │   └── ⚛️ reset-password-form.jsx
         │   │   │   ├── 📁 sign-in/
         │   │   │   │   └── ⚛️ page.jsx
         │   │   │   └── 📁 sign-up/
@@ -1761,9 +1810,10 @@ Contains problem-solving challenges and contest submissions, including:
         │   │   ├── 🎨 globals.css
         │   │   ├── ⚡ layout.js
         │   │   └── ⚡ page.js
-        │   └── 📁 lib/
-        │       ├── ⚡ auth-client.js
-        │       └── ⚡ auth.js
+        │   ├── 📁 lib/
+        │   │   ├── ⚡ auth-client.js
+        │   │   └── ⚡ auth.js
+        │   └── ⚡ proxy.js
         ├── 🙈 .gitignore
         ├── ⚡ eslint.config.mjs
         ├── 🔶 jsconfig.json
@@ -1787,7 +1837,7 @@ Contains problem-solving challenges and contest submissions, including:
 - **TypeScript**: Type annotations, Interfaces, Type Aliases, Generics, OOP (Classes, Inheritance, Access Modifiers, Polymorphism, Abstraction), Utility Types, Real-world Problem Solving.
 - **React & Vite**: Functional components, JSX, Props passing & destructuring, Conditional rendering, List rendering (`.map`), `useState` state management, Event handling, `useEffect` data fetching (APIs), component styling, Vite dev toolchain.
 - **Next.js**: App Router, TypeScript Integration, Server Components (RSC), Client Components (`'use client'`), Root & Nested Layouts, Static & Dynamic Routing (`[id]`, `[postid]`, `[userid]`), Route Handlers (`/api/auth/[...all]`), SSG (`force-cache`, `generateStaticParams`), SSR (`no-store`), ISR (`revalidate`), Streaming & Skeleton Loaders (`loading.tsx`), Custom 404 (`not-found`), Server Data Fetching (`async`/`await`), Image Optimization (`next/image`), Recharts Data Visualization, React Context State, Tailwind CSS & DaisyUI Integration.
-- **Authentication & Databases**: BetterAuth (`better-auth`, `@better-auth/mongo-adapter`), client-side session management (`createAuthClient`, `useSession`, `signIn`, `signUp`, `signOut`), MongoDB (`MongoClient`), HeroUI component system (`@heroui/react`, `@heroui/styles`), Gravity UI icons (`@gravity-ui/icons`).
+- **Authentication & Databases**: BetterAuth (`better-auth`, `@better-auth/mongo-adapter`), client-side session management (`createAuthClient`, `useSession`, `signIn`, `signUp`, `signOut`, `updateUser`, `requestPasswordReset`, `resetPassword`), MongoDB (`MongoClient`), transactional email delivery with Resend (`resend`), route protection middleware (`proxy.js`), HeroUI component system (`@heroui/react`, `@heroui/styles`), Gravity UI icons (`@gravity-ui/icons`), toast feedback (`react-toastify`).
 
 ---
 
