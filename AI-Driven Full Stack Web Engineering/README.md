@@ -200,6 +200,10 @@ Comprehensive guide to implementing full-stack authentication in Next.js 16 (App
 
 Advanced authentication workflows in Next.js 16 (App Router) using BetterAuth, MongoDB, and Resend. Implements email verification flows on registration (`requireEmailVerification`, `sendVerificationEmail`, `autoSignInAfterVerification`), transactional password reset workflows with HTML email dispatch (`sendResetPassword`, `requestPasswordReset`, `resetPassword`) and token handling under React `Suspense`, OAuth social provider integration (Google, GitHub, Discord), route-level authentication guards via custom middleware proxy (`proxy.js` protecting `/dashboard` and `/profile` routes with server-side session checks), interactive profile settings management (`updateUser`), and feedback notifications using `react-toastify` and HeroUI form components.
 
+### 🔹 `Milestone 7 Conceptual Session 11 - Better Auth Introduction with Next.js`
+
+Comprehensive conceptual deep dive into BetterAuth integration in Next.js 16 (App Router) and React 19. Explores foundational server and client authentication architecture with `@better-auth/mongo-adapter` and native MongoDB (`MongoClient`). Covers mandatory email verification flows using the Resend email API (`sendVerificationEmail` with HTML templates and expiration handling), Google OAuth social login configuration (`GOOGLE_AUTH_CLIENT_ID`, `GOOGLE_AUTH_CLIENT_SECRET`), centralized catch-all route handling (`/api/auth/[...all]`), reactive client-side session management via `useSession` hook in dynamic navigation components and protected profile views (`/profile`), and edge route protection middleware proxy (`proxy.js` safeguarding `/profile` and `/dashboard` with session redirects).
+
 ### 🔹 `Durbar - Task`
 
 Contains problem-solving challenges and contest submissions, including:
@@ -1741,6 +1745,45 @@ Contains problem-solving challenges and contest submissions, including:
 │       ├── 📚 README.md
 │       └── 🔶 tsconfig.json
 └── 📁 Milestone 7 - Authentication with BetterAuth and Next.JS/
+    ├── 📁 conceptual-session-11-better-auth-introduction-with-nextjs/
+    │   ├── 📁 public/
+    │   │   ├── 🎨 file.svg
+    │   │   ├── 🎨 globe.svg
+    │   │   ├── 🎨 next.svg
+    │   │   ├── 🎨 vercel.svg
+    │   │   └── 🎨 window.svg
+    │   ├── 📁 src/
+    │   │   ├── 📁 app/
+    │   │   │   ├── 📁 (auth)/
+    │   │   │   │   ├── 📁 sign-in/
+    │   │   │   │   │   └── ⚛️ page.jsx
+    │   │   │   │   └── 📁 sign-up/
+    │   │   │   │       └── ⚛️ page.jsx
+    │   │   │   ├── 📁 api/
+    │   │   │   │   └── 📁 auth/
+    │   │   │   │       └── 📁 [...all]/
+    │   │   │   │           └── ⚡ route.js
+    │   │   │   ├── 📁 profile/
+    │   │   │   │   └── ⚛️ page.jsx
+    │   │   │   ├── 🖼️ favicon.ico
+    │   │   │   ├── 🎨 globals.css
+    │   │   │   ├── ⚡ layout.js
+    │   │   │   └── ⚡ page.js
+    │   │   ├── 📁 components/
+    │   │   │   └── ⚛️ Navbar.jsx
+    │   │   ├── 📁 lib/
+    │   │   │   ├── ⚡ auth-client.js
+    │   │   │   └── ⚡ auth.js
+    │   │   └── ⚡ proxy.js
+    │   ├── 🙈 .gitignore
+    │   ├── ⚡ eslint.config.mjs
+    │   ├── 🔶 jsconfig.json
+    │   ├── ⚡ next.config.mjs
+    │   ├── 🔒 package-lock.json
+    │   ├── 📦 package.json
+    │   ├── ⚡ postcss.config.mjs
+    │   ├── 📚 README.md
+    │   └── 🔶 tsconfig.json
     ├── 📁 module-38-authentication-in-nextjs-with-betterauth/
     │   ├── 📁 public/
     │   │   ├── 🎨 file.svg
