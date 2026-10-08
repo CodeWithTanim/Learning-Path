@@ -208,6 +208,10 @@ Comprehensive conceptual deep dive into BetterAuth integration in Next.js 16 (Ap
 
 Building a modern online News Portal application using Next.js 16 (App Router), React 19, TypeScript, and Tailwind CSS v4 with DaisyUI v5. Features real-time multi-section news feeds fetched from an external REST API, breaking news marquee ticker powered by `react-marquee-text` (`Marquee.tsx`), responsive editorial homepage layout featuring primary headlines (`MainNews.tsx`), topical news grids (`NewsCard.tsx`), and a trending sidebar (`MostRead.tsx`). Implements category-based routing (`/category/[categoryId]`) and dynamic article detail views (`/article/[articleId]`) parsing complex nested article body blocks (rich text, images, captions, subheadings, bylines, tags, and Bengali locale date formatting `bn-BD`) with custom `notFound()` fallbacks.
 
+### 🔹 `Milestone 7 Module 41 - Next.js Project with Authentication (Part 2)`
+
+Extending the online News Portal project with full-stack authentication using BetterAuth, MongoDB, and Next.js 16 (App Router) in TypeScript. Features complete authentication workflows including credential-based Sign In and Sign Up (`/signin`, `/signup`), OAuth social providers (Google and GitHub), and database persistence using `@better-auth/mongo-adapter` with native `MongoClient`. Implements edge route protection middleware proxy (`proxy.ts` safeguarding `/profile` and dynamic news article paths `/article/:path`), user profile management (`/profile`), header user state rendering with custom `UserInfo.tsx` component (avatar, user name display, and sign out handling), instant skeleton loading fallbacks (`loading.tsx`), and interactive feedback with `react-toastify`.
+
 ### 🔹 `Durbar - Task`
 
 Contains problem-solving challenges and contest submissions, including:
@@ -1870,7 +1874,46 @@ Contains problem-solving challenges and contest submissions, including:
     │   ├── ⚡ postcss.config.mjs
     │   ├── 📚 README.md
     │   └── 🔶 tsconfig.json
-    └── 📁 module-40-nextjs-project-with-authentication-part-1/
+    ├── 📁 module-40-nextjs-project-with-authentication-part-1/
+    │   ├── 📁 public/
+    │   │   ├── 🎨 file.svg
+    │   │   ├── 🎨 globe.svg
+    │   │   ├── 🖼️ logo.webp
+    │   │   ├── 🎨 next.svg
+    │   │   ├── 🎨 vercel.svg
+    │   │   └── 🎨 window.svg
+    │   ├── 📁 src/
+    │   │   ├── 📁 app/
+    │   │   │   ├── 📁 article/
+    │   │   │   │   └── 📁 [articleId]/
+    │   │   │   │       ├── ⚛️ not-found.tsx
+    │   │   │   │       └── ⚛️ page.tsx
+    │   │   │   ├── 📁 category/
+    │   │   │   │   └── 📁 [categoryId]/
+    │   │   │   │       └── ⚛️ page.tsx
+    │   │   │   ├── 🖼️ favicon.ico
+    │   │   │   ├── 🎨 globals.css
+    │   │   │   ├── ⚛️ layout.tsx
+    │   │   │   ├── ⚛️ not-found.tsx
+    │   │   │   └── ⚛️ page.tsx
+    │   │   └── 📁 components/
+    │   │       ├── ⚛️ Header.tsx
+    │   │       ├── ⚛️ MainNews.tsx
+    │   │       ├── ⚛️ Marquee.tsx
+    │   │       ├── ⚛️ MostRead.tsx
+    │   │       ├── ⚛️ NavLinks.tsx
+    │   │       └── ⚛️ NewsCard.tsx
+    │   ├── 🙈 .gitignore
+    │   ├── 📖 AGENTS.md
+    │   ├── 📖 CLAUDE.md
+    │   ├── ⚡ eslint.config.mjs
+    │   ├── 🔷 next.config.ts
+    │   ├── 🔒 package-lock.json
+    │   ├── 📦 package.json
+    │   ├── ⚡ postcss.config.mjs
+    │   ├── 📚 README.md
+    │   └── 🔶 tsconfig.json
+    └── 📁 module-41-nextjs-project-with-authentication-part-2/
         ├── 📁 public/
         │   ├── 🎨 file.svg
         │   ├── 🎨 globe.svg
@@ -1880,25 +1923,45 @@ Contains problem-solving challenges and contest submissions, including:
         │   └── 🎨 window.svg
         ├── 📁 src/
         │   ├── 📁 app/
+        │   │   ├── 📁 (auth)/
+        │   │   │   ├── 📁 signin/
+        │   │   │   │   └── ⚛️ page.tsx
+        │   │   │   └── 📁 signup/
+        │   │   │       └── ⚛️ page.tsx
+        │   │   ├── 📁 api/
+        │   │   │   └── 📁 auth/
+        │   │   │       └── 📁 [...all]/
+        │   │   │           └── 🔷 route.ts
         │   │   ├── 📁 article/
         │   │   │   └── 📁 [articleId]/
+        │   │   │       ├── ⚛️ loading.tsx
         │   │   │       ├── ⚛️ not-found.tsx
         │   │   │       └── ⚛️ page.tsx
         │   │   ├── 📁 category/
         │   │   │   └── 📁 [categoryId]/
+        │   │   │       ├── ⚛️ loading.tsx
+        │   │   │       ├── ⚛️ not-found.tsx
         │   │   │       └── ⚛️ page.tsx
+        │   │   ├── 📁 profile/
+        │   │   │   └── ⚛️ page.tsx
         │   │   ├── 🖼️ favicon.ico
         │   │   ├── 🎨 globals.css
         │   │   ├── ⚛️ layout.tsx
+        │   │   ├── ⚛️ loading.tsx
         │   │   ├── ⚛️ not-found.tsx
         │   │   └── ⚛️ page.tsx
-        │   └── 📁 components/
-        │       ├── ⚛️ Header.tsx
-        │       ├── ⚛️ MainNews.tsx
-        │       ├── ⚛️ Marquee.tsx
-        │       ├── ⚛️ MostRead.tsx
-        │       ├── ⚛️ NavLinks.tsx
-        │       └── ⚛️ NewsCard.tsx
+        │   ├── 📁 components/
+        │   │   ├── ⚛️ Header.tsx
+        │   │   ├── ⚛️ MainNews.tsx
+        │   │   ├── ⚛️ Marquee.tsx
+        │   │   ├── ⚛️ MostRead.tsx
+        │   │   ├── ⚛️ NavLinks.tsx
+        │   │   ├── ⚛️ NewsCard.tsx
+        │   │   └── ⚛️ UserInfo.tsx
+        │   ├── 📁 lib/
+        │   │   ├── 🔷 auth-client.ts
+        │   │   └── 🔷 auth.ts
+        │   └── 🔷 proxy.ts
         ├── 🙈 .gitignore
         ├── 📖 AGENTS.md
         ├── 📖 CLAUDE.md
@@ -1923,7 +1986,7 @@ Contains problem-solving challenges and contest submissions, including:
 - **TypeScript**: Type annotations, Interfaces, Type Aliases, Generics, OOP (Classes, Inheritance, Access Modifiers, Polymorphism, Abstraction), Utility Types, Real-world Problem Solving.
 - **React & Vite**: Functional components, JSX, Props passing & destructuring, Conditional rendering, List rendering (`.map`), `useState` state management, Event handling, `useEffect` data fetching (APIs), component styling, Vite dev toolchain.
 - **Next.js**: App Router, TypeScript Integration, Server Components (RSC), Client Components (`'use client'`), Root & Nested Layouts, Static & Dynamic Routing (`[id]`, `[postid]`, `[userid]`, `[articleId]`, `[categoryId]`), Route Handlers (`/api/auth/[...all]`), SSG (`force-cache`, `generateStaticParams`), SSR (`no-store`), ISR (`revalidate`), Streaming & Skeleton Loaders (`loading.tsx`), Custom 404 (`not-found`), Server Data Fetching (`async`/`await`), Image Optimization (`next/image`), Recharts Data Visualization, React Context State, Marquee Tickers (`react-marquee-text`), Tailwind CSS & DaisyUI Integration.
-- **Authentication & Databases**: BetterAuth (`better-auth`, `@better-auth/mongo-adapter`), client-side session management (`createAuthClient`, `useSession`, `signIn`, `signUp`, `signOut`, `updateUser`, `requestPasswordReset`, `resetPassword`), MongoDB (`MongoClient`), transactional email delivery with Resend (`resend`), route protection middleware (`proxy.js`), HeroUI component system (`@heroui/react`, `@heroui/styles`), Gravity UI icons (`@gravity-ui/icons`), toast feedback (`react-toastify`).
+- **Authentication & Databases**: BetterAuth (`better-auth`, `@better-auth/mongo-adapter`), client-side session management (`createAuthClient`, `useSession`, `signIn`, `signUp`, `signOut`, `updateUser`, `requestPasswordReset`, `resetPassword`), MongoDB (`MongoClient`), transactional email delivery with Resend (`resend`), route protection middleware (`proxy.ts` / `proxy.js`), OAuth social authentication (Google, GitHub, Discord), HeroUI component system (`@heroui/react`, `@heroui/styles`), Gravity UI icons (`@gravity-ui/icons`), toast feedback (`react-toastify`).
 
 ---
 

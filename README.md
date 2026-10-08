@@ -11,7 +11,7 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 ### 🎯 Current Focus
 ```bash
 🎯 Currently Mastering: AI-Driven Full Stack Web Engineering
-📊 Progress: 📈 Completed (Milestone 7, Module 40 - Next.js Project with Authentication (Part 1))
+📊 Progress: 📈 Completed (Milestone 7, Module 41 - Next.js Project with Authentication (Part 2))
 ```
 
 ## 📂 Repository Structure
@@ -1665,7 +1665,46 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 │   │   │   ├── ⚡ postcss.config.mjs
 │   │   │   ├── 📚 README.md
 │   │   │   └── 🔶 tsconfig.json
-│   │   └── 📁 module-40-nextjs-project-with-authentication-part-1/
+│   │   ├── 📁 module-40-nextjs-project-with-authentication-part-1/
+│   │   │   ├── 📁 public/
+│   │   │   │   ├── 🎨 file.svg
+│   │   │   │   ├── 🎨 globe.svg
+│   │   │   │   ├── 🖼️ logo.webp
+│   │   │   │   ├── 🎨 next.svg
+│   │   │   │   ├── 🎨 vercel.svg
+│   │   │   │   └── 🎨 window.svg
+│   │   │   ├── 📁 src/
+│   │   │   │   ├── 📁 app/
+│   │   │   │   │   ├── 📁 article/
+│   │   │   │   │   │   └── 📁 [articleId]/
+│   │   │   │   │   │       ├── ⚛️ not-found.tsx
+│   │   │   │   │   │       └── ⚛️ page.tsx
+│   │   │   │   │   ├── 📁 category/
+│   │   │   │   │   │   └── 📁 [categoryId]/
+│   │   │   │   │   │       └── ⚛️ page.tsx
+│   │   │   │   │   ├── 🖼️ favicon.ico
+│   │   │   │   │   ├── 🎨 globals.css
+│   │   │   │   │   ├── ⚛️ layout.tsx
+│   │   │   │   │   ├── ⚛️ not-found.tsx
+│   │   │   │   │   └── ⚛️ page.tsx
+│   │   │   │   └── 📁 components/
+│   │   │   │       ├── ⚛️ Header.tsx
+│   │   │   │       ├── ⚛️ MainNews.tsx
+│   │   │   │       ├── ⚛️ Marquee.tsx
+│   │   │   │       ├── ⚛️ MostRead.tsx
+│   │   │   │       ├── ⚛️ NavLinks.tsx
+│   │   │   │       └── ⚛️ NewsCard.tsx
+│   │   │   ├── 🙈 .gitignore
+│   │   │   ├── 📖 AGENTS.md
+│   │   │   ├── 📖 CLAUDE.md
+│   │   │   ├── ⚡ eslint.config.mjs
+│   │   │   ├── 🔷 next.config.ts
+│   │   │   ├── 🔒 package-lock.json
+│   │   │   ├── 📦 package.json
+│   │   │   ├── ⚡ postcss.config.mjs
+│   │   │   ├── 📚 README.md
+│   │   │   └── 🔶 tsconfig.json
+│   │   └── 📁 module-41-nextjs-project-with-authentication-part-2/
 │   │       ├── 📁 public/
 │   │       │   ├── 🎨 file.svg
 │   │       │   ├── 🎨 globe.svg
@@ -1675,25 +1714,45 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 │   │       │   └── 🎨 window.svg
 │   │       ├── 📁 src/
 │   │       │   ├── 📁 app/
+│   │       │   │   ├── 📁 (auth)/
+│   │       │   │   │   ├── 📁 signin/
+│   │       │   │   │   │   └── ⚛️ page.tsx
+│   │       │   │   │   └── 📁 signup/
+│   │       │   │   │       └── ⚛️ page.tsx
+│   │       │   │   ├── 📁 api/
+│   │       │   │   │   └── 📁 auth/
+│   │       │   │   │       └── 📁 [...all]/
+│   │       │   │   │           └── 🔷 route.ts
 │   │       │   │   ├── 📁 article/
 │   │       │   │   │   └── 📁 [articleId]/
+│   │       │   │   │       ├── ⚛️ loading.tsx
 │   │       │   │   │       ├── ⚛️ not-found.tsx
 │   │       │   │   │       └── ⚛️ page.tsx
 │   │       │   │   ├── 📁 category/
 │   │       │   │   │   └── 📁 [categoryId]/
+│   │       │   │   │       ├── ⚛️ loading.tsx
+│   │       │   │   │       ├── ⚛️ not-found.tsx
 │   │       │   │   │       └── ⚛️ page.tsx
+│   │       │   │   ├── 📁 profile/
+│   │       │   │   │   └── ⚛️ page.tsx
 │   │       │   │   ├── 🖼️ favicon.ico
 │   │       │   │   ├── 🎨 globals.css
 │   │       │   │   ├── ⚛️ layout.tsx
+│   │       │   │   ├── ⚛️ loading.tsx
 │   │       │   │   ├── ⚛️ not-found.tsx
 │   │       │   │   └── ⚛️ page.tsx
-│   │       │   └── 📁 components/
-│   │       │       ├── ⚛️ Header.tsx
-│   │       │       ├── ⚛️ MainNews.tsx
-│   │       │       ├── ⚛️ Marquee.tsx
-│   │       │       ├── ⚛️ MostRead.tsx
-│   │       │       ├── ⚛️ NavLinks.tsx
-│   │       │       └── ⚛️ NewsCard.tsx
+│   │       │   ├── 📁 components/
+│   │       │   │   ├── ⚛️ Header.tsx
+│   │       │   │   ├── ⚛️ MainNews.tsx
+│   │       │   │   ├── ⚛️ Marquee.tsx
+│   │       │   │   ├── ⚛️ MostRead.tsx
+│   │       │   │   ├── ⚛️ NavLinks.tsx
+│   │       │   │   ├── ⚛️ NewsCard.tsx
+│   │       │   │   └── ⚛️ UserInfo.tsx
+│   │       │   ├── 📁 lib/
+│   │       │   │   ├── 🔷 auth-client.ts
+│   │       │   │   └── 🔷 auth.ts
+│   │       │   └── 🔷 proxy.ts
 │   │       ├── 🙈 .gitignore
 │   │       ├── 📖 AGENTS.md
 │   │       ├── 📖 CLAUDE.md
@@ -2054,7 +2113,7 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 ### 🔥 Latest Project
 **Project Name**: AI-Driven Full Stack Web Engineering
 **Tech Stack**: HTML5, CSS3, Tailwind CSS, JavaScript (ES6+), TypeScript, React, Next.js, BetterAuth, MongoDB, DaisyUI, Vite, Git & GitHub
-**Status**: 📈 Completed (Milestone 7, Module 40 - Next.js Project with Authentication (Part 1))
+**Status**: 📈 Completed (Milestone 7, Module 41 - Next.js Project with Authentication (Part 2))
 
 <!-- ### 🎨 Mini Projects Collection
 - [ ] Todo List App
