@@ -204,6 +204,10 @@ Advanced authentication workflows in Next.js 16 (App Router) using BetterAuth, M
 
 Comprehensive conceptual deep dive into BetterAuth integration in Next.js 16 (App Router) and React 19. Explores foundational server and client authentication architecture with `@better-auth/mongo-adapter` and native MongoDB (`MongoClient`). Covers mandatory email verification flows using the Resend email API (`sendVerificationEmail` with HTML templates and expiration handling), Google OAuth social login configuration (`GOOGLE_AUTH_CLIENT_ID`, `GOOGLE_AUTH_CLIENT_SECRET`), centralized catch-all route handling (`/api/auth/[...all]`), reactive client-side session management via `useSession` hook in dynamic navigation components and protected profile views (`/profile`), and edge route protection middleware proxy (`proxy.js` safeguarding `/profile` and `/dashboard` with session redirects).
 
+### 🔹 `Milestone 7 Module 40 - Next.js Project with Authentication (Part 1)`
+
+Building a modern online News Portal application using Next.js 16 (App Router), React 19, TypeScript, and Tailwind CSS v4 with DaisyUI v5. Features real-time multi-section news feeds fetched from an external REST API, breaking news marquee ticker powered by `react-marquee-text` (`Marquee.tsx`), responsive editorial homepage layout featuring primary headlines (`MainNews.tsx`), topical news grids (`NewsCard.tsx`), and a trending sidebar (`MostRead.tsx`). Implements category-based routing (`/category/[categoryId]`) and dynamic article detail views (`/article/[articleId]`) parsing complex nested article body blocks (rich text, images, captions, subheadings, bylines, tags, and Bengali locale date formatting `bn-BD`) with custom `notFound()` fallbacks.
+
 ### 🔹 `Durbar - Task`
 
 Contains problem-solving challenges and contest submissions, including:
@@ -1820,47 +1824,86 @@ Contains problem-solving challenges and contest submissions, including:
     │   ├── ⚡ postcss.config.mjs
     │   ├── 📚 README.md
     │   └── 🔶 tsconfig.json
-    └── 📁 module-39-authentication-advanced-profile-password-and-email/
+    ├── 📁 module-39-authentication-advanced-profile-password-and-email/
+    │   ├── 📁 public/
+    │   │   ├── 🎨 file.svg
+    │   │   ├── 🎨 globe.svg
+    │   │   ├── 🎨 next.svg
+    │   │   ├── 🎨 vercel.svg
+    │   │   └── 🎨 window.svg
+    │   ├── 📁 src/
+    │   │   ├── 📁 app/
+    │   │   │   ├── 📁 (auth)/
+    │   │   │   │   ├── 📁 dashboard/
+    │   │   │   │   │   └── ⚛️ page.jsx
+    │   │   │   │   ├── 📁 forgot-password/
+    │   │   │   │   │   └── ⚛️ page.jsx
+    │   │   │   │   ├── 📁 profile/
+    │   │   │   │   │   └── ⚛️ page.jsx
+    │   │   │   │   ├── 📁 reset-password/
+    │   │   │   │   │   ├── ⚛️ page.jsx
+    │   │   │   │   │   └── ⚛️ reset-password-form.jsx
+    │   │   │   │   ├── 📁 sign-in/
+    │   │   │   │   │   └── ⚛️ page.jsx
+    │   │   │   │   └── 📁 sign-up/
+    │   │   │   │       └── ⚛️ page.jsx
+    │   │   │   ├── 📁 api/
+    │   │   │   │   └── 📁 auth/
+    │   │   │   │       └── 📁 [...all]/
+    │   │   │   │           └── ⚡ route.js
+    │   │   │   ├── 📁 components/
+    │   │   │   │   └── ⚛️ Navbar.jsx
+    │   │   │   ├── 🖼️ favicon.ico
+    │   │   │   ├── 🎨 globals.css
+    │   │   │   ├── ⚡ layout.js
+    │   │   │   └── ⚡ page.js
+    │   │   ├── 📁 lib/
+    │   │   │   ├── ⚡ auth-client.js
+    │   │   │   └── ⚡ auth.js
+    │   │   └── ⚡ proxy.js
+    │   ├── 🙈 .gitignore
+    │   ├── ⚡ eslint.config.mjs
+    │   ├── 🔶 jsconfig.json
+    │   ├── ⚡ next.config.mjs
+    │   ├── 🔒 package-lock.json
+    │   ├── 📦 package.json
+    │   ├── ⚡ postcss.config.mjs
+    │   ├── 📚 README.md
+    │   └── 🔶 tsconfig.json
+    └── 📁 module-40-nextjs-project-with-authentication-part-1/
         ├── 📁 public/
         │   ├── 🎨 file.svg
         │   ├── 🎨 globe.svg
+        │   ├── 🖼️ logo.webp
         │   ├── 🎨 next.svg
         │   ├── 🎨 vercel.svg
         │   └── 🎨 window.svg
         ├── 📁 src/
         │   ├── 📁 app/
-        │   │   ├── 📁 (auth)/
-        │   │   │   ├── 📁 dashboard/
-        │   │   │   │   └── ⚛️ page.jsx
-        │   │   │   ├── 📁 forgot-password/
-        │   │   │   │   └── ⚛️ page.jsx
-        │   │   │   ├── 📁 profile/
-        │   │   │   │   └── ⚛️ page.jsx
-        │   │   │   ├── 📁 reset-password/
-        │   │   │   │   ├── ⚛️ page.jsx
-        │   │   │   │   └── ⚛️ reset-password-form.jsx
-        │   │   │   ├── 📁 sign-in/
-        │   │   │   │   └── ⚛️ page.jsx
-        │   │   │   └── 📁 sign-up/
-        │   │   │       └── ⚛️ page.jsx
-        │   │   ├── 📁 api/
-        │   │   │   └── 📁 auth/
-        │   │   │       └── 📁 [...all]/
-        │   │   │           └── ⚡ route.js
-        │   │   ├── 📁 components/
-        │   │   │   └── ⚛️ Navbar.jsx
+        │   │   ├── 📁 article/
+        │   │   │   └── 📁 [articleId]/
+        │   │   │       ├── ⚛️ not-found.tsx
+        │   │   │       └── ⚛️ page.tsx
+        │   │   ├── 📁 category/
+        │   │   │   └── 📁 [categoryId]/
+        │   │   │       └── ⚛️ page.tsx
         │   │   ├── 🖼️ favicon.ico
         │   │   ├── 🎨 globals.css
-        │   │   ├── ⚡ layout.js
-        │   │   └── ⚡ page.js
-        │   ├── 📁 lib/
-        │   │   ├── ⚡ auth-client.js
-        │   │   └── ⚡ auth.js
-        │   └── ⚡ proxy.js
+        │   │   ├── ⚛️ layout.tsx
+        │   │   ├── ⚛️ not-found.tsx
+        │   │   └── ⚛️ page.tsx
+        │   └── 📁 components/
+        │       ├── ⚛️ Header.tsx
+        │       ├── ⚛️ MainNews.tsx
+        │       ├── ⚛️ Marquee.tsx
+        │       ├── ⚛️ MostRead.tsx
+        │       ├── ⚛️ NavLinks.tsx
+        │       └── ⚛️ NewsCard.tsx
         ├── 🙈 .gitignore
+        ├── 📖 AGENTS.md
+        ├── 📖 CLAUDE.md
         ├── ⚡ eslint.config.mjs
-        ├── 🔶 jsconfig.json
-        ├── ⚡ next.config.mjs
+        ├── 🔷 next.config.ts
         ├── 🔒 package-lock.json
         ├── 📦 package.json
         ├── ⚡ postcss.config.mjs
@@ -1879,7 +1922,7 @@ Contains problem-solving challenges and contest submissions, including:
 - **JavaScript (ES6+)**: Data types, Conditionals, Loops, Arrays, Objects, Functions, ES6+ features, Array Methods (`map`, `filter`, `find`, `reduce`), Destructuring, DOM manipulation, Events, BOM, Web Storage (`localStorage`/`sessionStorage`), Timers (`setTimeout`/`setInterval`).
 - **TypeScript**: Type annotations, Interfaces, Type Aliases, Generics, OOP (Classes, Inheritance, Access Modifiers, Polymorphism, Abstraction), Utility Types, Real-world Problem Solving.
 - **React & Vite**: Functional components, JSX, Props passing & destructuring, Conditional rendering, List rendering (`.map`), `useState` state management, Event handling, `useEffect` data fetching (APIs), component styling, Vite dev toolchain.
-- **Next.js**: App Router, TypeScript Integration, Server Components (RSC), Client Components (`'use client'`), Root & Nested Layouts, Static & Dynamic Routing (`[id]`, `[postid]`, `[userid]`), Route Handlers (`/api/auth/[...all]`), SSG (`force-cache`, `generateStaticParams`), SSR (`no-store`), ISR (`revalidate`), Streaming & Skeleton Loaders (`loading.tsx`), Custom 404 (`not-found`), Server Data Fetching (`async`/`await`), Image Optimization (`next/image`), Recharts Data Visualization, React Context State, Tailwind CSS & DaisyUI Integration.
+- **Next.js**: App Router, TypeScript Integration, Server Components (RSC), Client Components (`'use client'`), Root & Nested Layouts, Static & Dynamic Routing (`[id]`, `[postid]`, `[userid]`, `[articleId]`, `[categoryId]`), Route Handlers (`/api/auth/[...all]`), SSG (`force-cache`, `generateStaticParams`), SSR (`no-store`), ISR (`revalidate`), Streaming & Skeleton Loaders (`loading.tsx`), Custom 404 (`not-found`), Server Data Fetching (`async`/`await`), Image Optimization (`next/image`), Recharts Data Visualization, React Context State, Marquee Tickers (`react-marquee-text`), Tailwind CSS & DaisyUI Integration.
 - **Authentication & Databases**: BetterAuth (`better-auth`, `@better-auth/mongo-adapter`), client-side session management (`createAuthClient`, `useSession`, `signIn`, `signUp`, `signOut`, `updateUser`, `requestPasswordReset`, `resetPassword`), MongoDB (`MongoClient`), transactional email delivery with Resend (`resend`), route protection middleware (`proxy.js`), HeroUI component system (`@heroui/react`, `@heroui/styles`), Gravity UI icons (`@gravity-ui/icons`), toast feedback (`react-toastify`).
 
 ---
