@@ -212,6 +212,10 @@ Building a modern online News Portal application using Next.js 16 (App Router), 
 
 Extending the online News Portal project with full-stack authentication using BetterAuth, MongoDB, and Next.js 16 (App Router) in TypeScript. Features complete authentication workflows including credential-based Sign In and Sign Up (`/signin`, `/signup`), OAuth social providers (Google and GitHub), and database persistence using `@better-auth/mongo-adapter` with native `MongoClient`. Implements edge route protection middleware proxy (`proxy.ts` safeguarding `/profile` and dynamic news article paths `/article/:path`), user profile management (`/profile`), header user state rendering with custom `UserInfo.tsx` component (avatar, user name display, and sign out handling), instant skeleton loading fallbacks (`loading.tsx`), and interactive feedback with `react-toastify`.
 
+### 🔹 `Milestone 7 Conceptual Session 12 - Next.js Project with Better Auth`
+
+Comprehensive full-stack conceptual project session building an e-commerce product showcase application using Next.js 16 (App Router), React 19, BetterAuth, MongoDB, and Tailwind CSS with HeroUI and DaisyUI. Implements end-to-end authentication with `@better-auth/mongo-adapter`, credential sign-in and sign-up, mandatory email verification via Resend API, and password reset flows with transactional email dispatch (`/forget-password`, `/reset-password`, `PasswordForm.jsx`). Features Google OAuth integration, proxy middleware (`proxy.js` securing `/profile` and dynamic product details `/product/:path`), promotional banner marquee (`Marquee.jsx`), product catalog feeds (`AllProducts.jsx`, `ProductCard.jsx`), dynamic routing (`/product/[slug]`, `/category/[categorySlug]`), and documented step-by-step setup architecture (`process.txt`).
+
 ### 🔹 `Durbar - Task`
 
 Contains problem-solving challenges and contest submissions, including:
@@ -1790,6 +1794,64 @@ Contains problem-solving challenges and contest submissions, including:
     │   ├── 🔒 package-lock.json
     │   ├── 📦 package.json
     │   ├── ⚡ postcss.config.mjs
+    │   ├── 📚 README.md
+    │   └── 🔶 tsconfig.json
+    ├── 📁 conceptual-session-12-nextjs-project-with-better-auth/
+    │   ├── 📁 public/
+    │   │   ├── 🎨 file.svg
+    │   │   ├── 🎨 globe.svg
+    │   │   ├── 🎨 next.svg
+    │   │   ├── 🎨 vercel.svg
+    │   │   └── 🎨 window.svg
+    │   ├── 📁 src/
+    │   │   ├── 📁 app/
+    │   │   │   ├── 📁 (auth)/
+    │   │   │   │   ├── 📁 sign-in/
+    │   │   │   │   │   └── ⚛️ page.jsx
+    │   │   │   │   └── 📁 sign-up/
+    │   │   │   │       └── ⚛️ page.jsx
+    │   │   │   ├── 📁 api/
+    │   │   │   │   └── 📁 auth/
+    │   │   │   │       └── 📁 [...all]/
+    │   │   │   │           └── ⚡ route.js
+    │   │   │   ├── 📁 category/
+    │   │   │   │   └── 📁 [categorySlug]/
+    │   │   │   │       └── ⚛️ page.jsx
+    │   │   │   ├── 📁 forget-password/
+    │   │   │   │   └── ⚛️ page.jsx
+    │   │   │   ├── 📁 product/
+    │   │   │   │   └── 📁 [slug]/
+    │   │   │   │       └── ⚛️ page.jsx
+    │   │   │   ├── 📁 profile/
+    │   │   │   │   └── ⚛️ page.jsx
+    │   │   │   ├── 📁 reset-password/
+    │   │   │   │   └── ⚛️ page.jsx
+    │   │   │   ├── 🖼️ favicon.ico
+    │   │   │   ├── 🎨 globals.css
+    │   │   │   ├── ⚡ layout.js
+    │   │   │   └── ⚡ page.js
+    │   │   ├── 📁 components/
+    │   │   │   ├── ⚛️ AllProducts.jsx
+    │   │   │   ├── ⚛️ Marquee.jsx
+    │   │   │   ├── ⚛️ Navbar.jsx
+    │   │   │   ├── ⚛️ PasswordForm.jsx
+    │   │   │   └── ⚛️ ProductCard.jsx
+    │   │   ├── 📁 lib/
+    │   │   │   ├── ⚡ auth-client.js
+    │   │   │   └── ⚡ auth.js
+    │   │   ├── 📁 services/
+    │   │   │   └── ⚡ baseUrl.js
+    │   │   └── ⚡ proxy.js
+    │   ├── 🙈 .gitignore
+    │   ├── 📖 AGENTS.md
+    │   ├── 📖 CLAUDE.md
+    │   ├── ⚡ eslint.config.mjs
+    │   ├── 🔶 jsconfig.json
+    │   ├── ⚡ next.config.mjs
+    │   ├── 🔒 package-lock.json
+    │   ├── 📦 package.json
+    │   ├── ⚡ postcss.config.mjs
+    │   ├── 📄 process.txt
     │   ├── 📚 README.md
     │   └── 🔶 tsconfig.json
     ├── 📁 module-38-authentication-in-nextjs-with-betterauth/
