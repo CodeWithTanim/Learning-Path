@@ -216,6 +216,10 @@ Extending the online News Portal project with full-stack authentication using Be
 
 Comprehensive full-stack conceptual project session building an e-commerce product showcase application using Next.js 16 (App Router), React 19, BetterAuth, MongoDB, and Tailwind CSS with HeroUI and DaisyUI. Implements end-to-end authentication with `@better-auth/mongo-adapter`, credential sign-in and sign-up, mandatory email verification via Resend API, and password reset flows with transactional email dispatch (`/forget-password`, `/reset-password`, `PasswordForm.jsx`). Features Google OAuth integration, proxy middleware (`proxy.js` securing `/profile` and dynamic product details `/product/:path`), promotional banner marquee (`Marquee.jsx`), product catalog feeds (`AllProducts.jsx`, `ProductCard.jsx`), dynamic routing (`/product/[slug]`, `/category/[categorySlug]`), and documented step-by-step setup architecture (`process.txt`).
 
+### 🔹 `Milestone 7 Module 42 - Assignment-7`
+
+Building **BazarDor (বাজার দর)**, a modern, responsive web application for tracking daily essential commodity prices across major markets in Bangladesh, built with Next.js 16 (App Router), React 19, TypeScript, and Tailwind CSS v4. Features a real-time scrolling price ticker powered by `react-marquee-text` showcasing commodity prices, units, and daily rate fluctuations, an interactive market overview highlighting highest daily price increases and decreases alongside all available commodities, category-based browsing with multi-directional sorting (ascending/descending price), detailed product views with market-wise comparative analytics (minimum, maximum, and average prices), full-stack authentication via BetterAuth and MongoDB supporting credentials, Google, and GitHub OAuth, user profile management, localized Bengali typography and number formatting, streaming skeleton fallbacks, custom 404 routing, and deployed live on Vercel ([Live Demo](https://bazardor-lemon.vercel.app/) | [GitHub Repository](https://github.com/CodeWithTanim/bazar-dor)).
+
 ### 🔹 `Durbar - Task`
 
 Contains problem-solving challenges and contest submissions, including:
@@ -1975,63 +1979,71 @@ Contains problem-solving challenges and contest submissions, including:
     │   ├── ⚡ postcss.config.mjs
     │   ├── 📚 README.md
     │   └── 🔶 tsconfig.json
-    └── 📁 module-41-nextjs-project-with-authentication-part-2/
-        ├── 📁 public/
-        │   ├── 🎨 file.svg
-        │   ├── 🎨 globe.svg
-        │   ├── 🖼️ logo.webp
-        │   ├── 🎨 next.svg
-        │   ├── 🎨 vercel.svg
-        │   └── 🎨 window.svg
-        ├── 📁 src/
-        │   ├── 📁 app/
-        │   │   ├── 📁 (auth)/
-        │   │   │   ├── 📁 signin/
-        │   │   │   │   └── ⚛️ page.tsx
-        │   │   │   └── 📁 signup/
-        │   │   │       └── ⚛️ page.tsx
-        │   │   ├── 📁 api/
-        │   │   │   └── 📁 auth/
-        │   │   │       └── 📁 [...all]/
-        │   │   │           └── 🔷 route.ts
-        │   │   ├── 📁 article/
-        │   │   │   └── 📁 [articleId]/
-        │   │   │       ├── ⚛️ loading.tsx
-        │   │   │       ├── ⚛️ not-found.tsx
-        │   │   │       └── ⚛️ page.tsx
-        │   │   ├── 📁 category/
-        │   │   │   └── 📁 [categoryId]/
-        │   │   │       ├── ⚛️ loading.tsx
-        │   │   │       ├── ⚛️ not-found.tsx
-        │   │   │       └── ⚛️ page.tsx
-        │   │   ├── 📁 profile/
-        │   │   │   └── ⚛️ page.tsx
-        │   │   ├── 🖼️ favicon.ico
-        │   │   ├── 🎨 globals.css
-        │   │   ├── ⚛️ layout.tsx
-        │   │   ├── ⚛️ loading.tsx
-        │   │   ├── ⚛️ not-found.tsx
-        │   │   └── ⚛️ page.tsx
-        │   ├── 📁 components/
-        │   │   ├── ⚛️ Header.tsx
-        │   │   ├── ⚛️ MainNews.tsx
-        │   │   ├── ⚛️ Marquee.tsx
-        │   │   ├── ⚛️ MostRead.tsx
-        │   │   ├── ⚛️ NavLinks.tsx
-        │   │   ├── ⚛️ NewsCard.tsx
-        │   │   └── ⚛️ UserInfo.tsx
-        │   ├── 📁 lib/
-        │   │   ├── 🔷 auth-client.ts
-        │   │   └── 🔷 auth.ts
-        │   └── 🔷 proxy.ts
+    ├── 📁 module-41-nextjs-project-with-authentication-part-2/
+    │   ├── 📁 public/
+    │   │   ├── 🎨 file.svg
+    │   │   ├── 🎨 globe.svg
+    │   │   ├── 🖼️ logo.webp
+    │   │   ├── 🎨 next.svg
+    │   │   ├── 🎨 vercel.svg
+    │   │   └── 🎨 window.svg
+    │   ├── 📁 src/
+    │   │   ├── 📁 app/
+    │   │   │   ├── 📁 (auth)/
+    │   │   │   │   ├── 📁 signin/
+    │   │   │   │   │   └── ⚛️ page.tsx
+    │   │   │   │   └── 📁 signup/
+    │   │   │   │       └── ⚛️ page.tsx
+    │   │   │   ├── 📁 api/
+    │   │   │   │   └── 📁 auth/
+    │   │   │   │       └── 📁 [...all]/
+    │   │   │   │           └── 🔷 route.ts
+    │   │   │   ├── 📁 article/
+    │   │   │   │   └── 📁 [articleId]/
+    │   │   │   │       ├── ⚛️ loading.tsx
+    │   │   │   │       ├── ⚛️ not-found.tsx
+    │   │   │   │       └── ⚛️ page.tsx
+    │   │   │   ├── 📁 category/
+    │   │   │   │   └── 📁 [categoryId]/
+    │   │   │   │       ├── ⚛️ loading.tsx
+    │   │   │   │       ├── ⚛️ not-found.tsx
+    │   │   │   │       └── ⚛️ page.tsx
+    │   │   │   ├── 📁 profile/
+    │   │   │   │   └── ⚛️ page.tsx
+    │   │   │   ├── 🖼️ favicon.ico
+    │   │   │   ├── 🎨 globals.css
+    │   │   │   ├── ⚛️ layout.tsx
+    │   │   │   ├── ⚛️ loading.tsx
+    │   │   │   ├── ⚛️ not-found.tsx
+    │   │   │   └── ⚛️ page.tsx
+    │   │   ├── 📁 components/
+    │   │   │   ├── ⚛️ Header.tsx
+    │   │   │   ├── ⚛️ MainNews.tsx
+    │   │   │   ├── ⚛️ Marquee.tsx
+    │   │   │   ├── ⚛️ MostRead.tsx
+    │   │   │   ├── ⚛️ NavLinks.tsx
+    │   │   │   ├── ⚛️ NewsCard.tsx
+    │   │   │   └── ⚛️ UserInfo.tsx
+    │   │   ├── 📁 lib/
+    │   │   │   ├── 🔷 auth-client.ts
+    │   │   │   └── 🔷 auth.ts
+    │   │   └── 🔷 proxy.ts
+    │   ├── 🙈 .gitignore
+    │   ├── 📖 AGENTS.md
+    │   ├── 📖 CLAUDE.md
+    │   ├── ⚡ eslint.config.mjs
+    │   ├── 🔷 next.config.ts
+    │   ├── 🔒 package-lock.json
+    │   ├── 📦 package.json
+    │   ├── ⚡ postcss.config.mjs
+    │   ├── 📚 README.md
+    │   └── 🔶 tsconfig.json
+    └── 📁 module-42-assignment-7/
         ├── 🙈 .gitignore
-        ├── 📖 AGENTS.md
-        ├── 📖 CLAUDE.md
         ├── ⚡ eslint.config.mjs
         ├── 🔷 next.config.ts
         ├── 🔒 package-lock.json
         ├── 📦 package.json
-        ├── ⚡ postcss.config.mjs
         ├── 📚 README.md
         └── 🔶 tsconfig.json
 ```
