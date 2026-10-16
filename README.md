@@ -11,7 +11,7 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 ### 🎯 Current Focus
 ```bash
 🎯 Currently Mastering: AI-Driven Full Stack Web Engineering
-📊 Progress: 📈 Completed (Milestone 7, Module 42 - Assignment-7)
+📊 Progress: 📈 Completed (Milestone 8, Module 43 - Node.js and Express from Setup to First API)
 ```
 
 ## 📂 Repository Structure
@@ -1840,6 +1840,41 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 │   │       ├── 📦 package.json
 │   │       ├── 📚 README.md
 │   │       └── 🔶 tsconfig.json
+│   ├── 📁 Milestone 8 - Backend APIs and Database with MongoDB/
+│   │   └── 📁 module-43-node.js-and-express-from-setup-to-first-api/
+│   │       ├── 📁 user-management-client/
+│   │       │   └── 📁 user-management-client/
+│   │       │       ├── 📁 public/
+│   │       │       │   ├── 🎨 file.svg
+│   │       │       │   ├── 🎨 globe.svg
+│   │       │       │   ├── 🎨 next.svg
+│   │       │       │   ├── 🎨 vercel.svg
+│   │       │       │   └── 🎨 window.svg
+│   │       │       ├── 📁 src/
+│   │       │       │   └── 📁 app/
+│   │       │       │       ├── 📁 components/
+│   │       │       │       │   └── ⚛️ Users.jsx
+│   │       │       │       ├── 📁 users/
+│   │       │       │       │   ├── 📁 add/
+│   │       │       │       │   │   └── ⚛️ page.jsx
+│   │       │       │       │   └── ⚛️ page.jsx
+│   │       │       │       ├── 🖼️ favicon.ico
+│   │       │       │       ├── 🎨 globals.css
+│   │       │       │       ├── ⚡ layout.js
+│   │       │       │       └── ⚡ page.js
+│   │       │       ├── 🙈 .gitignore
+│   │       │       ├── 📖 AGENTS.md
+│   │       │       ├── ⚡ eslint.config.mjs
+│   │       │       ├── 🔶 jsconfig.json
+│   │       │       ├── ⚡ next.config.mjs
+│   │       │       ├── 🔒 package-lock.json
+│   │       │       ├── 📦 package.json
+│   │       │       └── 📚 README.md
+│   │       ├── 🙈 .gitignore
+│   │       ├── ⚡ index.js
+│   │       ├── 🔒 package-lock.json
+│   │       ├── 📦 package.json
+│   │       └── ⚡ step.js
 │   └── 📚 README.md
 ├── 📁 Complete_Python_For_Ai_ML/
 │   ├── 📁 Chapter-1-Installation/
@@ -2168,6 +2203,8 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
@@ -2189,8 +2226,8 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 
 ### 🔥 Latest Project
 **Project Name**: AI-Driven Full Stack Web Engineering
-**Tech Stack**: HTML5, CSS3, Tailwind CSS, JavaScript (ES6+), TypeScript, React, Next.js, BetterAuth, MongoDB, Resend, DaisyUI, Vite, Git & GitHub
-**Status**: 📈 Completed (Milestone 7, Module 42 - Assignment-7)
+**Tech Stack**: HTML5, CSS3, Tailwind CSS, JavaScript (ES6+), TypeScript, React, Next.js, Node.js, Express.js, BetterAuth, MongoDB, Resend, DaisyUI, HeroUI, Vite, Git & GitHub
+**Status**: 📈 Completed (Milestone 8, Module 43 - Node.js and Express from Setup to First API)
 
 <!-- ### 🎨 Mini Projects Collection
 - [ ] Todo List App

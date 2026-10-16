@@ -220,6 +220,10 @@ Comprehensive full-stack conceptual project session building an e-commerce produ
 
 Building **BazarDor (বাজার দর)**, a modern, responsive web application for tracking daily essential commodity prices across major markets in Bangladesh, built with Next.js 16 (App Router), React 19, TypeScript, and Tailwind CSS v4. Features a real-time scrolling price ticker powered by `react-marquee-text` showcasing commodity prices, units, and daily rate fluctuations, an interactive market overview highlighting highest daily price increases and decreases alongside all available commodities, category-based browsing with multi-directional sorting (ascending/descending price), detailed product views with market-wise comparative analytics (minimum, maximum, and average prices), full-stack authentication via BetterAuth and MongoDB supporting credentials, Google, and GitHub OAuth, user profile management, localized Bengali typography and number formatting, streaming skeleton fallbacks, custom 404 routing, and deployed live on Vercel ([Live Demo](https://bazardor-lemon.vercel.app/) | [GitHub Repository](https://github.com/CodeWithTanim/bazar-dor)).
 
+### 🔹 `Milestone 8 Module 43 - Node.js and Express from Setup to First API`
+
+Hands-on introduction to backend development with Node.js and Express.js alongside full-stack client-server architecture. Sets up an Express application server (`step.js`, `index.js`) featuring HTTP request handling across multiple routing endpoints (`/`, `/about`, `/dashboard`, `/contact`), middleware configuration (`cors`, `express.json()`), in-memory user collections, and `GET`/`POST` REST endpoints (`/users`). Features a companion user management client application built with Next.js (App Router), React 19, and HeroUI (`user-management-client`), showcasing dynamic data fetching with React `Suspense` and `use` hook (`Users.jsx`, `users/page.jsx`), and interactive form submission (`users/add/page.jsx`).
+
 ### 🔹 `Durbar - Task`
 
 Contains problem-solving challenges and contest submissions, including:
@@ -1772,292 +1776,327 @@ Contains problem-solving challenges and contest submissions, including:
 │       ├── ⚡ postcss.config.mjs
 │       ├── 📚 README.md
 │       └── 🔶 tsconfig.json
-└── 📁 Milestone 7 - Authentication with BetterAuth and Next.JS/
-    ├── 📁 conceptual-session-11-better-auth-introduction-with-nextjs/
-    │   ├── 📁 public/
-    │   │   ├── 🎨 file.svg
-    │   │   ├── 🎨 globe.svg
-    │   │   ├── 🎨 next.svg
-    │   │   ├── 🎨 vercel.svg
-    │   │   └── 🎨 window.svg
-    │   ├── 📁 src/
-    │   │   ├── 📁 app/
-    │   │   │   ├── 📁 (auth)/
-    │   │   │   │   ├── 📁 sign-in/
-    │   │   │   │   │   └── ⚛️ page.jsx
-    │   │   │   │   └── 📁 sign-up/
-    │   │   │   │       └── ⚛️ page.jsx
-    │   │   │   ├── 📁 api/
-    │   │   │   │   └── 📁 auth/
-    │   │   │   │       └── 📁 [...all]/
-    │   │   │   │           └── ⚡ route.js
-    │   │   │   ├── 📁 profile/
-    │   │   │   │   └── ⚛️ page.jsx
-    │   │   │   ├── 🖼️ favicon.ico
-    │   │   │   ├── 🎨 globals.css
-    │   │   │   ├── ⚡ layout.js
-    │   │   │   └── ⚡ page.js
-    │   │   ├── 📁 components/
-    │   │   │   └── ⚛️ Navbar.jsx
-    │   │   ├── 📁 lib/
-    │   │   │   ├── ⚡ auth-client.js
-    │   │   │   └── ⚡ auth.js
-    │   │   └── ⚡ proxy.js
-    │   ├── 🙈 .gitignore
-    │   ├── ⚡ eslint.config.mjs
-    │   ├── 🔶 jsconfig.json
-    │   ├── ⚡ next.config.mjs
-    │   ├── 🔒 package-lock.json
-    │   ├── 📦 package.json
-    │   ├── ⚡ postcss.config.mjs
-    │   ├── 📚 README.md
-    │   └── 🔶 tsconfig.json
-    ├── 📁 conceptual-session-12-nextjs-project-with-better-auth/
-    │   ├── 📁 public/
-    │   │   ├── 🎨 file.svg
-    │   │   ├── 🎨 globe.svg
-    │   │   ├── 🎨 next.svg
-    │   │   ├── 🎨 vercel.svg
-    │   │   └── 🎨 window.svg
-    │   ├── 📁 src/
-    │   │   ├── 📁 app/
-    │   │   │   ├── 📁 (auth)/
-    │   │   │   │   ├── 📁 sign-in/
-    │   │   │   │   │   └── ⚛️ page.jsx
-    │   │   │   │   └── 📁 sign-up/
-    │   │   │   │       └── ⚛️ page.jsx
-    │   │   │   ├── 📁 api/
-    │   │   │   │   └── 📁 auth/
-    │   │   │   │       └── 📁 [...all]/
-    │   │   │   │           └── ⚡ route.js
-    │   │   │   ├── 📁 category/
-    │   │   │   │   └── 📁 [categorySlug]/
-    │   │   │   │       └── ⚛️ page.jsx
-    │   │   │   ├── 📁 forget-password/
-    │   │   │   │   └── ⚛️ page.jsx
-    │   │   │   ├── 📁 product/
-    │   │   │   │   └── 📁 [slug]/
-    │   │   │   │       └── ⚛️ page.jsx
-    │   │   │   ├── 📁 profile/
-    │   │   │   │   └── ⚛️ page.jsx
-    │   │   │   ├── 📁 reset-password/
-    │   │   │   │   └── ⚛️ page.jsx
-    │   │   │   ├── 🖼️ favicon.ico
-    │   │   │   ├── 🎨 globals.css
-    │   │   │   ├── ⚡ layout.js
-    │   │   │   └── ⚡ page.js
-    │   │   ├── 📁 components/
-    │   │   │   ├── ⚛️ AllProducts.jsx
-    │   │   │   ├── ⚛️ Marquee.jsx
-    │   │   │   ├── ⚛️ Navbar.jsx
-    │   │   │   ├── ⚛️ PasswordForm.jsx
-    │   │   │   └── ⚛️ ProductCard.jsx
-    │   │   ├── 📁 lib/
-    │   │   │   ├── ⚡ auth-client.js
-    │   │   │   └── ⚡ auth.js
-    │   │   ├── 📁 services/
-    │   │   │   └── ⚡ baseUrl.js
-    │   │   └── ⚡ proxy.js
-    │   ├── 🙈 .gitignore
-    │   ├── 📖 AGENTS.md
-    │   ├── 📖 CLAUDE.md
-    │   ├── ⚡ eslint.config.mjs
-    │   ├── 🔶 jsconfig.json
-    │   ├── ⚡ next.config.mjs
-    │   ├── 🔒 package-lock.json
-    │   ├── 📦 package.json
-    │   ├── ⚡ postcss.config.mjs
-    │   ├── 📄 process.txt
-    │   ├── 📚 README.md
-    │   └── 🔶 tsconfig.json
-    ├── 📁 module-38-authentication-in-nextjs-with-betterauth/
-    │   ├── 📁 public/
-    │   │   ├── 🎨 file.svg
-    │   │   ├── 🎨 globe.svg
-    │   │   ├── 🎨 next.svg
-    │   │   ├── 🎨 vercel.svg
-    │   │   └── 🎨 window.svg
-    │   ├── 📁 src/
-    │   │   ├── 📁 app/
-    │   │   │   ├── 📁 (auth)/
-    │   │   │   │   ├── 📁 sign-in/
-    │   │   │   │   │   └── ⚛️ page.jsx
-    │   │   │   │   └── 📁 sign-up/
-    │   │   │   │       └── ⚛️ page.jsx
-    │   │   │   ├── 📁 api/
-    │   │   │   │   └── 📁 auth/
-    │   │   │   │       └── 📁 [...all]/
-    │   │   │   │           └── ⚡ route.js
-    │   │   │   ├── 📁 components/
-    │   │   │   │   └── ⚛️ Navbar.jsx
-    │   │   │   ├── 🖼️ favicon.ico
-    │   │   │   ├── 🎨 globals.css
-    │   │   │   ├── ⚡ layout.js
-    │   │   │   └── ⚡ page.js
-    │   │   └── 📁 lib/
-    │   │       ├── ⚡ auth-client.js
-    │   │       └── ⚡ auth.js
-    │   ├── 🙈 .gitignore
-    │   ├── ⚡ eslint.config.mjs
-    │   ├── 🔶 jsconfig.json
-    │   ├── ⚡ next.config.mjs
-    │   ├── 🔒 package-lock.json
-    │   ├── 📦 package.json
-    │   ├── ⚡ postcss.config.mjs
-    │   ├── 📚 README.md
-    │   └── 🔶 tsconfig.json
-    ├── 📁 module-39-authentication-advanced-profile-password-and-email/
-    │   ├── 📁 public/
-    │   │   ├── 🎨 file.svg
-    │   │   ├── 🎨 globe.svg
-    │   │   ├── 🎨 next.svg
-    │   │   ├── 🎨 vercel.svg
-    │   │   └── 🎨 window.svg
-    │   ├── 📁 src/
-    │   │   ├── 📁 app/
-    │   │   │   ├── 📁 (auth)/
-    │   │   │   │   ├── 📁 dashboard/
-    │   │   │   │   │   └── ⚛️ page.jsx
-    │   │   │   │   ├── 📁 forgot-password/
-    │   │   │   │   │   └── ⚛️ page.jsx
-    │   │   │   │   ├── 📁 profile/
-    │   │   │   │   │   └── ⚛️ page.jsx
-    │   │   │   │   ├── 📁 reset-password/
-    │   │   │   │   │   ├── ⚛️ page.jsx
-    │   │   │   │   │   └── ⚛️ reset-password-form.jsx
-    │   │   │   │   ├── 📁 sign-in/
-    │   │   │   │   │   └── ⚛️ page.jsx
-    │   │   │   │   └── 📁 sign-up/
-    │   │   │   │       └── ⚛️ page.jsx
-    │   │   │   ├── 📁 api/
-    │   │   │   │   └── 📁 auth/
-    │   │   │   │       └── 📁 [...all]/
-    │   │   │   │           └── ⚡ route.js
-    │   │   │   ├── 📁 components/
-    │   │   │   │   └── ⚛️ Navbar.jsx
-    │   │   │   ├── 🖼️ favicon.ico
-    │   │   │   ├── 🎨 globals.css
-    │   │   │   ├── ⚡ layout.js
-    │   │   │   └── ⚡ page.js
-    │   │   ├── 📁 lib/
-    │   │   │   ├── ⚡ auth-client.js
-    │   │   │   └── ⚡ auth.js
-    │   │   └── ⚡ proxy.js
-    │   ├── 🙈 .gitignore
-    │   ├── ⚡ eslint.config.mjs
-    │   ├── 🔶 jsconfig.json
-    │   ├── ⚡ next.config.mjs
-    │   ├── 🔒 package-lock.json
-    │   ├── 📦 package.json
-    │   ├── ⚡ postcss.config.mjs
-    │   ├── 📚 README.md
-    │   └── 🔶 tsconfig.json
-    ├── 📁 module-40-nextjs-project-with-authentication-part-1/
-    │   ├── 📁 public/
-    │   │   ├── 🎨 file.svg
-    │   │   ├── 🎨 globe.svg
-    │   │   ├── 🖼️ logo.webp
-    │   │   ├── 🎨 next.svg
-    │   │   ├── 🎨 vercel.svg
-    │   │   └── 🎨 window.svg
-    │   ├── 📁 src/
-    │   │   ├── 📁 app/
-    │   │   │   ├── 📁 article/
-    │   │   │   │   └── 📁 [articleId]/
-    │   │   │   │       ├── ⚛️ not-found.tsx
-    │   │   │   │       └── ⚛️ page.tsx
-    │   │   │   ├── 📁 category/
-    │   │   │   │   └── 📁 [categoryId]/
-    │   │   │   │       └── ⚛️ page.tsx
-    │   │   │   ├── 🖼️ favicon.ico
-    │   │   │   ├── 🎨 globals.css
-    │   │   │   ├── ⚛️ layout.tsx
-    │   │   │   ├── ⚛️ not-found.tsx
-    │   │   │   └── ⚛️ page.tsx
-    │   │   └── 📁 components/
-    │   │       ├── ⚛️ Header.tsx
-    │   │       ├── ⚛️ MainNews.tsx
-    │   │       ├── ⚛️ Marquee.tsx
-    │   │       ├── ⚛️ MostRead.tsx
-    │   │       ├── ⚛️ NavLinks.tsx
-    │   │       └── ⚛️ NewsCard.tsx
-    │   ├── 🙈 .gitignore
-    │   ├── 📖 AGENTS.md
-    │   ├── 📖 CLAUDE.md
-    │   ├── ⚡ eslint.config.mjs
-    │   ├── 🔷 next.config.ts
-    │   ├── 🔒 package-lock.json
-    │   ├── 📦 package.json
-    │   ├── ⚡ postcss.config.mjs
-    │   ├── 📚 README.md
-    │   └── 🔶 tsconfig.json
-    ├── 📁 module-41-nextjs-project-with-authentication-part-2/
-    │   ├── 📁 public/
-    │   │   ├── 🎨 file.svg
-    │   │   ├── 🎨 globe.svg
-    │   │   ├── 🖼️ logo.webp
-    │   │   ├── 🎨 next.svg
-    │   │   ├── 🎨 vercel.svg
-    │   │   └── 🎨 window.svg
-    │   ├── 📁 src/
-    │   │   ├── 📁 app/
-    │   │   │   ├── 📁 (auth)/
-    │   │   │   │   ├── 📁 signin/
-    │   │   │   │   │   └── ⚛️ page.tsx
-    │   │   │   │   └── 📁 signup/
-    │   │   │   │       └── ⚛️ page.tsx
-    │   │   │   ├── 📁 api/
-    │   │   │   │   └── 📁 auth/
-    │   │   │   │       └── 📁 [...all]/
-    │   │   │   │           └── 🔷 route.ts
-    │   │   │   ├── 📁 article/
-    │   │   │   │   └── 📁 [articleId]/
-    │   │   │   │       ├── ⚛️ loading.tsx
-    │   │   │   │       ├── ⚛️ not-found.tsx
-    │   │   │   │       └── ⚛️ page.tsx
-    │   │   │   ├── 📁 category/
-    │   │   │   │   └── 📁 [categoryId]/
-    │   │   │   │       ├── ⚛️ loading.tsx
-    │   │   │   │       ├── ⚛️ not-found.tsx
-    │   │   │   │       └── ⚛️ page.tsx
-    │   │   │   ├── 📁 profile/
-    │   │   │   │   └── ⚛️ page.tsx
-    │   │   │   ├── 🖼️ favicon.ico
-    │   │   │   ├── 🎨 globals.css
-    │   │   │   ├── ⚛️ layout.tsx
-    │   │   │   ├── ⚛️ loading.tsx
-    │   │   │   ├── ⚛️ not-found.tsx
-    │   │   │   └── ⚛️ page.tsx
-    │   │   ├── 📁 components/
-    │   │   │   ├── ⚛️ Header.tsx
-    │   │   │   ├── ⚛️ MainNews.tsx
-    │   │   │   ├── ⚛️ Marquee.tsx
-    │   │   │   ├── ⚛️ MostRead.tsx
-    │   │   │   ├── ⚛️ NavLinks.tsx
-    │   │   │   ├── ⚛️ NewsCard.tsx
-    │   │   │   └── ⚛️ UserInfo.tsx
-    │   │   ├── 📁 lib/
-    │   │   │   ├── 🔷 auth-client.ts
-    │   │   │   └── 🔷 auth.ts
-    │   │   └── 🔷 proxy.ts
-    │   ├── 🙈 .gitignore
-    │   ├── 📖 AGENTS.md
-    │   ├── 📖 CLAUDE.md
-    │   ├── ⚡ eslint.config.mjs
-    │   ├── 🔷 next.config.ts
-    │   ├── 🔒 package-lock.json
-    │   ├── 📦 package.json
-    │   ├── ⚡ postcss.config.mjs
-    │   ├── 📚 README.md
-    │   └── 🔶 tsconfig.json
-    └── 📁 module-42-assignment-7/
+├── 📁 Milestone 7 - Authentication with BetterAuth and Next.JS/
+│   ├── 📁 conceptual-session-11-better-auth-introduction-with-nextjs/
+│   │   ├── 📁 public/
+│   │   │   ├── 🎨 file.svg
+│   │   │   ├── 🎨 globe.svg
+│   │   │   ├── 🎨 next.svg
+│   │   │   ├── 🎨 vercel.svg
+│   │   │   └── 🎨 window.svg
+│   │   ├── 📁 src/
+│   │   │   ├── 📁 app/
+│   │   │   │   ├── 📁 (auth)/
+│   │   │   │   │   ├── 📁 sign-in/
+│   │   │   │   │   │   └── ⚛️ page.jsx
+│   │   │   │   │   └── 📁 sign-up/
+│   │   │   │   │       └── ⚛️ page.jsx
+│   │   │   │   ├── 📁 api/
+│   │   │   │   │   └── 📁 auth/
+│   │   │   │   │       └── 📁 [...all]/
+│   │   │   │   │           └── ⚡ route.js
+│   │   │   │   ├── 📁 profile/
+│   │   │   │   │   └── ⚛️ page.jsx
+│   │   │   │   ├── 🖼️ favicon.ico
+│   │   │   │   ├── 🎨 globals.css
+│   │   │   │   ├── ⚡ layout.js
+│   │   │   │   └── ⚡ page.js
+│   │   │   ├── 📁 components/
+│   │   │   │   └── ⚛️ Navbar.jsx
+│   │   │   ├── 📁 lib/
+│   │   │   │   ├── ⚡ auth-client.js
+│   │   │   │   └── ⚡ auth.js
+│   │   │   └── ⚡ proxy.js
+│   │   ├── 🙈 .gitignore
+│   │   ├── ⚡ eslint.config.mjs
+│   │   ├── 🔶 jsconfig.json
+│   │   ├── ⚡ next.config.mjs
+│   │   ├── 🔒 package-lock.json
+│   │   ├── 📦 package.json
+│   │   ├── ⚡ postcss.config.mjs
+│   │   ├── 📚 README.md
+│   │   └── 🔶 tsconfig.json
+│   ├── 📁 conceptual-session-12-nextjs-project-with-better-auth/
+│   │   ├── 📁 public/
+│   │   │   ├── 🎨 file.svg
+│   │   │   ├── 🎨 globe.svg
+│   │   │   ├── 🎨 next.svg
+│   │   │   ├── 🎨 vercel.svg
+│   │   │   └── 🎨 window.svg
+│   │   ├── 📁 src/
+│   │   │   ├── 📁 app/
+│   │   │   │   ├── 📁 (auth)/
+│   │   │   │   │   ├── 📁 sign-in/
+│   │   │   │   │   │   └── ⚛️ page.jsx
+│   │   │   │   │   └── 📁 sign-up/
+│   │   │   │   │       └── ⚛️ page.jsx
+│   │   │   │   ├── 📁 api/
+│   │   │   │   │   └── 📁 auth/
+│   │   │   │   │       └── 📁 [...all]/
+│   │   │   │   │           └── ⚡ route.js
+│   │   │   │   ├── 📁 category/
+│   │   │   │   │   └── 📁 [categorySlug]/
+│   │   │   │   │       └── ⚛️ page.jsx
+│   │   │   │   ├── 📁 forget-password/
+│   │   │   │   │   └── ⚛️ page.jsx
+│   │   │   │   ├── 📁 product/
+│   │   │   │   │   └── 📁 [slug]/
+│   │   │   │   │       └── ⚛️ page.jsx
+│   │   │   │   ├── 📁 profile/
+│   │   │   │   │   └── ⚛️ page.jsx
+│   │   │   │   ├── 📁 reset-password/
+│   │   │   │   │   └── ⚛️ page.jsx
+│   │   │   │   ├── 🖼️ favicon.ico
+│   │   │   │   ├── 🎨 globals.css
+│   │   │   │   ├── ⚡ layout.js
+│   │   │   │   └── ⚡ page.js
+│   │   │   ├── 📁 components/
+│   │   │   │   ├── ⚛️ AllProducts.jsx
+│   │   │   │   ├── ⚛️ Marquee.jsx
+│   │   │   │   ├── ⚛️ Navbar.jsx
+│   │   │   │   ├── ⚛️ PasswordForm.jsx
+│   │   │   │   └── ⚛️ ProductCard.jsx
+│   │   │   ├── 📁 lib/
+│   │   │   │   ├── ⚡ auth-client.js
+│   │   │   │   └── ⚡ auth.js
+│   │   │   ├── 📁 services/
+│   │   │   │   └── ⚡ baseUrl.js
+│   │   │   └── ⚡ proxy.js
+│   │   ├── 🙈 .gitignore
+│   │   ├── 📖 AGENTS.md
+│   │   ├── 📖 CLAUDE.md
+│   │   ├── ⚡ eslint.config.mjs
+│   │   ├── 🔶 jsconfig.json
+│   │   ├── ⚡ next.config.mjs
+│   │   ├── 🔒 package-lock.json
+│   │   ├── 📦 package.json
+│   │   ├── ⚡ postcss.config.mjs
+│   │   ├── 📄 process.txt
+│   │   ├── 📚 README.md
+│   │   └── 🔶 tsconfig.json
+│   ├── 📁 module-38-authentication-in-nextjs-with-betterauth/
+│   │   ├── 📁 public/
+│   │   │   ├── 🎨 file.svg
+│   │   │   ├── 🎨 globe.svg
+│   │   │   ├── 🎨 next.svg
+│   │   │   ├── 🎨 vercel.svg
+│   │   │   └── 🎨 window.svg
+│   │   ├── 📁 src/
+│   │   │   ├── 📁 app/
+│   │   │   │   ├── 📁 (auth)/
+│   │   │   │   │   ├── 📁 sign-in/
+│   │   │   │   │   │   └── ⚛️ page.jsx
+│   │   │   │   │   └── 📁 sign-up/
+│   │   │   │   │       └── ⚛️ page.jsx
+│   │   │   │   ├── 📁 api/
+│   │   │   │   │   └── 📁 auth/
+│   │   │   │   │       └── 📁 [...all]/
+│   │   │   │   │           └── ⚡ route.js
+│   │   │   │   ├── 📁 components/
+│   │   │   │   │   └── ⚛️ Navbar.jsx
+│   │   │   │   ├── 🖼️ favicon.ico
+│   │   │   │   ├── 🎨 globals.css
+│   │   │   │   ├── ⚡ layout.js
+│   │   │   │   └── ⚡ page.js
+│   │   │   └── 📁 lib/
+│   │   │       ├── ⚡ auth-client.js
+│   │   │       └── ⚡ auth.js
+│   │   ├── 🙈 .gitignore
+│   │   ├── ⚡ eslint.config.mjs
+│   │   ├── 🔶 jsconfig.json
+│   │   ├── ⚡ next.config.mjs
+│   │   ├── 🔒 package-lock.json
+│   │   ├── 📦 package.json
+│   │   ├── ⚡ postcss.config.mjs
+│   │   ├── 📚 README.md
+│   │   └── 🔶 tsconfig.json
+│   ├── 📁 module-39-authentication-advanced-profile-password-and-email/
+│   │   ├── 📁 public/
+│   │   │   ├── 🎨 file.svg
+│   │   │   ├── 🎨 globe.svg
+│   │   │   ├── 🎨 next.svg
+│   │   │   ├── 🎨 vercel.svg
+│   │   │   └── 🎨 window.svg
+│   │   ├── 📁 src/
+│   │   │   ├── 📁 app/
+│   │   │   │   ├── 📁 (auth)/
+│   │   │   │   │   ├── 📁 dashboard/
+│   │   │   │   │   │   └── ⚛️ page.jsx
+│   │   │   │   │   ├── 📁 forgot-password/
+│   │   │   │   │   │   └── ⚛️ page.jsx
+│   │   │   │   │   ├── 📁 profile/
+│   │   │   │   │   │   └── ⚛️ page.jsx
+│   │   │   │   │   ├── 📁 reset-password/
+│   │   │   │   │   │   ├── ⚛️ page.jsx
+│   │   │   │   │   │   └── ⚛️ reset-password-form.jsx
+│   │   │   │   │   ├── 📁 sign-in/
+│   │   │   │   │   │   └── ⚛️ page.jsx
+│   │   │   │   │   └── 📁 sign-up/
+│   │   │   │   │       └── ⚛️ page.jsx
+│   │   │   │   ├── 📁 api/
+│   │   │   │   │   └── 📁 auth/
+│   │   │   │   │       └── 📁 [...all]/
+│   │   │   │   │           └── ⚡ route.js
+│   │   │   │   ├── 📁 components/
+│   │   │   │   │   └── ⚛️ Navbar.jsx
+│   │   │   │   ├── 🖼️ favicon.ico
+│   │   │   │   ├── 🎨 globals.css
+│   │   │   │   ├── ⚡ layout.js
+│   │   │   │   └── ⚡ page.js
+│   │   │   ├── 📁 lib/
+│   │   │   │   ├── ⚡ auth-client.js
+│   │   │   │   └── ⚡ auth.js
+│   │   │   └── ⚡ proxy.js
+│   │   ├── 🙈 .gitignore
+│   │   ├── ⚡ eslint.config.mjs
+│   │   ├── 🔶 jsconfig.json
+│   │   ├── ⚡ next.config.mjs
+│   │   ├── 🔒 package-lock.json
+│   │   ├── 📦 package.json
+│   │   ├── ⚡ postcss.config.mjs
+│   │   ├── 📚 README.md
+│   │   └── 🔶 tsconfig.json
+│   ├── 📁 module-40-nextjs-project-with-authentication-part-1/
+│   │   ├── 📁 public/
+│   │   │   ├── 🎨 file.svg
+│   │   │   ├── 🎨 globe.svg
+│   │   │   ├── 🖼️ logo.webp
+│   │   │   ├── 🎨 next.svg
+│   │   │   ├── 🎨 vercel.svg
+│   │   │   └── 🎨 window.svg
+│   │   ├── 📁 src/
+│   │   │   ├── 📁 app/
+│   │   │   │   ├── 📁 article/
+│   │   │   │   │   └── 📁 [articleId]/
+│   │   │   │   │       ├── ⚛️ not-found.tsx
+│   │   │   │   │       └── ⚛️ page.tsx
+│   │   │   │   ├── 📁 category/
+│   │   │   │   │   └── 📁 [categoryId]/
+│   │   │   │   │       └── ⚛️ page.tsx
+│   │   │   │   ├── 🖼️ favicon.ico
+│   │   │   │   ├── 🎨 globals.css
+│   │   │   │   ├── ⚛️ layout.tsx
+│   │   │   │   ├── ⚛️ not-found.tsx
+│   │   │   │   └── ⚛️ page.tsx
+│   │   │   └── 📁 components/
+│   │   │       ├── ⚛️ Header.tsx
+│   │   │       ├── ⚛️ MainNews.tsx
+│   │   │       ├── ⚛️ Marquee.tsx
+│   │   │       ├── ⚛️ MostRead.tsx
+│   │   │       ├── ⚛️ NavLinks.tsx
+│   │   │       └── ⚛️ NewsCard.tsx
+│   │   ├── 🙈 .gitignore
+│   │   ├── 📖 AGENTS.md
+│   │   ├── 📖 CLAUDE.md
+│   │   ├── ⚡ eslint.config.mjs
+│   │   ├── 🔷 next.config.ts
+│   │   ├── 🔒 package-lock.json
+│   │   ├── 📦 package.json
+│   │   ├── ⚡ postcss.config.mjs
+│   │   ├── 📚 README.md
+│   │   └── 🔶 tsconfig.json
+│   ├── 📁 module-41-nextjs-project-with-authentication-part-2/
+│   │   ├── 📁 public/
+│   │   │   ├── 🎨 file.svg
+│   │   │   ├── 🎨 globe.svg
+│   │   │   ├── 🖼️ logo.webp
+│   │   │   ├── 🎨 next.svg
+│   │   │   ├── 🎨 vercel.svg
+│   │   │   └── 🎨 window.svg
+│   │   ├── 📁 src/
+│   │   │   ├── 📁 app/
+│   │   │   │   ├── 📁 (auth)/
+│   │   │   │   │   ├── 📁 signin/
+│   │   │   │   │   │   └── ⚛️ page.tsx
+│   │   │   │   │   └── 📁 signup/
+│   │   │   │   │       └── ⚛️ page.tsx
+│   │   │   │   ├── 📁 api/
+│   │   │   │   │   └── 📁 auth/
+│   │   │   │   │       └── 📁 [...all]/
+│   │   │   │   │           └── 🔷 route.ts
+│   │   │   │   ├── 📁 article/
+│   │   │   │   │   └── 📁 [articleId]/
+│   │   │   │   │       ├── ⚛️ loading.tsx
+│   │   │   │   │       ├── ⚛️ not-found.tsx
+│   │   │   │   │       └── ⚛️ page.tsx
+│   │   │   │   ├── 📁 category/
+│   │   │   │   │   └── 📁 [categoryId]/
+│   │   │   │   │       ├── ⚛️ loading.tsx
+│   │   │   │   │       ├── ⚛️ not-found.tsx
+│   │   │   │   │       └── ⚛️ page.tsx
+│   │   │   │   ├── 📁 profile/
+│   │   │   │   │   └── ⚛️ page.tsx
+│   │   │   │   ├── 🖼️ favicon.ico
+│   │   │   │   ├── 🎨 globals.css
+│   │   │   │   ├── ⚛️ layout.tsx
+│   │   │   │   ├── ⚛️ loading.tsx
+│   │   │   │   ├── ⚛️ not-found.tsx
+│   │   │   │   └── ⚛️ page.tsx
+│   │   │   ├── 📁 components/
+│   │   │   │   ├── ⚛️ Header.tsx
+│   │   │   │   ├── ⚛️ MainNews.tsx
+│   │   │   │   ├── ⚛️ Marquee.tsx
+│   │   │   │   ├── ⚛️ MostRead.tsx
+│   │   │   │   ├── ⚛️ NavLinks.tsx
+│   │   │   │   ├── ⚛️ NewsCard.tsx
+│   │   │   │   └── ⚛️ UserInfo.tsx
+│   │   │   ├── 📁 lib/
+│   │   │   │   ├── 🔷 auth-client.ts
+│   │   │   │   └── 🔷 auth.ts
+│   │   │   └── 🔷 proxy.ts
+│   │   ├── 🙈 .gitignore
+│   │   ├── 📖 AGENTS.md
+│   │   ├── 📖 CLAUDE.md
+│   │   ├── ⚡ eslint.config.mjs
+│   │   ├── 🔷 next.config.ts
+│   │   ├── 🔒 package-lock.json
+│   │   ├── 📦 package.json
+│   │   ├── ⚡ postcss.config.mjs
+│   │   ├── 📚 README.md
+│   │   └── 🔶 tsconfig.json
+│   └── 📁 module-42-assignment-7/
+│       ├── 🙈 .gitignore
+│       ├── ⚡ eslint.config.mjs
+│       ├── 🔷 next.config.ts
+│       ├── 🔒 package-lock.json
+│       ├── 📦 package.json
+│       ├── 📚 README.md
+│       └── 🔶 tsconfig.json
+└── 📁 Milestone 8 - Backend APIs and Database with MongoDB/
+    └── 📁 module-43-node.js-and-express-from-setup-to-first-api/
+        ├── 📁 user-management-client/
+        │   └── 📁 user-management-client/
+        │       ├── 📁 public/
+        │       │   ├── 🎨 file.svg
+        │       │   ├── 🎨 globe.svg
+        │       │   ├── 🎨 next.svg
+        │       │   ├── 🎨 vercel.svg
+        │       │   └── 🎨 window.svg
+        │       ├── 📁 src/
+        │       │   └── 📁 app/
+        │       │       ├── 📁 components/
+        │       │       │   └── ⚛️ Users.jsx
+        │       │       ├── 📁 users/
+        │       │       │   ├── 📁 add/
+        │       │       │   │   └── ⚛️ page.jsx
+        │       │       │   └── ⚛️ page.jsx
+        │       │       ├── 🖼️ favicon.ico
+        │       │       ├── 🎨 globals.css
+        │       │       ├── ⚡ layout.js
+        │       │       └── ⚡ page.js
+        │       ├── 🙈 .gitignore
+        │       ├── 📖 AGENTS.md
+        │       ├── ⚡ eslint.config.mjs
+        │       ├── 🔶 jsconfig.json
+        │       ├── ⚡ next.config.mjs
+        │       ├── 🔒 package-lock.json
+        │       ├── 📦 package.json
+        │       └── 📚 README.md
         ├── 🙈 .gitignore
-        ├── ⚡ eslint.config.mjs
-        ├── 🔷 next.config.ts
+        ├── ⚡ index.js
         ├── 🔒 package-lock.json
         ├── 📦 package.json
-        ├── 📚 README.md
-        └── 🔶 tsconfig.json
+        └── ⚡ step.js
 ```
 
 ---
