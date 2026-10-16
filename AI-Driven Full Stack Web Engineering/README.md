@@ -229,6 +229,7 @@ Contains problem-solving challenges and contest submissions, including:
 - **Durbar Contest #3**: String reversal per word (`reverseEachWord.js`), temperature conversion (`convertTemperature.js`), palindrome verification (`isPalindrome.js`), password strength classification (`classifyPassword.js`), repeated digit summation (`repeatedDigitSum.js`).
 - **Durbar Contest #4**: Anagram validation (`isAnagram.js`), character run-length compression (`compressCharacters.js`), sentence title casing (`titleCaseSentence.js`), alphanumeric tokenization and word frequency counting (`countWordFrequencies.js`), string truncation with ellipsis formatting (`truncateString.js`).
 - **Durbar Contest #5**: Missing number discovery using Gauss summation (`1.missingNumber.js`), student attendance percentage and status reporting (`2.formatAttendanceReport.js`), nullish-coalesced profile card formatter (`3.generateProfileCard.js`), pagination metadata calculator (`4.getPageMetadata.js`), local rainfall peak identifier (`5.findRainfallPeaks.js`), UTC-based weekday name resolver (`6.getDayOfWeek.js`), shared lowercase skills extractor and deduplicator (`7.commonSkills.js`), key-value inverter (`8.swapKeysAndValues.js`), grade-band accumulator grouping (`9.groupStudentsByGradeBand.js`), and queue simulation engine (`10.simulateTicketQueue.js`).
+- **Durbar Contest #6**: Two-pointer sorted array merging (`1.mergeSortedArrays.js`), cart subtotal and tax calculation with discounts (`2.calculateCartTotal.js`), email format regex validation (`3.isValidEmail.js`), greatest common divisor via Euclidean algorithm (`4.gcd.js`), longest contiguous strictly increasing streak discovery (`5.longestIncreasingStreak.js`), array chunking by partition size (`6.chunkArray.js`), Bangladeshi mobile number format verification (`7.isValidBdMobileNumber.js`), calendar day difference calculation (`8.daysBetweenDates.js`), key-value query string serialization (`9.toQueryString.js`), and square matrix primary/secondary diagonal summation (`10.diagonalSums.js`).
 
 ---
 
@@ -261,17 +262,28 @@ Contains problem-solving challenges and contest submissions, including:
 │   │   ├── ⚡ 3.titleCaseSentence.js
 │   │   ├── ⚡ 4.countWordFrequencies.js
 │   │   └── ⚡ 5.truncateString.js
-│   └── 📁 Durbar Contest #5/
-│       ├── ⚡ 1.missingNumber.js
-│       ├── ⚡ 10.simulateTicketQueue.js
-│       ├── ⚡ 2.formatAttendanceReport.js
-│       ├── ⚡ 3.generateProfileCard.js
-│       ├── ⚡ 4.getPageMetadata.js
-│       ├── ⚡ 5.findRainfallPeaks.js
-│       ├── ⚡ 6.getDayOfWeek.js
-│       ├── ⚡ 7.commonSkills.js
-│       ├── ⚡ 8.swapKeysAndValues.js
-│       └── ⚡ 9.groupStudentsByGradeBand.js
+│   ├── 📁 Durbar Contest #5/
+│   │   ├── ⚡ 1.missingNumber.js
+│   │   ├── ⚡ 10.simulateTicketQueue.js
+│   │   ├── ⚡ 2.formatAttendanceReport.js
+│   │   ├── ⚡ 3.generateProfileCard.js
+│   │   ├── ⚡ 4.getPageMetadata.js
+│   │   ├── ⚡ 5.findRainfallPeaks.js
+│   │   ├── ⚡ 6.getDayOfWeek.js
+│   │   ├── ⚡ 7.commonSkills.js
+│   │   ├── ⚡ 8.swapKeysAndValues.js
+│   │   └── ⚡ 9.groupStudentsByGradeBand.js
+│   └── 📁 Durbar Contest #6/
+│       ├── ⚡ 1.mergeSortedArrays.js
+│       ├── ⚡ 10.diagonalSums.js
+│       ├── ⚡ 2.calculateCartTotal.js
+│       ├── ⚡ 3.isValidEmail.js
+│       ├── ⚡ 4.gcd.js
+│       ├── ⚡ 5.longestIncreasingStreak.js
+│       ├── ⚡ 6.chunkArray.js
+│       ├── ⚡ 7.isValidBdMobileNumber.js
+│       ├── ⚡ 8.daysBetweenDates.js
+│       └── ⚡ 9.toQueryString.js
 ├── 📁 Milestone 1 - Launch Your Web Journey - HTML, CSS, and GitHUb Fundamentals/
 │   ├── 📁 Conceptual Session 1 - Learn and Explore HTML, CSS (Project)/
 │   │   ├── 📁 conceptual-session/

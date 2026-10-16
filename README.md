@@ -44,17 +44,28 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 │   │   │   ├── ⚡ 3.titleCaseSentence.js
 │   │   │   ├── ⚡ 4.countWordFrequencies.js
 │   │   │   └── ⚡ 5.truncateString.js
-│   │   └── 📁 Durbar Contest #5/
-│   │       ├── ⚡ 1.missingNumber.js
-│   │       ├── ⚡ 10.simulateTicketQueue.js
-│   │       ├── ⚡ 2.formatAttendanceReport.js
-│   │       ├── ⚡ 3.generateProfileCard.js
-│   │       ├── ⚡ 4.getPageMetadata.js
-│   │       ├── ⚡ 5.findRainfallPeaks.js
-│   │       ├── ⚡ 6.getDayOfWeek.js
-│   │       ├── ⚡ 7.commonSkills.js
-│   │       ├── ⚡ 8.swapKeysAndValues.js
-│   │       └── ⚡ 9.groupStudentsByGradeBand.js
+│   │   ├── 📁 Durbar Contest #5/
+│   │   │   ├── ⚡ 1.missingNumber.js
+│   │   │   ├── ⚡ 10.simulateTicketQueue.js
+│   │   │   ├── ⚡ 2.formatAttendanceReport.js
+│   │   │   ├── ⚡ 3.generateProfileCard.js
+│   │   │   ├── ⚡ 4.getPageMetadata.js
+│   │   │   ├── ⚡ 5.findRainfallPeaks.js
+│   │   │   ├── ⚡ 6.getDayOfWeek.js
+│   │   │   ├── ⚡ 7.commonSkills.js
+│   │   │   ├── ⚡ 8.swapKeysAndValues.js
+│   │   │   └── ⚡ 9.groupStudentsByGradeBand.js
+│   │   └── 📁 Durbar Contest #6/
+│   │       ├── ⚡ 1.mergeSortedArrays.js
+│   │       ├── ⚡ 10.diagonalSums.js
+│   │       ├── ⚡ 2.calculateCartTotal.js
+│   │       ├── ⚡ 3.isValidEmail.js
+│   │       ├── ⚡ 4.gcd.js
+│   │       ├── ⚡ 5.longestIncreasingStreak.js
+│   │       ├── ⚡ 6.chunkArray.js
+│   │       ├── ⚡ 7.isValidBdMobileNumber.js
+│   │       ├── ⚡ 8.daysBetweenDates.js
+│   │       └── ⚡ 9.toQueryString.js
 │   ├── 📁 Milestone 1 - Launch Your Web Journey - HTML, CSS, and GitHUb Fundamentals/
 │   │   ├── 📁 Conceptual Session 1 - Learn and Explore HTML, CSS (Project)/
 │   │   │   ├── 📁 conceptual-session/
