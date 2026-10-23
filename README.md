@@ -1893,6 +1893,9 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 │   ├── 📁 Chapter-5-Input-Output-Operations/
 │   │   ├── 🐍 main.py
 │   │   └── 📖 Notes.md
+│   ├── 📁 Chapter-6-Conditional_Statement/
+│   │   ├── 🐍 conditional-statement.py
+│   │   └── 📖 Notes.md
 │   └── 🌐 final_book.html
 ├── 📁 MySQL-Learning/
 │   ├── 📁 1. SQL-Student-Database/
