@@ -224,6 +224,12 @@ Building **BazarDor (বাজার দর)**, a modern, responsive web applica
 
 Hands-on introduction to backend development with Node.js and Express.js alongside full-stack client-server architecture. Sets up an Express application server (`step.js`, `index.js`) featuring HTTP request handling across multiple routing endpoints (`/`, `/about`, `/dashboard`, `/contact`), middleware configuration (`cors`, `express.json()`), in-memory user collections, and `GET`/`POST` REST endpoints (`/users`). Features a companion user management client application built with Next.js (App Router), React 19, and HeroUI (`user-management-client`), showcasing dynamic data fetching with React `Suspense` and `use` hook (`Users.jsx`, `users/page.jsx`), and interactive form submission (`users/add/page.jsx`).
 
+### 🔹 `Milestone 8 Module 44 - REST API and CRUD Operations with Express and MongoDB`
+
+Building a full-stack CRUD application implementing RESTful architecture with an Express.js backend and a Next.js frontend client connected to MongoDB Atlas.
+- **Server (`simple-crud-server`)**: Configured with `MongoClient`, `dotenv`, and `cors`. Implements REST endpoints for reading all documents (`GET /users`), fetching by MongoDB `ObjectId` (`GET /users/:id`), creating new documents (`POST /users` with `insertOne`), deleting records (`DELETE /users/:id` with `deleteOne`), and updating user profiles (`PATCH /users/:id` with `updateOne` and `$set`).
+- **Client (`simple-crud-client`)**: Built with Next.js 16 (App Router), React 19, TypeScript, Tailwind CSS, and shadcn/ui. Features a modern dashboard with dark/light mode (`theme-provider.tsx`), responsive user cards (`UserCard.jsx`), interactive modal dialogs for real-time user updates (`UpdateUserDialog.jsx`), client-side and server-side user listings (`/users`), new user registration forms with validation (`/users/new`), and dynamic user management routes (`/users/[usersId]`).
+
 ### 🔹 `Durbar - Task`
 
 Contains problem-solving challenges and contest submissions, including:
@@ -2063,40 +2069,91 @@ Contains problem-solving challenges and contest submissions, including:
 │       ├── 📚 README.md
 │       └── 🔶 tsconfig.json
 └── 📁 Milestone 8 - Backend APIs and Database with MongoDB/
-    └── 📁 module-43-node.js-and-express-from-setup-to-first-api/
-        ├── 📁 user-management-client/
-        │   └── 📁 user-management-client/
-        │       ├── 📁 public/
-        │       │   ├── 🎨 file.svg
-        │       │   ├── 🎨 globe.svg
-        │       │   ├── 🎨 next.svg
-        │       │   ├── 🎨 vercel.svg
-        │       │   └── 🎨 window.svg
-        │       ├── 📁 src/
-        │       │   └── 📁 app/
-        │       │       ├── 📁 components/
-        │       │       │   └── ⚛️ Users.jsx
-        │       │       ├── 📁 users/
-        │       │       │   ├── 📁 add/
-        │       │       │   │   └── ⚛️ page.jsx
-        │       │       │   └── ⚛️ page.jsx
-        │       │       ├── 🖼️ favicon.ico
-        │       │       ├── 🎨 globals.css
-        │       │       ├── ⚡ layout.js
-        │       │       └── ⚡ page.js
-        │       ├── 🙈 .gitignore
-        │       ├── 📖 AGENTS.md
-        │       ├── ⚡ eslint.config.mjs
-        │       ├── 🔶 jsconfig.json
-        │       ├── ⚡ next.config.mjs
-        │       ├── 🔒 package-lock.json
-        │       ├── 📦 package.json
-        │       └── 📚 README.md
-        ├── 🙈 .gitignore
-        ├── ⚡ index.js
-        ├── 🔒 package-lock.json
-        ├── 📦 package.json
-        └── ⚡ step.js
+    ├── 📁 module-43-node.js-and-express-from-setup-to-first-api/
+    │   ├── 📁 user-management-client/
+    │   │   └── 📁 user-management-client/
+    │   │       ├── 📁 public/
+    │   │       │   ├── 🎨 file.svg
+    │   │       │   ├── 🎨 globe.svg
+    │   │       │   ├── 🎨 next.svg
+    │   │       │   ├── 🎨 vercel.svg
+    │   │       │   └── 🎨 window.svg
+    │   │       ├── 📁 src/
+    │   │       │   └── 📁 app/
+    │   │       │       ├── 📁 components/
+    │   │       │       │   └── ⚛️ Users.jsx
+    │   │       │       ├── 📁 users/
+    │   │       │       │   ├── 📁 add/
+    │   │       │       │   │   └── ⚛️ page.jsx
+    │   │       │       │   └── ⚛️ page.jsx
+    │   │       │       ├── 🖼️ favicon.ico
+    │   │       │       ├── 🎨 globals.css
+    │   │       │       ├── ⚡ layout.js
+    │   │       │       └── ⚡ page.js
+    │   │       ├── 🙈 .gitignore
+    │   │       ├── 📖 AGENTS.md
+    │   │       ├── ⚡ eslint.config.mjs
+    │   │       ├── 🔶 jsconfig.json
+    │   │       ├── ⚡ next.config.mjs
+    │   │       ├── 🔒 package-lock.json
+    │   │       ├── 📦 package.json
+    │   │       └── 📚 README.md
+    │   ├── 🙈 .gitignore
+    │   ├── ⚡ index.js
+    │   ├── 🔒 package-lock.json
+    │   ├── 📦 package.json
+    │   └── ⚡ step.js
+    └── 📁 module-44-rest-api-and-crud-operations-with-express-and-mongodb/
+        ├── 📁 simple-crud-client/
+        │   ├── 📁 app/
+        │   │   ├── 📁 users/
+        │   │   │   ├── 📁 [usersId]/
+        │   │   │   │   └── ⚛️ page.jsx
+        │   │   │   ├── 📁 new/
+        │   │   │   │   └── ⚛️ page.jsx
+        │   │   │   └── ⚛️ page.jsx
+        │   │   ├── 🖼️ favicon.ico
+        │   │   ├── 🎨 globals.css
+        │   │   ├── ⚛️ layout.tsx
+        │   │   └── ⚛️ page.tsx
+        │   ├── 📁 components/
+        │   │   ├── 📁 ui/
+        │   │   │   ├── ⚛️ button.tsx
+        │   │   │   ├── ⚛️ card.tsx
+        │   │   │   ├── ⚛️ dialog.tsx
+        │   │   │   ├── ⚛️ field.tsx
+        │   │   │   ├── ⚛️ input.tsx
+        │   │   │   ├── ⚛️ label.tsx
+        │   │   │   └── ⚛️ separator.tsx
+        │   │   ├── 📄 .gitkeep
+        │   │   ├── ⚛️ theme-provider.tsx
+        │   │   ├── ⚛️ UpdateUserDialog.jsx
+        │   │   └── ⚛️ UserCard.jsx
+        │   ├── 📁 hooks/
+        │   │   └── 📄 .gitkeep
+        │   ├── 📁 lib/
+        │   │   ├── 📄 .gitkeep
+        │   │   └── 🔷 utils.ts
+        │   ├── 📁 public/
+        │   │   └── 📄 .gitkeep
+        │   ├── 🙈 .gitignore
+        │   ├── 📄 .prettierignore
+        │   ├── 📄 .prettierrc
+        │   ├── 📖 AGENTS.md
+        │   ├── 📖 CLAUDE.md
+        │   ├── 🔶 components.json
+        │   ├── ⚡ eslint.config.mjs
+        │   ├── 🔷 next.config.ts
+        │   ├── 🔒 package-lock.json
+        │   ├── 📦 package.json
+        │   ├── ⚡ postcss.config.mjs
+        │   ├── 📚 README.md
+        │   └── 🔶 tsconfig.json
+        └── 📁 simple-crud-server/
+            ├── 🙈 .gitignore
+            ├── ⚡ index.js
+            ├── 🔒 package-lock.json
+            └── 📦 package.json
 ```
 
 ---

@@ -11,7 +11,7 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 ### 🎯 Current Focus
 ```bash
 🎯 Currently Mastering: AI-Driven Full Stack Web Engineering
-📊 Progress: 📈 Completed (Milestone 8, Module 43 - Node.js and Express from Setup to First API)
+📊 Progress: 📈 Completed (Milestone 8, Module 44 - REST API and CRUD Operations with Express and MongoDB)
 ```
 
 ## 📂 Repository Structure
@@ -1841,40 +1841,91 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 │   │       ├── 📚 README.md
 │   │       └── 🔶 tsconfig.json
 │   ├── 📁 Milestone 8 - Backend APIs and Database with MongoDB/
-│   │   └── 📁 module-43-node.js-and-express-from-setup-to-first-api/
-│   │       ├── 📁 user-management-client/
-│   │       │   └── 📁 user-management-client/
-│   │       │       ├── 📁 public/
-│   │       │       │   ├── 🎨 file.svg
-│   │       │       │   ├── 🎨 globe.svg
-│   │       │       │   ├── 🎨 next.svg
-│   │       │       │   ├── 🎨 vercel.svg
-│   │       │       │   └── 🎨 window.svg
-│   │       │       ├── 📁 src/
-│   │       │       │   └── 📁 app/
-│   │       │       │       ├── 📁 components/
-│   │       │       │       │   └── ⚛️ Users.jsx
-│   │       │       │       ├── 📁 users/
-│   │       │       │       │   ├── 📁 add/
-│   │       │       │       │   │   └── ⚛️ page.jsx
-│   │       │       │       │   └── ⚛️ page.jsx
-│   │       │       │       ├── 🖼️ favicon.ico
-│   │       │       │       ├── 🎨 globals.css
-│   │       │       │       ├── ⚡ layout.js
-│   │       │       │       └── ⚡ page.js
-│   │       │       ├── 🙈 .gitignore
-│   │       │       ├── 📖 AGENTS.md
-│   │       │       ├── ⚡ eslint.config.mjs
-│   │       │       ├── 🔶 jsconfig.json
-│   │       │       ├── ⚡ next.config.mjs
-│   │       │       ├── 🔒 package-lock.json
-│   │       │       ├── 📦 package.json
-│   │       │       └── 📚 README.md
-│   │       ├── 🙈 .gitignore
-│   │       ├── ⚡ index.js
-│   │       ├── 🔒 package-lock.json
-│   │       ├── 📦 package.json
-│   │       └── ⚡ step.js
+│   │   ├── 📁 module-43-node.js-and-express-from-setup-to-first-api/
+│   │   │   ├── 📁 user-management-client/
+│   │   │   │   └── 📁 user-management-client/
+│   │   │   │       ├── 📁 public/
+│   │   │   │       │   ├── 🎨 file.svg
+│   │   │   │       │   ├── 🎨 globe.svg
+│   │   │   │       │   ├── 🎨 next.svg
+│   │   │   │       │   ├── 🎨 vercel.svg
+│   │   │   │       │   └── 🎨 window.svg
+│   │   │   │       ├── 📁 src/
+│   │   │   │       │   └── 📁 app/
+│   │   │   │       │       ├── 📁 components/
+│   │   │   │       │       │   └── ⚛️ Users.jsx
+│   │   │   │       │       ├── 📁 users/
+│   │   │   │       │       │   ├── 📁 add/
+│   │   │   │       │       │   │   └── ⚛️ page.jsx
+│   │   │   │       │       │   └── ⚛️ page.jsx
+│   │   │   │       │       ├── 🖼️ favicon.ico
+│   │   │   │       │       ├── 🎨 globals.css
+│   │   │   │       │       ├── ⚡ layout.js
+│   │   │   │       │       └── ⚡ page.js
+│   │   │   │       ├── 🙈 .gitignore
+│   │   │   │       ├── 📖 AGENTS.md
+│   │   │   │       ├── ⚡ eslint.config.mjs
+│   │   │   │       ├── 🔶 jsconfig.json
+│   │   │   │       ├── ⚡ next.config.mjs
+│   │   │   │       ├── 🔒 package-lock.json
+│   │   │   │       ├── 📦 package.json
+│   │   │   │       └── 📚 README.md
+│   │   │   ├── 🙈 .gitignore
+│   │   │   ├── ⚡ index.js
+│   │   │   ├── 🔒 package-lock.json
+│   │   │   ├── 📦 package.json
+│   │   │   └── ⚡ step.js
+│   │   └── 📁 module-44-rest-api-and-crud-operations-with-express-and-mongodb/
+│   │       ├── 📁 simple-crud-client/
+│   │       │   ├── 📁 app/
+│   │       │   │   ├── 📁 users/
+│   │       │   │   │   ├── 📁 [usersId]/
+│   │       │   │   │   │   └── ⚛️ page.jsx
+│   │       │   │   │   ├── 📁 new/
+│   │       │   │   │   │   └── ⚛️ page.jsx
+│   │       │   │   │   └── ⚛️ page.jsx
+│   │       │   │   ├── 🖼️ favicon.ico
+│   │       │   │   ├── 🎨 globals.css
+│   │       │   │   ├── ⚛️ layout.tsx
+│   │       │   │   └── ⚛️ page.tsx
+│   │       │   ├── 📁 components/
+│   │       │   │   ├── 📁 ui/
+│   │       │   │   │   ├── ⚛️ button.tsx
+│   │       │   │   │   ├── ⚛️ card.tsx
+│   │       │   │   │   ├── ⚛️ dialog.tsx
+│   │       │   │   │   ├── ⚛️ field.tsx
+│   │       │   │   │   ├── ⚛️ input.tsx
+│   │       │   │   │   ├── ⚛️ label.tsx
+│   │       │   │   │   └── ⚛️ separator.tsx
+│   │       │   │   ├── 📄 .gitkeep
+│   │       │   │   ├── ⚛️ theme-provider.tsx
+│   │       │   │   ├── ⚛️ UpdateUserDialog.jsx
+│   │       │   │   └── ⚛️ UserCard.jsx
+│   │       │   ├── 📁 hooks/
+│   │       │   │   └── 📄 .gitkeep
+│   │       │   ├── 📁 lib/
+│   │       │   │   ├── 📄 .gitkeep
+│   │       │   │   └── 🔷 utils.ts
+│   │       │   ├── 📁 public/
+│   │       │   │   └── 📄 .gitkeep
+│   │       │   ├── 🙈 .gitignore
+│   │       │   ├── 📄 .prettierignore
+│   │       │   ├── 📄 .prettierrc
+│   │       │   ├── 📖 AGENTS.md
+│   │       │   ├── 📖 CLAUDE.md
+│   │       │   ├── 🔶 components.json
+│   │       │   ├── ⚡ eslint.config.mjs
+│   │       │   ├── 🔷 next.config.ts
+│   │       │   ├── 🔒 package-lock.json
+│   │       │   ├── 📦 package.json
+│   │       │   ├── ⚡ postcss.config.mjs
+│   │       │   ├── 📚 README.md
+│   │       │   └── 🔶 tsconfig.json
+│   │       └── 📁 simple-crud-server/
+│   │           ├── 🙈 .gitignore
+│   │           ├── ⚡ index.js
+│   │           ├── 🔒 package-lock.json
+│   │           └── 📦 package.json
 │   └── 📚 README.md
 ├── 📁 Complete_Python_For_Ai_ML/
 │   ├── 📁 Chapter-1-Installation/
@@ -1892,6 +1943,9 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 │   │   └── 🐍 type.py
 │   ├── 📁 Chapter-5-Input-Output-Operations/
 │   │   ├── 🐍 main.py
+│   │   └── 📖 Notes.md
+│   ├── 📁 Chapter-6-Conditional_Statement/
+│   │   ├── 🐍 conditional-statement.py
 │   │   └── 📖 Notes.md
 │   └── 🌐 final_book.html
 ├── 📁 MySQL-Learning/
@@ -2226,8 +2280,8 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 
 ### 🔥 Latest Project
 **Project Name**: AI-Driven Full Stack Web Engineering
-**Tech Stack**: HTML5, CSS3, Tailwind CSS, JavaScript (ES6+), TypeScript, React, Next.js, Node.js, Express.js, BetterAuth, MongoDB, Resend, DaisyUI, HeroUI, Vite, Git & GitHub
-**Status**: 📈 Completed (Milestone 8, Module 43 - Node.js and Express from Setup to First API)
+**Tech Stack**: HTML5, CSS3, Tailwind CSS, JavaScript (ES6+), TypeScript, React, Next.js, Node.js, Express.js, MongoDB, shadcn/ui, BetterAuth, Resend, DaisyUI, HeroUI, Vite, Git & GitHub
+**Status**: 📈 Completed (Milestone 8, Module 44 - REST API and CRUD Operations with Express and MongoDB)
 
 <!-- ### 🎨 Mini Projects Collection
 - [ ] Todo List App
