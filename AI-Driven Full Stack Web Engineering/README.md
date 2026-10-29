@@ -230,6 +230,14 @@ Building a full-stack CRUD application implementing RESTful architecture with an
 - **Server (`simple-crud-server`)**: Configured with `MongoClient`, `dotenv`, and `cors`. Implements REST endpoints for reading all documents (`GET /users`), fetching by MongoDB `ObjectId` (`GET /users/:id`), creating new documents (`POST /users` with `insertOne`), deleting records (`DELETE /users/:id` with `deleteOne`), and updating user profiles (`PATCH /users/:id` with `updateOne` and `$set`).
 - **Client (`simple-crud-client`)**: Built with Next.js 16 (App Router), React 19, TypeScript, Tailwind CSS, and shadcn/ui. Features a modern dashboard with dark/light mode (`theme-provider.tsx`), responsive user cards (`UserCard.jsx`), interactive modal dialogs for real-time user updates (`UpdateUserDialog.jsx`), client-side and server-side user listings (`/users`), new user registration forms with validation (`/users/new`), and dynamic user management routes (`/users/[usersId]`).
 
+### 🔹 `Milestone 8 Module 45 - Deep Dive into MongoDB Operators and Queries`
+
+Comprehensive deep dive into MongoDB query operators, CRUD modifiers, and data aggregation pipelines documented in `LEARNING.md`. Covers:
+- **Query & Comparison Operators**: `$eq`, `$ne`, `$gt`, `$gte`, `$lt`, `$lte`, alongside element and type checking (`$exists`, `$type`).
+- **Logical & Array Query Operators**: Complex condition composition with `$and`, `$or`, `$not`, `$nor`, and array evaluation with `$in`, `$nin`, `$all`, `$size`, and `$elemMatch`.
+- **Update Operators**: Atomically modifying documents using `$set`, `$unset`, `$inc`, `$push`, `$pull`, and `$addToSet`.
+- **Query Cursors & Pipeline Analytics**: Field projections, multi-criteria sorting (`sort`), pagination (`skip`, `limit`), and multi-stage Aggregation Pipelines (`$match`, `$group`, `$sum`, `$avg`, `$project`).
+
 ### 🔹 `Durbar - Task`
 
 Contains problem-solving challenges and contest submissions, including:
@@ -2103,57 +2111,59 @@ Contains problem-solving challenges and contest submissions, including:
     │   ├── 🔒 package-lock.json
     │   ├── 📦 package.json
     │   └── ⚡ step.js
-    └── 📁 module-44-rest-api-and-crud-operations-with-express-and-mongodb/
-        ├── 📁 simple-crud-client/
-        │   ├── 📁 app/
-        │   │   ├── 📁 users/
-        │   │   │   ├── 📁 [usersId]/
-        │   │   │   │   └── ⚛️ page.jsx
-        │   │   │   ├── 📁 new/
-        │   │   │   │   └── ⚛️ page.jsx
-        │   │   │   └── ⚛️ page.jsx
-        │   │   ├── 🖼️ favicon.ico
-        │   │   ├── 🎨 globals.css
-        │   │   ├── ⚛️ layout.tsx
-        │   │   └── ⚛️ page.tsx
-        │   ├── 📁 components/
-        │   │   ├── 📁 ui/
-        │   │   │   ├── ⚛️ button.tsx
-        │   │   │   ├── ⚛️ card.tsx
-        │   │   │   ├── ⚛️ dialog.tsx
-        │   │   │   ├── ⚛️ field.tsx
-        │   │   │   ├── ⚛️ input.tsx
-        │   │   │   ├── ⚛️ label.tsx
-        │   │   │   └── ⚛️ separator.tsx
-        │   │   ├── 📄 .gitkeep
-        │   │   ├── ⚛️ theme-provider.tsx
-        │   │   ├── ⚛️ UpdateUserDialog.jsx
-        │   │   └── ⚛️ UserCard.jsx
-        │   ├── 📁 hooks/
-        │   │   └── 📄 .gitkeep
-        │   ├── 📁 lib/
-        │   │   ├── 📄 .gitkeep
-        │   │   └── 🔷 utils.ts
-        │   ├── 📁 public/
-        │   │   └── 📄 .gitkeep
-        │   ├── 🙈 .gitignore
-        │   ├── 📄 .prettierignore
-        │   ├── 📄 .prettierrc
-        │   ├── 📖 AGENTS.md
-        │   ├── 📖 CLAUDE.md
-        │   ├── 🔶 components.json
-        │   ├── ⚡ eslint.config.mjs
-        │   ├── 🔷 next.config.ts
-        │   ├── 🔒 package-lock.json
-        │   ├── 📦 package.json
-        │   ├── ⚡ postcss.config.mjs
-        │   ├── 📚 README.md
-        │   └── 🔶 tsconfig.json
-        └── 📁 simple-crud-server/
-            ├── 🙈 .gitignore
-            ├── ⚡ index.js
-            ├── 🔒 package-lock.json
-            └── 📦 package.json
+    ├── 📁 module-44-rest-api-and-crud-operations-with-express-and-mongodb/
+    │   ├── 📁 simple-crud-client/
+    │   │   ├── 📁 app/
+    │   │   │   ├── 📁 users/
+    │   │   │   │   ├── 📁 [usersId]/
+    │   │   │   │   │   └── ⚛️ page.jsx
+    │   │   │   │   ├── 📁 new/
+    │   │   │   │   │   └── ⚛️ page.jsx
+    │   │   │   │   └── ⚛️ page.jsx
+    │   │   │   ├── 🖼️ favicon.ico
+    │   │   │   ├── 🎨 globals.css
+    │   │   │   ├── ⚛️ layout.tsx
+    │   │   │   └── ⚛️ page.tsx
+    │   │   ├── 📁 components/
+    │   │   │   ├── 📁 ui/
+    │   │   │   │   ├── ⚛️ button.tsx
+    │   │   │   │   ├── ⚛️ card.tsx
+    │   │   │   │   ├── ⚛️ dialog.tsx
+    │   │   │   │   ├── ⚛️ field.tsx
+    │   │   │   │   ├── ⚛️ input.tsx
+    │   │   │   │   ├── ⚛️ label.tsx
+    │   │   │   │   └── ⚛️ separator.tsx
+    │   │   │   ├── 📄 .gitkeep
+    │   │   │   ├── ⚛️ theme-provider.tsx
+    │   │   │   ├── ⚛️ UpdateUserDialog.jsx
+    │   │   │   └── ⚛️ UserCard.jsx
+    │   │   ├── 📁 hooks/
+    │   │   │   └── 📄 .gitkeep
+    │   │   ├── 📁 lib/
+    │   │   │   ├── 📄 .gitkeep
+    │   │   │   └── 🔷 utils.ts
+    │   │   ├── 📁 public/
+    │   │   │   └── 📄 .gitkeep
+    │   │   ├── 🙈 .gitignore
+    │   │   ├── 📄 .prettierignore
+    │   │   ├── 📄 .prettierrc
+    │   │   ├── 📖 AGENTS.md
+    │   │   ├── 📖 CLAUDE.md
+    │   │   ├── 🔶 components.json
+    │   │   ├── ⚡ eslint.config.mjs
+    │   │   ├── 🔷 next.config.ts
+    │   │   ├── 🔒 package-lock.json
+    │   │   ├── 📦 package.json
+    │   │   ├── ⚡ postcss.config.mjs
+    │   │   ├── 📚 README.md
+    │   │   └── 🔶 tsconfig.json
+    │   └── 📁 simple-crud-server/
+    │       ├── 🙈 .gitignore
+    │       ├── ⚡ index.js
+    │       ├── 🔒 package-lock.json
+    │       └── 📦 package.json
+    └── 📁 module-45-deep-dive-into-mongodb-operators-and-queries/
+        └── 📖 LEARNING.md
 ```
 
 ---

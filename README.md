@@ -11,7 +11,7 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 ### 🎯 Current Focus
 ```bash
 🎯 Currently Mastering: AI-Driven Full Stack Web Engineering
-📊 Progress: 📈 Completed (Milestone 8, Module 44 - REST API and CRUD Operations with Express and MongoDB)
+📊 Progress: 📈 Completed (Milestone 8, Module 45 - Deep Dive into MongoDB Operators and Queries)
 ```
 
 ## 📂 Repository Structure
@@ -1875,57 +1875,59 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 │   │   │   ├── 🔒 package-lock.json
 │   │   │   ├── 📦 package.json
 │   │   │   └── ⚡ step.js
-│   │   └── 📁 module-44-rest-api-and-crud-operations-with-express-and-mongodb/
-│   │       ├── 📁 simple-crud-client/
-│   │       │   ├── 📁 app/
-│   │       │   │   ├── 📁 users/
-│   │       │   │   │   ├── 📁 [usersId]/
-│   │       │   │   │   │   └── ⚛️ page.jsx
-│   │       │   │   │   ├── 📁 new/
-│   │       │   │   │   │   └── ⚛️ page.jsx
-│   │       │   │   │   └── ⚛️ page.jsx
-│   │       │   │   ├── 🖼️ favicon.ico
-│   │       │   │   ├── 🎨 globals.css
-│   │       │   │   ├── ⚛️ layout.tsx
-│   │       │   │   └── ⚛️ page.tsx
-│   │       │   ├── 📁 components/
-│   │       │   │   ├── 📁 ui/
-│   │       │   │   │   ├── ⚛️ button.tsx
-│   │       │   │   │   ├── ⚛️ card.tsx
-│   │       │   │   │   ├── ⚛️ dialog.tsx
-│   │       │   │   │   ├── ⚛️ field.tsx
-│   │       │   │   │   ├── ⚛️ input.tsx
-│   │       │   │   │   ├── ⚛️ label.tsx
-│   │       │   │   │   └── ⚛️ separator.tsx
-│   │       │   │   ├── 📄 .gitkeep
-│   │       │   │   ├── ⚛️ theme-provider.tsx
-│   │       │   │   ├── ⚛️ UpdateUserDialog.jsx
-│   │       │   │   └── ⚛️ UserCard.jsx
-│   │       │   ├── 📁 hooks/
-│   │       │   │   └── 📄 .gitkeep
-│   │       │   ├── 📁 lib/
-│   │       │   │   ├── 📄 .gitkeep
-│   │       │   │   └── 🔷 utils.ts
-│   │       │   ├── 📁 public/
-│   │       │   │   └── 📄 .gitkeep
-│   │       │   ├── 🙈 .gitignore
-│   │       │   ├── 📄 .prettierignore
-│   │       │   ├── 📄 .prettierrc
-│   │       │   ├── 📖 AGENTS.md
-│   │       │   ├── 📖 CLAUDE.md
-│   │       │   ├── 🔶 components.json
-│   │       │   ├── ⚡ eslint.config.mjs
-│   │       │   ├── 🔷 next.config.ts
-│   │       │   ├── 🔒 package-lock.json
-│   │       │   ├── 📦 package.json
-│   │       │   ├── ⚡ postcss.config.mjs
-│   │       │   ├── 📚 README.md
-│   │       │   └── 🔶 tsconfig.json
-│   │       └── 📁 simple-crud-server/
-│   │           ├── 🙈 .gitignore
-│   │           ├── ⚡ index.js
-│   │           ├── 🔒 package-lock.json
-│   │           └── 📦 package.json
+│   │   ├── 📁 module-44-rest-api-and-crud-operations-with-express-and-mongodb/
+│   │   │   ├── 📁 simple-crud-client/
+│   │   │   │   ├── 📁 app/
+│   │   │   │   │   ├── 📁 users/
+│   │   │   │   │   │   ├── 📁 [usersId]/
+│   │   │   │   │   │   │   └── ⚛️ page.jsx
+│   │   │   │   │   │   ├── 📁 new/
+│   │   │   │   │   │   │   └── ⚛️ page.jsx
+│   │   │   │   │   │   └── ⚛️ page.jsx
+│   │   │   │   │   ├── 🖼️ favicon.ico
+│   │   │   │   │   ├── 🎨 globals.css
+│   │   │   │   │   ├── ⚛️ layout.tsx
+│   │   │   │   │   └── ⚛️ page.tsx
+│   │   │   │   ├── 📁 components/
+│   │   │   │   │   ├── 📁 ui/
+│   │   │   │   │   │   ├── ⚛️ button.tsx
+│   │   │   │   │   │   ├── ⚛️ card.tsx
+│   │   │   │   │   │   ├── ⚛️ dialog.tsx
+│   │   │   │   │   │   ├── ⚛️ field.tsx
+│   │   │   │   │   │   ├── ⚛️ input.tsx
+│   │   │   │   │   │   ├── ⚛️ label.tsx
+│   │   │   │   │   │   └── ⚛️ separator.tsx
+│   │   │   │   │   ├── 📄 .gitkeep
+│   │   │   │   │   ├── ⚛️ theme-provider.tsx
+│   │   │   │   │   ├── ⚛️ UpdateUserDialog.jsx
+│   │   │   │   │   └── ⚛️ UserCard.jsx
+│   │   │   │   ├── 📁 hooks/
+│   │   │   │   │   └── 📄 .gitkeep
+│   │   │   │   ├── 📁 lib/
+│   │   │   │   │   ├── 📄 .gitkeep
+│   │   │   │   │   └── 🔷 utils.ts
+│   │   │   │   ├── 📁 public/
+│   │   │   │   │   └── 📄 .gitkeep
+│   │   │   │   ├── 🙈 .gitignore
+│   │   │   │   ├── 📄 .prettierignore
+│   │   │   │   ├── 📄 .prettierrc
+│   │   │   │   ├── 📖 AGENTS.md
+│   │   │   │   ├── 📖 CLAUDE.md
+│   │   │   │   ├── 🔶 components.json
+│   │   │   │   ├── ⚡ eslint.config.mjs
+│   │   │   │   ├── 🔷 next.config.ts
+│   │   │   │   ├── 🔒 package-lock.json
+│   │   │   │   ├── 📦 package.json
+│   │   │   │   ├── ⚡ postcss.config.mjs
+│   │   │   │   ├── 📚 README.md
+│   │   │   │   └── 🔶 tsconfig.json
+│   │   │   └── 📁 simple-crud-server/
+│   │   │       ├── 🙈 .gitignore
+│   │   │       ├── ⚡ index.js
+│   │   │       ├── 🔒 package-lock.json
+│   │   │       └── 📦 package.json
+│   │   └── 📁 module-45-deep-dive-into-mongodb-operators-and-queries/
+│   │       └── 📖 LEARNING.md
 │   └── 📚 README.md
 ├── 📁 Complete_Python_For_Ai_ML/
 │   ├── 📁 Chapter-1-Installation/
@@ -2281,7 +2283,7 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 ### 🔥 Latest Project
 **Project Name**: AI-Driven Full Stack Web Engineering
 **Tech Stack**: HTML5, CSS3, Tailwind CSS, JavaScript (ES6+), TypeScript, React, Next.js, Node.js, Express.js, MongoDB, shadcn/ui, BetterAuth, Resend, DaisyUI, HeroUI, Vite, Git & GitHub
-**Status**: 📈 Completed (Milestone 8, Module 44 - REST API and CRUD Operations with Express and MongoDB)
+**Status**: 📈 Completed (Milestone 8, Module 45 - Deep Dive into MongoDB Operators and Queries)
 
 <!-- ### 🎨 Mini Projects Collection
 - [ ] Todo List App
