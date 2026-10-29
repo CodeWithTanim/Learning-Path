@@ -55,17 +55,28 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 │   │   │   ├── ⚡ 7.commonSkills.js
 │   │   │   ├── ⚡ 8.swapKeysAndValues.js
 │   │   │   └── ⚡ 9.groupStudentsByGradeBand.js
-│   │   └── 📁 Durbar Contest #6/
-│   │       ├── ⚡ 1.mergeSortedArrays.js
-│   │       ├── ⚡ 10.diagonalSums.js
-│   │       ├── ⚡ 2.calculateCartTotal.js
-│   │       ├── ⚡ 3.isValidEmail.js
-│   │       ├── ⚡ 4.gcd.js
-│   │       ├── ⚡ 5.longestIncreasingStreak.js
-│   │       ├── ⚡ 6.chunkArray.js
-│   │       ├── ⚡ 7.isValidBdMobileNumber.js
-│   │       ├── ⚡ 8.daysBetweenDates.js
-│   │       └── ⚡ 9.toQueryString.js
+│   │   ├── 📁 Durbar Contest #6/
+│   │   │   ├── ⚡ 1.mergeSortedArrays.js
+│   │   │   ├── ⚡ 10.diagonalSums.js
+│   │   │   ├── ⚡ 2.calculateCartTotal.js
+│   │   │   ├── ⚡ 3.isValidEmail.js
+│   │   │   ├── ⚡ 4.gcd.js
+│   │   │   ├── ⚡ 5.longestIncreasingStreak.js
+│   │   │   ├── ⚡ 6.chunkArray.js
+│   │   │   ├── ⚡ 7.isValidBdMobileNumber.js
+│   │   │   ├── ⚡ 8.daysBetweenDates.js
+│   │   │   └── ⚡ 9.toQueryString.js
+│   │   └── 📁 Durbar Contest #7/
+│   │       ├── ⚡ 1.formatCountdown.js
+│   │       ├── ⚡ 10.countConnectedFriends.js
+│   │       ├── ⚡ 2.updateNotificationCount.js
+│   │       ├── ⚡ 3.countFilesInFolder.js
+│   │       ├── ⚡ 4.rankStudents.js
+│   │       ├── ⚡ 5.selectBestDiscount.js
+│   │       ├── ⚡ 6.trackElevator.js
+│   │       ├── ⚡ 7.findFreeTime.js
+│   │       ├── ⚡ 8.maxTasks.js
+│   │       └── ⚡ 9.reconcileInventory.js
 │   ├── 📁 Milestone 1 - Launch Your Web Journey - HTML, CSS, and GitHUb Fundamentals/
 │   │   ├── 📁 Conceptual Session 1 - Learn and Explore HTML, CSS (Project)/
 │   │   │   ├── 📁 conceptual-session/
