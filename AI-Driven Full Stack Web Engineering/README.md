@@ -238,6 +238,13 @@ Comprehensive deep dive into MongoDB query operators, CRUD modifiers, and data a
 - **Update Operators**: Atomically modifying documents using `$set`, `$unset`, `$inc`, `$push`, `$pull`, and `$addToSet`.
 - **Query Cursors & Pipeline Analytics**: Field projections, multi-criteria sorting (`sort`), pagination (`skip`, `limit`), and multi-stage Aggregation Pipelines (`$match`, `$group`, `$sum`, `$avg`, `$project`).
 
+### 🔹 `Milestone 8 Module 46 - Project Setup & Destination CRUD`
+
+Building **Wanderlust**, a travel destination management and tour exploration web application featuring full-stack CRUD capabilities powered by Express.js, MongoDB Atlas, and Next.js (App Router).
+- **Backend (`wanterlust-server`)**: Express server integrated with MongoDB Atlas via `MongoClient`, `dotenv`, and `cors`. Implements REST endpoints for destination creation (`POST /add-destination`), collection retrieval (`GET /destinations`), single destination fetching by `ObjectId` (`GET /destination/:id`), in-place field updates (`PATCH /destination/:id` with `$set`), and destination deletion (`DELETE /destination/:id`).
+- **Frontend (`wanderlust-client`)**: Built with Next.js 16 (App Router), React 19, TypeScript, Tailwind CSS, and shadcn/ui. Features a modern homepage with hero showcase (`Banner.tsx`), value proposition (`WhyChooseUs.tsx`), social proof (`Testimonials.tsx`), and newsletter CTA (`CTA.tsx`). Includes interactive destination listings (`/destinations`, `DestinationsView.tsx`), dynamic destination detail pages (`/destinations/[id]`), destination creation forms (`/add-destination`), and modal dialogs for real-time destination updates (`EditDestinationDialogue.tsx`) and deletions (`DeleteDestinationDialog.tsx`).
+- **Design Resources (`b14-wanderlust-resources`)**: UI/UX design blueprints in Figma and Penpot formats (`Wanderlust .fig`, `Wanderlust .penpot`) alongside marketing banners and destination photography assets.
+
 ### 🔹 `Durbar - Task`
 
 Contains problem-solving challenges and contest submissions, including:
@@ -2174,8 +2181,169 @@ Contains problem-solving challenges and contest submissions, including:
     │       ├── ⚡ index.js
     │       ├── 🔒 package-lock.json
     │       └── 📦 package.json
-    └── 📁 module-45-deep-dive-into-mongodb-operators-and-queries/
-        └── 📖 LEARNING.md
+    ├── 📁 module-45-deep-dive-into-mongodb-operators-and-queries/
+    │   └── 📖 LEARNING.md
+    └── 📁 module-46-project-setup-and-destination-crud/
+        ├── 📁 b14-wanderlust-resources/
+        │   ├── 📁 assets/
+        │   │   ├── 📁 destinations/
+        │   │   │   ├── 🖼️ image1.png
+        │   │   │   ├── 🖼️ image2.png
+        │   │   │   ├── 🖼️ image3.png
+        │   │   │   ├── 🖼️ image4.png
+        │   │   │   ├── 🖼️ image5.png
+        │   │   │   └── 🖼️ image6.png
+        │   │   ├── 🖼️ Banner.png
+        │   │   ├── 🖼️ CTA.png
+        │   │   ├── 🖼️ Headset.png
+        │   │   ├── 🖼️ MapTrifold.png
+        │   │   ├── 🖼️ person1.png
+        │   │   ├── 🖼️ person2.png
+        │   │   ├── 🖼️ ShieldCheck.png
+        │   │   ├── 🖼️ Wanderlast-1.png
+        │   │   └── 🖼️ Wanderlast.png
+        │   ├── 📁 extracted_penpot/
+        │   │   ├── 📁 files/
+        │   │   │   ├── 📁 106dcb05-b1c7-8064-8007-f2f2c9ad7e62/
+        │   │   │   │   └── 📁 pages/
+        │   │   │   └── 🔶 106dcb05-b1c7-8064-8007-f2f2c9ad7e62.json
+        │   │   └── 🔶 manifest.json
+        │   ├── 📚 README.md
+        │   ├── 📄 Wanderlust .fig
+        │   └── 📄 Wanderlust .penpot
+        └── 📁 wanderlust/
+            ├── 📁 wanderlust-client/
+            │   ├── 📁 public/
+            │   │   ├── 📁 assets/
+            │   │   │   ├── 📁 destinations/
+            │   │   │   │   ├── 🖼️ image1.png
+            │   │   │   │   ├── 🖼️ image2.png
+            │   │   │   │   ├── 🖼️ image3.png
+            │   │   │   │   ├── 🖼️ image4.png
+            │   │   │   │   ├── 🖼️ image5.png
+            │   │   │   │   └── 🖼️ image6.png
+            │   │   │   ├── 🖼️ Banner.png
+            │   │   │   ├── 🖼️ CTA.png
+            │   │   │   ├── 🖼️ Headset.png
+            │   │   │   ├── 🖼️ MapTrifold.png
+            │   │   │   ├── 🖼️ person1.png
+            │   │   │   ├── 🖼️ person2.png
+            │   │   │   ├── 🖼️ ShieldCheck.png
+            │   │   │   ├── 🖼️ Wanderlast-1.png
+            │   │   │   ├── 🖼️ Wanderlast-blue.png
+            │   │   │   └── 🖼️ Wanderlast.png
+            │   │   ├── 🎨 file.svg
+            │   │   ├── 🎨 globe.svg
+            │   │   ├── 🎨 next.svg
+            │   │   ├── 🎨 vercel.svg
+            │   │   └── 🎨 window.svg
+            │   ├── 📁 src/
+            │   │   ├── 📁 app/
+            │   │   │   ├── 📁 add-destination/
+            │   │   │   │   └── ⚛️ page.tsx
+            │   │   │   ├── 📁 destinations/
+            │   │   │   │   ├── 📁 [id]/
+            │   │   │   │   │   └── ⚛️ page.tsx
+            │   │   │   │   └── ⚛️ page.tsx
+            │   │   │   ├── 🖼️ favicon.ico
+            │   │   │   ├── 🎨 globals.css
+            │   │   │   ├── ⚛️ layout.tsx
+            │   │   │   └── ⚛️ page.tsx
+            │   │   ├── 📁 components/
+            │   │   │   ├── 📁 ui/
+            │   │   │   │   ├── ⚛️ accordion.tsx
+            │   │   │   │   ├── ⚛️ alert-dialog.tsx
+            │   │   │   │   ├── ⚛️ alert.tsx
+            │   │   │   │   ├── ⚛️ aspect-ratio.tsx
+            │   │   │   │   ├── ⚛️ attachment.tsx
+            │   │   │   │   ├── ⚛️ avatar.tsx
+            │   │   │   │   ├── ⚛️ badge.tsx
+            │   │   │   │   ├── ⚛️ breadcrumb.tsx
+            │   │   │   │   ├── ⚛️ bubble.tsx
+            │   │   │   │   ├── ⚛️ button-group.tsx
+            │   │   │   │   ├── ⚛️ button.tsx
+            │   │   │   │   ├── ⚛️ calendar.tsx
+            │   │   │   │   ├── ⚛️ card.tsx
+            │   │   │   │   ├── ⚛️ carousel.tsx
+            │   │   │   │   ├── ⚛️ chart.tsx
+            │   │   │   │   ├── ⚛️ checkbox.tsx
+            │   │   │   │   ├── ⚛️ code-block.tsx
+            │   │   │   │   ├── ⚛️ collapsible.tsx
+            │   │   │   │   ├── ⚛️ combobox.tsx
+            │   │   │   │   ├── ⚛️ command.tsx
+            │   │   │   │   ├── ⚛️ context-menu.tsx
+            │   │   │   │   ├── ⚛️ dialog.tsx
+            │   │   │   │   ├── ⚛️ direction.tsx
+            │   │   │   │   ├── ⚛️ drawer.tsx
+            │   │   │   │   ├── ⚛️ dropdown-menu.tsx
+            │   │   │   │   ├── ⚛️ empty.tsx
+            │   │   │   │   ├── ⚛️ field.tsx
+            │   │   │   │   ├── ⚛️ hover-card.tsx
+            │   │   │   │   ├── ⚛️ input-group.tsx
+            │   │   │   │   ├── ⚛️ input-otp.tsx
+            │   │   │   │   ├── ⚛️ input.tsx
+            │   │   │   │   ├── ⚛️ item.tsx
+            │   │   │   │   ├── ⚛️ kbd.tsx
+            │   │   │   │   ├── ⚛️ label.tsx
+            │   │   │   │   ├── ⚛️ marker.tsx
+            │   │   │   │   ├── ⚛️ menubar.tsx
+            │   │   │   │   ├── ⚛️ message-scroller.tsx
+            │   │   │   │   ├── ⚛️ message.tsx
+            │   │   │   │   ├── ⚛️ native-select.tsx
+            │   │   │   │   ├── ⚛️ navigation-menu.tsx
+            │   │   │   │   ├── ⚛️ pagination.tsx
+            │   │   │   │   ├── ⚛️ popover.tsx
+            │   │   │   │   ├── ⚛️ progress.tsx
+            │   │   │   │   ├── ⚛️ questionnaire.tsx
+            │   │   │   │   ├── ⚛️ radio-group.tsx
+            │   │   │   │   ├── ⚛️ resizable.tsx
+            │   │   │   │   ├── ⚛️ scroll-area.tsx
+            │   │   │   │   ├── ⚛️ select.tsx
+            │   │   │   │   ├── ⚛️ separator.tsx
+            │   │   │   │   ├── ⚛️ sheet.tsx
+            │   │   │   │   ├── ⚛️ sidebar.tsx
+            │   │   │   │   ├── ⚛️ skeleton.tsx
+            │   │   │   │   ├── ⚛️ slider.tsx
+            │   │   │   │   ├── ⚛️ spinner.tsx
+            │   │   │   │   ├── ⚛️ switch.tsx
+            │   │   │   │   ├── ⚛️ table.tsx
+            │   │   │   │   ├── ⚛️ tabs.tsx
+            │   │   │   │   ├── ⚛️ textarea.tsx
+            │   │   │   │   ├── ⚛️ toast.tsx
+            │   │   │   │   ├── ⚛️ toggle-group.tsx
+            │   │   │   │   ├── ⚛️ toggle.tsx
+            │   │   │   │   ├── ⚛️ tooltip.tsx
+            │   │   │   │   └── ⚛️ trace.tsx
+            │   │   │   ├── ⚛️ Banner.tsx
+            │   │   │   ├── ⚛️ CTA.tsx
+            │   │   │   ├── ⚛️ DeleteDestinationDialog.tsx
+            │   │   │   ├── ⚛️ DestinationsView.tsx
+            │   │   │   ├── ⚛️ EditDestinationDialogue.tsx
+            │   │   │   ├── ⚛️ Footer.tsx
+            │   │   │   ├── ⚛️ Navbar.tsx
+            │   │   │   ├── ⚛️ Testimonials.tsx
+            │   │   │   ├── 🔷 types.ts
+            │   │   │   └── ⚛️ WhyChooseUs.tsx
+            │   │   ├── 📁 hooks/
+            │   │   │   ├── 🔷 use-highlighted-code.ts
+            │   │   │   └── 🔷 use-mobile.ts
+            │   │   └── 📁 lib/
+            │   │       ├── ⚛️ highlighter.tsx
+            │   │       └── 🔷 utils.ts
+            │   ├── 🙈 .gitignore
+            │   ├── 📖 AGENTS.md
+            │   ├── 🔶 components.json
+            │   ├── ⚡ eslint.config.mjs
+            │   ├── 🔷 next.config.ts
+            │   ├── 🔒 package-lock.json
+            │   ├── 📦 package.json
+            │   ├── 📚 README.md
+            │   └── 🔶 tsconfig.json
+            └── 📁 wanterlust-server/
+                ├── 🙈 .gitignore
+                ├── ⚡ index.js
+                ├── 🔒 package-lock.json
+                └── 📦 package.json
 ```
 
 ---

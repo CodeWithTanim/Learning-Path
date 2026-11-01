@@ -653,7 +653,8 @@ def main():
         r'^\.venv$',
         r'^venv$',
         r'^env$',
-        r'\.pyc$',
+        r'.*\.pyc$',
+            r'.*\.tsbuildinfo$',
     ]
     root_tree = generate_tree(repo_root, root_ignore)
     update_readme_file(os.path.join(repo_root, "README.md"), root_tree, "learning-path")
@@ -671,7 +672,8 @@ def main():
             r'^next-env\.d\.ts$',
             r'^__pycache__$',
             r'^node_modules$',
-            r'\.pyc$',
+            r'.*\.pyc$',
+            r'.*\.tsbuildinfo$',
         ]
         ai_tree = generate_tree(ai_dir, ai_ignore, ignore_root_files=['README.md'])
         update_readme_file(os.path.join(ai_dir, "README.md"), ai_tree, "AI-Driven Full Stack Web Engineering")
@@ -689,7 +691,8 @@ def main():
             r'^next-env\.d\.ts$',
             r'^__pycache__$',
             r'^node_modules$',
-            r'\.pyc$',
+            r'.*\.pyc$',
+            r'.*\.tsbuildinfo$',
         ]
         nl_tree = generate_tree(nl_dir, nl_ignore, ignore_root_files=['README.md'])
         update_readme_file(os.path.join(nl_dir, "README.md"), nl_tree, "Next-Level-Foundation-Program")
@@ -707,7 +710,8 @@ def main():
             r'^next-env\.d\.ts$',
             r'^__pycache__$',
             r'^node_modules$',
-            r'\.pyc$',
+            r'.*\.pyc$',
+            r'.*\.tsbuildinfo$',
         ]
         mysql_tree = generate_tree(mysql_dir, mysql_ignore, ignore_root_files=['README.md'])
         update_readme_file(os.path.join(mysql_dir, "README.md"), mysql_tree, "MySQL-Learning")
