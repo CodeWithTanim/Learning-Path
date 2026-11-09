@@ -2225,8 +2225,6 @@ Contains problem-solving challenges and contest submissions, including:
     │   │   │   └── 🖼️ Wanderlast.png
     │   │   ├── 📁 extracted_penpot/
     │   │   │   ├── 📁 files/
-    │   │   │   │   ├── 📁 106dcb05-b1c7-8064-8007-f2f2c9ad7e62/
-    │   │   │   │   │   └── 📁 pages/
     │   │   │   │   └── 🔶 106dcb05-b1c7-8064-8007-f2f2c9ad7e62.json
     │   │   │   └── 🔶 manifest.json
     │   │   ├── 📚 README.md
@@ -2386,8 +2384,6 @@ Contains problem-solving challenges and contest submissions, including:
     │   │   │   └── 🖼️ Wanderlast.png
     │   │   ├── 📁 extracted_penpot/
     │   │   │   ├── 📁 files/
-    │   │   │   │   ├── 📁 106dcb05-b1c7-8064-8007-f2f2c9ad7e62/
-    │   │   │   │   │   └── 📁 pages/
     │   │   │   │   └── 🔶 106dcb05-b1c7-8064-8007-f2f2c9ad7e62.json
     │   │   │   └── 🔶 manifest.json
     │   │   ├── 📚 README.md
@@ -2561,8 +2557,6 @@ Contains problem-solving challenges and contest submissions, including:
     │   │   │   └── 🖼️ Wanderlast.png
     │   │   ├── 📁 extracted_penpot/
     │   │   │   ├── 📁 files/
-    │   │   │   │   ├── 📁 106dcb05-b1c7-8064-8007-f2f2c9ad7e62/
-    │   │   │   │   │   └── 📁 pages/
     │   │   │   │   └── 🔶 106dcb05-b1c7-8064-8007-f2f2c9ad7e62.json
     │   │   │   └── 🔶 manifest.json
     │   │   ├── 📚 README.md
@@ -2853,7 +2847,6 @@ Contains problem-solving challenges and contest submissions, including:
         │   │   └── 📁 types/
         │   │       └── 🔷 index.ts
         │   ├── 🙈 .gitignore
-        │   ├── 📖 AGENTS.md
         │   ├── 🔶 components.json
         │   ├── ⚡ eslint.config.mjs
         │   ├── 🔷 next.config.ts
