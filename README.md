@@ -11,7 +11,7 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 ### 🎯 Current Focus
 ```bash
 🎯 Currently Mastering: AI-Driven Full Stack Web Engineering
-📊 Progress: 📈 Completed (Milestone 8, Module 47 - Booking System and Authentication)
+📊 Progress: 📈 Completed (Milestone 8, Module 48 - JWT Security & Deployment)
 ```
 
 ## 📂 Repository Structure
@@ -1960,6 +1960,8 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 │   │   │   │   │   └── 🖼️ Wanderlast.png
 │   │   │   │   ├── 📁 extracted_penpot/
 │   │   │   │   │   ├── 📁 files/
+│   │   │   │   │   │   ├── 📁 106dcb05-b1c7-8064-8007-f2f2c9ad7e62/
+│   │   │   │   │   │   │   └── 📁 pages/
 │   │   │   │   │   │   └── 🔶 106dcb05-b1c7-8064-8007-f2f2c9ad7e62.json
 │   │   │   │   │   └── 🔶 manifest.json
 │   │   │   │   ├── 📚 README.md
@@ -2098,7 +2100,182 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 │   │   │           ├── ⚡ index.js
 │   │   │           ├── 🔒 package-lock.json
 │   │   │           └── 📦 package.json
-│   │   └── 📁 module-47-booking-system-and-authentication/
+│   │   ├── 📁 module-47-booking-system-and-authentication/
+│   │   │   ├── 📁 b14-wanderlust-resources/
+│   │   │   │   ├── 📁 assets/
+│   │   │   │   │   ├── 📁 destinations/
+│   │   │   │   │   │   ├── 🖼️ image1.png
+│   │   │   │   │   │   ├── 🖼️ image2.png
+│   │   │   │   │   │   ├── 🖼️ image3.png
+│   │   │   │   │   │   ├── 🖼️ image4.png
+│   │   │   │   │   │   ├── 🖼️ image5.png
+│   │   │   │   │   │   └── 🖼️ image6.png
+│   │   │   │   │   ├── 🖼️ Banner.png
+│   │   │   │   │   ├── 🖼️ CTA.png
+│   │   │   │   │   ├── 🖼️ Headset.png
+│   │   │   │   │   ├── 🖼️ MapTrifold.png
+│   │   │   │   │   ├── 🖼️ person1.png
+│   │   │   │   │   ├── 🖼️ person2.png
+│   │   │   │   │   ├── 🖼️ ShieldCheck.png
+│   │   │   │   │   ├── 🖼️ Wanderlast-1.png
+│   │   │   │   │   └── 🖼️ Wanderlast.png
+│   │   │   │   ├── 📁 extracted_penpot/
+│   │   │   │   │   ├── 📁 files/
+│   │   │   │   │   │   ├── 📁 106dcb05-b1c7-8064-8007-f2f2c9ad7e62/
+│   │   │   │   │   │   │   └── 📁 pages/
+│   │   │   │   │   │   └── 🔶 106dcb05-b1c7-8064-8007-f2f2c9ad7e62.json
+│   │   │   │   │   └── 🔶 manifest.json
+│   │   │   │   ├── 📚 README.md
+│   │   │   │   ├── 📄 Wanderlust .fig
+│   │   │   │   └── 📄 Wanderlust .penpot
+│   │   │   └── 📁 wanderlust/
+│   │   │       ├── 📁 wanderlust-client/
+│   │   │       │   ├── 📁 public/
+│   │   │       │   │   ├── 📁 assets/
+│   │   │       │   │   │   ├── 📁 destinations/
+│   │   │       │   │   │   │   ├── 🖼️ image1.png
+│   │   │       │   │   │   │   ├── 🖼️ image2.png
+│   │   │       │   │   │   │   ├── 🖼️ image3.png
+│   │   │       │   │   │   │   ├── 🖼️ image4.png
+│   │   │       │   │   │   │   ├── 🖼️ image5.png
+│   │   │       │   │   │   │   └── 🖼️ image6.png
+│   │   │       │   │   │   ├── 🖼️ Banner.png
+│   │   │       │   │   │   ├── 🖼️ CTA.png
+│   │   │       │   │   │   ├── 🖼️ Headset.png
+│   │   │       │   │   │   ├── 🖼️ MapTrifold.png
+│   │   │       │   │   │   ├── 🖼️ person1.png
+│   │   │       │   │   │   ├── 🖼️ person2.png
+│   │   │       │   │   │   ├── 🖼️ ShieldCheck.png
+│   │   │       │   │   │   ├── 🖼️ Wanderlast-1.png
+│   │   │       │   │   │   ├── 🖼️ Wanderlast-blue.png
+│   │   │       │   │   │   └── 🖼️ Wanderlast.png
+│   │   │       │   │   ├── 🎨 file.svg
+│   │   │       │   │   ├── 🎨 globe.svg
+│   │   │       │   │   ├── 🎨 next.svg
+│   │   │       │   │   ├── 🎨 vercel.svg
+│   │   │       │   │   └── 🎨 window.svg
+│   │   │       │   ├── 📁 src/
+│   │   │       │   │   ├── 📁 app/
+│   │   │       │   │   │   ├── 📁 add-destination/
+│   │   │       │   │   │   │   └── ⚛️ page.tsx
+│   │   │       │   │   │   ├── 📁 api/
+│   │   │       │   │   │   │   └── 📁 auth/
+│   │   │       │   │   │   │       └── 📁 [...all]/
+│   │   │       │   │   │   │           └── 🔷 route.ts
+│   │   │       │   │   │   ├── 📁 destinations/
+│   │   │       │   │   │   │   ├── 📁 [id]/
+│   │   │       │   │   │   │   │   └── ⚛️ page.tsx
+│   │   │       │   │   │   │   └── ⚛️ page.tsx
+│   │   │       │   │   │   ├── 📁 login/
+│   │   │       │   │   │   │   └── ⚛️ page.tsx
+│   │   │       │   │   │   ├── 📁 my-bookings/
+│   │   │       │   │   │   │   └── ⚛️ page.tsx
+│   │   │       │   │   │   ├── 📁 signup/
+│   │   │       │   │   │   │   └── ⚛️ page.tsx
+│   │   │       │   │   │   ├── 🖼️ favicon.ico
+│   │   │       │   │   │   ├── 🎨 globals.css
+│   │   │       │   │   │   ├── ⚛️ layout.tsx
+│   │   │       │   │   │   └── ⚛️ page.tsx
+│   │   │       │   │   ├── 📁 components/
+│   │   │       │   │   │   ├── 📁 ui/
+│   │   │       │   │   │   │   ├── ⚛️ accordion.tsx
+│   │   │       │   │   │   │   ├── ⚛️ alert-dialog.tsx
+│   │   │       │   │   │   │   ├── ⚛️ alert.tsx
+│   │   │       │   │   │   │   ├── ⚛️ aspect-ratio.tsx
+│   │   │       │   │   │   │   ├── ⚛️ attachment.tsx
+│   │   │       │   │   │   │   ├── ⚛️ avatar.tsx
+│   │   │       │   │   │   │   ├── ⚛️ badge.tsx
+│   │   │       │   │   │   │   ├── ⚛️ breadcrumb.tsx
+│   │   │       │   │   │   │   ├── ⚛️ bubble.tsx
+│   │   │       │   │   │   │   ├── ⚛️ button-group.tsx
+│   │   │       │   │   │   │   ├── ⚛️ button.tsx
+│   │   │       │   │   │   │   ├── ⚛️ calendar.tsx
+│   │   │       │   │   │   │   ├── ⚛️ card.tsx
+│   │   │       │   │   │   │   ├── ⚛️ carousel.tsx
+│   │   │       │   │   │   │   ├── ⚛️ chart.tsx
+│   │   │       │   │   │   │   ├── ⚛️ checkbox.tsx
+│   │   │       │   │   │   │   ├── ⚛️ code-block.tsx
+│   │   │       │   │   │   │   ├── ⚛️ collapsible.tsx
+│   │   │       │   │   │   │   ├── ⚛️ combobox.tsx
+│   │   │       │   │   │   │   ├── ⚛️ command.tsx
+│   │   │       │   │   │   │   ├── ⚛️ context-menu.tsx
+│   │   │       │   │   │   │   ├── ⚛️ dialog.tsx
+│   │   │       │   │   │   │   ├── ⚛️ direction.tsx
+│   │   │       │   │   │   │   ├── ⚛️ drawer.tsx
+│   │   │       │   │   │   │   ├── ⚛️ dropdown-menu.tsx
+│   │   │       │   │   │   │   ├── ⚛️ empty.tsx
+│   │   │       │   │   │   │   ├── ⚛️ field.tsx
+│   │   │       │   │   │   │   ├── ⚛️ hover-card.tsx
+│   │   │       │   │   │   │   ├── ⚛️ input-group.tsx
+│   │   │       │   │   │   │   ├── ⚛️ input-otp.tsx
+│   │   │       │   │   │   │   ├── ⚛️ input.tsx
+│   │   │       │   │   │   │   ├── ⚛️ item.tsx
+│   │   │       │   │   │   │   ├── ⚛️ kbd.tsx
+│   │   │       │   │   │   │   ├── ⚛️ label.tsx
+│   │   │       │   │   │   │   ├── ⚛️ marker.tsx
+│   │   │       │   │   │   │   ├── ⚛️ menubar.tsx
+│   │   │       │   │   │   │   ├── ⚛️ message-scroller.tsx
+│   │   │       │   │   │   │   ├── ⚛️ message.tsx
+│   │   │       │   │   │   │   ├── ⚛️ native-select.tsx
+│   │   │       │   │   │   │   ├── ⚛️ navigation-menu.tsx
+│   │   │       │   │   │   │   ├── ⚛️ pagination.tsx
+│   │   │       │   │   │   │   ├── ⚛️ popover.tsx
+│   │   │       │   │   │   │   ├── ⚛️ progress.tsx
+│   │   │       │   │   │   │   ├── ⚛️ questionnaire.tsx
+│   │   │       │   │   │   │   ├── ⚛️ radio-group.tsx
+│   │   │       │   │   │   │   ├── ⚛️ resizable.tsx
+│   │   │       │   │   │   │   ├── ⚛️ scroll-area.tsx
+│   │   │       │   │   │   │   ├── ⚛️ select.tsx
+│   │   │       │   │   │   │   ├── ⚛️ separator.tsx
+│   │   │       │   │   │   │   ├── ⚛️ sheet.tsx
+│   │   │       │   │   │   │   ├── ⚛️ sidebar.tsx
+│   │   │       │   │   │   │   ├── ⚛️ skeleton.tsx
+│   │   │       │   │   │   │   ├── ⚛️ slider.tsx
+│   │   │       │   │   │   │   ├── ⚛️ spinner.tsx
+│   │   │       │   │   │   │   ├── ⚛️ switch.tsx
+│   │   │       │   │   │   │   ├── ⚛️ table.tsx
+│   │   │       │   │   │   │   ├── ⚛️ tabs.tsx
+│   │   │       │   │   │   │   ├── ⚛️ textarea.tsx
+│   │   │       │   │   │   │   ├── ⚛️ toast.tsx
+│   │   │       │   │   │   │   ├── ⚛️ toggle-group.tsx
+│   │   │       │   │   │   │   ├── ⚛️ toggle.tsx
+│   │   │       │   │   │   │   ├── ⚛️ tooltip.tsx
+│   │   │       │   │   │   │   └── ⚛️ trace.tsx
+│   │   │       │   │   │   ├── ⚛️ Banner.tsx
+│   │   │       │   │   │   ├── ⚛️ BookingCard.tsx
+│   │   │       │   │   │   ├── ⚛️ CTA.tsx
+│   │   │       │   │   │   ├── ⚛️ DeleteDestinationDialog.tsx
+│   │   │       │   │   │   ├── ⚛️ DestinationsView.tsx
+│   │   │       │   │   │   ├── ⚛️ EditDestinationDialogue.tsx
+│   │   │       │   │   │   ├── ⚛️ Footer.tsx
+│   │   │       │   │   │   ├── ⚛️ MyBookingCard.tsx
+│   │   │       │   │   │   ├── ⚛️ Navbar.tsx
+│   │   │       │   │   │   ├── ⚛️ Testimonials.tsx
+│   │   │       │   │   │   ├── 🔷 types.ts
+│   │   │       │   │   │   └── ⚛️ WhyChooseUs.tsx
+│   │   │       │   │   ├── 📁 hooks/
+│   │   │       │   │   │   ├── 🔷 use-highlighted-code.ts
+│   │   │       │   │   │   └── 🔷 use-mobile.ts
+│   │   │       │   │   └── 📁 lib/
+│   │   │       │   │       ├── 🔷 auth-client.ts
+│   │   │       │   │       ├── 🔷 auth.ts
+│   │   │       │   │       ├── ⚛️ highlighter.tsx
+│   │   │       │   │       └── 🔷 utils.ts
+│   │   │       │   ├── 🙈 .gitignore
+│   │   │       │   ├── 📖 AGENTS.md
+│   │   │       │   ├── 🔶 components.json
+│   │   │       │   ├── ⚡ eslint.config.mjs
+│   │   │       │   ├── 🔷 next.config.ts
+│   │   │       │   ├── 🔒 package-lock.json
+│   │   │       │   ├── 📦 package.json
+│   │   │       │   ├── 📚 README.md
+│   │   │       │   └── 🔶 tsconfig.json
+│   │   │       └── 📁 wanterlust-server/
+│   │   │           ├── 🙈 .gitignore
+│   │   │           ├── ⚡ index.js
+│   │   │           ├── 🔒 package-lock.json
+│   │   │           └── 📦 package.json
+│   │   └── 📁 module-48-jwt-security-and-deployment/
 │   │       ├── 📁 b14-wanderlust-resources/
 │   │       │   ├── 📁 assets/
 │   │       │   │   ├── 📁 destinations/
@@ -2119,6 +2296,8 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 │   │       │   │   └── 🖼️ Wanderlast.png
 │   │       │   ├── 📁 extracted_penpot/
 │   │       │   │   ├── 📁 files/
+│   │       │   │   │   ├── 📁 106dcb05-b1c7-8064-8007-f2f2c9ad7e62/
+│   │       │   │   │   │   └── 📁 pages/
 │   │       │   │   │   └── 🔶 106dcb05-b1c7-8064-8007-f2f2c9ad7e62.json
 │   │       │   │   └── 🔶 manifest.json
 │   │       │   ├── 📚 README.md
@@ -2243,6 +2422,7 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 │   │           │   │   │   ├── ⚛️ DeleteDestinationDialog.tsx
 │   │           │   │   │   ├── ⚛️ DestinationsView.tsx
 │   │           │   │   │   ├── ⚛️ EditDestinationDialogue.tsx
+│   │           │   │   │   ├── ⚛️ FeaturedDestinations.tsx
 │   │           │   │   │   ├── ⚛️ Footer.tsx
 │   │           │   │   │   ├── ⚛️ MyBookingCard.tsx
 │   │           │   │   │   ├── ⚛️ Navbar.tsx
@@ -2252,11 +2432,14 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 │   │           │   │   ├── 📁 hooks/
 │   │           │   │   │   ├── 🔷 use-highlighted-code.ts
 │   │           │   │   │   └── 🔷 use-mobile.ts
-│   │           │   │   └── 📁 lib/
-│   │           │   │       ├── 🔷 auth-client.ts
-│   │           │   │       ├── 🔷 auth.ts
-│   │           │   │       ├── ⚛️ highlighter.tsx
-│   │           │   │       └── 🔷 utils.ts
+│   │           │   │   ├── 📁 lib/
+│   │           │   │   │   ├── 🔷 auth-client.ts
+│   │           │   │   │   ├── 🔷 auth.ts
+│   │           │   │   │   ├── 🔷 getTokenFromClient.ts
+│   │           │   │   │   ├── 🔷 getTokenFromServer.ts
+│   │           │   │   │   ├── ⚛️ highlighter.tsx
+│   │           │   │   │   └── 🔷 utils.ts
+│   │           │   │   └── 🔷 proxy.ts
 │   │           │   ├── 🙈 .gitignore
 │   │           │   ├── 📖 AGENTS.md
 │   │           │   ├── 🔶 components.json
@@ -2625,8 +2808,8 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 
 ### 🔥 Latest Project
 **Project Name**: AI-Driven Full Stack Web Engineering
-**Tech Stack**: HTML5, CSS3, Tailwind CSS, JavaScript (ES6+), TypeScript, React, Next.js, Node.js, Express.js, MongoDB, shadcn/ui, BetterAuth, Resend, DaisyUI, HeroUI, Vite, Git & GitHub
-**Status**: 📈 Completed (Milestone 8, Module 47 - Booking System and Authentication)
+**Tech Stack**: HTML5, CSS3, Tailwind CSS, JavaScript (ES6+), TypeScript, React, Next.js, Node.js, Express.js, MongoDB, JWT, shadcn/ui, BetterAuth, Resend, DaisyUI, HeroUI, Vite, Git & GitHub
+**Status**: 📈 Completed (Milestone 8, Module 48 - JWT Security & Deployment)
 
 <!-- ### 🎨 Mini Projects Collection
 - [ ] Todo List App

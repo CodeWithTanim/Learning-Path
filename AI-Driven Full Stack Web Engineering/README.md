@@ -252,6 +252,13 @@ Extending **Wanderlust** with full-stack user authentication via BetterAuth and 
 - **Frontend (`wanderlust-client`)**: Next.js 16 (App Router), React 19, TypeScript, Tailwind CSS, and shadcn/ui. Integrates full-stack authentication using BetterAuth (`better-auth`, `@better-auth/mongo-adapter`) with credential-based sign in (`/login`) and sign up (`/signup`), session-aware dynamic header navigation (`Navbar.tsx`), interactive reservation booking cards on destination pages (`BookingCard.tsx`), and a dedicated dashboard for managing upcoming itineraries with real-time cancellation dialogs (`/my-bookings`, `MyBookingCard.tsx`).
 - **Design Resources (`b14-wanderlust-resources`)**: Figma and Penpot design assets, responsive layout guidelines, and destination media assets.
 
+### 🔹 `Milestone 8 Module 48 - JWT Security & Deployment`
+
+Securing **Wanderlust** with JSON Web Token (JWT) verification, role-based endpoint authorization, and edge route protection.
+- **Backend (`wanterlust-server`)**: Configured remote JSON Web Key Set (JWKS) verification using `jose` (`createRemoteJWKSet`, `jwtVerify`). Implements `verifyToken` middleware securing critical REST endpoints (`POST /add-destination`, `GET /destination/:id`, `PATCH /destination/:id`, `DELETE /destination/:id`, `DELETE /my-bookings/:id`), strict ownership validation preventing unauthorized data access (`req.user.email !== email` returning 403 Forbidden Access on `/my-bookings/:email`), and featured destination query optimizations (`GET /featured-destinations`).
+- **Frontend (`wanderlust-client`)**: Next.js 16 (App Router), React 19, TypeScript, Tailwind CSS, and shadcn/ui. Implements client-side (`getTokenFromClient.ts`) and server-side (`getTokenFromServer.ts`) JWT token dispatch via `Authorization: Bearer <token>` headers, edge routing protection proxy middleware (`proxy.ts`) safeguarding `/add-destination`, `/my-bookings`, and dynamic `/destinations/:path` routes with unauthenticated redirect to `/login`, and production deployment configurations.
+- **Design Resources (`b14-wanderlust-resources`)**: Figma and Penpot UI/UX designs, media assets, and responsive marketing layouts.
+
 ### 🔹 `Durbar - Task`
 
 Contains problem-solving challenges and contest submissions, including:
@@ -2211,6 +2218,8 @@ Contains problem-solving challenges and contest submissions, including:
     │   │   │   └── 🖼️ Wanderlast.png
     │   │   ├── 📁 extracted_penpot/
     │   │   │   ├── 📁 files/
+    │   │   │   │   ├── 📁 106dcb05-b1c7-8064-8007-f2f2c9ad7e62/
+    │   │   │   │   │   └── 📁 pages/
     │   │   │   │   └── 🔶 106dcb05-b1c7-8064-8007-f2f2c9ad7e62.json
     │   │   │   └── 🔶 manifest.json
     │   │   ├── 📚 README.md
@@ -2349,7 +2358,182 @@ Contains problem-solving challenges and contest submissions, including:
     │           ├── ⚡ index.js
     │           ├── 🔒 package-lock.json
     │           └── 📦 package.json
-    └── 📁 module-47-booking-system-and-authentication/
+    ├── 📁 module-47-booking-system-and-authentication/
+    │   ├── 📁 b14-wanderlust-resources/
+    │   │   ├── 📁 assets/
+    │   │   │   ├── 📁 destinations/
+    │   │   │   │   ├── 🖼️ image1.png
+    │   │   │   │   ├── 🖼️ image2.png
+    │   │   │   │   ├── 🖼️ image3.png
+    │   │   │   │   ├── 🖼️ image4.png
+    │   │   │   │   ├── 🖼️ image5.png
+    │   │   │   │   └── 🖼️ image6.png
+    │   │   │   ├── 🖼️ Banner.png
+    │   │   │   ├── 🖼️ CTA.png
+    │   │   │   ├── 🖼️ Headset.png
+    │   │   │   ├── 🖼️ MapTrifold.png
+    │   │   │   ├── 🖼️ person1.png
+    │   │   │   ├── 🖼️ person2.png
+    │   │   │   ├── 🖼️ ShieldCheck.png
+    │   │   │   ├── 🖼️ Wanderlast-1.png
+    │   │   │   └── 🖼️ Wanderlast.png
+    │   │   ├── 📁 extracted_penpot/
+    │   │   │   ├── 📁 files/
+    │   │   │   │   ├── 📁 106dcb05-b1c7-8064-8007-f2f2c9ad7e62/
+    │   │   │   │   │   └── 📁 pages/
+    │   │   │   │   └── 🔶 106dcb05-b1c7-8064-8007-f2f2c9ad7e62.json
+    │   │   │   └── 🔶 manifest.json
+    │   │   ├── 📚 README.md
+    │   │   ├── 📄 Wanderlust .fig
+    │   │   └── 📄 Wanderlust .penpot
+    │   └── 📁 wanderlust/
+    │       ├── 📁 wanderlust-client/
+    │       │   ├── 📁 public/
+    │       │   │   ├── 📁 assets/
+    │       │   │   │   ├── 📁 destinations/
+    │       │   │   │   │   ├── 🖼️ image1.png
+    │       │   │   │   │   ├── 🖼️ image2.png
+    │       │   │   │   │   ├── 🖼️ image3.png
+    │       │   │   │   │   ├── 🖼️ image4.png
+    │       │   │   │   │   ├── 🖼️ image5.png
+    │       │   │   │   │   └── 🖼️ image6.png
+    │       │   │   │   ├── 🖼️ Banner.png
+    │       │   │   │   ├── 🖼️ CTA.png
+    │       │   │   │   ├── 🖼️ Headset.png
+    │       │   │   │   ├── 🖼️ MapTrifold.png
+    │       │   │   │   ├── 🖼️ person1.png
+    │       │   │   │   ├── 🖼️ person2.png
+    │       │   │   │   ├── 🖼️ ShieldCheck.png
+    │       │   │   │   ├── 🖼️ Wanderlast-1.png
+    │       │   │   │   ├── 🖼️ Wanderlast-blue.png
+    │       │   │   │   └── 🖼️ Wanderlast.png
+    │       │   │   ├── 🎨 file.svg
+    │       │   │   ├── 🎨 globe.svg
+    │       │   │   ├── 🎨 next.svg
+    │       │   │   ├── 🎨 vercel.svg
+    │       │   │   └── 🎨 window.svg
+    │       │   ├── 📁 src/
+    │       │   │   ├── 📁 app/
+    │       │   │   │   ├── 📁 add-destination/
+    │       │   │   │   │   └── ⚛️ page.tsx
+    │       │   │   │   ├── 📁 api/
+    │       │   │   │   │   └── 📁 auth/
+    │       │   │   │   │       └── 📁 [...all]/
+    │       │   │   │   │           └── 🔷 route.ts
+    │       │   │   │   ├── 📁 destinations/
+    │       │   │   │   │   ├── 📁 [id]/
+    │       │   │   │   │   │   └── ⚛️ page.tsx
+    │       │   │   │   │   └── ⚛️ page.tsx
+    │       │   │   │   ├── 📁 login/
+    │       │   │   │   │   └── ⚛️ page.tsx
+    │       │   │   │   ├── 📁 my-bookings/
+    │       │   │   │   │   └── ⚛️ page.tsx
+    │       │   │   │   ├── 📁 signup/
+    │       │   │   │   │   └── ⚛️ page.tsx
+    │       │   │   │   ├── 🖼️ favicon.ico
+    │       │   │   │   ├── 🎨 globals.css
+    │       │   │   │   ├── ⚛️ layout.tsx
+    │       │   │   │   └── ⚛️ page.tsx
+    │       │   │   ├── 📁 components/
+    │       │   │   │   ├── 📁 ui/
+    │       │   │   │   │   ├── ⚛️ accordion.tsx
+    │       │   │   │   │   ├── ⚛️ alert-dialog.tsx
+    │       │   │   │   │   ├── ⚛️ alert.tsx
+    │       │   │   │   │   ├── ⚛️ aspect-ratio.tsx
+    │       │   │   │   │   ├── ⚛️ attachment.tsx
+    │       │   │   │   │   ├── ⚛️ avatar.tsx
+    │       │   │   │   │   ├── ⚛️ badge.tsx
+    │       │   │   │   │   ├── ⚛️ breadcrumb.tsx
+    │       │   │   │   │   ├── ⚛️ bubble.tsx
+    │       │   │   │   │   ├── ⚛️ button-group.tsx
+    │       │   │   │   │   ├── ⚛️ button.tsx
+    │       │   │   │   │   ├── ⚛️ calendar.tsx
+    │       │   │   │   │   ├── ⚛️ card.tsx
+    │       │   │   │   │   ├── ⚛️ carousel.tsx
+    │       │   │   │   │   ├── ⚛️ chart.tsx
+    │       │   │   │   │   ├── ⚛️ checkbox.tsx
+    │       │   │   │   │   ├── ⚛️ code-block.tsx
+    │       │   │   │   │   ├── ⚛️ collapsible.tsx
+    │       │   │   │   │   ├── ⚛️ combobox.tsx
+    │       │   │   │   │   ├── ⚛️ command.tsx
+    │       │   │   │   │   ├── ⚛️ context-menu.tsx
+    │       │   │   │   │   ├── ⚛️ dialog.tsx
+    │       │   │   │   │   ├── ⚛️ direction.tsx
+    │       │   │   │   │   ├── ⚛️ drawer.tsx
+    │       │   │   │   │   ├── ⚛️ dropdown-menu.tsx
+    │       │   │   │   │   ├── ⚛️ empty.tsx
+    │       │   │   │   │   ├── ⚛️ field.tsx
+    │       │   │   │   │   ├── ⚛️ hover-card.tsx
+    │       │   │   │   │   ├── ⚛️ input-group.tsx
+    │       │   │   │   │   ├── ⚛️ input-otp.tsx
+    │       │   │   │   │   ├── ⚛️ input.tsx
+    │       │   │   │   │   ├── ⚛️ item.tsx
+    │       │   │   │   │   ├── ⚛️ kbd.tsx
+    │       │   │   │   │   ├── ⚛️ label.tsx
+    │       │   │   │   │   ├── ⚛️ marker.tsx
+    │       │   │   │   │   ├── ⚛️ menubar.tsx
+    │       │   │   │   │   ├── ⚛️ message-scroller.tsx
+    │       │   │   │   │   ├── ⚛️ message.tsx
+    │       │   │   │   │   ├── ⚛️ native-select.tsx
+    │       │   │   │   │   ├── ⚛️ navigation-menu.tsx
+    │       │   │   │   │   ├── ⚛️ pagination.tsx
+    │       │   │   │   │   ├── ⚛️ popover.tsx
+    │       │   │   │   │   ├── ⚛️ progress.tsx
+    │       │   │   │   │   ├── ⚛️ questionnaire.tsx
+    │       │   │   │   │   ├── ⚛️ radio-group.tsx
+    │       │   │   │   │   ├── ⚛️ resizable.tsx
+    │       │   │   │   │   ├── ⚛️ scroll-area.tsx
+    │       │   │   │   │   ├── ⚛️ select.tsx
+    │       │   │   │   │   ├── ⚛️ separator.tsx
+    │       │   │   │   │   ├── ⚛️ sheet.tsx
+    │       │   │   │   │   ├── ⚛️ sidebar.tsx
+    │       │   │   │   │   ├── ⚛️ skeleton.tsx
+    │       │   │   │   │   ├── ⚛️ slider.tsx
+    │       │   │   │   │   ├── ⚛️ spinner.tsx
+    │       │   │   │   │   ├── ⚛️ switch.tsx
+    │       │   │   │   │   ├── ⚛️ table.tsx
+    │       │   │   │   │   ├── ⚛️ tabs.tsx
+    │       │   │   │   │   ├── ⚛️ textarea.tsx
+    │       │   │   │   │   ├── ⚛️ toast.tsx
+    │       │   │   │   │   ├── ⚛️ toggle-group.tsx
+    │       │   │   │   │   ├── ⚛️ toggle.tsx
+    │       │   │   │   │   ├── ⚛️ tooltip.tsx
+    │       │   │   │   │   └── ⚛️ trace.tsx
+    │       │   │   │   ├── ⚛️ Banner.tsx
+    │       │   │   │   ├── ⚛️ BookingCard.tsx
+    │       │   │   │   ├── ⚛️ CTA.tsx
+    │       │   │   │   ├── ⚛️ DeleteDestinationDialog.tsx
+    │       │   │   │   ├── ⚛️ DestinationsView.tsx
+    │       │   │   │   ├── ⚛️ EditDestinationDialogue.tsx
+    │       │   │   │   ├── ⚛️ Footer.tsx
+    │       │   │   │   ├── ⚛️ MyBookingCard.tsx
+    │       │   │   │   ├── ⚛️ Navbar.tsx
+    │       │   │   │   ├── ⚛️ Testimonials.tsx
+    │       │   │   │   ├── 🔷 types.ts
+    │       │   │   │   └── ⚛️ WhyChooseUs.tsx
+    │       │   │   ├── 📁 hooks/
+    │       │   │   │   ├── 🔷 use-highlighted-code.ts
+    │       │   │   │   └── 🔷 use-mobile.ts
+    │       │   │   └── 📁 lib/
+    │       │   │       ├── 🔷 auth-client.ts
+    │       │   │       ├── 🔷 auth.ts
+    │       │   │       ├── ⚛️ highlighter.tsx
+    │       │   │       └── 🔷 utils.ts
+    │       │   ├── 🙈 .gitignore
+    │       │   ├── 📖 AGENTS.md
+    │       │   ├── 🔶 components.json
+    │       │   ├── ⚡ eslint.config.mjs
+    │       │   ├── 🔷 next.config.ts
+    │       │   ├── 🔒 package-lock.json
+    │       │   ├── 📦 package.json
+    │       │   ├── 📚 README.md
+    │       │   └── 🔶 tsconfig.json
+    │       └── 📁 wanterlust-server/
+    │           ├── 🙈 .gitignore
+    │           ├── ⚡ index.js
+    │           ├── 🔒 package-lock.json
+    │           └── 📦 package.json
+    └── 📁 module-48-jwt-security-and-deployment/
         ├── 📁 b14-wanderlust-resources/
         │   ├── 📁 assets/
         │   │   ├── 📁 destinations/
@@ -2370,6 +2554,8 @@ Contains problem-solving challenges and contest submissions, including:
         │   │   └── 🖼️ Wanderlast.png
         │   ├── 📁 extracted_penpot/
         │   │   ├── 📁 files/
+        │   │   │   ├── 📁 106dcb05-b1c7-8064-8007-f2f2c9ad7e62/
+        │   │   │   │   └── 📁 pages/
         │   │   │   └── 🔶 106dcb05-b1c7-8064-8007-f2f2c9ad7e62.json
         │   │   └── 🔶 manifest.json
         │   ├── 📚 README.md
@@ -2494,6 +2680,7 @@ Contains problem-solving challenges and contest submissions, including:
             │   │   │   ├── ⚛️ DeleteDestinationDialog.tsx
             │   │   │   ├── ⚛️ DestinationsView.tsx
             │   │   │   ├── ⚛️ EditDestinationDialogue.tsx
+            │   │   │   ├── ⚛️ FeaturedDestinations.tsx
             │   │   │   ├── ⚛️ Footer.tsx
             │   │   │   ├── ⚛️ MyBookingCard.tsx
             │   │   │   ├── ⚛️ Navbar.tsx
@@ -2503,11 +2690,14 @@ Contains problem-solving challenges and contest submissions, including:
             │   │   ├── 📁 hooks/
             │   │   │   ├── 🔷 use-highlighted-code.ts
             │   │   │   └── 🔷 use-mobile.ts
-            │   │   └── 📁 lib/
-            │   │       ├── 🔷 auth-client.ts
-            │   │       ├── 🔷 auth.ts
-            │   │       ├── ⚛️ highlighter.tsx
-            │   │       └── 🔷 utils.ts
+            │   │   ├── 📁 lib/
+            │   │   │   ├── 🔷 auth-client.ts
+            │   │   │   ├── 🔷 auth.ts
+            │   │   │   ├── 🔷 getTokenFromClient.ts
+            │   │   │   ├── 🔷 getTokenFromServer.ts
+            │   │   │   ├── ⚛️ highlighter.tsx
+            │   │   │   └── 🔷 utils.ts
+            │   │   └── 🔷 proxy.ts
             │   ├── 🙈 .gitignore
             │   ├── 📖 AGENTS.md
             │   ├── 🔶 components.json
