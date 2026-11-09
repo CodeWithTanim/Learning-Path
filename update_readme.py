@@ -655,6 +655,8 @@ def main():
         r'^env$',
         r'.*\.pyc$',
             r'.*\.tsbuildinfo$',
+            r'^index\.js\.full$',
+            r'^\.git_backup$',
     ]
     root_tree = generate_tree(repo_root, root_ignore)
     update_readme_file(os.path.join(repo_root, "README.md"), root_tree, "learning-path")
@@ -674,6 +676,8 @@ def main():
             r'^node_modules$',
             r'.*\.pyc$',
             r'.*\.tsbuildinfo$',
+            r'^index\.js\.full$',
+            r'^\.git_backup$',
         ]
         ai_tree = generate_tree(ai_dir, ai_ignore, ignore_root_files=['README.md'])
         update_readme_file(os.path.join(ai_dir, "README.md"), ai_tree, "AI-Driven Full Stack Web Engineering")
@@ -693,6 +697,8 @@ def main():
             r'^node_modules$',
             r'.*\.pyc$',
             r'.*\.tsbuildinfo$',
+            r'^index\.js\.full$',
+            r'^\.git_backup$',
         ]
         nl_tree = generate_tree(nl_dir, nl_ignore, ignore_root_files=['README.md'])
         update_readme_file(os.path.join(nl_dir, "README.md"), nl_tree, "Next-Level-Foundation-Program")
@@ -712,6 +718,8 @@ def main():
             r'^node_modules$',
             r'.*\.pyc$',
             r'.*\.tsbuildinfo$',
+            r'^index\.js\.full$',
+            r'^\.git_backup$',
         ]
         mysql_tree = generate_tree(mysql_dir, mysql_ignore, ignore_root_files=['README.md'])
         update_readme_file(os.path.join(mysql_dir, "README.md"), mysql_tree, "MySQL-Learning")
