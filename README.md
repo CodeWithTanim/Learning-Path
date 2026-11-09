@@ -1960,8 +1960,6 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 │   │   │   │   │   └── 🖼️ Wanderlast.png
 │   │   │   │   ├── 📁 extracted_penpot/
 │   │   │   │   │   ├── 📁 files/
-│   │   │   │   │   │   ├── 📁 106dcb05-b1c7-8064-8007-f2f2c9ad7e62/
-│   │   │   │   │   │   │   └── 📁 pages/
 │   │   │   │   │   │   └── 🔶 106dcb05-b1c7-8064-8007-f2f2c9ad7e62.json
 │   │   │   │   │   └── 🔶 manifest.json
 │   │   │   │   ├── 📚 README.md
@@ -2121,8 +2119,6 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 │   │   │   │   │   └── 🖼️ Wanderlast.png
 │   │   │   │   ├── 📁 extracted_penpot/
 │   │   │   │   │   ├── 📁 files/
-│   │   │   │   │   │   ├── 📁 106dcb05-b1c7-8064-8007-f2f2c9ad7e62/
-│   │   │   │   │   │   │   └── 📁 pages/
 │   │   │   │   │   │   └── 🔶 106dcb05-b1c7-8064-8007-f2f2c9ad7e62.json
 │   │   │   │   │   └── 🔶 manifest.json
 │   │   │   │   ├── 📚 README.md
@@ -2296,8 +2292,6 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 │   │       │   │   └── 🖼️ Wanderlast.png
 │   │       │   ├── 📁 extracted_penpot/
 │   │       │   │   ├── 📁 files/
-│   │       │   │   │   ├── 📁 106dcb05-b1c7-8064-8007-f2f2c9ad7e62/
-│   │       │   │   │   │   └── 📁 pages/
 │   │       │   │   │   └── 🔶 106dcb05-b1c7-8064-8007-f2f2c9ad7e62.json
 │   │       │   │   └── 🔶 manifest.json
 │   │       │   ├── 📚 README.md
