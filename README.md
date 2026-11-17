@@ -66,17 +66,28 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 │   │   │   ├── ⚡ 7.isValidBdMobileNumber.js
 │   │   │   ├── ⚡ 8.daysBetweenDates.js
 │   │   │   └── ⚡ 9.toQueryString.js
-│   │   └── 📁 Durbar Contest #7/
-│   │       ├── ⚡ 1.formatCountdown.js
-│   │       ├── ⚡ 10.countConnectedFriends.js
-│   │       ├── ⚡ 2.updateNotificationCount.js
-│   │       ├── ⚡ 3.countFilesInFolder.js
-│   │       ├── ⚡ 4.rankStudents.js
-│   │       ├── ⚡ 5.selectBestDiscount.js
-│   │       ├── ⚡ 6.trackElevator.js
-│   │       ├── ⚡ 7.findFreeTime.js
-│   │       ├── ⚡ 8.maxTasks.js
-│   │       └── ⚡ 9.reconcileInventory.js
+│   │   ├── 📁 Durbar Contest #7/
+│   │   │   ├── ⚡ 1.formatCountdown.js
+│   │   │   ├── ⚡ 10.countConnectedFriends.js
+│   │   │   ├── ⚡ 2.updateNotificationCount.js
+│   │   │   ├── ⚡ 3.countFilesInFolder.js
+│   │   │   ├── ⚡ 4.rankStudents.js
+│   │   │   ├── ⚡ 5.selectBestDiscount.js
+│   │   │   ├── ⚡ 6.trackElevator.js
+│   │   │   ├── ⚡ 7.findFreeTime.js
+│   │   │   ├── ⚡ 8.maxTasks.js
+│   │   │   └── ⚡ 9.reconcileInventory.js
+│   │   └── 📁 Durbar Contest #8/
+│   │       ├── ⚡ 1.compareVersions.js
+│   │       ├── ⚡ 10.minRemovalsToBalance.js
+│   │       ├── ⚡ 2.findBalancedSplit.js
+│   │       ├── ⚡ 3.isAlmostPalindrome.js
+│   │       ├── ⚡ 4.removeDuplicateCharacters.js
+│   │       ├── ⚡ 5.findMajorityElement.js
+│   │       ├── ⚡ 6.moveZeros.js
+│   │       ├── ⚡ 7.nextGreaterElement.js
+│   │       ├── ⚡ 8.simplifyPath.js
+│   │       └── ⚡ 9.groupConsecutiveRanges.js
 │   ├── 📁 Milestone 1 - Launch Your Web Journey - HTML, CSS, and GitHUb Fundamentals/
 │   │   ├── 📁 Conceptual Session 1 - Learn and Explore HTML, CSS (Project)/
 │   │   │   ├── 📁 conceptual-session/
@@ -1960,6 +1971,8 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 │   │   │   │   │   └── 🖼️ Wanderlast.png
 │   │   │   │   ├── 📁 extracted_penpot/
 │   │   │   │   │   ├── 📁 files/
+│   │   │   │   │   │   ├── 📁 106dcb05-b1c7-8064-8007-f2f2c9ad7e62/
+│   │   │   │   │   │   │   └── 📁 pages/
 │   │   │   │   │   │   └── 🔶 106dcb05-b1c7-8064-8007-f2f2c9ad7e62.json
 │   │   │   │   │   └── 🔶 manifest.json
 │   │   │   │   ├── 📚 README.md
@@ -2119,6 +2132,8 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 │   │   │   │   │   └── 🖼️ Wanderlast.png
 │   │   │   │   ├── 📁 extracted_penpot/
 │   │   │   │   │   ├── 📁 files/
+│   │   │   │   │   │   ├── 📁 106dcb05-b1c7-8064-8007-f2f2c9ad7e62/
+│   │   │   │   │   │   │   └── 📁 pages/
 │   │   │   │   │   │   └── 🔶 106dcb05-b1c7-8064-8007-f2f2c9ad7e62.json
 │   │   │   │   │   └── 🔶 manifest.json
 │   │   │   │   ├── 📚 README.md
@@ -2292,6 +2307,8 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 │   │   │   │   │   └── 🖼️ Wanderlast.png
 │   │   │   │   ├── 📁 extracted_penpot/
 │   │   │   │   │   ├── 📁 files/
+│   │   │   │   │   │   ├── 📁 106dcb05-b1c7-8064-8007-f2f2c9ad7e62/
+│   │   │   │   │   │   │   └── 📁 pages/
 │   │   │   │   │   │   └── 🔶 106dcb05-b1c7-8064-8007-f2f2c9ad7e62.json
 │   │   │   │   │   └── 🔶 manifest.json
 │   │   │   │   ├── 📚 README.md
@@ -2582,6 +2599,7 @@ Welcome to my comprehensive learning repository! This is where I document my ent
 │   │       │   │   └── 📁 types/
 │   │       │   │       └── 🔷 index.ts
 │   │       │   ├── 🙈 .gitignore
+│   │       │   ├── 📖 AGENTS.md
 │   │       │   ├── 🔶 components.json
 │   │       │   ├── ⚡ eslint.config.mjs
 │   │       │   ├── 🔷 next.config.ts

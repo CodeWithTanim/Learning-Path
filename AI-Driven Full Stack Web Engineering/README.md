@@ -284,6 +284,7 @@ Contains problem-solving challenges and contest submissions, including:
 - **Durbar Contest #5**: Missing number discovery using Gauss summation (`1.missingNumber.js`), student attendance percentage and status reporting (`2.formatAttendanceReport.js`), nullish-coalesced profile card formatter (`3.generateProfileCard.js`), pagination metadata calculator (`4.getPageMetadata.js`), local rainfall peak identifier (`5.findRainfallPeaks.js`), UTC-based weekday name resolver (`6.getDayOfWeek.js`), shared lowercase skills extractor and deduplicator (`7.commonSkills.js`), key-value inverter (`8.swapKeysAndValues.js`), grade-band accumulator grouping (`9.groupStudentsByGradeBand.js`), and queue simulation engine (`10.simulateTicketQueue.js`).
 - **Durbar Contest #6**: Two-pointer sorted array merging (`1.mergeSortedArrays.js`), cart subtotal and tax calculation with discounts (`2.calculateCartTotal.js`), email format regex validation (`3.isValidEmail.js`), greatest common divisor via Euclidean algorithm (`4.gcd.js`), longest contiguous strictly increasing streak discovery (`5.longestIncreasingStreak.js`), array chunking by partition size (`6.chunkArray.js`), Bangladeshi mobile number format verification (`7.isValidBdMobileNumber.js`), calendar day difference calculation (`8.daysBetweenDates.js`), key-value query string serialization (`9.toQueryString.js`), and square matrix primary/secondary diagonal summation (`10.diagonalSums.js`).
 - **Durbar Contest #7**: Seconds countdown timer formatting (`1.formatCountdown.js`), sequential notification event counter (`2.updateNotificationCount.js`), recursive folder file counter (`3.countFilesInFolder.js`), score-based student ranking with tie handling (`4.rankStudents.js`), optimal discount offer selector (`5.selectBestDiscount.js`), elevator floor simulation within boundaries (`6.trackElevator.js`), available calendar free time slot discovery (`7.findFreeTime.js`), greedy interval activity scheduling (`8.maxTasks.js`), transaction-based inventory reconciliation (`9.reconcileInventory.js`), and BFS-based social friendship network component sizing (`10.countConnectedFriends.js`).
+- **Durbar Contest #8**: Semantic version comparison (`1.compareVersions.js`), equal sum partition prefix index finder (`2.findBalancedSplit.js`), single-character-removal palindrome validation (`3.isAlmostPalindrome.js`), order-preserving duplicate character removal (`4.removeDuplicateCharacters.js`), Boyer-Moore majority voting algorithm (`5.findMajorityElement.js`), trailing zero relocation while maintaining order (`6.moveZeros.js`), monotonic stack-based next greater element lookup (`7.nextGreaterElement.js`), canonical Unix file path simplification (`8.simplifyPath.js`), consecutive number range grouping (`9.groupConsecutiveRanges.js`), and minimum bracket removals for valid parentheses balance (`10.minRemovalsToBalance.js`).
 
 ---
 
@@ -338,17 +339,28 @@ Contains problem-solving challenges and contest submissions, including:
 │   │   ├── ⚡ 7.isValidBdMobileNumber.js
 │   │   ├── ⚡ 8.daysBetweenDates.js
 │   │   └── ⚡ 9.toQueryString.js
-│   └── 📁 Durbar Contest #7/
-│       ├── ⚡ 1.formatCountdown.js
-│       ├── ⚡ 10.countConnectedFriends.js
-│       ├── ⚡ 2.updateNotificationCount.js
-│       ├── ⚡ 3.countFilesInFolder.js
-│       ├── ⚡ 4.rankStudents.js
-│       ├── ⚡ 5.selectBestDiscount.js
-│       ├── ⚡ 6.trackElevator.js
-│       ├── ⚡ 7.findFreeTime.js
-│       ├── ⚡ 8.maxTasks.js
-│       └── ⚡ 9.reconcileInventory.js
+│   ├── 📁 Durbar Contest #7/
+│   │   ├── ⚡ 1.formatCountdown.js
+│   │   ├── ⚡ 10.countConnectedFriends.js
+│   │   ├── ⚡ 2.updateNotificationCount.js
+│   │   ├── ⚡ 3.countFilesInFolder.js
+│   │   ├── ⚡ 4.rankStudents.js
+│   │   ├── ⚡ 5.selectBestDiscount.js
+│   │   ├── ⚡ 6.trackElevator.js
+│   │   ├── ⚡ 7.findFreeTime.js
+│   │   ├── ⚡ 8.maxTasks.js
+│   │   └── ⚡ 9.reconcileInventory.js
+│   └── 📁 Durbar Contest #8/
+│       ├── ⚡ 1.compareVersions.js
+│       ├── ⚡ 10.minRemovalsToBalance.js
+│       ├── ⚡ 2.findBalancedSplit.js
+│       ├── ⚡ 3.isAlmostPalindrome.js
+│       ├── ⚡ 4.removeDuplicateCharacters.js
+│       ├── ⚡ 5.findMajorityElement.js
+│       ├── ⚡ 6.moveZeros.js
+│       ├── ⚡ 7.nextGreaterElement.js
+│       ├── ⚡ 8.simplifyPath.js
+│       └── ⚡ 9.groupConsecutiveRanges.js
 ├── 📁 Milestone 1 - Launch Your Web Journey - HTML, CSS, and GitHUb Fundamentals/
 │   ├── 📁 Conceptual Session 1 - Learn and Explore HTML, CSS (Project)/
 │   │   ├── 📁 conceptual-session/
@@ -2232,6 +2244,8 @@ Contains problem-solving challenges and contest submissions, including:
 │   │   │   │   └── 🖼️ Wanderlast.png
 │   │   │   ├── 📁 extracted_penpot/
 │   │   │   │   ├── 📁 files/
+│   │   │   │   │   ├── 📁 106dcb05-b1c7-8064-8007-f2f2c9ad7e62/
+│   │   │   │   │   │   └── 📁 pages/
 │   │   │   │   │   └── 🔶 106dcb05-b1c7-8064-8007-f2f2c9ad7e62.json
 │   │   │   │   └── 🔶 manifest.json
 │   │   │   ├── 📚 README.md
@@ -2391,6 +2405,8 @@ Contains problem-solving challenges and contest submissions, including:
 │   │   │   │   └── 🖼️ Wanderlast.png
 │   │   │   ├── 📁 extracted_penpot/
 │   │   │   │   ├── 📁 files/
+│   │   │   │   │   ├── 📁 106dcb05-b1c7-8064-8007-f2f2c9ad7e62/
+│   │   │   │   │   │   └── 📁 pages/
 │   │   │   │   │   └── 🔶 106dcb05-b1c7-8064-8007-f2f2c9ad7e62.json
 │   │   │   │   └── 🔶 manifest.json
 │   │   │   ├── 📚 README.md
@@ -2564,6 +2580,8 @@ Contains problem-solving challenges and contest submissions, including:
 │   │   │   │   └── 🖼️ Wanderlast.png
 │   │   │   ├── 📁 extracted_penpot/
 │   │   │   │   ├── 📁 files/
+│   │   │   │   │   ├── 📁 106dcb05-b1c7-8064-8007-f2f2c9ad7e62/
+│   │   │   │   │   │   └── 📁 pages/
 │   │   │   │   │   └── 🔶 106dcb05-b1c7-8064-8007-f2f2c9ad7e62.json
 │   │   │   │   └── 🔶 manifest.json
 │   │   │   ├── 📚 README.md
@@ -2854,6 +2872,7 @@ Contains problem-solving challenges and contest submissions, including:
 │       │   │   └── 📁 types/
 │       │   │       └── 🔷 index.ts
 │       │   ├── 🙈 .gitignore
+│       │   ├── 📖 AGENTS.md
 │       │   ├── 🔶 components.json
 │       │   ├── ⚡ eslint.config.mjs
 │       │   ├── 🔷 next.config.ts
