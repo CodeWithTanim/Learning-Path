@@ -273,6 +273,25 @@ Kickstarting **HireLoop**, a modern job hunting and recruitment portal connectin
 - **Role-Based Authentication**: Implements BetterAuth (`@better-auth/mongo-adapter`) with native MongoDB driver persistence (`hireloop-db`), supporting email/password and Google OAuth workflows with multi-role access controls (`seeker`, `recruiter`, `admin`). Includes dedicated authentication pages (`/sign-in`, `/sign-up`) with interactive role selection and secure form validation wrapped in an animated auth layout shell (`auth-shell.tsx`).
 - **Design & Planning Resources (`hireloop-resources`)**: Comprehensive system specifications (`Project requirements.md`) defining seeker/recruiter/admin workflows, dashboards, and subscription models; Framer Motion guide (`Framer-Motion-guide.md`) detailing declarative animations and variants; Figma project design system (`hireloop.fig`); and branding assets (`logos/`, `images/`).
 
+### 🔹 `Milestone 9 Module 51 - Final Project (Part 2)`
+
+Advancing **HireLoop** with full-stack job management capabilities, dedicated Express backend API services, role-based dashboards, and complete recruiter workflows for creating, editing, and managing job postings.
+- **Backend Architecture (`hireloop-server`)**: Node.js & Express RESTful API server with MongoDB Atlas integration (`hireloop-db`). Implements modular route handlers for user listings (`GET /users`) and full job listing lifecycle operations (`GET /jobs` with recruiter email filtering, `GET /jobs/:id`, `POST /jobs`, `PATCH /jobs/:id`, `DELETE /jobs/:id`).
+- **Role-Based Protected Dashboards (`hireloop-client`)**: Next.js App Router layout with role-aware route protection (`/dashboard/seeker`, `/dashboard/recruiter`, `/dashboard/admin`), automatic unauthenticated redirection to `/sign-in`, and dynamic sidebar navigation (`DashboardSidebar.tsx`) powered by Shadcn UI.
+- **Recruiter Job Management Workflows**: End-to-end recruiter portal (`/dashboard/recruiter/jobs`) featuring searchable and filterable job listings tables with status badges and applicant counters, unified job posting form (`JobForm.tsx`) for creation (`/new`) and updates (`/edit/[id]`), real-time side-by-side job preview card (`JobPreviewCard.tsx`), and safe job deletion confirmation dialogs (`DeleteJobDialog.tsx`).
+- **Typed API Client Layer**: Centralized API service (`lib/api/jobs.ts`) with custom error classes (`ApiError`), session-aware job queries, and comprehensive TypeScript definitions (`types/job.ts`) for job schemas, categories, and salary periods.
+- **Design & Planning Resources (`hireloop-resources`)**: System specifications (`Project requirements.md`), Framer Motion animation reference (`Framer-Motion-guide.md`), Figma design file (`hireloop.fig`), and asset libraries (`logos/`, `images/`).
+
+### 🔹 `Milestone 9 Module 52 - Final Project (Part 3)`
+
+Empowering **HireLoop** with full-scale public job browsing, real-time multi-facet search & filtering, interactive job application pipelines, seeker application tracking, and recruiter posting limits.
+- **Public Job Browsing & Search (`/browse-jobs`)**: Next.js server-rendered job directory with multi-facet query filtering (search keywords across title/company/location, job types, remote boolean, categories, salary sorting), dynamic live database count badges in filter drawers, and synchronized URL query parameters (`BrowseJobsView.tsx`).
+- **Dynamic Job Details & Metadata (`/browse-jobs/[id]`)**: Deep-linked detail view with dynamic OpenGraph metadata generation (`generateMetadata`), pixel-matched company branding, comprehensive sections for role overview, responsibilities, requirements, and benefits, alongside direct application and bookmarking actions (`JobDetailsClient.tsx`).
+- **Seeker Applications & Saved Jobs Portals**: Dedicated seeker workflows for tracking submitted applications (`/dashboard/seeker/applications`) with status progression timelines (Applied, Under Review, Interviewing, Offered, Rejected) and managing bookmarked listings (`/dashboard/seeker/saved`) with instant apply shortcuts.
+- **Backend Applications Pipeline (`hireloop-server`)**: MongoDB Atlas integration with dedicated `applications` collection. Implements `GET /applications` (applicant/job filtering), duplicate prevention checks (`GET /applications/check`), and application submission (`POST /applications`) with strict role-based access validation and atomic `applicantsCount` increments.
+- **Recruiter Quota Controls & Enhanced APIs**: Added 10-job active listing limits (Growth Plan quota enforcement) on job creation and reactivation; upgraded `GET /jobs` with multi-field regex searches, batch ID queries (`ids`), and salary/chronological sorting.
+- **Design & Planning Resources (`hireloop-resources`)**: System requirements specifications (`Project requirements.md`), animation guides (`Framer-Motion-guide.md`), Figma design layouts (`hireloop.fig`), and branding assets.
+
 ### 🔹 `Durbar - Task`
 
 Contains problem-solving challenges and contest submissions, including:
@@ -2244,6 +2263,8 @@ Contains problem-solving challenges and contest submissions, including:
 │   │   │   │   └── 🖼️ Wanderlast.png
 │   │   │   ├── 📁 extracted_penpot/
 │   │   │   │   ├── 📁 files/
+│   │   │   │   │   ├── 📁 106dcb05-b1c7-8064-8007-f2f2c9ad7e62/
+│   │   │   │   │   │   └── 📁 pages/
 │   │   │   │   │   └── 🔶 106dcb05-b1c7-8064-8007-f2f2c9ad7e62.json
 │   │   │   │   └── 🔶 manifest.json
 │   │   │   ├── 📚 README.md
@@ -2403,6 +2424,8 @@ Contains problem-solving challenges and contest submissions, including:
 │   │   │   │   └── 🖼️ Wanderlast.png
 │   │   │   ├── 📁 extracted_penpot/
 │   │   │   │   ├── 📁 files/
+│   │   │   │   │   ├── 📁 106dcb05-b1c7-8064-8007-f2f2c9ad7e62/
+│   │   │   │   │   │   └── 📁 pages/
 │   │   │   │   │   └── 🔶 106dcb05-b1c7-8064-8007-f2f2c9ad7e62.json
 │   │   │   │   └── 🔶 manifest.json
 │   │   │   ├── 📚 README.md
@@ -2576,6 +2599,8 @@ Contains problem-solving challenges and contest submissions, including:
 │   │   │   │   └── 🖼️ Wanderlast.png
 │   │   │   ├── 📁 extracted_penpot/
 │   │   │   │   ├── 📁 files/
+│   │   │   │   │   ├── 📁 106dcb05-b1c7-8064-8007-f2f2c9ad7e62/
+│   │   │   │   │   │   └── 📁 pages/
 │   │   │   │   │   └── 🔶 106dcb05-b1c7-8064-8007-f2f2c9ad7e62.json
 │   │   │   │   └── 🔶 manifest.json
 │   │   │   ├── 📚 README.md
@@ -2866,6 +2891,7 @@ Contains problem-solving challenges and contest submissions, including:
 │       │   │   └── 📁 types/
 │       │   │       └── 🔷 index.ts
 │       │   ├── 🙈 .gitignore
+│       │   ├── 📖 AGENTS.md
 │       │   ├── 🔶 components.json
 │       │   ├── ⚡ eslint.config.mjs
 │       │   ├── 🔷 next.config.ts
@@ -2882,139 +2908,543 @@ Contains problem-solving challenges and contest submissions, including:
 │       │   └── 🔶 vercel.json
 │       └── 📕 B14-A8-Cat_Harry.pdf
 └── 📁 Milestone 9 - Full Stack Project 1/
-    └── 📁 module-50-final-project-part-1/
+    ├── 📁 module-50-final-project-part-1/
+    │   ├── 📁 hireloop/
+    │   │   └── 📁 hireloop-client/
+    │   │       ├── 📁 app/
+    │   │       │   ├── 📁 (auth)/
+    │   │       │   │   ├── 📁 sign-in/
+    │   │       │   │   │   └── ⚛️ page.tsx
+    │   │       │   │   └── 📁 sign-up/
+    │   │       │   │       └── ⚛️ page.tsx
+    │   │       │   ├── 📁 api/
+    │   │       │   │   └── 📁 auth/
+    │   │       │   │       └── 📁 [...all]/
+    │   │       │   │           └── 🔷 route.ts
+    │   │       │   ├── 📁 assets/
+    │   │       │   │   ├── 📁 images/
+    │   │       │   │   │   ├── 🖼️ cta-bg.png
+    │   │       │   │   │   ├── 🖼️ globe.png
+    │   │       │   │   │   └── 🖼️ logo.png
+    │   │       │   │   └── 📁 logos/
+    │   │       │   │       ├── 🖼️ adobe.png
+    │   │       │   │       ├── 🖼️ airbnb.png
+    │   │       │   │       ├── 🖼️ amazon.png
+    │   │       │   │       ├── 🖼️ apple.png
+    │   │       │   │       ├── 🖼️ google.png
+    │   │       │   │       ├── 🖼️ meta.png
+    │   │       │   │       ├── 🖼️ microsoft.png
+    │   │       │   │       ├── 🖼️ netflix.png
+    │   │       │   │       ├── 🖼️ nvidia.png
+    │   │       │   │       ├── 🖼️ spotify.png
+    │   │       │   │       ├── 🖼️ tesla.png
+    │   │       │   │       └── 🖼️ uber.png
+    │   │       │   ├── 🖼️ favicon.ico
+    │   │       │   ├── 🎨 globals.css
+    │   │       │   ├── ⚛️ layout.tsx
+    │   │       │   └── ⚛️ page.tsx
+    │   │       ├── 📁 components/
+    │   │       │   ├── 📁 ui/
+    │   │       │   │   ├── ⚛️ accordion.tsx
+    │   │       │   │   ├── ⚛️ alert-dialog.tsx
+    │   │       │   │   ├── ⚛️ alert.tsx
+    │   │       │   │   ├── ⚛️ aspect-ratio.tsx
+    │   │       │   │   ├── ⚛️ attachment.tsx
+    │   │       │   │   ├── ⚛️ avatar.tsx
+    │   │       │   │   ├── ⚛️ badge.tsx
+    │   │       │   │   ├── ⚛️ breadcrumb.tsx
+    │   │       │   │   ├── ⚛️ bubble.tsx
+    │   │       │   │   ├── ⚛️ button-group.tsx
+    │   │       │   │   ├── ⚛️ button.tsx
+    │   │       │   │   ├── ⚛️ calendar.tsx
+    │   │       │   │   ├── ⚛️ card.tsx
+    │   │       │   │   ├── ⚛️ carousel.tsx
+    │   │       │   │   ├── ⚛️ chart.tsx
+    │   │       │   │   ├── ⚛️ checkbox.tsx
+    │   │       │   │   ├── ⚛️ code-block.tsx
+    │   │       │   │   ├── ⚛️ collapsible.tsx
+    │   │       │   │   ├── ⚛️ combobox.tsx
+    │   │       │   │   ├── ⚛️ command.tsx
+    │   │       │   │   ├── ⚛️ context-menu.tsx
+    │   │       │   │   ├── ⚛️ dialog.tsx
+    │   │       │   │   ├── ⚛️ direction.tsx
+    │   │       │   │   ├── ⚛️ drawer.tsx
+    │   │       │   │   ├── ⚛️ dropdown-menu.tsx
+    │   │       │   │   ├── ⚛️ empty.tsx
+    │   │       │   │   ├── ⚛️ field.tsx
+    │   │       │   │   ├── ⚛️ hover-card.tsx
+    │   │       │   │   ├── ⚛️ input-group.tsx
+    │   │       │   │   ├── ⚛️ input-otp.tsx
+    │   │       │   │   ├── ⚛️ input.tsx
+    │   │       │   │   ├── ⚛️ item.tsx
+    │   │       │   │   ├── ⚛️ kbd.tsx
+    │   │       │   │   ├── ⚛️ label.tsx
+    │   │       │   │   ├── ⚛️ marker.tsx
+    │   │       │   │   ├── ⚛️ menubar.tsx
+    │   │       │   │   ├── ⚛️ message-scroller.tsx
+    │   │       │   │   ├── ⚛️ message.tsx
+    │   │       │   │   ├── ⚛️ native-select.tsx
+    │   │       │   │   ├── ⚛️ navigation-menu.tsx
+    │   │       │   │   ├── ⚛️ pagination.tsx
+    │   │       │   │   ├── ⚛️ popover.tsx
+    │   │       │   │   ├── ⚛️ progress.tsx
+    │   │       │   │   ├── ⚛️ questionnaire.tsx
+    │   │       │   │   ├── ⚛️ radio-group.tsx
+    │   │       │   │   ├── ⚛️ resizable.tsx
+    │   │       │   │   ├── ⚛️ scroll-area.tsx
+    │   │       │   │   ├── ⚛️ select.tsx
+    │   │       │   │   ├── ⚛️ separator.tsx
+    │   │       │   │   ├── ⚛️ sheet.tsx
+    │   │       │   │   ├── ⚛️ sidebar.tsx
+    │   │       │   │   ├── ⚛️ skeleton.tsx
+    │   │       │   │   ├── ⚛️ slider.tsx
+    │   │       │   │   ├── ⚛️ spinner.tsx
+    │   │       │   │   ├── ⚛️ switch.tsx
+    │   │       │   │   ├── ⚛️ table.tsx
+    │   │       │   │   ├── ⚛️ tabs.tsx
+    │   │       │   │   ├── ⚛️ textarea.tsx
+    │   │       │   │   ├── ⚛️ toast.tsx
+    │   │       │   │   ├── ⚛️ toggle-group.tsx
+    │   │       │   │   ├── ⚛️ toggle.tsx
+    │   │       │   │   ├── ⚛️ tooltip.tsx
+    │   │       │   │   └── ⚛️ trace.tsx
+    │   │       │   ├── 📄 .gitkeep
+    │   │       │   ├── ⚛️ auth-shell.tsx
+    │   │       │   ├── ⚛️ hero.tsx
+    │   │       │   ├── ⚛️ navbar.tsx
+    │   │       │   └── ⚛️ theme-provider.tsx
+    │   │       ├── 📁 hooks/
+    │   │       │   ├── 📄 .gitkeep
+    │   │       │   ├── 🔷 use-highlighted-code.ts
+    │   │       │   └── 🔷 use-mobile.ts
+    │   │       ├── 📁 lib/
+    │   │       │   ├── 📄 .gitkeep
+    │   │       │   ├── 🔷 auth-client.ts
+    │   │       │   ├── 🔷 auth.ts
+    │   │       │   ├── ⚛️ highlighter.tsx
+    │   │       │   └── 🔷 utils.ts
+    │   │       ├── 📁 public/
+    │   │       │   ├── 📄 .gitkeep
+    │   │       │   ├── 📖 Framer-Motion-guide.md
+    │   │       │   ├── 📄 hireloop.fig
+    │   │       │   └── 📖 Project requirements.md
+    │   │       ├── 🙈 .gitignore
+    │   │       ├── 📄 .prettierignore
+    │   │       ├── 📄 .prettierrc
+    │   │       ├── 📖 AGENTS.md
+    │   │       ├── 📖 CLAUDE.md
+    │   │       ├── 🔶 components.json
+    │   │       ├── ⚡ eslint.config.mjs
+    │   │       ├── 🔷 next.config.ts
+    │   │       ├── 🔒 package-lock.json
+    │   │       ├── 📦 package.json
+    │   │       ├── ⚡ postcss.config.mjs
+    │   │       ├── 📚 README.md
+    │   │       └── 🔶 tsconfig.json
+    │   └── 📁 hireloop-resources/
+    │       ├── 📁 images/
+    │       │   ├── 🖼️ cta-bg.png
+    │       │   ├── 🖼️ globe.png
+    │       │   └── 🖼️ logo.png
+    │       ├── 📁 logos/
+    │       │   ├── 🖼️ adobe.png
+    │       │   ├── 🖼️ airbnb.png
+    │       │   ├── 🖼️ amazon.png
+    │       │   ├── 🖼️ apple.png
+    │       │   ├── 🖼️ google.png
+    │       │   ├── 🖼️ meta.png
+    │       │   ├── 🖼️ microsoft.png
+    │       │   ├── 🖼️ netflix.png
+    │       │   ├── 🖼️ nvidia.png
+    │       │   ├── 🖼️ spotify.png
+    │       │   ├── 🖼️ tesla.png
+    │       │   └── 🖼️ uber.png
+    │       ├── 📖 Framer-Motion-guide.md
+    │       ├── 📄 hireloop.fig
+    │       └── 📖 Project requirements.md
+    ├── 📁 module-51-final-project-part-2/
+    │   ├── 📁 hireloop/
+    │   │   ├── 📁 hireloop-client/
+    │   │   │   ├── 📁 app/
+    │   │   │   │   ├── 📁 (auth)/
+    │   │   │   │   │   ├── 📁 sign-in/
+    │   │   │   │   │   │   └── ⚛️ page.tsx
+    │   │   │   │   │   └── 📁 sign-up/
+    │   │   │   │   │       └── ⚛️ page.tsx
+    │   │   │   │   ├── 📁 api/
+    │   │   │   │   │   └── 📁 auth/
+    │   │   │   │   │       └── 📁 [...all]/
+    │   │   │   │   │           └── 🔷 route.ts
+    │   │   │   │   ├── 📁 assets/
+    │   │   │   │   │   ├── 📁 images/
+    │   │   │   │   │   │   ├── 🖼️ cta-bg.png
+    │   │   │   │   │   │   ├── 🖼️ globe.png
+    │   │   │   │   │   │   └── 🖼️ logo.png
+    │   │   │   │   │   └── 📁 logos/
+    │   │   │   │   │       ├── 🖼️ adobe.png
+    │   │   │   │   │       ├── 🖼️ airbnb.png
+    │   │   │   │   │       ├── 🖼️ amazon.png
+    │   │   │   │   │       ├── 🖼️ apple.png
+    │   │   │   │   │       ├── 🖼️ google.png
+    │   │   │   │   │       ├── 🖼️ meta.png
+    │   │   │   │   │       ├── 🖼️ microsoft.png
+    │   │   │   │   │       ├── 🖼️ netflix.png
+    │   │   │   │   │       ├── 🖼️ nvidia.png
+    │   │   │   │   │       ├── 🖼️ spotify.png
+    │   │   │   │   │       ├── 🖼️ tesla.png
+    │   │   │   │   │       └── 🖼️ uber.png
+    │   │   │   │   ├── 📁 components/
+    │   │   │   │   │   ├── ⚛️ DashboardSidebar.tsx
+    │   │   │   │   │   ├── ⚛️ DeleteJobDialog.tsx
+    │   │   │   │   │   ├── ⚛️ JobForm.tsx
+    │   │   │   │   │   └── ⚛️ JobPreviewCard.tsx
+    │   │   │   │   ├── 📁 dashboard/
+    │   │   │   │   │   ├── 📁 admin/
+    │   │   │   │   │   │   ├── ⚛️ layout.tsx
+    │   │   │   │   │   │   └── ⚛️ page.tsx
+    │   │   │   │   │   ├── 📁 recruiter/
+    │   │   │   │   │   │   ├── 📁 jobs/
+    │   │   │   │   │   │   │   ├── 📁 edit/
+    │   │   │   │   │   │   │   │   └── 📁 [id]/
+    │   │   │   │   │   │   │   │       └── ⚛️ page.tsx
+    │   │   │   │   │   │   │   ├── 📁 new/
+    │   │   │   │   │   │   │   │   └── ⚛️ page.tsx
+    │   │   │   │   │   │   │   └── ⚛️ page.tsx
+    │   │   │   │   │   │   ├── ⚛️ layout.tsx
+    │   │   │   │   │   │   └── ⚛️ page.tsx
+    │   │   │   │   │   ├── 📁 seeker/
+    │   │   │   │   │   │   ├── ⚛️ layout.tsx
+    │   │   │   │   │   │   └── ⚛️ page.tsx
+    │   │   │   │   │   ├── ⚛️ layout.tsx
+    │   │   │   │   │   └── ⚛️ page.tsx
+    │   │   │   │   ├── 🖼️ favicon.ico
+    │   │   │   │   ├── 🎨 globals.css
+    │   │   │   │   ├── ⚛️ layout.tsx
+    │   │   │   │   └── ⚛️ page.tsx
+    │   │   │   ├── 📁 components/
+    │   │   │   │   ├── 📁 ui/
+    │   │   │   │   │   ├── ⚛️ accordion.tsx
+    │   │   │   │   │   ├── ⚛️ alert-dialog.tsx
+    │   │   │   │   │   ├── ⚛️ alert.tsx
+    │   │   │   │   │   ├── ⚛️ aspect-ratio.tsx
+    │   │   │   │   │   ├── ⚛️ attachment.tsx
+    │   │   │   │   │   ├── ⚛️ avatar.tsx
+    │   │   │   │   │   ├── ⚛️ badge.tsx
+    │   │   │   │   │   ├── ⚛️ breadcrumb.tsx
+    │   │   │   │   │   ├── ⚛️ bubble.tsx
+    │   │   │   │   │   ├── ⚛️ button-group.tsx
+    │   │   │   │   │   ├── ⚛️ button.tsx
+    │   │   │   │   │   ├── ⚛️ calendar.tsx
+    │   │   │   │   │   ├── ⚛️ card.tsx
+    │   │   │   │   │   ├── ⚛️ carousel.tsx
+    │   │   │   │   │   ├── ⚛️ chart.tsx
+    │   │   │   │   │   ├── ⚛️ checkbox.tsx
+    │   │   │   │   │   ├── ⚛️ code-block.tsx
+    │   │   │   │   │   ├── ⚛️ collapsible.tsx
+    │   │   │   │   │   ├── ⚛️ combobox.tsx
+    │   │   │   │   │   ├── ⚛️ command.tsx
+    │   │   │   │   │   ├── ⚛️ context-menu.tsx
+    │   │   │   │   │   ├── ⚛️ dialog.tsx
+    │   │   │   │   │   ├── ⚛️ direction.tsx
+    │   │   │   │   │   ├── ⚛️ drawer.tsx
+    │   │   │   │   │   ├── ⚛️ dropdown-menu.tsx
+    │   │   │   │   │   ├── ⚛️ empty.tsx
+    │   │   │   │   │   ├── ⚛️ field.tsx
+    │   │   │   │   │   ├── ⚛️ hover-card.tsx
+    │   │   │   │   │   ├── ⚛️ input-group.tsx
+    │   │   │   │   │   ├── ⚛️ input-otp.tsx
+    │   │   │   │   │   ├── ⚛️ input.tsx
+    │   │   │   │   │   ├── ⚛️ item.tsx
+    │   │   │   │   │   ├── ⚛️ kbd.tsx
+    │   │   │   │   │   ├── ⚛️ label.tsx
+    │   │   │   │   │   ├── ⚛️ marker.tsx
+    │   │   │   │   │   ├── ⚛️ menubar.tsx
+    │   │   │   │   │   ├── ⚛️ message-scroller.tsx
+    │   │   │   │   │   ├── ⚛️ message.tsx
+    │   │   │   │   │   ├── ⚛️ native-select.tsx
+    │   │   │   │   │   ├── ⚛️ navigation-menu.tsx
+    │   │   │   │   │   ├── ⚛️ pagination.tsx
+    │   │   │   │   │   ├── ⚛️ popover.tsx
+    │   │   │   │   │   ├── ⚛️ progress.tsx
+    │   │   │   │   │   ├── ⚛️ questionnaire.tsx
+    │   │   │   │   │   ├── ⚛️ radio-group.tsx
+    │   │   │   │   │   ├── ⚛️ resizable.tsx
+    │   │   │   │   │   ├── ⚛️ scroll-area.tsx
+    │   │   │   │   │   ├── ⚛️ select.tsx
+    │   │   │   │   │   ├── ⚛️ separator.tsx
+    │   │   │   │   │   ├── ⚛️ sheet.tsx
+    │   │   │   │   │   ├── ⚛️ sidebar.tsx
+    │   │   │   │   │   ├── ⚛️ skeleton.tsx
+    │   │   │   │   │   ├── ⚛️ slider.tsx
+    │   │   │   │   │   ├── ⚛️ spinner.tsx
+    │   │   │   │   │   ├── ⚛️ switch.tsx
+    │   │   │   │   │   ├── ⚛️ table.tsx
+    │   │   │   │   │   ├── ⚛️ tabs.tsx
+    │   │   │   │   │   ├── ⚛️ textarea.tsx
+    │   │   │   │   │   ├── ⚛️ toast.tsx
+    │   │   │   │   │   ├── ⚛️ toggle-group.tsx
+    │   │   │   │   │   ├── ⚛️ toggle.tsx
+    │   │   │   │   │   ├── ⚛️ tooltip.tsx
+    │   │   │   │   │   └── ⚛️ trace.tsx
+    │   │   │   │   ├── 📄 .gitkeep
+    │   │   │   │   ├── ⚛️ auth-shell.tsx
+    │   │   │   │   ├── ⚛️ hero.tsx
+    │   │   │   │   ├── ⚛️ navbar.tsx
+    │   │   │   │   ├── ⚛️ sign-out-button.tsx
+    │   │   │   │   └── ⚛️ theme-provider.tsx
+    │   │   │   ├── 📁 hooks/
+    │   │   │   │   ├── 📄 .gitkeep
+    │   │   │   │   ├── 🔷 use-highlighted-code.ts
+    │   │   │   │   └── 🔷 use-mobile.ts
+    │   │   │   ├── 📁 lib/
+    │   │   │   │   ├── 📁 api/
+    │   │   │   │   │   └── 🔷 jobs.ts
+    │   │   │   │   ├── 📄 .gitkeep
+    │   │   │   │   ├── 🔷 auth-client.ts
+    │   │   │   │   ├── 🔷 auth.ts
+    │   │   │   │   ├── ⚛️ highlighter.tsx
+    │   │   │   │   └── 🔷 utils.ts
+    │   │   │   ├── 📁 public/
+    │   │   │   │   ├── 📄 .gitkeep
+    │   │   │   │   ├── 📖 Framer-Motion-guide.md
+    │   │   │   │   ├── 📄 hireloop.fig
+    │   │   │   │   └── 📖 Project requirements.md
+    │   │   │   ├── 📁 types/
+    │   │   │   │   └── 🔷 job.ts
+    │   │   │   ├── 🙈 .gitignore
+    │   │   │   ├── 📄 .prettierignore
+    │   │   │   ├── 📄 .prettierrc
+    │   │   │   ├── 📖 AGENTS.md
+    │   │   │   ├── 📖 CLAUDE.md
+    │   │   │   ├── 🔶 components.json
+    │   │   │   ├── ⚡ eslint.config.mjs
+    │   │   │   ├── 🔷 next.config.ts
+    │   │   │   ├── 🔒 package-lock.json
+    │   │   │   ├── 📦 package.json
+    │   │   │   ├── ⚡ postcss.config.mjs
+    │   │   │   ├── 📚 README.md
+    │   │   │   └── 🔶 tsconfig.json
+    │   │   └── 📁 hireloop-server/
+    │   │       ├── 🙈 .gitignore
+    │   │       ├── ⚡ index.js
+    │   │       ├── 🔒 package-lock.json
+    │   │       └── 📦 package.json
+    │   └── 📁 hireloop-resources/
+    │       ├── 📁 images/
+    │       │   ├── 🖼️ cta-bg.png
+    │       │   ├── 🖼️ globe.png
+    │       │   └── 🖼️ logo.png
+    │       ├── 📁 logos/
+    │       │   ├── 🖼️ adobe.png
+    │       │   ├── 🖼️ airbnb.png
+    │       │   ├── 🖼️ amazon.png
+    │       │   ├── 🖼️ apple.png
+    │       │   ├── 🖼️ google.png
+    │       │   ├── 🖼️ meta.png
+    │       │   ├── 🖼️ microsoft.png
+    │       │   ├── 🖼️ netflix.png
+    │       │   ├── 🖼️ nvidia.png
+    │       │   ├── 🖼️ spotify.png
+    │       │   ├── 🖼️ tesla.png
+    │       │   └── 🖼️ uber.png
+    │       ├── 📖 Framer-Motion-guide.md
+    │       ├── 📄 hireloop.fig
+    │       └── 📖 Project requirements.md
+    └── 📁 module-52-final-project-part-3/
         ├── 📁 hireloop/
-        │   └── 📁 hireloop-client/
-        │       ├── 📁 app/
-        │       │   ├── 📁 (auth)/
-        │       │   │   ├── 📁 sign-in/
-        │       │   │   │   └── ⚛️ page.tsx
-        │       │   │   └── 📁 sign-up/
-        │       │   │       └── ⚛️ page.tsx
-        │       │   ├── 📁 api/
-        │       │   │   └── 📁 auth/
-        │       │   │       └── 📁 [...all]/
-        │       │   │           └── 🔷 route.ts
-        │       │   ├── 📁 assets/
-        │       │   │   ├── 📁 images/
-        │       │   │   │   ├── 🖼️ cta-bg.png
-        │       │   │   │   ├── 🖼️ globe.png
-        │       │   │   │   └── 🖼️ logo.png
-        │       │   │   └── 📁 logos/
-        │       │   │       ├── 🖼️ adobe.png
-        │       │   │       ├── 🖼️ airbnb.png
-        │       │   │       ├── 🖼️ amazon.png
-        │       │   │       ├── 🖼️ apple.png
-        │       │   │       ├── 🖼️ google.png
-        │       │   │       ├── 🖼️ meta.png
-        │       │   │       ├── 🖼️ microsoft.png
-        │       │   │       ├── 🖼️ netflix.png
-        │       │   │       ├── 🖼️ nvidia.png
-        │       │   │       ├── 🖼️ spotify.png
-        │       │   │       ├── 🖼️ tesla.png
-        │       │   │       └── 🖼️ uber.png
-        │       │   ├── 🖼️ favicon.ico
-        │       │   ├── 🎨 globals.css
-        │       │   ├── ⚛️ layout.tsx
-        │       │   └── ⚛️ page.tsx
-        │       ├── 📁 components/
-        │       │   ├── 📁 ui/
-        │       │   │   ├── ⚛️ accordion.tsx
-        │       │   │   ├── ⚛️ alert-dialog.tsx
-        │       │   │   ├── ⚛️ alert.tsx
-        │       │   │   ├── ⚛️ aspect-ratio.tsx
-        │       │   │   ├── ⚛️ attachment.tsx
-        │       │   │   ├── ⚛️ avatar.tsx
-        │       │   │   ├── ⚛️ badge.tsx
-        │       │   │   ├── ⚛️ breadcrumb.tsx
-        │       │   │   ├── ⚛️ bubble.tsx
-        │       │   │   ├── ⚛️ button-group.tsx
-        │       │   │   ├── ⚛️ button.tsx
-        │       │   │   ├── ⚛️ calendar.tsx
-        │       │   │   ├── ⚛️ card.tsx
-        │       │   │   ├── ⚛️ carousel.tsx
-        │       │   │   ├── ⚛️ chart.tsx
-        │       │   │   ├── ⚛️ checkbox.tsx
-        │       │   │   ├── ⚛️ code-block.tsx
-        │       │   │   ├── ⚛️ collapsible.tsx
-        │       │   │   ├── ⚛️ combobox.tsx
-        │       │   │   ├── ⚛️ command.tsx
-        │       │   │   ├── ⚛️ context-menu.tsx
-        │       │   │   ├── ⚛️ dialog.tsx
-        │       │   │   ├── ⚛️ direction.tsx
-        │       │   │   ├── ⚛️ drawer.tsx
-        │       │   │   ├── ⚛️ dropdown-menu.tsx
-        │       │   │   ├── ⚛️ empty.tsx
-        │       │   │   ├── ⚛️ field.tsx
-        │       │   │   ├── ⚛️ hover-card.tsx
-        │       │   │   ├── ⚛️ input-group.tsx
-        │       │   │   ├── ⚛️ input-otp.tsx
-        │       │   │   ├── ⚛️ input.tsx
-        │       │   │   ├── ⚛️ item.tsx
-        │       │   │   ├── ⚛️ kbd.tsx
-        │       │   │   ├── ⚛️ label.tsx
-        │       │   │   ├── ⚛️ marker.tsx
-        │       │   │   ├── ⚛️ menubar.tsx
-        │       │   │   ├── ⚛️ message-scroller.tsx
-        │       │   │   ├── ⚛️ message.tsx
-        │       │   │   ├── ⚛️ native-select.tsx
-        │       │   │   ├── ⚛️ navigation-menu.tsx
-        │       │   │   ├── ⚛️ pagination.tsx
-        │       │   │   ├── ⚛️ popover.tsx
-        │       │   │   ├── ⚛️ progress.tsx
-        │       │   │   ├── ⚛️ questionnaire.tsx
-        │       │   │   ├── ⚛️ radio-group.tsx
-        │       │   │   ├── ⚛️ resizable.tsx
-        │       │   │   ├── ⚛️ scroll-area.tsx
-        │       │   │   ├── ⚛️ select.tsx
-        │       │   │   ├── ⚛️ separator.tsx
-        │       │   │   ├── ⚛️ sheet.tsx
-        │       │   │   ├── ⚛️ sidebar.tsx
-        │       │   │   ├── ⚛️ skeleton.tsx
-        │       │   │   ├── ⚛️ slider.tsx
-        │       │   │   ├── ⚛️ spinner.tsx
-        │       │   │   ├── ⚛️ switch.tsx
-        │       │   │   ├── ⚛️ table.tsx
-        │       │   │   ├── ⚛️ tabs.tsx
-        │       │   │   ├── ⚛️ textarea.tsx
-        │       │   │   ├── ⚛️ toast.tsx
-        │       │   │   ├── ⚛️ toggle-group.tsx
-        │       │   │   ├── ⚛️ toggle.tsx
-        │       │   │   ├── ⚛️ tooltip.tsx
-        │       │   │   └── ⚛️ trace.tsx
-        │       │   ├── 📄 .gitkeep
-        │       │   ├── ⚛️ auth-shell.tsx
-        │       │   ├── ⚛️ hero.tsx
-        │       │   ├── ⚛️ navbar.tsx
-        │       │   └── ⚛️ theme-provider.tsx
-        │       ├── 📁 hooks/
-        │       │   ├── 📄 .gitkeep
-        │       │   ├── 🔷 use-highlighted-code.ts
-        │       │   └── 🔷 use-mobile.ts
-        │       ├── 📁 lib/
-        │       │   ├── 📄 .gitkeep
-        │       │   ├── 🔷 auth-client.ts
-        │       │   ├── 🔷 auth.ts
-        │       │   ├── ⚛️ highlighter.tsx
-        │       │   └── 🔷 utils.ts
-        │       ├── 📁 public/
-        │       │   ├── 📄 .gitkeep
-        │       │   ├── 📖 Framer-Motion-guide.md
-        │       │   ├── 📄 hireloop.fig
-        │       │   └── 📖 Project requirements.md
+        │   ├── 📁 hireloop-client/
+        │   │   ├── 📁 app/
+        │   │   │   ├── 📁 (auth)/
+        │   │   │   │   ├── 📁 sign-in/
+        │   │   │   │   │   └── ⚛️ page.tsx
+        │   │   │   │   └── 📁 sign-up/
+        │   │   │   │       └── ⚛️ page.tsx
+        │   │   │   ├── 📁 api/
+        │   │   │   │   └── 📁 auth/
+        │   │   │   │       └── 📁 [...all]/
+        │   │   │   │           └── 🔷 route.ts
+        │   │   │   ├── 📁 assets/
+        │   │   │   │   ├── 📁 images/
+        │   │   │   │   │   ├── 🖼️ cta-bg.png
+        │   │   │   │   │   ├── 🖼️ globe.png
+        │   │   │   │   │   └── 🖼️ logo.png
+        │   │   │   │   └── 📁 logos/
+        │   │   │   │       ├── 🖼️ adobe.png
+        │   │   │   │       ├── 🖼️ airbnb.png
+        │   │   │   │       ├── 🖼️ amazon.png
+        │   │   │   │       ├── 🖼️ apple.png
+        │   │   │   │       ├── 🖼️ google.png
+        │   │   │   │       ├── 🖼️ meta.png
+        │   │   │   │       ├── 🖼️ microsoft.png
+        │   │   │   │       ├── 🖼️ netflix.png
+        │   │   │   │       ├── 🖼️ nvidia.png
+        │   │   │   │       ├── 🖼️ spotify.png
+        │   │   │   │       ├── 🖼️ tesla.png
+        │   │   │   │       └── 🖼️ uber.png
+        │   │   │   ├── 📁 browse-jobs/
+        │   │   │   │   ├── 📁 [id]/
+        │   │   │   │   │   ├── ⚛️ JobDetailsClient.tsx
+        │   │   │   │   │   └── ⚛️ page.tsx
+        │   │   │   │   ├── ⚛️ BrowseJobsView.tsx
+        │   │   │   │   └── ⚛️ page.tsx
+        │   │   │   ├── 📁 components/
+        │   │   │   │   ├── ⚛️ DashboardPageHeader.tsx
+        │   │   │   │   ├── ⚛️ DashboardSidebar.tsx
+        │   │   │   │   ├── ⚛️ DashboardStatCard.tsx
+        │   │   │   │   ├── ⚛️ DeleteJobDialog.tsx
+        │   │   │   │   ├── ⚛️ JobForm.tsx
+        │   │   │   │   ├── ⚛️ JobPreviewCard.tsx
+        │   │   │   │   ├── ⚛️ JobStatusBadge.tsx
+        │   │   │   │   └── ⚛️ JobTableRow.tsx
+        │   │   │   ├── 📁 dashboard/
+        │   │   │   │   ├── 📁 admin/
+        │   │   │   │   │   ├── ⚛️ layout.tsx
+        │   │   │   │   │   └── ⚛️ page.tsx
+        │   │   │   │   ├── 📁 recruiter/
+        │   │   │   │   │   ├── 📁 jobs/
+        │   │   │   │   │   │   ├── 📁 edit/
+        │   │   │   │   │   │   │   └── 📁 [id]/
+        │   │   │   │   │   │   │       └── ⚛️ page.tsx
+        │   │   │   │   │   │   ├── 📁 new/
+        │   │   │   │   │   │   │   └── ⚛️ page.tsx
+        │   │   │   │   │   │   └── ⚛️ page.tsx
+        │   │   │   │   │   ├── ⚛️ layout.tsx
+        │   │   │   │   │   └── ⚛️ page.tsx
+        │   │   │   │   ├── 📁 seeker/
+        │   │   │   │   │   ├── 📁 applications/
+        │   │   │   │   │   │   └── ⚛️ page.tsx
+        │   │   │   │   │   ├── 📁 saved/
+        │   │   │   │   │   │   └── ⚛️ page.tsx
+        │   │   │   │   │   ├── ⚛️ layout.tsx
+        │   │   │   │   │   └── ⚛️ page.tsx
+        │   │   │   │   ├── ⚛️ layout.tsx
+        │   │   │   │   └── ⚛️ page.tsx
+        │   │   │   ├── 🖼️ favicon.ico
+        │   │   │   ├── 🎨 globals.css
+        │   │   │   ├── ⚛️ layout.tsx
+        │   │   │   ├── ⚛️ not-found.tsx
+        │   │   │   └── ⚛️ page.tsx
+        │   │   ├── 📁 components/
+        │   │   │   ├── 📁 ui/
+        │   │   │   │   ├── ⚛️ accordion.tsx
+        │   │   │   │   ├── ⚛️ alert-dialog.tsx
+        │   │   │   │   ├── ⚛️ alert.tsx
+        │   │   │   │   ├── ⚛️ aspect-ratio.tsx
+        │   │   │   │   ├── ⚛️ attachment.tsx
+        │   │   │   │   ├── ⚛️ avatar.tsx
+        │   │   │   │   ├── ⚛️ badge.tsx
+        │   │   │   │   ├── ⚛️ breadcrumb.tsx
+        │   │   │   │   ├── ⚛️ bubble.tsx
+        │   │   │   │   ├── ⚛️ button-group.tsx
+        │   │   │   │   ├── ⚛️ button.tsx
+        │   │   │   │   ├── ⚛️ calendar.tsx
+        │   │   │   │   ├── ⚛️ card.tsx
+        │   │   │   │   ├── ⚛️ carousel.tsx
+        │   │   │   │   ├── ⚛️ chart.tsx
+        │   │   │   │   ├── ⚛️ checkbox.tsx
+        │   │   │   │   ├── ⚛️ code-block.tsx
+        │   │   │   │   ├── ⚛️ collapsible.tsx
+        │   │   │   │   ├── ⚛️ combobox.tsx
+        │   │   │   │   ├── ⚛️ command.tsx
+        │   │   │   │   ├── ⚛️ context-menu.tsx
+        │   │   │   │   ├── ⚛️ dialog.tsx
+        │   │   │   │   ├── ⚛️ direction.tsx
+        │   │   │   │   ├── ⚛️ drawer.tsx
+        │   │   │   │   ├── ⚛️ dropdown-menu.tsx
+        │   │   │   │   ├── ⚛️ empty.tsx
+        │   │   │   │   ├── ⚛️ field.tsx
+        │   │   │   │   ├── ⚛️ hover-card.tsx
+        │   │   │   │   ├── ⚛️ input-group.tsx
+        │   │   │   │   ├── ⚛️ input-otp.tsx
+        │   │   │   │   ├── ⚛️ input.tsx
+        │   │   │   │   ├── ⚛️ item.tsx
+        │   │   │   │   ├── ⚛️ kbd.tsx
+        │   │   │   │   ├── ⚛️ label.tsx
+        │   │   │   │   ├── ⚛️ marker.tsx
+        │   │   │   │   ├── ⚛️ menubar.tsx
+        │   │   │   │   ├── ⚛️ message-scroller.tsx
+        │   │   │   │   ├── ⚛️ message.tsx
+        │   │   │   │   ├── ⚛️ native-select.tsx
+        │   │   │   │   ├── ⚛️ navigation-menu.tsx
+        │   │   │   │   ├── ⚛️ pagination.tsx
+        │   │   │   │   ├── ⚛️ popover.tsx
+        │   │   │   │   ├── ⚛️ progress.tsx
+        │   │   │   │   ├── ⚛️ questionnaire.tsx
+        │   │   │   │   ├── ⚛️ radio-group.tsx
+        │   │   │   │   ├── ⚛️ resizable.tsx
+        │   │   │   │   ├── ⚛️ scroll-area.tsx
+        │   │   │   │   ├── ⚛️ select.tsx
+        │   │   │   │   ├── ⚛️ separator.tsx
+        │   │   │   │   ├── ⚛️ sheet.tsx
+        │   │   │   │   ├── ⚛️ sidebar.tsx
+        │   │   │   │   ├── ⚛️ skeleton.tsx
+        │   │   │   │   ├── ⚛️ slider.tsx
+        │   │   │   │   ├── ⚛️ spinner.tsx
+        │   │   │   │   ├── ⚛️ switch.tsx
+        │   │   │   │   ├── ⚛️ table.tsx
+        │   │   │   │   ├── ⚛️ tabs.tsx
+        │   │   │   │   ├── ⚛️ textarea.tsx
+        │   │   │   │   ├── ⚛️ toast.tsx
+        │   │   │   │   ├── ⚛️ toggle-group.tsx
+        │   │   │   │   ├── ⚛️ toggle.tsx
+        │   │   │   │   ├── ⚛️ tooltip.tsx
+        │   │   │   │   └── ⚛️ trace.tsx
+        │   │   │   ├── 📄 .gitkeep
+        │   │   │   ├── ⚛️ auth-shell.tsx
+        │   │   │   ├── ⚛️ hero.tsx
+        │   │   │   ├── ⚛️ navbar.tsx
+        │   │   │   ├── ⚛️ sign-out-button.tsx
+        │   │   │   └── ⚛️ theme-provider.tsx
+        │   │   ├── 📁 hooks/
+        │   │   │   ├── 📄 .gitkeep
+        │   │   │   ├── 🔷 use-highlighted-code.ts
+        │   │   │   └── 🔷 use-mobile.ts
+        │   │   ├── 📁 lib/
+        │   │   │   ├── 📁 api/
+        │   │   │   │   ├── 🔷 applications.ts
+        │   │   │   │   └── 🔷 jobs.ts
+        │   │   │   ├── 📄 .gitkeep
+        │   │   │   ├── 🔷 auth-client.ts
+        │   │   │   ├── 🔷 auth.ts
+        │   │   │   ├── ⚛️ highlighter.tsx
+        │   │   │   └── 🔷 utils.ts
+        │   │   ├── 📁 public/
+        │   │   │   ├── 📁 images/
+        │   │   │   │   ├── 🖼️ 075a267667dbe66301f917f8e610203963d708b6.jpg
+        │   │   │   │   ├── 🖼️ 34ad7b01a8a6a947acb12668a8597e9335d1246a.png
+        │   │   │   │   ├── 🖼️ 47396f2e00238199129941254642ad8df69471d8.jpg
+        │   │   │   │   ├── 🖼️ 8a9edccb909aaf58fd1714bb31938b115093c644.png
+        │   │   │   │   ├── 🖼️ c5dcd7297adea153d0441d0694a0f83340291022.jpg
+        │   │   │   │   ├── 🖼️ company-office.png
+        │   │   │   │   └── 🖼️ f4abb0ba2a52aedd1b708c3b819e2f2e968de698.jpg
+        │   │   │   ├── 📄 .gitkeep
+        │   │   │   ├── 📖 Framer-Motion-guide.md
+        │   │   │   ├── 📄 hireloop.fig
+        │   │   │   └── 📖 Project requirements.md
+        │   │   ├── 📁 types/
+        │   │   │   ├── 🔷 application.ts
+        │   │   │   ├── 🔷 auth.ts
+        │   │   │   ├── 🔷 dashboard.ts
+        │   │   │   ├── 🔷 index.ts
+        │   │   │   └── 🔷 job.ts
+        │   │   ├── 🙈 .gitignore
+        │   │   ├── 📄 .prettierignore
+        │   │   ├── 📄 .prettierrc
+        │   │   ├── 📖 AGENTS.md
+        │   │   ├── 📖 CLAUDE.md
+        │   │   ├── 🔶 components.json
+        │   │   ├── ⚡ eslint.config.mjs
+        │   │   ├── 🔷 next.config.ts
+        │   │   ├── 🔒 package-lock.json
+        │   │   ├── 📦 package.json
+        │   │   ├── ⚡ postcss.config.mjs
+        │   │   ├── 📚 README.md
+        │   │   └── 🔶 tsconfig.json
+        │   └── 📁 hireloop-server/
         │       ├── 🙈 .gitignore
-        │       ├── 📄 .prettierignore
-        │       ├── 📄 .prettierrc
-        │       ├── 📖 AGENTS.md
-        │       ├── 📖 CLAUDE.md
-        │       ├── 🔶 components.json
-        │       ├── ⚡ eslint.config.mjs
-        │       ├── 🔷 next.config.ts
+        │       ├── ⚡ index.js
         │       ├── 🔒 package-lock.json
-        │       ├── 📦 package.json
-        │       ├── ⚡ postcss.config.mjs
-        │       ├── 📚 README.md
-        │       └── 🔶 tsconfig.json
+        │       └── 📦 package.json
         └── 📁 hireloop-resources/
             ├── 📁 images/
             │   ├── 🖼️ cta-bg.png
